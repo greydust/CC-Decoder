@@ -1,0 +1,574 @@
+{
+	"deceive" : 1465999213,
+	"explorer_location" : [{
+			"location" : 0,
+			"name" : "城砦",
+			"timestamp" : "1464860456296",
+			"quest_type" : 2,
+			"quest_id" : 210206,
+			"tab" : 1,
+			"text" : "１部２章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_004",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "weapon_ev",
+					"id" : 96057,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 23
+				}, {
+					"type" : "chara_rf",
+					"id" : 90024,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 25
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93008,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 26
+				}, {
+					"type" : "item",
+					"id" : 1001,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 21
+				}, {
+					"type" : "item",
+					"id" : 1002,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 22
+				}, {
+					"type" : "item",
+					"id" : 7,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 24
+				}, {
+					"type" : "card",
+					"id" : 82,
+					"val" : 1,
+					"category_id" : 11,
+					"priority" : 10
+				}
+			]
+		}, {
+			"location" : 1,
+			"name" : "迷宮山脈",
+			"timestamp" : "1464860456318",
+			"quest_type" : 2,
+			"quest_id" : 210206,
+			"tab" : 1,
+			"text" : "１部２章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_001",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "weapon_ev",
+					"id" : 96078,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 23
+				}, {
+					"type" : "chara_rf",
+					"id" : 90022,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 25
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93007,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 26
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93010,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 27
+				}, {
+					"type" : "item",
+					"id" : 1003,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 21
+				}, {
+					"type" : "item",
+					"id" : 1004,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 22
+				}, {
+					"type" : "item",
+					"id" : 7,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 24
+				}, {
+					"type" : "card",
+					"id" : 82,
+					"val" : 1,
+					"category_id" : 11,
+					"priority" : 10
+				}
+			]
+		}, {
+			"location" : 2,
+			"name" : "古代遺跡",
+			"timestamp" : "1464860456331",
+			"quest_type" : 2,
+			"quest_id" : 210310,
+			"tab" : 1,
+			"text" : "１部３章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_002",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "weapon_ev",
+					"id" : 96016,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 22
+				}, {
+					"type" : "chara_rf",
+					"id" : 90020,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 24
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93006,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 25
+				}, {
+					"type" : "item",
+					"id" : 1005,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 21
+				}, {
+					"type" : "item",
+					"id" : 7,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 23
+				}, {
+					"type" : "card",
+					"id" : 82,
+					"val" : 1,
+					"category_id" : 11,
+					"priority" : 10
+				}
+			]
+		}, {
+			"location" : 3,
+			"name" : "世界樹",
+			"timestamp" : "1464860456342",
+			"quest_type" : 2,
+			"quest_id" : 210407,
+			"tab" : 1,
+			"text" : "１部４章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_003",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "weapon_ev",
+					"id" : 96238,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 22
+				}, {
+					"type" : "chara_rf",
+					"id" : 90021,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 24
+				}, {
+					"type" : "chara_rf",
+					"id" : 90023,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 25
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93009,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 26
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93011,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 27
+				}, {
+					"type" : "item",
+					"id" : 1006,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 21
+				}, {
+					"type" : "item",
+					"id" : 7,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 23
+				}, {
+					"type" : "card",
+					"id" : 82,
+					"val" : 1,
+					"category_id" : 11,
+					"priority" : 10
+				}
+			]
+		}, {
+			"location" : 4,
+			"name" : "湖都",
+			"start" : 1460440800,
+			"end" : 1461200399,
+			"timestamp" : "1464860456354",
+			"quest_type" : 2,
+			"quest_id" : 210310,
+			"tab" : 1,
+			"text" : "１部３章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_005",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "weapon_ev",
+					"id" : 96016,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 22
+				}, {
+					"type" : "chara_rf",
+					"id" : 90020,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 24
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93006,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 25
+				}, {
+					"type" : "item",
+					"id" : 1005,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 21
+				}, {
+					"type" : "item",
+					"id" : 7,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 23
+				}, {
+					"type" : "card",
+					"id" : 4049,
+					"val" : 1,
+					"category_id" : 9,
+					"priority" : 1
+				}, {
+					"type" : "card",
+					"id" : 4050,
+					"val" : 1,
+					"category_id" : 9,
+					"priority" : 2
+				}
+			]
+		}, {
+			"location" : 100,
+			"name" : "ケ者の大陸",
+			"start" : 1446703200,
+			"end" : 1447739999,
+			"timestamp" : "1464860456365",
+			"quest_type" : 2,
+			"quest_id" : 210206,
+			"tab" : 4,
+			"text" : "１部２章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_e01",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "weapon_ev",
+					"id" : 85100,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 1
+				}, {
+					"type" : "weapon_ev",
+					"id" : 96925,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 1
+				}, {
+					"type" : "chara_rf",
+					"id" : 90020,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 1
+				}, {
+					"type" : "chara_rf",
+					"id" : 90015,
+					"val" : 1,
+					"category_id" : 2,
+					"priority" : 1
+				}, {
+					"type" : "weapon_rf",
+					"id" : 93021,
+					"val" : 1,
+					"category_id" : 3,
+					"priority" : 1
+				}, {
+					"type" : "item",
+					"id" : 1011,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 1
+				}
+			]
+		}, {
+			"location" : 101,
+			"name" : "コラボ",
+			"start" : 1454392800,
+			"end" : 1455515999,
+			"timestamp" : "1464860456378",
+			"quest_type" : 2,
+			"quest_id" : 210206,
+			"tab" : 4,
+			"text" : "１部２章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_e02",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "weapon_ev",
+					"id" : 26009,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 15
+				}, {
+					"type" : "weapon_ev",
+					"id" : 26010,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 16
+				}, {
+					"type" : "weapon_ev",
+					"id" : 96403,
+					"val" : 1,
+					"category_id" : 1,
+					"priority" : 17
+				}, {
+					"type" : "item",
+					"id" : 1001,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 13
+				}, {
+					"type" : "item",
+					"id" : 1002,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 14
+				}, {
+					"type" : "item",
+					"id" : 7,
+					"val" : 1,
+					"category_id" : 1011,
+					"priority" : 1,
+					"limit" : 1
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85140,
+					"val" : 1,
+					"category_id" : 1012,
+					"priority" : 2,
+					"limit" : 1
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85155,
+					"val" : 1,
+					"category_id" : 1013,
+					"priority" : 3,
+					"limit" : 1
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85156,
+					"val" : 1,
+					"category_id" : 1014,
+					"priority" : 4,
+					"limit" : 1
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85143,
+					"val" : 1,
+					"category_id" : 1015,
+					"priority" : 8
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85145,
+					"val" : 1,
+					"category_id" : 1015,
+					"priority" : 9
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85146,
+					"val" : 1,
+					"category_id" : 1015,
+					"priority" : 10
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85153,
+					"val" : 1,
+					"category_id" : 1015,
+					"priority" : 11
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85141,
+					"val" : 1,
+					"category_id" : 1016,
+					"priority" : 6
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85142,
+					"val" : 1,
+					"category_id" : 1017,
+					"priority" : 5,
+					"limit" : 1
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85144,
+					"val" : 1,
+					"category_id" : 1016,
+					"priority" : 7
+				}
+			]
+		}, {
+			"location" : 102,
+			"name" : "神殿",
+			"start" : 1464933600,
+			"end" : 1465451999,
+			"timestamp" : "1464860456384",
+			"quest_type" : 2,
+			"quest_id" : 210206,
+			"tab" : 4,
+			"text" : "１部２章クリアで\\n開放されます",
+			"img_id" : "search_area_icon_006",
+			"gold" : [{
+					"interval_id" : 1,
+					"val" : 1000
+				}, {
+					"interval_id" : 2,
+					"val" : 3000
+				}
+			],
+			"get_item" : [{
+					"type" : "item",
+					"id" : 1001,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 8
+				}, {
+					"type" : "item",
+					"id" : 1002,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 9
+				}, {
+					"type" : "item",
+					"id" : 7,
+					"val" : 1,
+					"category_id" : 7,
+					"priority" : 7
+				}, {
+					"type" : "card",
+					"id" : 58005,
+					"val" : 1,
+					"category_id" : 110,
+					"priority" : 1
+				}, {
+					"type" : "card",
+					"id" : 58009,
+					"val" : 1,
+					"category_id" : 110,
+					"priority" : 2
+				}, {
+					"type" : "card",
+					"id" : 58013,
+					"val" : 1,
+					"category_id" : 110,
+					"priority" : 3
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85241,
+					"val" : 1,
+					"category_id" : 114,
+					"priority" : 4
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85245,
+					"val" : 1,
+					"category_id" : 114,
+					"priority" : 5
+				}, {
+					"type" : "weapon_ev",
+					"id" : 85249,
+					"val" : 1,
+					"category_id" : 114,
+					"priority" : 6
+				}
+			]
+		}
+	],
+	"res" : 0,
+	"sv" : "1464860457"
+}

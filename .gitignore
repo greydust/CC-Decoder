@@ -3,6 +3,7 @@ apktool/
 Decrypt/
 disunity_v0.5.0/
 ilasmildasm/
-CC-Decoder/Decoder/bin/
-CC-Decoder/Decoder/obj/
 *.apk
+Decoder/.vs/
+Decoder/bin/
+Decoder/obj/
