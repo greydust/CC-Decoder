@@ -4,6 +4,10 @@ Decrypt/
 disunity_v0.5.0/
 ilasmildasm/
 *.apk
-Decoder/.vs/
-Decoder/bin/
-Decoder/obj/
+JsonConverter/.vs/
+JsonConverter/bin/
+JsonConverter/obj/
+*.exe.config
+*.pdb
+*.vshost.exe
+*.vshost.exe.manifest
