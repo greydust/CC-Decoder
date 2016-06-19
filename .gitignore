@@ -11,3 +11,4 @@ JsonConverter/obj/
 *.pdb
 *.vshost.exe
 *.vshost.exe.manifest
+Newtonsoft.Json.xml
