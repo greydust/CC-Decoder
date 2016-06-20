@@ -1,12 +1,13 @@
-﻿using System;
+﻿using JsonConverter.DataIn;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JsonConverter.DataOut
 {
-    class charareinOut
+    public class charareinOutManager
     {
+        public int deceive { get; set; }
+        public Dictionary<int, chararein> chararein { get; set; }
+        public int res { get; set; }
+        public string sv { get; set; }
     }
 }

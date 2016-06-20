@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace JsonConverter.DataIn
 {
-    public class bossskillIn
+    public class bossskill
     {
         public string atkspeed { get; set; }
         public int skillflag0_0 { get; set; }
@@ -32,7 +32,7 @@ namespace JsonConverter.DataIn
         public double? skillparam9 { get; set; }
     }
 
-    public class bosspatternIn
+    public class bosspattern
     {
         public int che { get; set; }
         public int chs { get; set; }
@@ -63,8 +63,8 @@ namespace JsonConverter.DataIn
 
     public class bossinfoIn
     {
-        public List<bossskillIn> bossskill { get; set; }
-        public List<bosspatternIn> bosspattern { get; set; }
+        public List<bossskill> bossskill { get; set; }
+        public List<bosspattern> bosspattern { get; set; }
     }
 
     public class bossinfoInManager
@@ -81,39 +81,12 @@ namespace JsonConverter.DataIn
                 deceive = this.deceive,
                 res = this.res,
                 sv = this.sv,
-                bossskill = new Dictionary<int, bossskillOut>(),
+                bossskill = new Dictionary<int, bossskill>(),
             };
 
-            foreach (bossskillIn skill in this.bossinfo.bossskill)
+            foreach (bossskill item in this.bossinfo.bossskill)
             {
-                ret.bossskill.Add(skill.skillid, new bossskillOut()
-                {
-                    atkspeed = skill.atkspeed,
-                    charge = skill.charge,
-                    chargemotion = skill.chargemotion,
-                    iparam0 = skill.iparam0,
-                    skillflag = skill.skillflag,
-                    skillflag0_0 = skill.skillflag0_0,
-                    skillflag0_1 = skill.skillflag0_1,
-                    skillflag1_0 = skill.skillflag1_0,
-                    skillflag1_1 = skill.skillflag1_1,
-                    skillid = skill.skillid,
-                    skillid0 = skill.skillid0,
-                    skillparam0 = skill.skillparam0,
-                    skillparam1 = skill.skillparam1,
-                    skillparam2 = skill.skillparam2,
-                    skillparam3 = skill.skillparam3,
-                    skillparam4 = skill.skillparam4,
-                    skillparam5 = skill.skillparam5,
-                    skillparam6 = skill.skillparam6,
-                    skillparam7 = skill.skillparam7,
-                    skillparam8 = skill.skillparam8,
-                    skillparam9 = skill.skillparam9,
-                    spmotname = skill.spmotname,
-                    str0 = skill.str0,
-                    str1 = skill.str1,
-                    str2 = skill.str2,
-                });
+                ret.bossskill.Add(item.skillid, item);
             }
             
             return ret;
@@ -126,39 +99,12 @@ namespace JsonConverter.DataIn
                 deceive = this.deceive,
                 res = this.res,
                 sv = this.sv,
-                bosspattern = new Dictionary<int, bosspatternOut>(),
+                bosspattern = new Dictionary<int, bosspattern>(),
             };
 
-            foreach (bosspatternIn pattern in this.bossinfo.bosspattern)
+            foreach (bosspattern item in this.bossinfo.bosspattern)
             {
-                ret.bosspattern.Add(pattern.patternid, new bosspatternOut()
-                {
-                    bgf = pattern.bgf,
-                    che = pattern.che,
-                    chs = pattern.chs,
-                    flag = pattern.flag,
-                    hpend = pattern.hpend,
-                    hpstart = pattern.hpstart,
-                    limit = pattern.limit,
-                    mne = pattern.mne,
-                    mns = pattern.mns,
-                    patternid = pattern.patternid,
-                    pose = pattern.pose,
-                    posp = pattern.posp,
-                    priority = pattern.priority,
-                    scost = pattern.scost,
-                    sinfo = pattern.sinfo,
-                    skillid0 = pattern.skillid0,
-                    skillid1 = pattern.skillid1,
-                    skillid2 = pattern.skillid2,
-                    skillid3 = pattern.skillid3,
-                    skillid4 = pattern.skillid4,
-                    skillid5 = pattern.skillid5,
-                    skillid6 = pattern.skillid6,
-                    sname = pattern.sname,
-                    stext = pattern.stext,
-                    voice = pattern.voice,
-                });
+                ret.bosspattern.Add(item.patternid, item);
             }
 
             return ret;

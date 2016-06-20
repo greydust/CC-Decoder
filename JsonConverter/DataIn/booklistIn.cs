@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace JsonConverter.DataIn
 {
-    public class booklistIn
+    public class booklist
     {
         public int id { get; set; }
         public string title { get; set; }
@@ -16,7 +16,7 @@ namespace JsonConverter.DataIn
     public class booklistInType
     {
         public int type { get; set; }
-        public List<booklistIn> list { get; set; }
+        public List<booklist> list { get; set; }
     }
 
     public class booklistInManager
@@ -41,20 +41,12 @@ namespace JsonConverter.DataIn
                 ret.booklist.Add(blType.type, new booklistOutType()
                 {
                     type = blType.type,
-                    list = new Dictionary<int, booklistOut>(),
+                    list = new Dictionary<int, booklist>(),
                 });
 
-                foreach (booklistIn bl in blType.list)
+                foreach (booklist item in blType.list)
                 {
-                    ret.booklist[blType.type].list.Add(bl.id, new booklistOut()
-                    {
-                        desc = bl.desc,
-                        id = bl.id,
-                        quest_list = bl.quest_list,
-                        release_time = bl.release_time,
-                        release_type = bl.release_type,
-                        title = bl.title,
-                    });
+                    ret.booklist[blType.type].list.Add(item.id, item);
                 }
             }
 

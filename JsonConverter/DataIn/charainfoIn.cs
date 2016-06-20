@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JsonConverter.DataOut;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JsonConverter.DataIn
 {
-    public class charainfoIn
+    public class charainfo
     {
         public int cid { get; set; }
         public string name { get; set; }
@@ -106,7 +107,7 @@ namespace JsonConverter.DataIn
         public int? iparam1 { get; set; }
     }
 
-    public class charareinIn
+    public class chararein
     {
         public int exp { get; set; }
         public int id { get; set; }
@@ -116,7 +117,7 @@ namespace JsonConverter.DataIn
         public int rarity { get; set; }
     }
 
-    public class charalbIn
+    public class charalb
     {
         public int id { get; set; }
         public int jobtype { get; set; }
@@ -139,7 +140,7 @@ namespace JsonConverter.DataIn
         public List<int?> rare_gacha_cids { get; set; }
     }
 
-    public class samecharaIn
+    public class samechara
     {
         public int cid { get; set; }
         public int src_cid { get; set; }
@@ -148,11 +149,83 @@ namespace JsonConverter.DataIn
     public class charainfoInManager
     {
         public int deceive { get; set; }
-        public List<charainfoIn> charainfo { get; set; }
-        public List<charareinIn> chararein { get; set; }
-        public List<charalbIn> charalb { get; set; }
-        public List<samecharaIn> samechara { get; set; }
+        public List<charainfo> charainfo { get; set; }
+        public List<chararein> chararein { get; set; }
+        public List<charalb> charalb { get; set; }
+        public List<samechara> samechara { get; set; }
         public int res { get; set; }
         public string sv { get; set; }
+
+        public charainfoOutManager ConvertTocharainfo()
+        {
+            charainfoOutManager ret = new charainfoOutManager()
+            {
+                deceive = this.deceive,
+                res = this.res,
+                sv = this.sv,
+                charainfo = new Dictionary<int, charainfo>(),
+            };
+
+            foreach (charainfo item in this.charainfo)
+            {
+                ret.charainfo.Add(item.cid, item);
+            }
+
+            return ret;
+        }
+
+        public charalbOutManager ConvertTocharalb()
+        {
+            charalbOutManager ret = new charalbOutManager()
+            {
+                deceive = this.deceive,
+                res = this.res,
+                sv = this.sv,
+                charalb = new Dictionary<int, charalb>(),
+            };
+
+            foreach (charalb item in this.charalb)
+            {
+                ret.charalb.Add(item.id, item);
+            }
+
+            return ret;
+        }
+
+        public charareinOutManager ConvertTochararein()
+        {
+            charareinOutManager ret = new charareinOutManager()
+            {
+                deceive = this.deceive,
+                res = this.res,
+                sv = this.sv,
+                chararein = new Dictionary<int, chararein>(),
+            };
+
+            foreach (chararein item in this.chararein)
+            {
+                ret.chararein.Add(item.id, item);
+            }
+
+            return ret;
+        }
+
+        public samecharaOutManager ConvertTosamechara()
+        {
+            samecharaOutManager ret = new samecharaOutManager()
+            {
+                deceive = this.deceive,
+                res = this.res,
+                sv = this.sv,
+                samechara = new Dictionary<int, samechara>(),
+            };
+
+            foreach (samechara item in this.samechara)
+            {
+                ret.samechara.Add(item.cid, item);
+            }
+
+            return ret;
+        }
     }
 }
