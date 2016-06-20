@@ -179,6 +179,16 @@ namespace JsonConverter
                     File.WriteAllText("ConvertedData/itemlist.data5.converted", convertedString);
                 }
             }
+            {
+                string rawData = File.ReadAllText("RawData/questdigest.data5.raw");
+                questdigestInManager data = JsonConvert.DeserializeObject<questdigestInManager>(rawData);
+
+                {
+                    questdigestOutManager convertedData = data.Convert();
+                    string convertedString = JsonConvert.SerializeObject(convertedData, setting);
+                    File.WriteAllText("ConvertedData/questdigest.data5.converted", convertedString);
+                }
+            }
         }
     }
 

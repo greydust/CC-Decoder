@@ -62,6 +62,8 @@
     <Compile Include="DataIn\homelistIn.cs" />
     <Compile Include="DataIn\itemlistIn.cs" />
     <Compile Include="DataIn\missionlistIn.cs" />
+    <Compile Include="DataIn\motionlistIn.cs" />
+    <Compile Include="DataIn\questdigestIn.cs" />
     <Compile Include="DataOut\battle_bgOut.cs" />
     <Compile Include="DataOut\booklistOut.cs" />
     <Compile Include="DataOut\bosspatternOut.cs" />
@@ -77,6 +79,8 @@
     <Compile Include="DataOut\homelistOut.cs" />
     <Compile Include="DataOut\itemlistOut.cs" />
     <Compile Include="DataOut\missionlistOut.cs" />
+    <Compile Include="DataOut\motionlistOut.cs" />
+    <Compile Include="DataOut\questdigestOut.cs" />
     <Compile Include="DataOut\samecharaOut.cs" />
     <Compile Include="MiniJson.cs" />
     <Compile Include="Program.cs" />
