@@ -1,9 +1,4 @@
-APK-Multi-Tool-Stable-RELEASE/
-apktool/
-Decrypt/
-disunity_v0.5.0/
-ilasmildasm/
-*.apk
+Local/
 JsonConverter/.vs/
 JsonConverter/bin/
 JsonConverter/obj/
@@ -11,4 +6,4 @@ JsonConverter/obj/
 *.pdb
 *.vshost.exe
 *.vshost.exe.manifest
-Newtonsoft.Json.xml
+Newtonsoft.Json.Schema.xml
