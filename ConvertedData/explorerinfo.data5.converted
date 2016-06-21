@@ -1,15 +1,12 @@
 {
-  "deceive": 1466489423,
-  "explorer_info": {
-    "1": {
-      "time": 180,
-      "interval_id": 1
-    },
-    "2": {
-      "time": 480,
-      "interval_id": 2
-    }
-  },
-  "res": 0,
-  "sv": "1453707665"
+	"deceive" : 1466489423,
+	"explorer_info" : [{
+		"time" : 180,
+		"interval_id" : 1
+	}, {
+		"time" : 480,
+		"interval_id" : 2
+	}],
+	"res" : 0,
+	"sv" : "1453707665"
 }

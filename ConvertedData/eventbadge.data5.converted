@@ -1,6 +1,26 @@
 {
-  "deceive": 1466489423,
-  "event_badge": [{"position":7,"start":1465452000,"end":1467698399,"text":"SALE!!"},{"position":3,"start":1466488800,"end":1467698399,"text":"限定武器"},{"position":4,"start":1466488800,"end":1467698399,"text":"錬金素材"},{"position":5,"start":1466488800,"end":1467698399,"text":"コラボ"}],
-  "res": 0,
-  "sv": "1466420651"
+	"deceive" : 1466489423,
+	"event_badge" : [{
+		"position" : 7,
+		"start" : 1465452000,
+		"end" : 1467698399,
+		"text" : "SALE!!"
+	}, {
+		"position" : 3,
+		"start" : 1466488800,
+		"end" : 1467698399,
+		"text" : "限定武器"
+	}, {
+		"position" : 4,
+		"start" : 1466488800,
+		"end" : 1467698399,
+		"text" : "錬金素材"
+	}, {
+		"position" : 5,
+		"start" : 1466488800,
+		"end" : 1467698399,
+		"text" : "コラボ"
+	}],
+	"res" : 0,
+	"sv" : "1466420651"
 }
