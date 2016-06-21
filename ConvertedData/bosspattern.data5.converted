@@ -19,14 +19,7 @@
       "skillid3": 2,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "2": {
       "che": 0,
@@ -46,14 +39,7 @@
       "skillid3": 13,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "3": {
       "che": 0,
@@ -74,13 +60,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 11,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 11
     },
     "4": {
       "che": 0,
@@ -100,14 +80,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "5": {
       "che": 0,
@@ -127,14 +100,7 @@
       "skillid3": 19,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "6": {
       "che": 0,
@@ -154,14 +120,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "7": {
       "che": 0,
@@ -181,14 +140,7 @@
       "skillid3": 18,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "8": {
       "che": 0,
@@ -208,14 +160,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "9": {
       "che": 0,
@@ -235,14 +180,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10": {
       "che": 0,
@@ -262,14 +200,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "11": {
       "che": 0,
@@ -289,14 +220,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "12": {
       "che": 0,
@@ -316,14 +240,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "13": {
       "che": 0,
@@ -343,14 +260,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "14": {
       "che": 0,
@@ -370,14 +280,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "15": {
       "che": 0,
@@ -397,14 +300,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "16": {
       "che": 0,
@@ -424,14 +320,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "17": {
       "che": 0,
@@ -451,14 +340,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "18": {
       "che": 0,
@@ -478,14 +360,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "19": {
       "che": 0,
@@ -505,14 +380,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20": {
       "che": 0,
@@ -532,14 +400,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "21": {
       "che": 0,
@@ -559,14 +420,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "22": {
       "che": 0,
@@ -586,14 +440,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "23": {
       "che": 0,
@@ -613,14 +460,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "24": {
       "che": 0,
@@ -640,14 +480,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "25": {
       "che": 0,
@@ -667,14 +500,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "26": {
       "che": 0,
@@ -694,14 +520,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "27": {
       "che": 0,
@@ -721,14 +540,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "28": {
       "che": 0,
@@ -748,14 +560,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "29": {
       "che": 0,
@@ -776,13 +581,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "30": {
       "che": 0,
@@ -802,14 +601,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "31": {
       "che": 0,
@@ -829,14 +621,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "32": {
       "che": 0,
@@ -856,14 +641,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "33": {
       "che": 0,
@@ -883,14 +661,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "34": {
       "che": 0,
@@ -910,14 +681,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "35": {
       "che": 0,
@@ -937,14 +701,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "36": {
       "che": 0,
@@ -964,14 +721,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "37": {
       "che": 0,
@@ -991,14 +741,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "38": {
       "che": 0,
@@ -1018,14 +761,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "39": {
       "che": 0,
@@ -1045,14 +781,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "40": {
       "che": 0,
@@ -1072,14 +801,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "41": {
       "che": 0,
@@ -1099,14 +821,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "42": {
       "che": 0,
@@ -1126,14 +841,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "43": {
       "che": 0,
@@ -1153,14 +861,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "44": {
       "che": 0,
@@ -1182,12 +883,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 134,
-      "limit": null,
-      "skillid5": 132,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 132
     },
     "45": {
       "che": 0,
@@ -1207,14 +903,7 @@
       "skillid3": 145,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "46": {
       "che": 0,
@@ -1234,14 +923,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "47": {
       "che": 0,
@@ -1261,14 +943,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "48": {
       "che": 0,
@@ -1288,14 +963,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "49": {
       "che": 0,
@@ -1317,12 +985,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 134,
-      "limit": null,
-      "skillid5": 143,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 143
     },
     "50": {
       "che": 0,
@@ -1342,14 +1005,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "51": {
       "che": 0,
@@ -1370,13 +1026,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 145,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 145
     },
     "52": {
       "che": 0,
@@ -1396,14 +1046,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "53": {
       "che": 0,
@@ -1423,14 +1066,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "54": {
       "che": 0,
@@ -1450,14 +1086,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "55": {
       "che": 0,
@@ -1477,14 +1106,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "56": {
       "che": 0,
@@ -1504,14 +1126,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "57": {
       "che": 0,
@@ -1531,14 +1146,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "58": {
       "che": 0,
@@ -1558,14 +1166,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "59": {
       "che": 0,
@@ -1585,14 +1186,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60": {
       "che": 0,
@@ -1613,13 +1207,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "61": {
       "che": 0,
@@ -1641,12 +1229,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 68,
-      "limit": null,
-      "skillid5": 47,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 47
     },
     "62": {
       "che": 0,
@@ -1668,12 +1251,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 68,
-      "limit": null,
-      "skillid5": 47,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 47
     },
     "63": {
       "che": 0,
@@ -1695,12 +1273,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 46,
-      "limit": null,
-      "skillid5": 68,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 68
     },
     "64": {
       "che": 0,
@@ -1720,14 +1293,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "65": {
       "che": 0,
@@ -1748,13 +1314,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "66": {
       "che": 0,
@@ -1774,14 +1334,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "67": {
       "che": 0,
@@ -1801,14 +1354,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "68": {
       "che": 0,
@@ -1828,14 +1374,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "69": {
       "che": 0,
@@ -1855,14 +1394,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "70": {
       "che": 0,
@@ -1882,14 +1414,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "71": {
       "che": 0,
@@ -1909,14 +1434,7 @@
       "skillid3": 139,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "72": {
       "che": 0,
@@ -1936,14 +1454,7 @@
       "skillid3": 155,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "73": {
       "che": 0,
@@ -1963,14 +1474,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "74": {
       "che": 0,
@@ -1990,14 +1494,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75": {
       "che": 0,
@@ -2018,13 +1515,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "76": {
       "che": 0,
@@ -2046,12 +1537,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 1,
-      "limit": null,
-      "skillid5": 13,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 13
     },
     "77": {
       "che": 0,
@@ -2073,12 +1559,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 9,
-      "limit": null,
       "skillid5": 9,
-      "skillid6": 11,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 11
     },
     "78": {
       "che": 0,
@@ -2100,12 +1582,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 72,
-      "limit": null,
-      "skillid5": 11,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 11
     },
     "79": {
       "che": 0,
@@ -2127,12 +1604,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 10,
-      "limit": null,
       "skillid5": 8,
-      "skillid6": 11,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 11
     },
     "80": {
       "che": 0,
@@ -2154,12 +1627,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 72,
-      "limit": null,
-      "skillid5": 11,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 11
     },
     "81": {
       "che": 0,
@@ -2180,13 +1648,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "82": {
       "che": 0,
@@ -2206,14 +1668,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "83": {
       "che": 0,
@@ -2233,14 +1688,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "84": {
       "che": 0,
@@ -2260,14 +1708,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "85": {
       "che": 0,
@@ -2287,14 +1728,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "86": {
       "che": 0,
@@ -2314,14 +1748,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "87": {
       "che": 0,
@@ -2341,14 +1768,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "88": {
       "che": 0,
@@ -2368,14 +1788,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "89": {
       "che": 0,
@@ -2395,14 +1808,7 @@
       "skillid3": 167,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "90": {
       "che": 0,
@@ -2422,14 +1828,7 @@
       "skillid3": 163,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "91": {
       "che": 0,
@@ -2449,14 +1848,7 @@
       "skillid3": 163,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "92": {
       "che": 0,
@@ -2476,14 +1868,7 @@
       "skillid3": 163,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "93": {
       "che": 0,
@@ -2503,14 +1888,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "94": {
       "che": 0,
@@ -2530,14 +1908,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "95": {
       "che": 0,
@@ -2557,14 +1928,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "96": {
       "che": 0,
@@ -2584,14 +1948,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "97": {
       "che": 0,
@@ -2613,12 +1970,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 197,
-      "limit": null,
       "skillid5": 198,
-      "skillid6": 201,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 201
     },
     "98": {
       "che": 0,
@@ -2640,12 +1993,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 198,
-      "limit": null,
       "skillid5": 199,
-      "skillid6": 201,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 201
     },
     "99": {
       "che": 0,
@@ -2665,14 +2014,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "100": {
       "che": 0,
@@ -2692,14 +2034,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "101": {
       "che": 0,
@@ -2719,14 +2054,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "102": {
       "che": 0,
@@ -2746,14 +2074,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "103": {
       "che": 0,
@@ -2773,14 +2094,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "104": {
       "che": 0,
@@ -2800,14 +2114,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "105": {
       "che": 0,
@@ -2827,14 +2134,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "106": {
       "che": 0,
@@ -2854,14 +2154,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "107": {
       "che": 0,
@@ -2883,12 +2176,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 217,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "108": {
       "che": 0,
@@ -2910,12 +2198,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 216,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "109": {
       "che": 0,
@@ -2937,12 +2220,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 217,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "110": {
       "che": 0,
@@ -2964,12 +2242,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 217,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "111": {
       "che": 0,
@@ -2991,12 +2264,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 216,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "112": {
       "che": 0,
@@ -3017,13 +2285,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 163,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 163
     },
     "113": {
       "che": 0,
@@ -3045,12 +2307,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 217,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "114": {
       "che": 0,
@@ -3072,12 +2329,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 217,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "115": {
       "che": 0,
@@ -3099,12 +2351,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 216,
-      "limit": null,
-      "skillid5": 225,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 225
     },
     "116": {
       "che": 0,
@@ -3126,12 +2373,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 217,
-      "limit": null,
       "skillid5": 225,
-      "skillid6": 220,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 220
     },
     "117": {
       "che": 0,
@@ -3152,13 +2395,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "118": {
       "che": 0,
@@ -3179,13 +2416,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "119": {
       "che": 0,
@@ -3206,13 +2437,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "120": {
       "che": 0,
@@ -3233,13 +2458,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "121": {
       "che": 0,
@@ -3260,13 +2479,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "122": {
       "che": 0,
@@ -3286,14 +2499,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "123": {
       "che": 0,
@@ -3313,14 +2519,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "124": {
       "che": 0,
@@ -3340,14 +2539,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "125": {
       "che": 0,
@@ -3368,13 +2560,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 8192,
-      "mne": null,
-      "mns": null
+      "bgf": 8192
     },
     "126": {
       "che": 0,
@@ -3394,14 +2580,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "127": {
       "che": 0,
@@ -3421,14 +2600,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "128": {
       "che": 0,
@@ -3448,14 +2620,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "129": {
       "che": 0,
@@ -3475,14 +2640,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130": {
       "che": 0,
@@ -3502,14 +2660,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "131": {
       "che": 0,
@@ -3529,14 +2680,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "132": {
       "che": 0,
@@ -3556,14 +2700,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "133": {
       "che": 0,
@@ -3583,14 +2720,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "134": {
       "che": 0,
@@ -3611,13 +2741,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "135": {
       "che": 0,
@@ -3637,14 +2761,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "136": {
       "che": 0,
@@ -3664,14 +2781,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "137": {
       "che": 0,
@@ -3691,14 +2801,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "138": {
       "che": 0,
@@ -3718,14 +2821,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "139": {
       "che": 0,
@@ -3745,14 +2841,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "140": {
       "che": 0,
@@ -3772,14 +2861,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "141": {
       "che": 0,
@@ -3799,14 +2881,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "142": {
       "che": 0,
@@ -3827,13 +2902,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 4,
-      "mne": null,
-      "mns": null
+      "bgf": 4
     },
     "143": {
       "che": 0,
@@ -3854,13 +2923,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "144": {
       "che": 0,
@@ -3880,14 +2943,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "145": {
       "che": 0,
@@ -3907,14 +2963,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "146": {
       "che": 0,
@@ -3936,12 +2985,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 264,
-      "limit": null,
       "skillid5": 258,
-      "skillid6": 269,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 269
     },
     "147": {
       "che": 0,
@@ -3963,12 +3008,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 276,
-      "limit": null,
-      "skillid5": 277,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 277
     },
     "148": {
       "che": 0,
@@ -3990,12 +3030,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 263,
-      "limit": null,
-      "skillid5": 258,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 258
     },
     "149": {
       "che": 0,
@@ -4017,12 +3052,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 263,
-      "limit": null,
       "skillid5": 258,
-      "skillid6": 269,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 269
     },
     "150": {
       "che": 0,
@@ -4043,13 +3074,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 277,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 277
     },
     "151": {
       "che": 0,
@@ -4070,13 +3095,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 262,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 262
     },
     "152": {
       "che": 0,
@@ -4096,14 +3115,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "153": {
       "che": 0,
@@ -4123,14 +3135,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "154": {
       "che": 0,
@@ -4150,14 +3155,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "155": {
       "che": 0,
@@ -4177,14 +3175,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "156": {
       "che": 0,
@@ -4205,13 +3196,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 261,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 261
     },
     "157": {
       "che": 0,
@@ -4231,14 +3216,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "158": {
       "che": 0,
@@ -4259,13 +3237,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "159": {
       "che": 0,
@@ -4286,13 +3258,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "160": {
       "che": 0,
@@ -4314,12 +3280,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 274,
-      "limit": null,
       "skillid5": 258,
-      "skillid6": 268,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 268
     },
     "161": {
       "che": 0,
@@ -4341,12 +3303,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 277,
-      "limit": null,
-      "skillid5": 268,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 268
     },
     "162": {
       "che": 0,
@@ -4368,12 +3325,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 274,
-      "limit": null,
       "skillid5": 258,
-      "skillid6": 268,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 268
     },
     "163": {
       "che": 0,
@@ -4395,12 +3348,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 271,
-      "limit": null,
-      "skillid5": 274,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 274
     },
     "164": {
       "che": 0,
@@ -4422,12 +3370,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 272,
-      "limit": null,
-      "skillid5": 274,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 274
     },
     "165": {
       "che": 0,
@@ -4448,13 +3391,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 11,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 11
     },
     "166": {
       "che": 0,
@@ -4475,13 +3412,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 11,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 11
     },
     "167": {
       "che": 0,
@@ -4502,13 +3433,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 11,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 11
     },
     "168": {
       "che": 0,
@@ -4529,13 +3454,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 11,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 11
     },
     "169": {
       "che": 0,
@@ -4556,13 +3475,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "170": {
       "che": 0,
@@ -4582,14 +3495,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "171": {
       "che": 0,
@@ -4609,14 +3515,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "172": {
       "che": 0,
@@ -4636,14 +3535,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "173": {
       "che": 0,
@@ -4663,14 +3555,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "174": {
       "che": 0,
@@ -4691,13 +3576,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "175": {
       "che": 0,
@@ -4718,13 +3597,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "176": {
       "che": 0,
@@ -4745,13 +3618,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "177": {
       "che": 0,
@@ -4771,14 +3638,7 @@
       "skillid3": 80993,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "178": {
       "che": 0,
@@ -4799,13 +3659,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "179": {
       "che": 0,
@@ -4825,14 +3679,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "180": {
       "che": 0,
@@ -4852,14 +3699,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "181": {
       "che": 0,
@@ -4879,14 +3719,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "182": {
       "che": 0,
@@ -4906,14 +3739,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "183": {
       "che": 0,
@@ -4933,14 +3759,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "184": {
       "che": 0,
@@ -4960,14 +3779,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "185": {
       "che": 0,
@@ -4987,14 +3799,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "186": {
       "che": 0,
@@ -5014,14 +3819,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "187": {
       "che": 0,
@@ -5042,13 +3840,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "188": {
       "che": 0,
@@ -5068,14 +3860,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "189": {
       "che": 0,
@@ -5095,14 +3880,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "190": {
       "che": 0,
@@ -5123,13 +3901,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "191": {
       "che": 0,
@@ -5149,14 +3921,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "192": {
       "che": 0,
@@ -5176,14 +3941,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "193": {
       "che": 0,
@@ -5203,14 +3961,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "194": {
       "che": 0,
@@ -5230,14 +3981,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "195": {
       "che": 0,
@@ -5257,14 +4001,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "196": {
       "che": 0,
@@ -5285,13 +4022,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "197": {
       "che": 0,
@@ -5311,14 +4042,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "198": {
       "che": 0,
@@ -5339,13 +4063,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "199": {
       "che": 0,
@@ -5365,14 +4083,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "200": {
       "che": 0,
@@ -5392,14 +4103,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "201": {
       "che": 0,
@@ -5419,14 +4123,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "202": {
       "che": 0,
@@ -5446,14 +4143,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "203": {
       "che": 0,
@@ -5473,14 +4163,7 @@
       "skillid3": 337,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "204": {
       "che": 0,
@@ -5500,14 +4183,7 @@
       "skillid3": 337,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "205": {
       "che": 0,
@@ -5527,14 +4203,7 @@
       "skillid3": 337,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "206": {
       "che": 0,
@@ -5554,14 +4223,7 @@
       "skillid3": 337,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "207": {
       "che": 0,
@@ -5581,14 +4243,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "208": {
       "che": 0,
@@ -5610,12 +4265,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 251,
-      "limit": null,
       "skillid5": 330,
-      "skillid6": 337,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 337
     },
     "209": {
       "che": 0,
@@ -5635,14 +4286,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "210": {
       "che": 0,
@@ -5662,14 +4306,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "211": {
       "che": 0,
@@ -5689,14 +4326,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "212": {
       "che": 0,
@@ -5716,14 +4346,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "213": {
       "che": 0,
@@ -5743,14 +4366,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "214": {
       "che": 0,
@@ -5770,14 +4386,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "215": {
       "che": 0,
@@ -5797,14 +4406,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "216": {
       "che": 0,
@@ -5824,14 +4426,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "217": {
       "che": 0,
@@ -5851,14 +4446,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "218": {
       "che": 0,
@@ -5878,14 +4466,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "219": {
       "che": 0,
@@ -5905,14 +4486,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "220": {
       "che": 0,
@@ -5932,14 +4506,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "221": {
       "che": 0,
@@ -5959,14 +4526,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "222": {
       "che": 0,
@@ -5986,14 +4546,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "223": {
       "che": 0,
@@ -6013,14 +4566,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "224": {
       "che": 0,
@@ -6040,14 +4586,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "225": {
       "che": 0,
@@ -6067,14 +4606,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "226": {
       "che": 0,
@@ -6094,14 +4626,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "227": {
       "che": 0,
@@ -6121,14 +4646,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "228": {
       "che": 0,
@@ -6148,14 +4666,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "229": {
       "che": 0,
@@ -6175,14 +4686,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "230": {
       "che": 0,
@@ -6202,14 +4706,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "231": {
       "che": 0,
@@ -6230,13 +4727,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "232": {
       "che": 0,
@@ -6257,13 +4748,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "233": {
       "che": 0,
@@ -6284,13 +4769,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "234": {
       "che": 0,
@@ -6311,13 +4790,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "235": {
       "che": 0,
@@ -6338,13 +4811,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 3,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 3
     },
     "236": {
       "che": 0,
@@ -6365,13 +4832,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "237": {
       "che": 0,
@@ -6392,13 +4853,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 6,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 6
     },
     "238": {
       "che": 0,
@@ -6418,14 +4873,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "239": {
       "che": 0,
@@ -6445,14 +4893,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "240": {
       "che": 0,
@@ -6472,14 +4913,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "241": {
       "che": 0,
@@ -6499,14 +4933,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "242": {
       "che": 0,
@@ -6526,14 +4953,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "243": {
       "che": 0,
@@ -6554,13 +4974,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "244": {
       "che": 0,
@@ -6581,13 +4995,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "245": {
       "che": 0,
@@ -6607,14 +5015,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "246": {
       "che": 0,
@@ -6634,14 +5035,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "247": {
       "che": 0,
@@ -6661,14 +5055,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "248": {
       "che": 0,
@@ -6688,14 +5075,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "249": {
       "che": 0,
@@ -6715,14 +5095,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "250": {
       "che": 0,
@@ -6742,14 +5115,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "251": {
       "che": 0,
@@ -6769,14 +5135,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "252": {
       "che": 0,
@@ -6796,14 +5155,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "253": {
       "che": 0,
@@ -6823,14 +5175,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "254": {
       "che": 0,
@@ -6850,14 +5195,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "255": {
       "che": 0,
@@ -6877,14 +5215,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "256": {
       "che": 0,
@@ -6905,13 +5236,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "257": {
       "che": 0,
@@ -6932,13 +5257,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "258": {
       "che": 0,
@@ -6959,13 +5278,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "259": {
       "che": 0,
@@ -6986,13 +5299,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 3,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 3
     },
     "260": {
       "che": 0,
@@ -7013,13 +5320,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "261": {
       "che": 0,
@@ -7040,13 +5341,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 4,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 4
     },
     "262": {
       "che": 0,
@@ -7066,14 +5361,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "263": {
       "che": 0,
@@ -7093,14 +5381,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "264": {
       "che": 0,
@@ -7120,14 +5401,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "265": {
       "che": 0,
@@ -7147,14 +5421,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "266": {
       "che": 0,
@@ -7174,14 +5441,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "267": {
       "che": 0,
@@ -7201,14 +5461,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "268": {
       "che": 0,
@@ -7228,14 +5481,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "269": {
       "che": 0,
@@ -7255,14 +5501,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "270": {
       "che": 0,
@@ -7282,14 +5521,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "271": {
       "che": 0,
@@ -7309,14 +5541,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "272": {
       "che": 0,
@@ -7336,14 +5561,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "273": {
       "che": 0,
@@ -7364,13 +5582,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "274": {
       "che": 0,
@@ -7391,13 +5603,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "275": {
       "che": 0,
@@ -7418,13 +5624,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "276": {
       "che": 0,
@@ -7445,13 +5645,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "277": {
       "che": 0,
@@ -7472,13 +5666,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "278": {
       "che": 0,
@@ -7498,14 +5686,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "279": {
       "che": 0,
@@ -7525,14 +5706,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "280": {
       "che": 0,
@@ -7552,14 +5726,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "281": {
       "che": 0,
@@ -7579,14 +5746,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "282": {
       "che": 0,
@@ -7607,13 +5767,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "283": {
       "che": 0,
@@ -7633,14 +5787,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "284": {
       "che": 0,
@@ -7660,14 +5807,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "285": {
       "che": 0,
@@ -7687,14 +5827,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "286": {
       "che": 0,
@@ -7714,14 +5847,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "287": {
       "che": 0,
@@ -7741,14 +5867,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "288": {
       "che": 0,
@@ -7768,14 +5887,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "289": {
       "che": 0,
@@ -7795,14 +5907,7 @@
       "skillid3": 421,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "290": {
       "che": 0,
@@ -7822,14 +5927,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "291": {
       "che": 0,
@@ -7849,14 +5947,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "292": {
       "che": 0,
@@ -7876,14 +5967,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "293": {
       "che": 0,
@@ -7903,14 +5987,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "294": {
       "che": 0,
@@ -7932,12 +6009,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 416,
-      "limit": null,
-      "skillid5": 431,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 431
     },
     "295": {
       "che": 0,
@@ -7958,13 +6030,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "296": {
       "che": 0,
@@ -7984,14 +6050,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "297": {
       "che": 0,
@@ -8012,13 +6071,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "298": {
       "che": 0,
@@ -8040,12 +6093,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 68,
-      "limit": null,
-      "skillid5": 439,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 439
     },
     "299": {
       "che": 0,
@@ -8067,12 +6115,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 68,
-      "limit": null,
-      "skillid5": 439,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 439
     },
     "300": {
       "che": 0,
@@ -8094,12 +6137,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 438,
-      "limit": null,
-      "skillid5": 68,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 68
     },
     "301": {
       "che": 0,
@@ -8121,12 +6159,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 466,
-      "limit": 2,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 2
     },
     "302": {
       "che": 0,
@@ -8148,12 +6181,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 466,
-      "limit": 2,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 2
     },
     "303": {
       "che": 0,
@@ -8174,13 +6202,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "304": {
       "che": 0,
@@ -8204,10 +6226,7 @@
       "skillid4": 466,
       "limit": 3,
       "skillid5": 68,
-      "skillid6": 439,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 439
     },
     "305": {
       "che": 0,
@@ -8228,13 +6247,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "306": {
       "che": 0,
@@ -8254,14 +6267,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "307": {
       "che": 0,
@@ -8281,14 +6287,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "308": {
       "che": 0,
@@ -8308,14 +6307,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "309": {
       "che": 0,
@@ -8336,13 +6328,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "310": {
       "che": 0,
@@ -8364,12 +6350,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 451,
-      "limit": null,
       "skillid5": 446,
-      "skillid6": 455,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 455
     },
     "311": {
       "che": 0,
@@ -8391,12 +6373,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 452,
-      "limit": null,
       "skillid5": 446,
-      "skillid6": 455,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 455
     },
     "312": {
       "che": 0,
@@ -8418,12 +6396,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 455,
-      "limit": null,
       "skillid5": 447,
-      "skillid6": 450,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 450
     },
     "313": {
       "che": 0,
@@ -8446,11 +6420,7 @@
       "voice": 0,
       "skillid4": 451,
       "limit": 1,
-      "skillid5": 455,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 455
     },
     "314": {
       "che": 0,
@@ -8474,10 +6444,7 @@
       "skillid4": 452,
       "limit": 1,
       "skillid5": 459,
-      "skillid6": 448,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 448
     },
     "315": {
       "che": 0,
@@ -8497,14 +6464,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "316": {
       "che": 0,
@@ -8528,10 +6488,7 @@
       "skillid4": 453,
       "limit": 5,
       "skillid5": 446,
-      "skillid6": 459,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 459
     },
     "317": {
       "che": 0,
@@ -8555,10 +6512,7 @@
       "skillid4": 454,
       "limit": 5,
       "skillid5": 446,
-      "skillid6": 459,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 459
     },
     "318": {
       "che": 0,
@@ -8582,10 +6536,7 @@
       "skillid4": 459,
       "limit": 5,
       "skillid5": 446,
-      "skillid6": 447,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 447
     },
     "319": {
       "che": 0,
@@ -8606,13 +6557,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "320": {
       "che": 0,
@@ -8632,14 +6577,7 @@
       "skillid3": 472,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "321": {
       "che": 0,
@@ -8660,13 +6598,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "322": {
       "che": 0,
@@ -8687,13 +6619,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "323": {
       "che": 0,
@@ -8714,13 +6640,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "324": {
       "che": 0,
@@ -8741,13 +6661,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "325": {
       "che": 0,
@@ -8767,14 +6681,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "326": {
       "che": 0,
@@ -8794,14 +6701,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "327": {
       "che": 0,
@@ -8821,14 +6721,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "328": {
       "che": 0,
@@ -8848,14 +6741,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "329": {
       "che": 0,
@@ -8875,14 +6761,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "330": {
       "che": 0,
@@ -8902,14 +6781,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "331": {
       "che": 0,
@@ -8929,14 +6801,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "332": {
       "che": 0,
@@ -8956,14 +6821,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "333": {
       "che": 0,
@@ -8983,14 +6841,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "334": {
       "che": 0,
@@ -9010,14 +6861,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "335": {
       "che": 0,
@@ -9038,13 +6882,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "336": {
       "che": 0,
@@ -9064,14 +6902,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "337": {
       "che": 0,
@@ -9091,14 +6922,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "338": {
       "che": 0,
@@ -9119,13 +6943,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "339": {
       "che": 0,
@@ -9146,13 +6964,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 3,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 3
     },
     "340": {
       "che": 0,
@@ -9173,13 +6985,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "341": {
       "che": 0,
@@ -9200,13 +7006,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 2,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 2
     },
     "342": {
       "che": 0,
@@ -9227,13 +7027,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "343": {
       "che": 0,
@@ -9256,11 +7050,7 @@
       "voice": 0,
       "skillid4": 451,
       "limit": 1,
-      "skillid5": 455,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 455
     },
     "344": {
       "che": 0,
@@ -9284,10 +7074,7 @@
       "skillid4": 452,
       "limit": 1,
       "skillid5": 459,
-      "skillid6": 448,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 448
     },
     "345": {
       "che": 0,
@@ -9307,14 +7094,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "346": {
       "che": 0,
@@ -9335,13 +7115,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 2,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 2
     },
     "347": {
       "che": 0,
@@ -9361,14 +7135,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "411": {
       "che": 0,
@@ -9388,14 +7155,7 @@
       "skillid3": 516,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "412": {
       "che": 0,
@@ -9417,12 +7177,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 513,
-      "limit": null,
       "skillid5": 515,
-      "skillid6": 514,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 514
     },
     "413": {
       "che": 0,
@@ -9444,12 +7200,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 517,
-      "limit": null,
-      "skillid5": 501,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 501
     },
     "414": {
       "che": 0,
@@ -9471,12 +7222,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 503,
-      "limit": null,
-      "skillid5": 517,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 517
     },
     "415": {
       "che": 0,
@@ -9498,12 +7244,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 502,
-      "limit": null,
-      "skillid5": 517,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 517
     },
     "416": {
       "che": 0,
@@ -9525,12 +7266,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 514,
-      "limit": null,
-      "skillid5": 516,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 516
     },
     "417": {
       "che": 0,
@@ -9552,12 +7288,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 514,
-      "limit": null,
-      "skillid5": 516,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 516
     },
     "418": {
       "che": 0,
@@ -9579,12 +7310,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 507,
-      "limit": null,
-      "skillid5": 517,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 517
     },
     "419": {
       "che": 0,
@@ -9605,13 +7331,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 507,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 507
     },
     "420": {
       "che": 0,
@@ -9633,12 +7353,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 538,
-      "limit": null,
-      "skillid5": 539,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 539
     },
     "421": {
       "che": 0,
@@ -9661,11 +7376,7 @@
       "voice": 0,
       "skillid4": 519,
       "limit": 1,
-      "skillid5": 506,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 506
     },
     "422": {
       "che": 0,
@@ -9687,12 +7398,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 516,
-      "limit": null,
-      "skillid5": 507,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 507
     },
     "423": {
       "che": 0,
@@ -9714,12 +7420,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 516,
-      "limit": null,
       "skillid5": 506,
-      "skillid6": 525,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 525
     },
     "424": {
       "che": 0,
@@ -9742,11 +7444,7 @@
       "voice": 0,
       "skillid4": 519,
       "limit": 1,
-      "skillid5": 507,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 507
     },
     "425": {
       "che": 0,
@@ -9768,12 +7466,7 @@
       "stext": "",
       "voice": 0,
       "skillid4": 507,
-      "limit": null,
-      "skillid5": 525,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid5": 525
     },
     "426": {
       "che": 0,
@@ -9795,12 +7488,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 510,
-      "limit": null,
       "skillid5": 511,
-      "skillid6": 525,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 525
     },
     "427": {
       "che": 0,
@@ -9822,12 +7511,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 512,
-      "limit": null,
       "skillid5": 515,
-      "skillid6": 514,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 514
     },
     "428": {
       "che": 0,
@@ -9851,10 +7536,7 @@
       "skillid4": 507,
       "limit": 2,
       "skillid5": 519,
-      "skillid6": 514,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 514
     },
     "429": {
       "che": 0,
@@ -9876,12 +7558,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 539,
-      "limit": null,
       "skillid5": 516,
-      "skillid6": 507,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 507
     },
     "430": {
       "che": 0,
@@ -9903,12 +7581,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 515,
-      "limit": null,
       "skillid5": 514,
-      "skillid6": 537,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 537
     },
     "431": {
       "che": 0,
@@ -9932,10 +7606,7 @@
       "skillid4": 527,
       "limit": 1,
       "skillid5": 506,
-      "skillid6": 525,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 525
     },
     "432": {
       "che": 0,
@@ -9959,10 +7630,7 @@
       "skillid4": 527,
       "limit": 3,
       "skillid5": 506,
-      "skillid6": 525,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 525
     },
     "433": {
       "che": 0,
@@ -9984,12 +7652,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 514,
-      "limit": null,
       "skillid5": 526,
-      "skillid6": 525,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 525
     },
     "434": {
       "che": 0,
@@ -10011,12 +7675,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 514,
-      "limit": null,
       "skillid5": 526,
-      "skillid6": 525,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 525
     },
     "435": {
       "che": 0,
@@ -10038,12 +7698,8 @@
       "stext": "",
       "voice": 0,
       "skillid4": 526,
-      "limit": null,
       "skillid5": 534,
-      "skillid6": 525,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid6": 525
     },
     "700": {
       "che": 0,
@@ -10063,14 +7719,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "710": {
       "che": 0,
@@ -10090,14 +7739,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "730": {
       "che": 0,
@@ -10117,14 +7759,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "750": {
       "che": 0,
@@ -10145,11 +7780,6 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 6
     },
@@ -10172,13 +7802,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 5,
-      "mns": null
+      "mne": 5
     },
     "760": {
       "che": 0,
@@ -10199,11 +7823,6 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 6
     },
@@ -10225,14 +7844,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10401": {
       "che": 0,
@@ -10252,14 +7864,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10410": {
       "che": 0,
@@ -10279,14 +7884,7 @@
       "skillid3": 0,
       "sname": "クイーンズセイバー",
       "stext": "勝利をこの手に！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10411": {
       "che": 0,
@@ -10306,14 +7904,7 @@
       "skillid3": 0,
       "sname": "ロード・オブ・クイーンズ",
       "stext": "勝利をこの手に！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10420": {
       "che": 0,
@@ -10333,14 +7924,7 @@
       "skillid3": 0,
       "sname": "ベル・フルーレ",
       "stext": "情けはかけません",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10421": {
       "che": 0,
@@ -10360,14 +7944,7 @@
       "skillid3": 0,
       "sname": "ラ・フルーレ",
       "stext": "情けはかけません",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10440": {
       "che": 0,
@@ -10387,14 +7964,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10450": {
       "che": 0,
@@ -10414,14 +7984,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10500": {
       "che": 0,
@@ -10441,14 +8004,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10501": {
       "che": 0,
@@ -10468,14 +8024,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10510": {
       "che": 0,
@@ -10495,14 +8044,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "10690": {
       "che": 0,
@@ -10522,14 +8064,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20490": {
       "che": 0,
@@ -10549,14 +8084,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20520": {
       "che": 0,
@@ -10576,14 +8104,7 @@
       "skillid3": 0,
       "sname": "ヴォルケーノヘイズ",
       "stext": "弾けて、消えろ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20521": {
       "che": 0,
@@ -10603,14 +8124,7 @@
       "skillid3": 0,
       "sname": "爆炎のヴォルケーノヘイズ",
       "stext": "弾けて、消えろ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20530": {
       "che": 0,
@@ -10630,14 +8144,7 @@
       "skillid3": 0,
       "sname": "グローリースペル",
       "stext": "戦うわけが、私にはある！\t\t\t\t",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20531": {
       "che": 0,
@@ -10657,14 +8164,7 @@
       "skillid3": 0,
       "sname": "セイバースペル",
       "stext": "戦うわけが、私にはある！\t\t\t\t",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20540": {
       "che": 0,
@@ -10684,14 +8184,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "20680": {
       "che": 0,
@@ -10712,13 +8205,7 @@
       "sname": "縛りの言霊",
       "stext": "力宿せし言の葉よ……",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 3,
-      "mns": null
+      "mne": 3
     },
     "20681": {
       "che": 0,
@@ -10739,11 +8226,6 @@
       "sname": "幻惑の言霊",
       "stext": "力宿せし言の葉よ……",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 10,
       "mns": 4
     },
@@ -10765,14 +8247,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "30260": {
       "che": 0,
@@ -10792,14 +8267,7 @@
       "skillid3": 0,
       "sname": "シスクード・ロタシオン",
       "stext": "こういう戦い方もあるんだよ",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "30261": {
       "che": 0,
@@ -10819,14 +8287,7 @@
       "skillid3": 0,
       "sname": "シスクード・アサルト",
       "stext": "こういう戦い方もあるんだよ",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "40200": {
       "che": 0,
@@ -10847,13 +8308,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 16400,
-      "mne": null,
-      "mns": null
+      "bgf": 16400
     },
     "40480": {
       "che": 0,
@@ -10874,13 +8329,7 @@
       "sname": "鶴翼の勇者",
       "stext": "これが勇者の力だ！",
       "voice": 0,
-      "skillid4": 70652,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "skillid4": 70652
     },
     "40481": {
       "che": 0,
@@ -10900,14 +8349,7 @@
       "skillid3": 0,
       "sname": "厳壁の勇者",
       "stext": "これが勇者の力だ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50410": {
       "che": 0,
@@ -10928,13 +8370,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 1048576,
-      "mne": null,
-      "mns": null
+      "bgf": 1048576
     },
     "50470": {
       "che": 0,
@@ -10954,14 +8390,7 @@
       "skillid3": 0,
       "sname": "オープンコンバット",
       "stext": "突撃突撃突撃だー！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50471": {
       "che": 0,
@@ -10981,14 +8410,7 @@
       "skillid3": 0,
       "sname": "リモートエンゲージ",
       "stext": "突撃突撃突撃だー！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50480": {
       "che": 0,
@@ -11008,14 +8430,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50620": {
       "che": 0,
@@ -11035,14 +8450,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50640": {
       "che": 0,
@@ -11062,14 +8470,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50690": {
       "che": 0,
@@ -11089,14 +8490,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50691": {
       "che": 0,
@@ -11117,13 +8511,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 4,
-      "mne": null,
-      "mns": null
+      "bgf": 4
     },
     "50840": {
       "che": 0,
@@ -11143,14 +8531,7 @@
       "skillid3": 0,
       "sname": "ビルトゥーラ",
       "stext": "悪夢なんてぽーい☆",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50841": {
       "che": 0,
@@ -11171,13 +8552,7 @@
       "sname": "ズェマール",
       "stext": "悪夢なんてぽーい☆",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 8388608,
-      "mne": null,
-      "mns": null
+      "bgf": 8388608
     },
     "50920": {
       "che": 0,
@@ -11197,14 +8572,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "50921": {
       "che": 0,
@@ -11225,13 +8593,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 4,
-      "mne": null,
-      "mns": null
+      "bgf": 4
     },
     "60010": {
       "che": 0,
@@ -11251,14 +8613,7 @@
       "skillid3": 0,
       "sname": "鬼神剣",
       "stext": "目障りだ、去ね！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "60011": {
       "che": 0,
@@ -11278,14 +8633,7 @@
       "skillid3": 0,
       "sname": "鬼神剣・降魔",
       "stext": "もう飽きた……死ね",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "60350": {
       "che": 0,
@@ -11305,14 +8653,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60351": {
       "che": 0,
@@ -11332,14 +8673,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60410": {
       "che": 0,
@@ -11359,14 +8693,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60411": {
       "che": 0,
@@ -11386,14 +8713,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60412": {
       "che": 0,
@@ -11413,14 +8733,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60413": {
       "che": 0,
@@ -11440,14 +8753,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60414": {
       "che": 0,
@@ -11467,14 +8773,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60415": {
       "che": 0,
@@ -11494,14 +8793,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60420": {
       "che": 0,
@@ -11521,14 +8813,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60421": {
       "che": 0,
@@ -11548,14 +8833,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60440": {
       "che": 0,
@@ -11575,14 +8853,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60460": {
       "che": 0,
@@ -11602,14 +8873,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60560": {
       "che": 0,
@@ -11630,13 +8894,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 2,
-      "mns": null
+      "mne": 2
     },
     "60580": {
       "che": 0,
@@ -11656,14 +8914,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60630": {
       "che": 0,
@@ -11683,14 +8934,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "60720": {
       "che": 0,
@@ -11711,13 +8955,7 @@
       "sname": "鉄鍼・無窮一殺",
       "stext": "ほら、痛くないだろう？",
       "voice": 0,
-      "skillid4": null,
-      "limit": 3,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 3
     },
     "60721": {
       "che": 0,
@@ -11737,14 +8975,7 @@
       "skillid3": 0,
       "sname": "陰陽の撃鍼",
       "stext": "ほら、痛くないだろう？",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "70230": {
       "che": 0,
@@ -11764,14 +8995,7 @@
       "skillid3": 0,
       "sname": "ヴォルテックス",
       "stext": "うずしおよ！　ってあれ？",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "70231": {
       "che": 0,
@@ -11792,13 +9016,7 @@
       "sname": "ネオ・ヴォルテックス",
       "stext": "うずしおよ！　ってあれ？",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 1048576,
-      "mne": null,
-      "mns": null
+      "bgf": 1048576
     },
     "70240": {
       "che": 0,
@@ -11818,14 +9036,7 @@
       "skillid3": 0,
       "sname": "クロノブレード",
       "stext": "光をつかむ！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "70241": {
       "che": 0,
@@ -11845,14 +9056,7 @@
       "skillid3": 0,
       "sname": "ブラックナイト",
       "stext": "みんなを守る！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "70242": {
       "che": 0,
@@ -11872,14 +9076,7 @@
       "skillid3": 0,
       "sname": "クロノブレイカー・アビス",
       "stext": "光をつかむ！！",
-      "voice": 4,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 4
     },
     "70320": {
       "che": 0,
@@ -11899,14 +9096,7 @@
       "skillid3": 0,
       "sname": "六陽大招拳",
       "stext": "一族の技を受けよ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "70321": {
       "che": 0,
@@ -11927,13 +9117,7 @@
       "sname": "六陽大招拳・一打",
       "stext": "一族の技を受けよ！",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "70650": {
       "che": 0,
@@ -11953,14 +9137,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "70740": {
       "che": 0,
@@ -11980,14 +9157,7 @@
       "skillid3": 0,
       "sname": "クロノス・メモリア・勇気の頁",
       "stext": "祓う！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "70741": {
       "che": 0,
@@ -12007,14 +9177,7 @@
       "skillid3": 0,
       "sname": "クロノス・メモリア・希望の頁",
       "stext": "クロニクル！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "70742": {
       "che": 0,
@@ -12034,14 +9197,7 @@
       "skillid3": 0,
       "sname": "チェインクロニクル",
       "stext": "信じていますから！！",
-      "voice": 4,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 4
     },
     "70750": {
       "che": 0,
@@ -12061,14 +9217,7 @@
       "skillid3": 70752,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "70850": {
       "che": 0,
@@ -12088,14 +9237,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75210": {
       "che": 0,
@@ -12115,14 +9257,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75260": {
       "che": 0,
@@ -12142,14 +9277,7 @@
       "skillid3": 0,
       "sname": "フェイクソウル",
       "stext": "あたしに失敗なんてない！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75261": {
       "che": 0,
@@ -12169,14 +9297,7 @@
       "skillid3": 0,
       "sname": "トゥルーハーツ",
       "stext": "あたしに失敗なんてない！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75270": {
       "che": 0,
@@ -12196,14 +9317,7 @@
       "skillid3": 0,
       "sname": "ネクロエリア",
       "stext": "死とはつまり解放の手段に過ぎない",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75271": {
       "che": 0,
@@ -12223,14 +9337,7 @@
       "skillid3": 0,
       "sname": "霊魂召喚",
       "stext": "死とはつまり解放の手段に過ぎない",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75350": {
       "che": 0,
@@ -12250,14 +9357,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75360": {
       "che": 0,
@@ -12277,14 +9377,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75450": {
       "che": 0,
@@ -12304,14 +9397,7 @@
       "skillid3": 0,
       "sname": "ガーデン・オブ・マリーゴールド",
       "stext": "原初の緑に還るが良い……",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75451": {
       "che": 0,
@@ -12332,13 +9418,7 @@
       "sname": "ブロークン・ブロッサム",
       "stext": "原初の緑に還るが良い……",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 4,
-      "mne": null,
-      "mns": null
+      "bgf": 4
     },
     "75530": {
       "che": 0,
@@ -12358,14 +9438,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75531": {
       "che": 0,
@@ -12385,14 +9458,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75740": {
       "che": 0,
@@ -12412,14 +9478,7 @@
       "skillid3": 0,
       "sname": "ビーストヒール",
       "stext": "本能に負けないで！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75741": {
       "che": 0,
@@ -12439,14 +9498,7 @@
       "skillid3": 0,
       "sname": "精霊召喚",
       "stext": "本能に負けないで！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75810": {
       "che": 0,
@@ -12466,14 +9518,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "75910": {
       "che": 0,
@@ -12494,13 +9539,7 @@
       "sname": "狂宴",
       "stext": "宴は終わらぬわ",
       "voice": 2,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "75911": {
       "che": 0,
@@ -12520,14 +9559,7 @@
       "skillid3": 0,
       "sname": "妖艶",
       "stext": "さあ、楽しみやれ！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "75920": {
       "che": 0,
@@ -12548,13 +9580,7 @@
       "sname": "点心乱舞・包子",
       "stext": "もう宴は幕引きにしましょう……",
       "voice": 0,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "75921": {
       "che": 0,
@@ -12574,14 +9600,7 @@
       "skillid3": 0,
       "sname": "点心乱舞",
       "stext": "もう宴は幕引きにしましょう……",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80570": {
       "che": 0,
@@ -12601,14 +9620,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80580": {
       "che": 0,
@@ -12628,14 +9640,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80590": {
       "che": 0,
@@ -12655,14 +9660,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80640": {
       "che": 0,
@@ -12682,14 +9680,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80670": {
       "che": 0,
@@ -12709,14 +9700,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80680": {
       "che": 0,
@@ -12736,14 +9720,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80690": {
       "che": 0,
@@ -12763,14 +9740,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80720": {
       "che": 0,
@@ -12790,14 +9760,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80730": {
       "che": 0,
@@ -12817,14 +9780,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80780": {
       "che": 0,
@@ -12845,11 +9801,6 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 2
     },
@@ -12872,13 +9823,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 1,
-      "mns": null
+      "mne": 1
     },
     "80800": {
       "che": 0,
@@ -12898,14 +9843,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80801": {
       "che": 0,
@@ -12925,14 +9863,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80830": {
       "che": 0,
@@ -12952,14 +9883,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80831": {
       "che": 0,
@@ -12980,13 +9904,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 8388608,
-      "mne": null,
-      "mns": null
+      "bgf": 8388608
     },
     "80840": {
       "che": 3,
@@ -13006,14 +9924,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80841": {
       "che": 5,
@@ -13033,14 +9944,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80860": {
       "che": 0,
@@ -13061,13 +9965,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 1,
-      "mns": null
+      "mne": 1
     },
     "80861": {
       "che": 0,
@@ -13088,11 +9986,6 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 2
     },
@@ -13114,14 +10007,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "80950": {
       "che": 0,
@@ -13142,13 +10028,7 @@
       "sname": "ホットショット",
       "stext": "ようしゃしないわよ。覚悟なさい！",
       "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 5,
-      "mns": null
+      "mne": 5
     },
     "80951": {
       "che": 0,
@@ -13169,11 +10049,6 @@
       "sname": "エインシャント",
       "stext": "ようしゃしないわよ。覚悟なさい！",
       "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 6
     },
@@ -13195,14 +10070,7 @@
       "skillid3": 0,
       "sname": "獣人化",
       "stext": "これが獣人の力だ！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "80971": {
       "che": 0,
@@ -13223,13 +10091,7 @@
       "sname": "獣人化",
       "stext": "これが獣人の力だ！",
       "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 8192,
-      "mne": null,
-      "mns": null
+      "bgf": 8192
     },
     "80972": {
       "che": 0,
@@ -13249,14 +10111,7 @@
       "skillid3": 0,
       "sname": "白虎衝撃波",
       "stext": "白虎衝撃波！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "80980": {
       "che": 0,
@@ -13276,14 +10131,7 @@
       "skillid3": 0,
       "sname": "ヒールライト",
       "stext": "ヒールライト！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "80981": {
       "che": 0,
@@ -13303,14 +10151,7 @@
       "skillid3": 0,
       "sname": "はりせんちょっぷ",
       "stext": "シャルロットのひっさつわざが、ひをふくでちよ！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "80990": {
       "che": 0,
@@ -13330,14 +10171,7 @@
       "skillid3": 80993,
       "sname": "バラの舞",
       "stext": "バラの舞！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81030": {
       "che": 0,
@@ -13357,14 +10191,7 @@
       "skillid3": 0,
       "sname": "トラップエリア",
       "stext": "あははーっ、スリル満点！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81040": {
       "che": 0,
@@ -13384,14 +10211,7 @@
       "skillid3": 0,
       "sname": "デッドリーバレット",
       "stext": "…………恐怖を刻め",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81050": {
       "che": 0,
@@ -13411,14 +10231,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81051": {
       "che": 0,
@@ -13438,14 +10251,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81070": {
       "che": 0,
@@ -13465,14 +10271,7 @@
       "skillid3": 0,
       "sname": "イージスブレイド",
       "stext": "修行あるのみ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81071": {
       "che": 0,
@@ -13492,14 +10291,7 @@
       "skillid3": 0,
       "sname": "ストライクブレイド",
       "stext": "修行あるのみ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81280": {
       "che": 0,
@@ -13519,14 +10311,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81310": {
       "che": 0,
@@ -13546,14 +10331,7 @@
       "skillid3": 81313,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81320": {
       "che": 0,
@@ -13573,14 +10351,7 @@
       "skillid3": 0,
       "sname": "シューティングスターズ",
       "stext": "必ず道は拓ける！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81321": {
       "che": 0,
@@ -13600,14 +10371,7 @@
       "skillid3": 0,
       "sname": "ヒーリングフロンティア",
       "stext": "必ず道は拓ける！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81390": {
       "che": 0,
@@ -13628,13 +10392,7 @@
       "sname": "真・烈波無双撃",
       "stext": "烈波無双撃！",
       "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 3,
-      "mns": null
+      "mne": 3
     },
     "81391": {
       "che": 0,
@@ -13655,11 +10413,6 @@
       "sname": "真・烈波無双撃",
       "stext": "烈波無双撃！",
       "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 4
     },
@@ -13681,14 +10434,7 @@
       "skillid3": 0,
       "sname": "秘技・幻影奇襲",
       "stext": "秘技ッ！幻影奇襲！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81411": {
       "che": 0,
@@ -13708,14 +10454,7 @@
       "skillid3": 0,
       "sname": "秘技・幻影奇襲",
       "stext": "秘技ッ！幻影奇襲！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81412": {
       "che": 0,
@@ -13735,14 +10474,7 @@
       "skillid3": 0,
       "sname": "秘技・幻影奇襲",
       "stext": "秘技ッ！幻影奇襲！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81420": {
       "che": 0,
@@ -13762,14 +10494,7 @@
       "skillid3": 0,
       "sname": "レ・ラナンデス",
       "stext": "クスクス…逃げられないんだから♪",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81421": {
       "che": 0,
@@ -13790,13 +10515,7 @@
       "sname": "バスターキャノン",
       "stext": "バスターキャノン！",
       "voice": 3,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "81430": {
       "che": 0,
@@ -13816,14 +10535,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81450": {
       "che": 0,
@@ -13844,13 +10556,7 @@
       "sname": "リヒトクライス",
       "stext": "リヒトクライス！",
       "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 2,
-      "mns": null
+      "mne": 2
     },
     "81451": {
       "che": 0,
@@ -13871,11 +10577,6 @@
       "sname": "リヒトクライスII",
       "stext": "リヒトクライス！",
       "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 3
     },
@@ -13897,14 +10598,7 @@
       "skillid3": 0,
       "sname": "ドラゴンダイブ",
       "stext": "ドラゴーーン・ダァァァァァイブ！！！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81480": {
       "che": 0,
@@ -13924,14 +10618,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81500": {
       "che": 0,
@@ -13951,14 +10638,7 @@
       "skillid3": 0,
       "sname": "ヴァルキュリア化",
       "stext": "この力、みんなのために！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81501": {
       "che": 0,
@@ -13978,14 +10658,7 @@
       "skillid3": 0,
       "sname": "ヴァルキュリアの光",
       "stext": "つらぬけ！蒼い炎よ！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81570": {
       "che": 0,
@@ -14005,14 +10678,7 @@
       "skillid3": 0,
       "sname": "扇撃万丈",
       "stext": "これでどうだぁ！おっと！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81571": {
       "che": 0,
@@ -14032,14 +10698,7 @@
       "skillid3": 0,
       "sname": "回生扇舞",
       "stext": "ほら、頑張れ！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81580": {
       "che": 0,
@@ -14059,14 +10718,7 @@
       "skillid3": 0,
       "sname": "翡翠",
       "stext": "舞い散れ、命の花！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81581": {
       "che": 0,
@@ -14086,14 +10738,7 @@
       "skillid3": 0,
       "sname": "夜啼鳥",
       "stext": "癒やしの花よ、お願い！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81600": {
       "che": 0,
@@ -14113,14 +10758,7 @@
       "skillid3": 0,
       "sname": "夕星",
       "stext": "敵を、焼き尽くすです！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81601": {
       "che": 0,
@@ -14140,14 +10778,7 @@
       "skillid3": 0,
       "sname": "清月",
       "stext": "痛みよ、あっちいけ！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81610": {
       "che": 0,
@@ -14168,13 +10799,7 @@
       "sname": "クラリン",
       "stext": "クラリン！",
       "voice": 2,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "81611": {
       "che": 0,
@@ -14194,14 +10819,7 @@
       "skillid3": 0,
       "sname": "勇魚",
       "stext": "まっぷたっつぅー！！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81620": {
       "che": 0,
@@ -14221,14 +10839,7 @@
       "skillid3": 0,
       "sname": "紫電一閃",
       "stext": "あなたの命、ここまでです！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81621": {
       "che": 0,
@@ -14248,14 +10859,7 @@
       "skillid3": 0,
       "sname": "影走り",
       "stext": "逃がしません。",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "90080": {
       "che": 0,
@@ -14276,13 +10880,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 1,
-      "mns": null
+      "mne": 1
     },
     "90150": {
       "che": 0,
@@ -14302,14 +10900,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "90230": {
       "che": 0,
@@ -14330,11 +10921,6 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 1
     },
@@ -14356,14 +10942,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "100090": {
       "che": 0,
@@ -14384,13 +10963,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 4,
-      "mne": null,
-      "mns": null
+      "bgf": 4
     },
     "100150": {
       "che": 0,
@@ -14411,13 +10984,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 4,
-      "mne": null,
-      "mns": null
+      "bgf": 4
     },
     "100151": {
       "che": 0,
@@ -14438,13 +11005,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 32776,
-      "mne": null,
-      "mns": null
+      "bgf": 32776
     },
     "100190": {
       "che": 0,
@@ -14465,13 +11026,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": 2,
-      "mns": null
+      "mne": 2
     },
     "100191": {
       "che": 0,
@@ -14492,11 +11047,6 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 3
     },
@@ -14518,14 +11068,7 @@
       "skillid3": 0,
       "sname": "リミットフレイム",
       "stext": "燃え尽きる前にっ……",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "100310": {
       "che": 0,
@@ -14545,14 +11088,7 @@
       "skillid3": 0,
       "sname": "ミラージュファンタズム",
       "stext": "ようこそ、ぼくの幻へ",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "100311": {
       "che": 0,
@@ -14573,13 +11109,7 @@
       "sname": "ミラージュショット",
       "stext": "ようこそ、ぼくの幻へ",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 16384,
-      "mne": null,
-      "mns": null
+      "bgf": 16384
     },
     "100360": {
       "che": 0,
@@ -14600,11 +11130,6 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
       "mne": 11,
       "mns": 3
     },
@@ -14626,14 +11151,7 @@
       "skillid3": 0,
       "sname": "コールソング・ナイト",
       "stext": "おやすみなさい",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "100451": {
       "che": 0,
@@ -14654,13 +11172,7 @@
       "sname": "コールソング・ヒール",
       "stext": "おやすみなさい",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 8192,
-      "mne": null,
-      "mns": null
+      "bgf": 8192
     },
     "110020": {
       "che": 0,
@@ -14681,13 +11193,7 @@
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": null,
-      "limit": 3,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 3
     },
     "110180": {
       "che": 0,
@@ -14707,14 +11213,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "110260": {
       "che": 0,
@@ -14734,14 +11233,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "110330": {
       "che": 0,
@@ -14761,14 +11253,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "110380": {
       "che": 0,
@@ -14788,14 +11273,7 @@
       "skillid3": 0,
       "sname": "双銃闘術・衝式",
       "stext": "作戦行動を開始する",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "110410": {
       "che": 0,
@@ -14815,14 +11293,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "110440": {
       "che": 0,
@@ -14842,14 +11313,7 @@
       "skillid3": 0,
       "sname": "ギフト・ヴェノム",
       "stext": "賭るか反るか！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "110441": {
       "che": 0,
@@ -14869,14 +11333,7 @@
       "skillid3": 0,
       "sname": "ギフト・ポイズン",
       "stext": "賭るか反るか！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130020": {
       "che": 0,
@@ -14896,14 +11353,7 @@
       "skillid3": 0,
       "sname": "クリアオーシャン",
       "stext": "水よ、我が意に従え！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130021": {
       "che": 0,
@@ -14923,14 +11373,7 @@
       "skillid3": 0,
       "sname": "アクアフォース",
       "stext": "水よ、我が意に従え！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130030": {
       "che": 0,
@@ -14950,14 +11393,7 @@
       "skillid3": 0,
       "sname": "ブリリアントフェザー",
       "stext": "この平穏を乱させはしない！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130031": {
       "che": 0,
@@ -14977,14 +11413,7 @@
       "skillid3": 0,
       "sname": "セラフィックオーバードライブ",
       "stext": "この平穏を乱させはしない！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130050": {
       "che": 0,
@@ -15004,14 +11433,7 @@
       "skillid3": 0,
       "sname": "サティヤ",
       "stext": "たとえひとりになっても！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130051": {
       "che": 0,
@@ -15031,14 +11453,7 @@
       "skillid3": 0,
       "sname": "サマーディ",
       "stext": "たとえひとりになっても！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130060": {
       "che": 0,
@@ -15058,14 +11473,7 @@
       "skillid3": 0,
       "sname": "アルクス・フロンス",
       "stext": "気楽にやろうぜ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130061": {
       "che": 0,
@@ -15085,14 +11493,7 @@
       "skillid3": 0,
       "sname": "アルクス・ウェルサ",
       "stext": "気楽にやろうぜ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130070": {
       "che": 0,
@@ -15112,14 +11513,7 @@
       "skillid3": 0,
       "sname": "エンハンスオーラ",
       "stext": "言い残すのはそれだけか？",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130071": {
       "che": 0,
@@ -15139,14 +11533,7 @@
       "skillid3": 0,
       "sname": "レッドブレイブ",
       "stext": "言い残すのはそれだけか？",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130090": {
       "che": 0,
@@ -15166,14 +11553,7 @@
       "skillid3": 0,
       "sname": "我が栄光の覇道",
       "stext": "民よ、我に力を！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130091": {
       "che": 0,
@@ -15194,13 +11574,7 @@
       "sname": "覇王の先駆",
       "stext": "民よ、我に力を！",
       "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": 524288,
-      "mne": null,
-      "mns": null
+      "bgf": 524288
     },
     "130092": {
       "che": 0,
@@ -15220,14 +11594,7 @@
       "skillid3": 0,
       "sname": "栄光のクロニクル",
       "stext": "民よ、我に力を！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130130": {
       "che": 0,
@@ -15247,14 +11614,7 @@
       "skillid3": 0,
       "sname": "トーメント",
       "stext": "復讐のために……",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130131": {
       "che": 0,
@@ -15274,14 +11634,7 @@
       "skillid3": 0,
       "sname": "インフリクト",
       "stext": "復讐のために……",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130140": {
       "che": 0,
@@ -15301,14 +11654,7 @@
       "skillid3": 0,
       "sname": "竜王の宴",
       "stext": "息をするな、劣等種",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130150": {
       "che": 0,
@@ -15328,14 +11674,7 @@
       "skillid3": 0,
       "sname": "ストライクソード",
       "stext": "僕の歩みをさえぎるな！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130151": {
       "che": 0,
@@ -15355,14 +11694,7 @@
       "skillid3": 0,
       "sname": "アルティソード",
       "stext": "僕の歩みをさえぎるな！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130170": {
       "che": 0,
@@ -15382,14 +11714,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130171": {
       "che": 0,
@@ -15409,14 +11734,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130172": {
       "che": 0,
@@ -15436,14 +11754,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130173": {
       "che": 0,
@@ -15463,14 +11774,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130174": {
       "che": 0,
@@ -15490,14 +11794,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130175": {
       "che": 0,
@@ -15517,14 +11814,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130200": {
       "che": 0,
@@ -15544,14 +11834,7 @@
       "skillid3": 0,
       "sname": "セブンカラーズ",
       "stext": "虹よ……きらめけ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130201": {
       "che": 0,
@@ -15571,14 +11854,7 @@
       "skillid3": 0,
       "sname": "レインボースターゲイザー",
       "stext": "虹よ……きらめけ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130210": {
       "che": 0,
@@ -15598,14 +11874,7 @@
       "skillid3": 0,
       "sname": "ランスショット",
       "stext": "この眼からは逃げられない！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130211": {
       "che": 0,
@@ -15625,14 +11894,7 @@
       "skillid3": 0,
       "sname": "ビトイーン・アイズ",
       "stext": "この眼からは逃げられない！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130220": {
       "che": 0,
@@ -15652,14 +11914,7 @@
       "skillid3": 0,
       "sname": "ダークチェイン",
       "stext": "恐怖に彷徨え",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130221": {
       "che": 0,
@@ -15679,14 +11934,7 @@
       "skillid3": 0,
       "sname": "ヒドゥンテラー",
       "stext": "恐怖に彷徨え",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130230": {
       "che": 0,
@@ -15706,14 +11954,7 @@
       "skillid3": 0,
       "sname": "タイムチェイン",
       "stext": "時の針をまわすのじゃ",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130231": {
       "che": 0,
@@ -15733,14 +11974,7 @@
       "skillid3": 0,
       "sname": "タイムパラドクス",
       "stext": "時の針をまわすのじゃ",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130240": {
       "che": 0,
@@ -15760,14 +11994,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130250": {
       "che": 0,
@@ -15787,14 +12014,7 @@
       "skillid3": 0,
       "sname": "ブレイブランス",
       "stext": "勇猛乃指輪よ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130251": {
       "che": 0,
@@ -15814,14 +12034,7 @@
       "skillid3": 0,
       "sname": "ランススティンガー",
       "stext": "勇猛乃指輪よ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130280": {
       "che": 0,
@@ -15841,14 +12054,7 @@
       "skillid3": 0,
       "sname": "纏光烈破",
       "stext": "闇を斬れ、纏光剣！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130281": {
       "che": 0,
@@ -15868,14 +12074,7 @@
       "skillid3": 0,
       "sname": "真・纏光烈破",
       "stext": "闇を斬れ、纏光剣！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130290": {
       "che": 0,
@@ -15895,14 +12094,7 @@
       "skillid3": 0,
       "sname": "爆裂弓",
       "stext": "超弩級に吹っ飛べぇ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "130291": {
       "che": 0,
@@ -15922,14 +12114,7 @@
       "skillid3": 0,
       "sname": "超弩級爆裂弓",
       "stext": "超弩級に吹っ飛べぇ！",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "580280": {
       "che": 0,
@@ -15949,14 +12134,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "580310": {
       "che": 0,
@@ -15976,14 +12154,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "348": {
       "che": 0,
@@ -16003,14 +12174,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "349": {
       "che": 0,
@@ -16030,14 +12194,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     },
     "81680": {
       "che": 0,
@@ -16058,13 +12215,7 @@
       "sname": "エアリエル",
       "stext": "目覚めよ！",
       "voice": 2,
-      "skillid4": null,
-      "limit": 1,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "limit": 1
     },
     "81681": {
       "che": 0,
@@ -16084,14 +12235,7 @@
       "skillid3": 0,
       "sname": "リル・ラファーガ",
       "stext": "リル・ラファーガ！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81690": {
       "che": 0,
@@ -16111,14 +12255,7 @@
       "skillid3": 0,
       "sname": "ファイアボルト",
       "stext": "ファイアボルト！",
-      "voice": 2,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 2
     },
     "81691": {
       "che": 0,
@@ -16138,14 +12275,7 @@
       "skillid3": 0,
       "sname": "【限界解除】ファイアボルト",
       "stext": "――ファイアボルトッッッ！",
-      "voice": 3,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 3
     },
     "81700": {
       "che": 0,
@@ -16165,14 +12295,7 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0,
-      "skillid4": null,
-      "limit": null,
-      "skillid5": null,
-      "skillid6": null,
-      "bgf": null,
-      "mne": null,
-      "mns": null
+      "voice": 0
     }
   },
   "res": 0,

@@ -1,19 +1,21 @@
 {
-	"deceive" : 1466489423,
-	"weapon_compose_event" : [{
-		"event_id" : 5,
-		"start" : 1466488800,
-		"end" : 1467784799,
-		"event_type" : 16,
-		"text" : "ダンまちコラボ",
-		"collabo" : {
-			"border_quest_check" : true,
-			"img_name" : "cha_2d_whole_08176",
-			"first_message" : "【ヘファイストス】の名に\n恥じぬ一品を作ってあげる",
-			"hit_message" : "ご要望には\n応えられたかしら？",
-			"hit_voice" : "VOICE_Alchemy_08176"
-		}
-	}],
-	"res" : 0,
-	"sv" : "1466420759"
+  "deceive": 1466489423,
+  "weapon_compose_event": {
+    "5": {
+      "event_id": 5,
+      "start": 1466488800,
+      "end": 1467784799,
+      "event_type": 16,
+      "text": "ダンまちコラボ",
+      "collabo": {
+        "border_quest_check": true,
+        "img_name": "cha_2d_whole_08176",
+        "first_message": "【ヘファイストス】の名に\n恥じぬ一品を作ってあげる",
+        "hit_message": "ご要望には\n応えられたかしら？",
+        "hit_voice": "VOICE_Alchemy_08176"
+      }
+    }
+  },
+  "res": 0,
+  "sv": "1466420759"
 }

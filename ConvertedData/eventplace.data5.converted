@@ -1,13 +1,6 @@
 {
-	"deceive" : 1466489423,
-	"place_event_bg" : [{
-		"area_id" : 1,
-		"place_id" : 0,
-		"bg" : 242,
-		"start" : 1466488800,
-		"end" : 1467698399,
-		"name" : "ダンまちコラボ"
-	}],
-	"res" : 0,
-	"sv" : "1466420626"
+  "deceive": 1466489423,
+  "place_event_bg": [{"area_id":1,"place_id":0,"bg":242,"start":1466488800,"end":1467698399,"name":"ダンまちコラボ"}],
+  "res": 0,
+  "sv": "1466420626"
 }

@@ -89,7 +89,7 @@ namespace JsonConverter.DataIn
         public List<bool> skillflag { get; set; }
     }
 
-    public class Param
+    public class quest_eventparam
     {
         public List<int> enable_jobs { get; set; }
         public object border { get; set; }
@@ -101,7 +101,7 @@ namespace JsonConverter.DataIn
     public class entry_limited
     {
         public string category { get; set; }
-        public Param param { get; set; }
+        public quest_eventparam param { get; set; }
     }
 
     public class questdigest

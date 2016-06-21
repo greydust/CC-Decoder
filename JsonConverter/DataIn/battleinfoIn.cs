@@ -15,7 +15,7 @@ namespace JsonConverter.DataIn
 
     public class battleinfoInManager
     {
-        public string deceive { get; set; }
+        public int deceive { get; set; }
         public int res { get; set; }
         public string sv { get; set; }
         public List<battle_bg> battle_bg { get; set; }

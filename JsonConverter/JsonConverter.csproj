@@ -37,6 +37,10 @@
       <HintPath>packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json.Schema, Version=2.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.Schema.2.0.2\lib\net45\Newtonsoft.Json.Schema.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -64,6 +68,16 @@
     <Compile Include="DataIn\missionlistIn.cs" />
     <Compile Include="DataIn\motionlistIn.cs" />
     <Compile Include="DataIn\questdigestIn.cs" />
+    <Compile Include="DataIn\repeatmissionlistIn.cs" />
+    <Compile Include="DataIn\skilllistIn.cs" />
+    <Compile Include="DataIn\subjugationexpeditioninfoIn.cs" />
+    <Compile Include="DataIn\supporterskillIn.cs" />
+    <Compile Include="DataIn\teacherdiscipleIn.cs" />
+    <Compile Include="DataIn\variousIn.cs" />
+    <Compile Include="DataIn\weaponcomposeeventIn.cs" />
+    <Compile Include="DataIn\weaponcomposeIn.cs" />
+    <Compile Include="DataIn\weaponlistIn.cs" />
+    <Compile Include="DataIn\worldinfoIn.cs" />
     <Compile Include="DataOut\battle_bgOut.cs" />
     <Compile Include="DataOut\booklistOut.cs" />
     <Compile Include="DataOut\bosspatternOut.cs" />
@@ -73,6 +87,7 @@
     <Compile Include="DataOut\charalbOut.cs" />
     <Compile Include="DataOut\charareinOut.cs" />
     <Compile Include="DataOut\episodeinfoOut.cs" />
+    <Compile Include="DataOut\evolveOut.cs" />
     <Compile Include="DataOut\explorer_infoOut.cs" />
     <Compile Include="DataOut\explorer_locationOut.cs" />
     <Compile Include="DataOut\high_and_lowOut.cs" />
@@ -81,7 +96,12 @@
     <Compile Include="DataOut\missionlistOut.cs" />
     <Compile Include="DataOut\motionlistOut.cs" />
     <Compile Include="DataOut\questdigestOut.cs" />
+    <Compile Include="DataOut\reinforceOut.cs" />
     <Compile Include="DataOut\samecharaOut.cs" />
+    <Compile Include="DataOut\skilllistOut.cs" />
+    <Compile Include="DataOut\supporterskillOut.cs" />
+    <Compile Include="DataOut\weaponcomposeeventOut.cs" />
+    <Compile Include="DataOut\weaponlistOut.cs" />
     <Compile Include="MiniJson.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

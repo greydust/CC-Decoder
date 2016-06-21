@@ -1,370 +1,423 @@
 {
-	"deceive" : 1466489422,
-	"battle_bg" : [{
-		"id" : "1",
-		"flag" : 0,
-		"bg_name" : "平原",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "10",
-		"flag" : 8388608,
-		"bg_name" : "異空間",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "100",
-		"flag" : 1064960,
-		"bg_name" : "砂浜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "101",
-		"flag" : 1114112,
-		"bg_name" : "船上",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "102",
-		"flag" : 1179648,
-		"bg_name" : "海中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "103",
-		"flag" : 1122304,
-		"bg_name" : "船上夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "104",
-		"flag" : 1073152,
-		"bg_name" : "砂浜夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "105",
-		"flag" : 1114112,
-		"bg_name" : "船上",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "106",
-		"flag" : 32768,
-		"bg_name" : "高地",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "107",
-		"flag" : 0,
-		"bg_name" : "監獄外",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "108",
-		"flag" : 0,
-		"bg_name" : "監獄外",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "109",
-		"flag" : 0,
-		"bg_name" : "監獄外",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "11",
-		"flag" : 0,
-		"bg_name" : "城壁前",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "110",
-		"flag" : 2097152,
-		"bg_name" : "監獄内",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "111",
-		"flag" : 4194304,
-		"bg_name" : "湿地",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "112",
-		"flag" : 0,
-		"bg_name" : "薄命砦",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "113",
-		"flag" : 4096,
-		"bg_name" : "荒地",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "114",
-		"flag" : 8196,
-		"bg_name" : "森林夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "115",
-		"flag" : 512,
-		"bg_name" : "街中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "116",
-		"flag" : 512,
-		"bg_name" : "街中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "117",
-		"flag" : 512,
-		"bg_name" : "街中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "118",
-		"flag" : 262144,
-		"bg_name" : "城中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "119",
-		"flag" : 0,
-		"bg_name" : "荒涼地",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "12",
-		"flag" : 4096,
-		"bg_name" : "荒地",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "120",
-		"flag" : 64,
-		"bg_name" : "ほこら",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "121",
-		"flag" : 0,
-		"bg_name" : "荒涼地",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "122",
-		"flag" : 4,
-		"bg_name" : "森林",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "123",
-		"flag" : 262144,
-		"bg_name" : "城中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "124",
-		"flag" : 1114112,
-		"bg_name" : "船上",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "125",
-		"flag" : 8388608,
-		"bg_name" : "異空間",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "126",
-		"flag" : 0,
-		"bg_name" : "黒の大地",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "127",
-		"flag" : 0,
-		"bg_name" : "？？？",
-		"effect_s" : "BG_Boss_a",
-		"effect_l" : "BG_Boss_a",
-		"change_flag" : 1
-	}, {
-		"id" : "128",
-		"flag" : 0,
-		"bg_name" : "？？？",
-		"effect_s" : "BG_Boss_a",
-		"effect_l" : "BG_Boss_a",
-		"change_flag" : 1
-	}, {
-		"id" : "13",
-		"flag" : 8192,
-		"bg_name" : "平原夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "14",
-		"flag" : 532480,
-		"bg_name" : "戦場夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "15",
-		"flag" : 0,
-		"bg_name" : "戦場",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "2",
-		"flag" : 4,
-		"bg_name" : "森林",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "3",
-		"flag" : 8,
-		"bg_name" : "雪山",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "4",
-		"flag" : 16,
-		"bg_name" : "砂漠",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "400",
-		"flag" : 8704,
-		"bg_name" : "街中夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "401",
-		"flag" : 8192,
-		"bg_name" : "祭り夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "402",
-		"flag" : 8192,
-		"bg_name" : "祭り夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "403",
-		"flag" : 0,
-		"bg_name" : "祭り昼",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "404",
-		"flag" : 0,
-		"bg_name" : "学園",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "405",
-		"flag" : 4,
-		"bg_name" : "森林",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "406",
-		"flag" : 0,
-		"bg_name" : "平原",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "5",
-		"flag" : 524288,
-		"bg_name" : "戦場",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "6",
-		"flag" : 64,
-		"bg_name" : "洞窟",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "7",
-		"flag" : 128,
-		"bg_name" : "遺跡",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "78",
-		"flag" : 8704,
-		"bg_name" : "街中夜",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "8",
-		"flag" : 262144,
-		"bg_name" : "城中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}, {
-		"id" : "9",
-		"flag" : 512,
-		"bg_name" : "街中",
-		"effect_s" : "",
-		"effect_l" : "",
-		"change_flag" : 0
-	}],
-	"res" : 0,
-	"sv" : "1460507202"
+  "deceive": 1466489422,
+  "res": 0,
+  "sv": "1460507202",
+  "battle_bg": {
+    "1": {
+      "id": "1",
+      "flag": 0,
+      "bg_name": "平原",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "10": {
+      "id": "10",
+      "flag": 8388608,
+      "bg_name": "異空間",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "100": {
+      "id": "100",
+      "flag": 1064960,
+      "bg_name": "砂浜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "101": {
+      "id": "101",
+      "flag": 1114112,
+      "bg_name": "船上",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "102": {
+      "id": "102",
+      "flag": 1179648,
+      "bg_name": "海中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "103": {
+      "id": "103",
+      "flag": 1122304,
+      "bg_name": "船上夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "104": {
+      "id": "104",
+      "flag": 1073152,
+      "bg_name": "砂浜夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "105": {
+      "id": "105",
+      "flag": 1114112,
+      "bg_name": "船上",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "106": {
+      "id": "106",
+      "flag": 32768,
+      "bg_name": "高地",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "107": {
+      "id": "107",
+      "flag": 0,
+      "bg_name": "監獄外",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "108": {
+      "id": "108",
+      "flag": 0,
+      "bg_name": "監獄外",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "109": {
+      "id": "109",
+      "flag": 0,
+      "bg_name": "監獄外",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "11": {
+      "id": "11",
+      "flag": 0,
+      "bg_name": "城壁前",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "110": {
+      "id": "110",
+      "flag": 2097152,
+      "bg_name": "監獄内",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "111": {
+      "id": "111",
+      "flag": 4194304,
+      "bg_name": "湿地",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "112": {
+      "id": "112",
+      "flag": 0,
+      "bg_name": "薄命砦",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "113": {
+      "id": "113",
+      "flag": 4096,
+      "bg_name": "荒地",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "114": {
+      "id": "114",
+      "flag": 8196,
+      "bg_name": "森林夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "115": {
+      "id": "115",
+      "flag": 512,
+      "bg_name": "街中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "116": {
+      "id": "116",
+      "flag": 512,
+      "bg_name": "街中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "117": {
+      "id": "117",
+      "flag": 512,
+      "bg_name": "街中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "118": {
+      "id": "118",
+      "flag": 262144,
+      "bg_name": "城中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "119": {
+      "id": "119",
+      "flag": 0,
+      "bg_name": "荒涼地",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "12": {
+      "id": "12",
+      "flag": 4096,
+      "bg_name": "荒地",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "120": {
+      "id": "120",
+      "flag": 64,
+      "bg_name": "ほこら",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "121": {
+      "id": "121",
+      "flag": 0,
+      "bg_name": "荒涼地",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "122": {
+      "id": "122",
+      "flag": 4,
+      "bg_name": "森林",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "123": {
+      "id": "123",
+      "flag": 262144,
+      "bg_name": "城中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "124": {
+      "id": "124",
+      "flag": 1114112,
+      "bg_name": "船上",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "125": {
+      "id": "125",
+      "flag": 8388608,
+      "bg_name": "異空間",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "126": {
+      "id": "126",
+      "flag": 0,
+      "bg_name": "黒の大地",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "127": {
+      "id": "127",
+      "flag": 0,
+      "bg_name": "？？？",
+      "effect_s": "BG_Boss_a",
+      "effect_l": "BG_Boss_a",
+      "change_flag": 1
+    },
+    "128": {
+      "id": "128",
+      "flag": 0,
+      "bg_name": "？？？",
+      "effect_s": "BG_Boss_a",
+      "effect_l": "BG_Boss_a",
+      "change_flag": 1
+    },
+    "13": {
+      "id": "13",
+      "flag": 8192,
+      "bg_name": "平原夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "14": {
+      "id": "14",
+      "flag": 532480,
+      "bg_name": "戦場夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "15": {
+      "id": "15",
+      "flag": 0,
+      "bg_name": "戦場",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "2": {
+      "id": "2",
+      "flag": 4,
+      "bg_name": "森林",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "3": {
+      "id": "3",
+      "flag": 8,
+      "bg_name": "雪山",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "4": {
+      "id": "4",
+      "flag": 16,
+      "bg_name": "砂漠",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "400": {
+      "id": "400",
+      "flag": 8704,
+      "bg_name": "街中夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "401": {
+      "id": "401",
+      "flag": 8192,
+      "bg_name": "祭り夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "402": {
+      "id": "402",
+      "flag": 8192,
+      "bg_name": "祭り夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "403": {
+      "id": "403",
+      "flag": 0,
+      "bg_name": "祭り昼",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "404": {
+      "id": "404",
+      "flag": 0,
+      "bg_name": "学園",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "405": {
+      "id": "405",
+      "flag": 4,
+      "bg_name": "森林",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "406": {
+      "id": "406",
+      "flag": 0,
+      "bg_name": "平原",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "5": {
+      "id": "5",
+      "flag": 524288,
+      "bg_name": "戦場",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "6": {
+      "id": "6",
+      "flag": 64,
+      "bg_name": "洞窟",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "7": {
+      "id": "7",
+      "flag": 128,
+      "bg_name": "遺跡",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "78": {
+      "id": "78",
+      "flag": 8704,
+      "bg_name": "街中夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "8": {
+      "id": "8",
+      "flag": 262144,
+      "bg_name": "城中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "9": {
+      "id": "9",
+      "flag": 512,
+      "bg_name": "街中",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    }
+  }
 }
