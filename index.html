@@ -3,40 +3,76 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Cc-decoder by greydust</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen"/>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen"/>
-        <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"/>
-        <script>
-            // Initialize Firebase
-            var config = {
-                apiKey: "AIzaSyBsq6Rs0dt9axeDm4WiJnFpvCOGpckprBc",
-                authDomain: "cc-decoderbackend.firebaseapp.com",
-                databaseURL: "https://cc-decoderbackend.firebaseio.com",
-                storageBucket: "cc-decoderbackend.appspot.com",
-            };
-            firebase.initializeApp(config);
-            firebase.database().goOffline();
-            
-            function SearchCharacter() {
-                var characterName = document.getElementById("characterName");
-                var searchButton = document.getElementById("searchCharacterButton");
-                var resultText = document.getElementById("resultText");
-                searchButton.disabled = true;
-                firebase.database().goOnline();
-                firebase.database().ref('/charainfo/charainfo').equalTo(characterName).once('value').then(function(data) {
-                    resultText.value = JSON.stringify(data.val());
-                    searchButton.disabled = false;
-                });
-            }
-        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
     </head>
     <body>
         <input type="text" id="characterName"/>
-        <input type="button" id="searchCharacterButton" value="搜尋" onclick="SearchCharacter()">
-        <textarea id="resultText" readonly rows="100" cols="500">
-        </textarea>
+        <input type="button" id="searchCharacterButton" value="搜尋">
+        <table id="characterDataTable" class="tablesorter">
+            <thead>
+                <tr>
+                    <th>角色名</th>
+                    <th>星數</th>
+                    <th>Cost</th>
+                    <th>職業</th>
+                    <th>初始生命</th>
+                    <th>初始攻擊</th>
+                    <th>必殺</th>
+                    <th>覺醒1</th>
+                    <th>覺醒2</th>
+                    <th>絆</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     </body>
 </html>
+<script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-database.js"></script>
+<script language="javascript" type="text/javascript">
+    var config = {
+        apiKey: "AIzaSyBsq6Rs0dt9axeDm4WiJnFpvCOGpckprBc",
+//        authDomain: "cc-decoderbackend.firebaseapp.com",
+        databaseURL: "https://cc-decoderbackend.firebaseio.com",
+//        storageBucket: "cc-decoderbackend.appspot.com",
+    };
+    firebase.initializeApp(config);
+    firebase.database().goOffline();
+    
+    var searchButton = document.getElementById("searchCharacterButton");
+    var characterName = document.getElementById("characterName");
+    var searchButton = document.getElementById("searchCharacterButton");
+    var resultText = document.getElementById("resultText");
+    var characterDataTable = document.getElementById("characterDataTable");
+    searchButton.addEventListener("click", SearchCharacter, false);
+    
+    function SearchCharacter() {
+        searchButton.disabled = true;
+        characterDataTable.tBodies[0] = document.createElement('tbody');
+        
+        firebase.database().goOnline();
+        firebase.database().ref('/charainfo/charainfo').orderByChild("name").equalTo(characterName.value).once('value').then(function(dataSnapshot) {
+            var n = dataSnapshot.numChildren();
+            var charactersData = dataSnapshot.val();
+            for (var characterData in charactersData) {
+                var row = characterDataTable.tBodies[0].insertRow(-1);
+                
+                row.insertCell(-1).innerHTML = charactersData[characterData].title + "<br>" + charactersData[characterData].name;
+                row.insertCell(-1).innerHTML = charactersData[characterData].rarity;
+                row.insertCell(-1).innerHTML = charactersData[characterData].cost;
+                row.insertCell(-1).innerHTML = charactersData[characterData].jobtype;
+                row.insertCell(-1).innerHTML = charactersData[characterData].inihp;
+                row.insertCell(-1).innerHTML = charactersData[characterData].iniap;
+                row.insertCell(-1).innerHTML = charactersData[characterData].skilltext;
+                row.insertCell(-1).innerHTML = charactersData[characterData].skillid[1];
+                row.insertCell(-1).innerHTML = charactersData[characterData].skillid[2];
+                row.insertCell(-1).innerHTML = charactersData[characterData].sup1;
+            }
+            
+            searchButton.disabled = false;
+        });
+    }
+</script>
+
