@@ -50,7 +50,7 @@
     
     function SearchCharacter() {
         searchButton.disabled = true;
-        characterDataTable.tBodies[0] = document.createElement('tbody');
+        characterDataTable.tBodies[0].innerHTML = "";
         
         firebase.database().goOnline();
         firebase.database().ref('/charainfo/charainfo').orderByChild("name").equalTo(characterName.value).once('value').then(function(dataSnapshot) {
