@@ -1,5 +1,5 @@
 {
-  "deceive": 1466085609,
+  "deceive": 1466489422,
   "motionlist": {
     "1": {
       "_appear": "damage02",
@@ -4242,8 +4242,29 @@
       "_walk": "neutral01",
       "_walkWarn": "neutral01",
       "_win": "neutral01"
+    },
+    "1103": {
+      "_appear": "two-sword_damage01",
+      "_atk": "two-sword_attack03",
+      "_atk2": "two-sword_attack04",
+      "_boneType": "human",
+      "_charaType": "戦士・逆手二刀流・斬武器",
+      "_collision": "two-sword_collision01",
+      "_death": "two-sword_dead01",
+      "_dmg_l": "two-sword_damage02",
+      "_dmg_s": "two-sword_damage01",
+      "_guard": "two-sword_guard02",
+      "_motionID": 1103,
+      "_shot": "two-sword_attack03",
+      "_shot2": "two-sword_attack04",
+      "_stun": "two-sword_stun01",
+      "_wait": "two_sword_neutral01",
+      "_waitWarn": "two-sword_neutral_tired01",
+      "_walk": "two_sword_walk02",
+      "_walkWarn": "two_sword_walk_tired02",
+      "_win": "two-sword_win01"
     }
   },
   "res": 0,
-  "sv": "1464744685"
+  "sv": "1465887530"
 }

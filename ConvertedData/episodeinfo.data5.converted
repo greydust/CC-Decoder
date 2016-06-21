@@ -1,5 +1,5 @@
 {
-  "deceive": 1466085605,
+  "deceive": 1466489423,
   "episodeinfo": {
     "(0, 2)": {
       "type": 2,
@@ -4872,8 +4872,56 @@
       "id": 8131,
       "episode": [{"name":"出会いの物語","quest":[81311],"develop_only":0}],
       "collabo": false
+    },
+    "(8171, 0)": {
+      "type": 0,
+      "id": 8171,
+      "episode": [{"name":"運命の物語","quest":[81711],"develop_only":0}],
+      "collabo": false
+    },
+    "(8172, 0)": {
+      "type": 0,
+      "id": 8172,
+      "episode": [{"name":"運命の物語","quest":[81721],"develop_only":0}],
+      "collabo": false
+    },
+    "(8173, 0)": {
+      "type": 0,
+      "id": 8173,
+      "episode": [{"name":"運命の物語","quest":[81731],"develop_only":0}],
+      "collabo": false
+    },
+    "(8174, 0)": {
+      "type": 0,
+      "id": 8174,
+      "episode": [{"name":"運命の物語","quest":[81741],"develop_only":0}],
+      "collabo": false
+    },
+    "(8175, 0)": {
+      "type": 0,
+      "id": 8175,
+      "episode": [{"name":"運命の物語","quest":[81751],"develop_only":0},{"name":"絆の物語","quest":[81752],"develop_only":0}],
+      "collabo": false
+    },
+    "(8168, 0)": {
+      "type": 0,
+      "id": 8168,
+      "episode": [{"name":"運命の物語","quest":[81681],"develop_only":0},{"name":"絆の物語","quest":[81682],"develop_only":0}],
+      "collabo": false
+    },
+    "(8169, 0)": {
+      "type": 0,
+      "id": 8169,
+      "episode": [{"name":"運命の物語","quest":[81691],"develop_only":0},{"name":"絆の物語","quest":[81692],"develop_only":0}],
+      "collabo": false
+    },
+    "(8170, 0)": {
+      "type": 0,
+      "id": 8170,
+      "episode": [{"name":"運命の物語","quest":[81701],"develop_only":0},{"name":"絆の物語","quest":[81702],"develop_only":0}],
+      "collabo": false
     }
   },
   "res": 0,
-  "sv": "1465461213"
+  "sv": "1466072309"
 }
