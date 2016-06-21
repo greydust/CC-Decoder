@@ -1,0 +1,9 @@
+Local/
+JsonConverter/.vs/
+JsonConverter/bin/
+JsonConverter/obj/
+*.exe.config
+*.pdb
+*.vshost.exe
+*.vshost.exe.manifest
+Newtonsoft.Json.Schema.xml
