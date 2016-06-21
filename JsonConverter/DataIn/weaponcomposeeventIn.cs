@@ -33,9 +33,9 @@ namespace JsonConverter.DataIn
         public int res { get; set; }
         public string sv { get; set; }
 
-        public weaponcomposeeventOutManager Convert()
+        public weapon_compose_eventOutManager Convert()
         {
-            weaponcomposeeventOutManager ret = new weaponcomposeeventOutManager()
+            weapon_compose_eventOutManager ret = new weapon_compose_eventOutManager()
             {
                 deceive = this.deceive,
                 res = this.res,

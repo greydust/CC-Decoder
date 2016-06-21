@@ -93,6 +93,7 @@
     <Compile Include="DataOut\high_and_lowOut.cs" />
     <Compile Include="DataOut\homelistOut.cs" />
     <Compile Include="DataOut\itemlistOut.cs" />
+    <Compile Include="DataOut\JsonForFirebase.cs" />
     <Compile Include="DataOut\missionlistOut.cs" />
     <Compile Include="DataOut\motionlistOut.cs" />
     <Compile Include="DataOut\questdigestOut.cs" />

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace JsonConverter.DataOut
 {
-    public class weaponcomposeeventOutManager
+    public class weapon_compose_eventOutManager
     {
         public int deceive { get; set; }
         public Dictionary<int, weapon_compose_event> weapon_compose_event { get; set; }
