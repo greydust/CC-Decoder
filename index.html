@@ -79,16 +79,17 @@
     };
 
     function SkillPatternText(patternID, skillCost, cellToWrite) {
+        var patternCell = document.createElement("div");
+        cellToWrite.appendChild(patternCell);
         firebase.database().ref('/bosspattern/bosspattern/' + patternID).once('value').then(function(patternDataSnapshot) {
             try {
                 patternData = patternDataSnapshot.val();
-                var dataToWrite = "";
 
                 var patternCost = patternData.scost;
                 if (patternCost == 0) {
                     patternCost = skillCost;
                 }                            
-                dataToWrite += "<br>耗珠: " + patternCost + "<br>";
+                patternCell.innerHTML += "<br>耗珠: " + patternCost + "<br>";
                 
                 var conditionString = "";
                 // condition
@@ -132,58 +133,56 @@
                     conditionString = "當符合以下條件: " + conditionString;
                 }
                 
-                dataToWrite += conditionString;
+                patternCell.innerHTML += conditionString;
 
                 if (patternData.skillid0 != 0) {
+                    var patternSkillCell = document.createElement("div");
+                    patternSkillCell.className = "indent1";
+                    patternCell.appendChild(patternSkillCell);
+                    
                     firebase.database().ref('/bossskill/bossskill/' + patternData.skillid0).once('value').then(function(skillDataSnapshot) {
                         try {
                             skillData = skillDataSnapshot.val();
-
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                            
-                            if (patternData.skillid1 == 0) {
-                                cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
-                            }
+                            patternSkillCell.innerHTML += SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]);
                         } catch(e) {
                         }
                     });
                 }
                 if (patternData.skillid1 != 0) {
-                    firebase.database().ref('/bossskill/bossskill/' + patternData.skillid1).once('value').then(function(skillDataSnapshot) {
+                     var patternSkillCell = document.createElement("div");
+                    patternSkillCell.className = "indent1";
+                    patternCell.appendChild(patternSkillCell);
+                    
+                   firebase.database().ref('/bossskill/bossskill/' + patternData.skillid1).once('value').then(function(skillDataSnapshot) {
                         try {
                             skillData = skillDataSnapshot.val();
-                            
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                            
-                            if (patternData.skillid2 == 0) {
-                                cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
-                            }
+                            patternSkillCell.innerHTML += SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]);
                         } catch(e) {
                         }
                     });
                 }
                 if (patternData.skillid2 != 0) {
+                    var patternSkillCell = document.createElement("div");
+                    patternSkillCell.className = "indent1";
+                    patternCell.appendChild(patternSkillCell);
+                    
                     firebase.database().ref('/bossskill/bossskill/' + patternData.skillid2).once('value').then(function(skillDataSnapshot) {
                         try {
                             skillData = skillDataSnapshot.val();
-                    
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                            
-                            if (patternData.skillid3 == 0) {
-                                cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
-                            }
+                            patternSkillCell.innerHTML += SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]);
                         } catch(e) {
                         }
                     });
                 }
                 if (patternData.skillid3 != 0) {
+                    var patternSkillCell = document.createElement("div");
+                    patternSkillCell.className = "indent1";
+                    patternCell.appendChild(patternSkillCell);
+                    
                     firebase.database().ref('/bossskill/bossskill/' + patternData.skillid3).once('value').then(function(skillDataSnapshot) {
                         try {
                             skillData = skillDataSnapshot.val();
-                            
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                            
-                            cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
+                            patternSkillCell.innerHTML += SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]);
                         } catch(e) {
                         }
                     });
@@ -287,18 +286,24 @@
     function PassiveText(passiveSkillID, cellToWrite) {
         cellToWrite.innerHTML = "";
         cellToWrite.class = "passiveSkill";
-        
+
         firebase.database().ref('/skilllist/skilllist/' + passiveSkillID).once('value').then(function(passiveDataSnapshot) {
             try {
                 passiveData = passiveDataSnapshot.val();
                 
                 cellToWrite.innerHTML += passiveData.text.replace("\\n", "");;
-                cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+
+                var passiveCell = document.createElement("div");
+                cellToWrite.appendChild(passiveCell);
+                passiveCell.innerHTML += PassiveDetailText(passiveData.ability, MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]);
                 for(var subID in passiveData.sub) {
                     firebase.database().ref('/skilllist/skilllist/' + passiveData.sub[subID]).once('value').then(function(subPassiveDataSnapshot) {
                         try {
                             subPassiveData = subPassiveDataSnapshot.val();
-                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(subPassiveData.ability, (subPassiveData.flag0_0 & 0xffffffff) + (subPassiveData.flag0_1 << 0x20), [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)]) + "</div>";
+
+                            var subPassiveCell = document.createElement("div");
+                            passiveCell.appendChild(subPassiveCell);
+                            subPassiveCell.innerHTML += PassiveDetailText(subPassiveData.ability, MergeSkillFlag(subPassiveData.flag0_0, subPassiveData.flag0_1), [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)]);
                         } catch(e) {
                         }
                     });

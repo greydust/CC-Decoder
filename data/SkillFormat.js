@@ -1,27 +1,27 @@
 ﻿SkillFormatData = {
     0x4c: "召喚{2}隻生物，每{0}秒一擊，對{3}{4}造成{1}倍傷害，移動速度{8}，持續{7}秒",	// ADD_FUNNEL
     0x56: "召喚{2}隻生物（最高{5}隻），每{0}秒一擊，對{3}{4}造成{1}倍傷害，{9}%機率附帶{10}效果，移動速度{8}，持續{7}秒",	// ADD_FUNNEL2
-    0x1a: "ADDITION_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ADDITION_ALL
-    0x19: "ADDITION_OWN : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ADDITION_OWN
+    0x1a: "我方全體{3}秒內攻擊間隔減少{4}秒，增加{1}倍攻擊、{2}倍防禦、{5}擊退力、與以下屬性",	// ADDITION_ALL
+    0x19: "自身{3}秒內攻擊間隔減少{4}秒，增加{1}倍攻擊、{2}倍防禦、{5}擊退力、與以下屬性",	// ADDITION_OWN
     0x2a: "ARMOR_BREAK : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ARMOR_BREAK
     4: "對大範圍內全部敵人造成{1}倍傷害，彈飛力{3}",	//     ATTACK_ALL
     3: "對自身中心範圍{2}單位內敵人造成{1}倍傷害，彈飛力{3}",	//     ATTACK_AREA
     0x29: "ATTACK_BREATH : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_BREATH
-    0x26: "ATTACK_CURSE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_CURSE
-    2: "向前衝{2}單位並造成單體{1}倍傷害，彈飛力{3}",	//     ATTACK_DASH
-    0x16: "ATTACK_FRONT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_FRONT
-    0x1d: "ATTACK_HIGHJUMP : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_HIGHJUMP
-    80: "ATTACK_HIGHJUMP2 : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_HIGHJUMP2
-    0: "單體{1}倍傷害，彈飛力{3}",	//     ATTACK_NORMAL
-    1: "單體{3}+1回{1}倍傷害",	//     ATTACK_REPEAT
+    0x26: "近戰{1}倍傷害，並附帶{2}次增傷{3}的詛咒",	// ATTACK_CURSE
+    2: "向前衝{2}單位並造成{1}倍傷害，彈飛力{3}",	//     ATTACK_DASH
+    0x16: "對前方寬{2}、高{3}單位的矩形內敵人造成{1}倍傷害，彈飛力{4}",	// ATTACK_FRONT
+    0x1d: "向前跳{2}單位並對敵人造成{1}倍傷害，彈飛力{3}",	// ATTACK_HIGHJUMP
+    80: "向前跳{2}單位並對{4}單位內敵人造成{1}倍傷害，彈飛力{3}",	// ATTACK_HIGHJUMP2
+    0: "近戰單體{1}倍傷害，彈飛力{3}",	//     ATTACK_NORMAL
+    1: "近戰單體{3}+1回{1}倍傷害",	//     ATTACK_REPEAT
     0x30: "ATTACK_THROW : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_THROW
-    70: "ATTACK_WALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_WALL
-    0x35: "BOMB_THROW : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// BOMB_THROW
-    0x4d: "CHANGE_FORM : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CHANGE_FORM
+    70: "在前方1單位處產生無法通過的石頭，並造成{1}點傷害，持續{2}秒",	// ATTACK_WALL
+    0x35: "向前方{2}單位丟擲一顆持續時間{3}秒，觸發半徑{1}單位的炸彈，爆發時造成{0}倍傷害，彈飛力{5}，連鎖爆炸時傷害再乘上{4}倍",	// BOMB_THROW
+    0x4d: "變身{0}秒，攻擊次數增加{2}次，單次攻擊增加{3}下{4}{5}，未知參數param1 = {1}",	// CHANGE_FORM
     0x55: "CHARGE_FRONT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CHARGE_FRONT
     0x53: "CHARGE_SHOOT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CHARGE_SHOOT
     8: "CREATE_TRAP : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CREATE_TRAP
-    9: "在前方產生無法通過的石頭，持續{2}秒",	//     CREATE_WALL
+    9: "在前方1單位處產生無法通過的石頭，持續{2}秒",	//     CREATE_WALL
     0x33: "DAMAGE_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGE_AREA
     0x13: "DAMAGED_ATTACK : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_ATTACK
     0x5b: "DAMAGED_ATTACK_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_ATTACK_ALL
@@ -101,6 +101,18 @@ function SkillFormat(skillID, skillFlag1, skillParams) {
             return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]);
         case 0x56:
             return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]*100, SkillFlagString(skillFlag1));
+        case 0x4d:
+            var param4String = "";
+            var param5String = "";
+            if (skillParams[4] == 1) {
+                param4String = "，使用技能結束變身狀態";
+            }
+            if (skillParams[5] == 1) {
+                param5String = "，隱藏雙手武器";
+            } else if (skillParams[5] == 2) {
+                param5String = "，隱藏主手武器";
+            }
+            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], param4String, param5String, skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
         default:
             if (typeof(SkillFormatData[skillID]) == "undefined" || SkillFormatData[skillID] == null) {
                 return SkillFormatData[0xaaaa].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillID);
