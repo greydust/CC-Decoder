@@ -34,15 +34,15 @@ table.tablesorter tr th.name {
 }
 
 table.tablesorter tr th.skill {
-    min-width: 250px;
+    min-width: 300px;
 }
 
 table.tablesorter tr th.passiveSkill {
-    min-width: 250px;
+    min-width: 300px;
 }
 
 table.tablesorter tr th.supportSkill {
-    min-width: 250px;
+    min-width: 300px;
 }
 
 table.tablesorter tr td.name {
@@ -50,15 +50,15 @@ table.tablesorter tr td.name {
  }
 
 table.tablesorter tr td.skill {
-    min-width: 250px;
+    min-width: 300px;
 }
 
 table.tablesorter tr td.passiveSkill {
-    min-width: 250px;
+    min-width: 300px;
 }
 
 table.tablesorter tr td.supportSkill {
-    min-width: 250px;
+    min-width: 300px;
 }
 
 table.tablesorter {
@@ -73,3 +73,6 @@ table.tablesorter div.indent1 {
     padding-left: 10px;
 }
 
+table.tablesorter div.indent2 {
+    padding-left: 20px;
+}

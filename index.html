@@ -31,6 +31,7 @@
 </html>
 <script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-database.js"></script>
+<script src="data/SkillFormat.js"></script>
 <script language="javascript" type="text/javascript">
     var config = {
         apiKey: "AIzaSyBsq6Rs0dt9axeDm4WiJnFpvCOGpckprBc",
@@ -40,6 +41,18 @@
     };
     firebase.initializeApp(config);
     firebase.database().goOffline();
+    
+    if (!String.prototype.format) {
+        String.prototype.format = function() {
+            var args = arguments;
+            return this.replace(/{(\d+)}/g, function(match, number) { 
+                return typeof args[number] != 'undefined'
+                    ? args[number]
+                    : match
+                ;
+            });
+        };
+    }
     
     var searchButton = document.getElementById("searchCharacterButton");
     var characterName = document.getElementById("characterName");
@@ -56,121 +69,205 @@
         }
     }
     
-    SkillPatternFlagText = {
-        0 : "無指定",
-        1 : "變身時",
-        2 : "無變身時",
-        4 : "超必殺滿時",
-        8 : "超必殺未滿時",
+    JobTypeText = {
+        0: "戰",
+        1: "弓",
+        2: "魔",
+        3: "僧",
+        4: "騎",
+        5: "全",
     };
 
-    function SkillPatternText(patternID, cellToWrite) {
+    function SkillPatternText(patternID, skillCost, cellToWrite) {
         firebase.database().ref('/bosspattern/bosspattern/' + patternID).once('value').then(function(patternDataSnapshot) {
-            patternData = patternDataSnapshot.val();
-            var dataToWrite = "";
-            
-            dataToWrite += SkillPatternFlagText[patternData.flag] + ": ";
-            dataToWrite += "<br>";
-            if (patternData.skillid0 != 0) {
-                firebase.database().ref('/bossskill/bossskill/' + patternData.skillid0).once('value').then(function(skillDataSnapshot) {
-                    skillData = skillDataSnapshot.val();
+            try {
+                patternData = patternDataSnapshot.val();
+                var dataToWrite = "";
+
+                var patternCost = patternData.scost;
+                if (patternCost == 0) {
+                    patternCost = skillCost;
+                }                            
+                dataToWrite += "<br>耗珠: " + patternCost + "<br>";
+                
+                var conditionString = "";
+                // condition
+                if (patternData.che > 0) {
+                    conditionString += " Chain數≦" + patternData.che;
+                }
+                if (patternData.chs > 0) {
+                    conditionString += " Chain數≧" + patternData.chs;
+                }
+                if (patternData.flag > 0) {
+                    conditionString += " " + SkillPatternFlagString(pattern.flag);
+                }
+                if (patternData.bgf > 0) {
+                    conditionString += " " + BattlegroundFlagString(pattern.bgf);
+                }
+                if (patternData.hpend < 100.0) {
+                    conditionString += " 血量少於" + patternData.hpend + "%";
+                }
+                if (patternData.hpstart > 0.0) {
+                    conditionString += " 血量高於" + patternData.hpend + "%";
+                }
+                if (patternData.posp > 0.0) {
+                    conditionString += " 處在最右方" + patternData.posp + "單位";                    
+                }
+                if (patternData.pose > 0.0) {
+                    conditionString += " 處在最左方" + patternData.pose + "單位";                    
+                }
+                if (patternData.limit > 0) {
+                    conditionString += " 最初" + patternData.limit + "回";
+                }
+                if (patternData.mns > 0) {
+                    conditionString += " 施放後法力球≧" + patternData.mns;
+                }
+                if (patternData.mne > 0 && patternData.mne < 8) {
+                     conditionString += " 施放後法力球≦" + patternData.mne;
+               }
+                
+                if (conditionString == "") {
+                    conditionString = "無條件";
+                } else {
+                    conditionString = "當符合以下條件: " + conditionString;
+                }
+                
+                dataToWrite += conditionString;
+
+                if (patternData.skillid0 != 0) {
+                    firebase.database().ref('/bossskill/bossskill/' + patternData.skillid0).once('value').then(function(skillDataSnapshot) {
+                        try {
+                            skillData = skillDataSnapshot.val();
+
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            
+                            if (patternData.skillid1 == 0) {
+                                cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
+                            }
+                        } catch(e) {
+                        }
+                    });
+                }
+                if (patternData.skillid1 != 0) {
+                    firebase.database().ref('/bossskill/bossskill/' + patternData.skillid1).once('value').then(function(skillDataSnapshot) {
+                        try {
+                            skillData = skillDataSnapshot.val();
+                            
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            
+                            if (patternData.skillid2 == 0) {
+                                cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
+                            }
+                        } catch(e) {
+                        }
+                    });
+                }
+                if (patternData.skillid2 != 0) {
+                    firebase.database().ref('/bossskill/bossskill/' + patternData.skillid2).once('value').then(function(skillDataSnapshot) {
+                        try {
+                            skillData = skillDataSnapshot.val();
                     
-                    dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                    
-                    if (patternData.skillid1 == 0) {
-                        cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
-                    }
-                });
-            }
-            if (patternData.skillid1 != 0) {
-                firebase.database().ref('/bossskill/bossskill/' + patternData.skillid1).once('value').then(function(skillDataSnapshot) {
-                    skillData = skillDataSnapshot.val();
-                    
-                    dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                    
-                    if (patternData.skillid2 == 0) {
-                        cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
-                    }
-                });
-            }
-            if (patternData.skillid2 != 0) {
-                firebase.database().ref('/bossskill/bossskill/' + patternData.skillid2).once('value').then(function(skillDataSnapshot) {
-                    skillData = skillDataSnapshot.val();
-                    
-                    dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                    
-                    if (patternData.skillid3 == 0) {
-                        cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
-                    }
-                });
-            }
-            if (patternData.skillid3 != 0) {
-                firebase.database().ref('/bossskill/bossskill/' + patternData.skillid3).once('value').then(function(skillDataSnapshot) {
-                    skillData = skillDataSnapshot.val();
-                    
-                    dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
-                    
-                    cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
-                });
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            
+                            if (patternData.skillid3 == 0) {
+                                cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
+                            }
+                        } catch(e) {
+                        }
+                    });
+                }
+                if (patternData.skillid3 != 0) {
+                    firebase.database().ref('/bossskill/bossskill/' + patternData.skillid3).once('value').then(function(skillDataSnapshot) {
+                        try {
+                            skillData = skillDataSnapshot.val();
+                            
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            
+                            cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
+                        } catch(e) {
+                        }
+                    });
+                }
+            } catch(e) {
             }
         });
     }
     
-    function SkillDetailText(skillType, skillParams) {
+    function SkillDetailText(skillType, skillFlag, indent, skillParams) {
         var outputString = "";
-        outputString += "Type: " + skillType + " [";
-        var first = true;
-        for(var param in skillParams) {
-            if (first) {
-                outputString += skillParams[param];
-                first = false;
-            } else {
-                outputString += ", " + skillParams[param];
+        
+        if (typeof(SkillFormat[skillType]) == "undefined" || SkillFormat[skillType] == null) {
+            outputString += "Type: " + skillType + " [";
+            var first = true;
+            for(var param in skillParams) {
+                if (first) {
+                    outputString += skillParams[param];
+                    first = false;
+                } else {
+                    outputString += ", " + skillParams[param];
+                }
+            }
+            outputString += "]";
+        } else {
+            outputString += SkillFormat[skillType].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
+            var flagString = SkillFlagString(skillFlag);
+            if (flagString != "") {
+                outputString += "<div class=\"indent" + (indent+1) + "\">" + SkillFlagString(skillFlag) + "</div>";
             }
         }
-        outputString += "]";
         
         return outputString;
     }
     
     function SkillText(characterData, cellToWrite) {
         cellToWrite.innerHTML = "";
-
         cellToWrite.class = "skill";
-        cellToWrite.innerHTML += characterData.skilltext.replace("\\n", "");
-        cellToWrite.innerHTML += "<br>";
-        if (typeof(characterData.pattern0) == "undefined") {
-            cellToWrite.innerHTML += "<div>" + SkillDetailText(characterData.skillid[0], [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)]) + "</div>";
-        } else {
-            SkillPatternText(characterData.pattern0, cellToWrite);
-            if(typeof(characterData.pattern1) != "undefined") {
-                SkillPatternText(characterData.pattern1, cellToWrite);
+        
+        try {
+            cellToWrite.innerHTML += characterData.skilltext.replace("\\n", "");
+            {
+                var flag;
+                if (typeof(characterData.skillflag0_0) == "undefined" || characterData.skillflag0_0 == null) {
+                    cellToWrite.innerHTML += "<div>" + "<br>耗珠: " + characterData.skill_cost + "<br>" + SkillDetailText(characterData.skillid[0], characterData.skillflag, 0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)]) + "</div>";
+                } else {
+                    cellToWrite.innerHTML += "<div>" + "<br>耗珠: " + characterData.skill_cost + "<br>" + SkillDetailText(characterData.skillid[0], (characterData.skillflag0_0 & 0xffffffff) + (characterData.skillflag0_1 << 0x20), 0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)]) + "</div>";
+                }
             }
-            if(typeof(characterData.pattern2) != "undefined") {
-                SkillPatternText(characterData.pattern2, cellToWrite);
+            {
+                if(typeof(characterData.pattern0) != "undefined") {
+                    SkillPatternText(characterData.pattern0, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern1) != "undefined") {
+                    SkillPatternText(characterData.pattern1, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern2) != "undefined") {
+                    SkillPatternText(characterData.pattern2, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern3) != "undefined") {
+                    SkillPatternText(characterData.pattern3, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern4) != "undefined") {
+                    SkillPatternText(characterData.pattern4, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern5) != "undefined") {
+                    SkillPatternText(characterData.pattern5, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern6) != "undefined") {
+                    SkillPatternText(characterData.pattern6, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern7) != "undefined") {
+                    SkillPatternText(characterData.pattern7, characterData.skill_cost, cellToWrite);
+                }
+                if(typeof(characterData.pattern8) != "undefined") {
+                    SkillPatternText(characterData.pattern8, characterData.skill_cost, cellToWrite);
+                }
             }
-            if(typeof(characterData.pattern3) != "undefined") {
-                SkillPatternText(characterData.pattern3, cellToWrite);
-            }
-            if(typeof(characterData.pattern4) != "undefined") {
-                SkillPatternText(characterData.pattern4, cellToWrite);
-            }
-            if(typeof(characterData.pattern5) != "undefined") {
-                SkillPatternText(characterData.pattern5, cellToWrite);
-            }
-            if(typeof(characterData.pattern6) != "undefined") {
-                SkillPatternText(characterData.pattern6, cellToWrite);
-            }
-            if(typeof(characterData.pattern7) != "undefined") {
-                SkillPatternText(characterData.pattern7, cellToWrite);
-            }
-            if(typeof(characterData.pattern8) != "undefined") {
-                SkillPatternText(characterData.pattern8, cellToWrite);
-            }
+        } catch (e) {
+            cellToWrite.innerHTML = "";
         }
    }
    
-       function PassiveDetailText(passiveType, passiveParams) {
+   function PassiveDetailText(passiveType, passiveParams) {
         var outputString = "";
         outputString += "Type: " + passiveType + " [";
         var first = true;
@@ -190,16 +287,24 @@
     function PassiveText(passiveSkillID, cellToWrite) {
         cellToWrite.innerHTML = "";
         cellToWrite.class = "passiveSkill";
+        
         firebase.database().ref('/skilllist/skilllist/' + passiveSkillID).once('value').then(function(passiveDataSnapshot) {
-            passiveData = passiveDataSnapshot.val();
-            
-            cellToWrite.innerHTML += passiveData.text.replace("\\n", "");;
-            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
-            for(var subID in passiveData.sub) {
-                firebase.database().ref('/skilllist/skilllist/' + subID).once('value').then(function(subPassiveDataSnapshot) {
-                    subPassiveData = subPassiveDataSnapshot.val();
-                    cellToWrite.innerHTML += "<div>" + PassiveDetailText(subPassiveData.ability, [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)]) + "</div>";
-                });
+            try {
+                passiveData = passiveDataSnapshot.val();
+                
+                cellToWrite.innerHTML += passiveData.text.replace("\\n", "");;
+                cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                for(var subID in passiveData.sub) {
+                    firebase.database().ref('/skilllist/skilllist/' + subID).once('value').then(function(subPassiveDataSnapshot) {
+                        try {
+                            subPassiveData = subPassiveDataSnapshot.val();
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(subPassiveData.ability, [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)]) + "</div>";
+                        } catch(e) {
+                        }
+                    });
+                }
+            } catch (e) {
+                cellToWrite.innerHTML = "";
             }
         });
    }
@@ -207,34 +312,57 @@
     function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite) {
         cellToWrite.innerHTML = "";
         cellToWrite.class = "supportSkill";
-         firebase.database().ref('/supporterskill/supporterskill/' + supportSkillID).once('value').then(function(supportDataSnapshot) {
-            supportData = supportDataSnapshot.val();
-            
-            cellToWrite.innerHTML += supportData.text.replace("\\n", "");;
-            
-            if (NullableNumber(supportData.abi0) != 0) {
-                firebase.database().ref('/skilllist/skilllist/' + supportData.abi0).once('value').then(function(passiveDataSnapshot) {
-                    passiveData = passiveDataSnapshot.val();
+
+        firebase.database().ref('/supporterskill/supporterskill/' + supportSkillID).once('value').then(function(supportDataSnapshot) {
+            try {
+                supportData = supportDataSnapshot.val();
+                
+                cellToWrite.innerHTML += supportData.text.replace("\\n", "");
+                cellToWrite.innerHTML += "<div>Cost: " + supportCost + "</div>";
+                firebase.database().ref('/supporterskill/supporterskill/' + supportSkillType).once('value').then(function(supportTypeDataSnapshot) {
+                    try {
+                        supportTypeData = supportTypeDataSnapshot.val();
                     
-                    cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                        cellToWrite.innerHTML += "<div>類型:" + supportTypeData.name + "</div>";
+                    } catch(e) {
+                    }
                 });
-            }
-            if (NullableNumber(supportData.abi1) != 0) {
-                firebase.database().ref('/skilllist/skilllist/' + supportData.abi1).once('value').then(function(passiveDataSnapshot) {
-                    passiveData = passiveDataSnapshot.val();
-                    
-                    cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
-                });
-            }
-            if (NullableNumber(supportData.abi2) != 0) {
-                firebase.database().ref('/skilllist/skilllist/' + supportData.abi2).once('value').then(function(passiveDataSnapshot) {
-                    passiveData = passiveDataSnapshot.val();
-                    
-                    cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
-                });
+                
+                if (NullableNumber(supportData.abi0) != 0) {
+                    firebase.database().ref('/skilllist/skilllist/' + supportData.abi0).once('value').then(function(passiveDataSnapshot) {
+                        try {
+                            passiveData = passiveDataSnapshot.val();
+                            
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                        } catch(e) {
+                        }
+                    });
+                }
+                if (NullableNumber(supportData.abi1) != 0) {
+                    firebase.database().ref('/skilllist/skilllist/' + supportData.abi1).once('value').then(function(passiveDataSnapshot) {
+                        try {
+                            passiveData = passiveDataSnapshot.val();
+                            
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                        } catch(e) {
+                        }
+                    });
+                }
+                if (NullableNumber(supportData.abi2) != 0) {
+                    firebase.database().ref('/skilllist/skilllist/' + supportData.abi2).once('value').then(function(passiveDataSnapshot) {
+                        try {
+                            passiveData = passiveDataSnapshot.val();
+                            
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                        } catch(e) {
+                        }
+                    });
+                }
+            } catch(e) {
+                cellToWrite.innerHTML = "";
             }
         });
-   }
+}
     
     function SearchCharacter() {
         searchButton.disabled = true;
@@ -253,7 +381,7 @@
                 
                 row.insertCell(-1).innerHTML = charactersData[characterData].rarity;
                 row.insertCell(-1).innerHTML = charactersData[characterData].cost;
-                row.insertCell(-1).innerHTML = charactersData[characterData].jobtype;
+                row.insertCell(-1).innerHTML = JobTypeText[NullableNumber(charactersData[characterData].jobtype)];
                 row.insertCell(-1).innerHTML = charactersData[characterData].inihp;
                 row.insertCell(-1).innerHTML = charactersData[characterData].iniap;
                 SkillText(charactersData[characterData], row.insertCell(-1));
