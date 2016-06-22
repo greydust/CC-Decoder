@@ -1,6 +1,6 @@
-﻿SkillFormat = {
-    0x4c: "ADD_FUNNEL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ADD_FUNNEL
-    0x56: "ADD_FUNNEL2 : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ADD_FUNNEL2
+﻿SkillFormatData = {
+    0x4c: "召喚{2}隻生物，每{0}秒一擊，對{3}{4}造成{1}倍傷害，移動速度{8}，持續{7}秒",	// ADD_FUNNEL
+    0x56: "召喚{2}隻生物（最高{5}隻），每{0}秒一擊，對{3}{4}造成{1}倍傷害，{9}%機率附帶{10}效果，移動速度{8}，持續{7}秒",	// ADD_FUNNEL2
     0x1a: "ADDITION_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ADDITION_ALL
     0x19: "ADDITION_OWN : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ADDITION_OWN
     0x2a: "ARMOR_BREAK : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ARMOR_BREAK
@@ -92,7 +92,23 @@
     14: "SUPPORT_RANDOM : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_RANDOM
     60: "SUPPORT_TARGET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_TARGET
     0x38: "TARGET_CURSE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// TARGET_CURSE
+    0xaaaa: "Type {10}: [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",    // not handled
 };
+
+function SkillFormat(skillID, skillFlag1, skillParams) {
+    switch(skillID) {
+        case 0x4c:
+            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]);
+        case 0x56:
+            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]*100, SkillFlagString(skillFlag1));
+        default:
+            if (typeof(SkillFormatData[skillID]) == "undefined" || SkillFormatData[skillID] == null) {
+                return SkillFormatData[0xaaaa].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillID);
+            } else {
+                return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
+            }
+    }
+}
 
 PassiveFormat = {
     0x3ec: "AddFunnel : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// AddFunnel
@@ -221,6 +237,92 @@ PassiveFormat = {
     0x3e9: "WealPoint : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// WealPoint 
 };
 
+FindType = [
+    "直線上",  // LINE
+    "全場",  // TARGET_TYPE,
+    "單體",  // TARGET_TYPE_ONE
+];
+
+TargetType = [
+    "隨機敵人",	// RANDOM
+    "HP_LOW",	// HP_LOW
+    "HP_HIGHT",	// HP_HIGHT
+    "HPMAX_LOW",	// HPMAX_LOW
+    "HPMAX_HIGHT",	// HPMAX_HIGHT
+    "ATK_LOW",	// ATK_LOW
+    "ATK_HIGHT",	// ATK_HIGHT
+    "LEVEL_LOW",	// LEVEL_LOW
+    "LEVEL_HIGHT",	// LEVEL_HIGHT
+    "DISTANCE_LOW",	// DISTANCE_LOW
+    "DISTANCE_HIGHT",	// DISTANCE_HIGHT
+    "APPANAGE_NEAR",	// APPANAGE_NEAR
+    "APPANAGE_FAR",	// APPANAGE_FAR
+    "APPANAGE_NEAR2",	// APPANAGE_NEAR2
+    "APPANAGE_FAR2",	// APPANAGE_FAR2
+    "GROUP_ALL",	// GROUP_ALL
+    "pRANDOM",	// pRANDOM
+    "pHP_LOW",	// pHP_LOW
+    "pHP_HIGHT",	// pHP_HIGHT
+    "pHPMAX_LOW",	// pHPMAX_LOW
+    "pHPMAX_HIGHT",	// pHPMAX_HIGHT
+    "pATK_LOW",	// pATK_LOW
+    "pATK_HIGHT",	// pATK_HIGHT
+    "pLEVEL_LOW",	// pLEVEL_LOW
+    "pLEVEL_HIGHT",	// pLEVEL_HIGHT
+    "pDISTANCE_LOW",	// pDISTANCE_LOW
+    "pDISTANCE_HIGHT",	// pDISTANCE_HIGHT
+    "pAPPANAGE_NEAR",	// pAPPANAGE_NEAR
+    "pAPPANAGE_FAR",	// pAPPANAGE_FAR
+    "pAPPANAGE_NEAR2",	// pAPPANAGE_NEAR2
+    "pAPPANAGE_FAR2",	// pAPPANAGE_FAR2
+    "pGROUP_ALL",	// pGROUP_ALL
+    "隨機敵人",	// oRANDOM
+    "oHP_LOW",	// oHP_LOW
+    "oHP_HIGHT",	// oHP_HIGHT
+    "oHPMAX_LOW",	// oHPMAX_LOW
+    "oHPMAX_HIGHT",	// oHPMAX_HIGHT
+    "oATK_LOW",	// oATK_LOW
+    "oATK_HIGHT",	// oATK_HIGHT
+    "oLEVEL_LOW",	// oLEVEL_LOW
+    "oLEVEL_HIGHT",	// oLEVEL_HIGHT
+    "oDISTANCE_LOW",	// oDISTANCE_LOW
+    "oDISTANCE_HIGHT",	// oDISTANCE_HIGHT
+    "oAPPANAGE_NEAR",	// oAPPANAGE_NEAR
+    "oAPPANAGE_FAR",	// oAPPANAGE_FAR
+    "oAPPANAGE_NEAR2",	// oAPPANAGE_NEAR2
+    "oAPPANAGE_FAR2",	// oAPPANAGE_FAR2
+    "oGROUP_ALL",	// oGROUP_ALL
+    "aRANDOM",	// aRANDOM
+    "aHP_LOW",	// aHP_LOW
+    "aHP_HIGHT",	// aHP_HIGHT
+    "aHPMAX_LOW",	// aHPMAX_LOW
+    "aHPMAX_HIGHT",	// aHPMAX_HIGHT
+    "aATK_LOW",	// aATK_LOW
+    "aATK_HIGHT",	// aATK_HIGHT
+    "aLEVEL_LOW",	// aLEVEL_LOW
+    "aLEVEL_HIGHT",	// aLEVEL_HIGHT
+    "aDISTANCE_LOW",	// aDISTANCE_LOW
+    "aDISTANCE_HIGHT",	// aDISTANCE_HIGHT
+    "aAPPANAGE_NEAR",	// aAPPANAGE_NEAR
+    "aAPPANAGE_FAR",	// aAPPANAGE_FAR
+    "aAPPANAGE_NEAR2",	// aAPPANAGE_NEAR2
+    "aAPPANAGE_FAR2",	// aAPPANAGE_FAR2
+    "aGROUP_ALL",	// aGROUP_ALL
+    "MYSELF",	// MYSELF
+    "GROUP_ALL_NOMYSELF",	// GROUP_ALL_NOMYSELF
+    "pGROUP_ALL_NOMYSELF",	// pGROUP_ALL_NOMYSELF
+    "oGROUP_ALL_NOMYSELF",	// oGROUP_ALL_NOMYSELF
+    "aGROUP_ALL_NOMYSELF",	// aGROUP_ALL_NOMYSELF
+    "HP_LOWRATE",	// HP_LOWRATE
+    "pHP_LOWRATE",	// pHP_LOWRATE
+    "oHP_LOWRATE",	// oHP_LOWRATE
+    "aHP_LOWRATE",	// aHP_LOWRATE
+    "HP_HIGHTRATE",	// HP_HIGHTRATE
+    "pHP_HIGHTRATE",	// pHP_HIGHTRATE
+    "oHP_HIGHTRATE",	// oHP_HIGHTRATE
+    "aHP_HIGHTRATE",    // aHP_HIGHTRATE
+]
+
 SkillFlag = [
     "範圍內全體",
     "火屬性",
@@ -277,7 +379,6 @@ SkillFlag = [
 
     
 SkillPatternFlagText = [
-    "無指定",
     "變身",
     "無變身",
     "超必殺滿",

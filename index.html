@@ -99,10 +99,10 @@
                     conditionString += " Chain數≧" + patternData.chs;
                 }
                 if (patternData.flag > 0) {
-                    conditionString += " " + SkillPatternFlagString(pattern.flag);
+                    conditionString += " " + SkillPatternFlagString(patternData.flag);
                 }
                 if (patternData.bgf > 0) {
-                    conditionString += " " + BattlegroundFlagString(pattern.bgf);
+                    conditionString += " " + BattlegroundFlagString(patternData.bgf);
                 }
                 if (patternData.hpend < 100.0) {
                     conditionString += " 血量少於" + patternData.hpend + "%";
@@ -139,7 +139,7 @@
                         try {
                             skillData = skillDataSnapshot.val();
 
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
                             
                             if (patternData.skillid1 == 0) {
                                 cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
@@ -153,7 +153,7 @@
                         try {
                             skillData = skillDataSnapshot.val();
                             
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
                             
                             if (patternData.skillid2 == 0) {
                                 cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
@@ -167,7 +167,7 @@
                         try {
                             skillData = skillDataSnapshot.val();
                     
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
                             
                             if (patternData.skillid3 == 0) {
                                 cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
@@ -181,7 +181,7 @@
                         try {
                             skillData = skillDataSnapshot.val();
                             
-                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, (skillData.skillflag0_0 & 0xffffffff) + (skillData.skillflag0_1 << 0x20), 1, [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
+                            dataToWrite += "<div class=\"indent1\">" + SkillDetailText(skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1, [NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]) + "</div>";
                             
                             cellToWrite.innerHTML += "<div>" + dataToWrite + "</div>";
                         } catch(e) {
@@ -193,27 +193,17 @@
         });
     }
     
-    function SkillDetailText(skillType, skillFlag, indent, skillParams) {
+    function MergeSkillFlag(flag0, flag1) {
+        return (NullableNumber(flag0) & 0xffffffff) + (NullableNumber(flag1) << 0x20);
+    }
+    
+    function SkillDetailText(skillType, skillFlag, skillFlag1, indent, skillParams) {
         var outputString = "";
-        
-        if (typeof(SkillFormat[skillType]) == "undefined" || SkillFormat[skillType] == null) {
-            outputString += "Type: " + skillType + " [";
-            var first = true;
-            for(var param in skillParams) {
-                if (first) {
-                    outputString += skillParams[param];
-                    first = false;
-                } else {
-                    outputString += ", " + skillParams[param];
-                }
-            }
-            outputString += "]";
-        } else {
-            outputString += SkillFormat[skillType].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
-            var flagString = SkillFlagString(skillFlag);
-            if (flagString != "") {
-                outputString += "<div class=\"indent" + (indent+1) + "\">" + flagString + "</div>";
-            }
+
+        outputString += SkillFormat(skillType, skillFlag1, skillParams);
+        var flagString = SkillFlagString(skillFlag);
+        if (flagString != "") {
+            outputString += "<div class=\"indent" + (indent+1) + "\">" + flagString + "</div>";
         }
         
         return outputString;
@@ -228,9 +218,9 @@
             {
                 var flag;
                 if (typeof(characterData.skillflag0_0) == "undefined" || characterData.skillflag0_0 == null) {
-                    cellToWrite.innerHTML += "<div>" + "<br>耗珠: " + characterData.skill_cost + "<br>" + SkillDetailText(characterData.skillid[0], characterData.skillflag, 0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)]) + "</div>";
+                    cellToWrite.innerHTML += "<div>" + "<br>耗珠: " + characterData.skill_cost + "<br>" + SkillDetailText(characterData.skillid[0], characterData.skillflag, MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1),  0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)]) + "</div>";
                 } else {
-                    cellToWrite.innerHTML += "<div>" + "<br>耗珠: " + characterData.skill_cost + "<br>" + SkillDetailText(characterData.skillid[0], (characterData.skillflag0_0 & 0xffffffff) + (characterData.skillflag0_1 << 0x20), 0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)]) + "</div>";
+                    cellToWrite.innerHTML += "<div>" + "<br>耗珠: " + characterData.skill_cost + "<br>" + SkillDetailText(characterData.skillid[0], MergeSkillFlag(characterData.skillflag0_0, characterData.skillflag0_1), MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1), 0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)]) + "</div>";
                 }
             }
             {
