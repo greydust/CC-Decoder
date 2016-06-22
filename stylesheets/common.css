@@ -26,8 +26,50 @@ table.tablesorter tr th {
 	border-top: 1px solid #666666;
 	border-bottom: 1px solid #666666;
 	border-left: 1px solid #666666;
+    white-space:nowrap;
+}
+
+table.tablesorter tr th.name {
+    min-width: 100px;
+}
+
+table.tablesorter tr th.skill {
+    min-width: 250px;
+}
+
+table.tablesorter tr th.passiveSkill {
+    min-width: 250px;
+}
+
+table.tablesorter tr th.supportSkill {
+    min-width: 250px;
+}
+
+table.tablesorter tr td.name {
+    min-width: 100px;
+ }
+
+table.tablesorter tr td.skill {
+    min-width: 250px;
+}
+
+table.tablesorter tr td.passiveSkill {
+    min-width: 250px;
+}
+
+table.tablesorter tr td.supportSkill {
+    min-width: 250px;
 }
 
 table.tablesorter {
     border-spacing: 0px;
 }
+
+table.tablesorter div {
+    text-align: left;
+}
+
+table.tablesorter div.indent1 {
+    padding-left: 10px;
+}
+
