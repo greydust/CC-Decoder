@@ -212,7 +212,7 @@
             outputString += SkillFormat[skillType].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
             var flagString = SkillFlagString(skillFlag);
             if (flagString != "") {
-                outputString += "<div class=\"indent" + (indent+1) + "\">" + SkillFlagString(skillFlag) + "</div>";
+                outputString += "<div class=\"indent" + (indent+1) + "\">" + flagString + "</div>";
             }
         }
         
@@ -267,19 +267,29 @@
         }
    }
    
-   function PassiveDetailText(passiveType, passiveParams) {
+   function PassiveDetailText(passiveType, passiveFlag, passiveParams) {
         var outputString = "";
-        outputString += "Type: " + passiveType + " [";
-        var first = true;
-        for(var param in passiveParams) {
-            if (first) {
-                outputString += passiveParams[param];
-                first = false;
-            } else {
-                outputString += ", " + passiveParams[param];
+
+        if (typeof(PassiveFormat[passiveType]) == "undefined" || PassiveFormat[passiveType] == null) {
+            outputString += "Type: " + passiveType + " [";
+            var first = true;
+            for(var param in passiveParams) {
+                if (first) {
+                    outputString += passiveParams[param];
+                    first = false;
+                } else {
+                    outputString += ", " + passiveParams[param];
+                }
+            }
+            outputString += "]";
+        } else {
+            outputString += PassiveFormat[passiveType].format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9]);
+            var flagString = SkillFlagString(passiveFlag);
+            if (flagString != "") {
+                outputString += "<div class=\"indent1\">" + flagString + "</div>";
             }
         }
-        outputString += "]";
+  
         
         return outputString;
     }
@@ -293,12 +303,12 @@
                 passiveData = passiveDataSnapshot.val();
                 
                 cellToWrite.innerHTML += passiveData.text.replace("\\n", "");;
-                cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
                 for(var subID in passiveData.sub) {
-                    firebase.database().ref('/skilllist/skilllist/' + subID).once('value').then(function(subPassiveDataSnapshot) {
+                    firebase.database().ref('/skilllist/skilllist/' + passiveData.sub[subID]).once('value').then(function(subPassiveDataSnapshot) {
                         try {
                             subPassiveData = subPassiveDataSnapshot.val();
-                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(subPassiveData.ability, [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)]) + "</div>";
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(subPassiveData.ability, (subPassiveData.flag0_0 & 0xffffffff) + (subPassiveData.flag0_1 << 0x20), [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)]) + "</div>";
                         } catch(e) {
                         }
                     });
@@ -333,7 +343,7 @@
                         try {
                             passiveData = passiveDataSnapshot.val();
                             
-                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
                         } catch(e) {
                         }
                     });
@@ -343,7 +353,7 @@
                         try {
                             passiveData = passiveDataSnapshot.val();
                             
-                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
                         } catch(e) {
                         }
                     });
@@ -353,7 +363,7 @@
                         try {
                             passiveData = passiveDataSnapshot.val();
                             
-                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                            cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
                         } catch(e) {
                         }
                     });
