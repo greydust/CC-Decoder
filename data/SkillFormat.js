@@ -22,8 +22,8 @@
     0x53: "CHARGE_SHOOT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CHARGE_SHOOT
     8: "CREATE_TRAP : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CREATE_TRAP
     9: "在前方1單位處產生無法通過的石頭，持續{2}秒",	//     CREATE_WALL
-    0x33: "DAMAGE_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGE_AREA
-    0x13: "DAMAGED_ATTACK : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_ATTACK
+    0x33: "展開以自身為中心，長{10}寬{11}單位的領域，使領域內所有{12}{13}{14}{15}持續{4}秒",	// DAMAGE_AREA
+    0x13: "對自身周圍{2}單位內的敵人造成最大HP{1}%的傷害，並對自己造成最大HP{3}%的傷害，同時在{0}秒內增加{4}%攻擊，{5}%防禦，{6}%移動速度",	// DAMAGED_ATTACK
     0x5b: "DAMAGED_ATTACK_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_ATTACK_ALL
     20: "DAMAGED_SHOOT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_SHOOT
     0x15: "DAMAGED_SUPPORT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_SUPPORT
@@ -113,6 +113,33 @@ function SkillFormat(skillID, skillFlag1, skillParams) {
                 param5String = "，隱藏主手武器";
             }
             return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], param4String, param5String, skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
+        case 0x33:
+            var width = Math.abs(parseInt((skillParams[2] / 10000) % 100) * 0.1);
+            var height = Math.abs(parseInt((skillParams[2] / 100) % 100) * 0.1);
+            var targetString = "";
+            if (skillParams[3] == 0) {
+                targetString = "敵方";
+            } else if (skillParams[3] == 1) {
+                targetString = "敵我雙方";
+            } else if (skillParams[3] == 2) {
+                targetString = "我方";
+            }
+            var damageString = "";
+            if (skillParams[1] > 0) {
+                damageString = "每{0}秒受到{1}倍傷害，".format(skillParams[0], skillParams[1]);
+            }
+            var plusDamageString = "";
+            if (skillParams[5] > 0) {
+                plusDamageString = "傷害增加{0}%，".format(skillParams[5]);
+            }
+            var plusDamagedString = "";
+            if (skillParams[6] > 0) {
+                plusDamagedString = "受傷增加{0}%，".format(skillParams[6]);
+            }
+            
+            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], width, height, targetString, damageString, plusDamageString, plusDamagedString);
+        case 0x13:
+            return SkillFormatData[skillID].format(skillParams[0], skillParams[1]*100, skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9]);
         default:
             if (typeof(SkillFormatData[skillID]) == "undefined" || SkillFormatData[skillID] == null) {
                 return SkillFormatData[0xaaaa].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillID);
