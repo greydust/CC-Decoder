@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Cc-decoder by greydust</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
+    </head>
+    <body>
+        <input type="text" id="characterName"/>
+        <input type="button" id="searchCharacterButton" value="搜尋">
+        <table id="characterDataTable" class="tablesorter">
+            <thead>
+                <tr>
+                    <th class="name">角色名</th>
+                    <th>星數</th>
+                    <th>Cost</th>
+                    <th>職業</th>
+                    <th>初始生命</th>
+                    <th>初始攻擊</th>
+                    <th class="skill">必殺</th>
+                    <th class="passiveSkill">覺醒1</th>
+                    <th class="passiveSkill">覺醒2</th>
+                    <th class="supportSkill">絆</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-database.js"></script>
+<script src="scripts/database.js"></script>
+<script src="scripts/common.js"></script>
+<script src="scripts/skillData.js"></script>
+<script src="scripts/skillFormat.js"></script>
+<script src="scripts/characterSearch.js"></script>

@@ -1,106 +1,10 @@
-﻿SkillFormatData = {
-    0x4c: "召喚{2}隻生物，每{0}秒一擊，對{3}{4}造成{1}倍傷害，移動速度{8}，持續{7}秒",	// ADD_FUNNEL
-    0x56: "召喚{2}隻生物（最高{5}隻），每{0}秒一擊，對{3}{4}造成{1}倍傷害，{9}%機率附帶{10}效果，移動速度{8}，持續{7}秒",	// ADD_FUNNEL2
-    0x1a: "我方全體{3}秒內攻擊間隔減少{4}秒，增加{1}倍攻擊、{2}倍防禦、{5}擊退力、與以下屬性",	// ADDITION_ALL
-    0x19: "自身{3}秒內攻擊間隔減少{4}秒，增加{1}倍攻擊、{2}倍防禦、{5}擊退力、與以下屬性",	// ADDITION_OWN
-    0x2a: "ARMOR_BREAK : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ARMOR_BREAK
-    4: "對大範圍內全部敵人造成{1}倍傷害，彈飛力{3}",	//     ATTACK_ALL
-    3: "對自身中心範圍{2}單位內敵人造成{1}倍傷害，彈飛力{3}",	//     ATTACK_AREA
-    0x29: "ATTACK_BREATH : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_BREATH
-    0x26: "近戰{1}倍傷害，並附帶{2}次增傷{3}的詛咒",	// ATTACK_CURSE
-    2: "向前衝{2}單位並造成{1}倍傷害，彈飛力{3}",	//     ATTACK_DASH
-    0x16: "對前方寬{2}、高{3}單位的矩形內敵人造成{1}倍傷害，彈飛力{4}",	// ATTACK_FRONT
-    0x1d: "向前跳{2}單位並對敵人造成{1}倍傷害，彈飛力{3}",	// ATTACK_HIGHJUMP
-    80: "向前跳{2}單位並對{4}單位內敵人造成{1}倍傷害，彈飛力{3}",	// ATTACK_HIGHJUMP2
-    0: "近戰單體{1}倍傷害，彈飛力{3}",	//     ATTACK_NORMAL
-    1: "近戰單體{3}+1回{1}倍傷害",	//     ATTACK_REPEAT
-    0x30: "ATTACK_THROW : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ATTACK_THROW
-    70: "在前方1單位處產生無法通過的石頭，並造成{1}點傷害，持續{2}秒",	// ATTACK_WALL
-    0x35: "向前方{2}單位丟擲一顆持續時間{3}秒，觸發半徑{1}單位的炸彈，爆發時造成{0}倍傷害，彈飛力{5}，連鎖爆炸時傷害再乘上{4}倍",	// BOMB_THROW
-    0x4d: "變身{0}秒，攻擊次數增加{2}次，單次攻擊增加{3}下{4}{5}",	// CHANGE_FORM
-    0x55: "CHARGE_FRONT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CHARGE_FRONT
-    0x53: "CHARGE_SHOOT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CHARGE_SHOOT
-    8: "CREATE_TRAP : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// CREATE_TRAP
-    9: "在前方1單位處產生無法通過的石頭，持續{2}秒",	//     CREATE_WALL
-    0x33: "展開以自身為中心，長{10}寬{11}單位的領域，使領域內所有{12}{13}{14}{15}持續{4}秒",	// DAMAGE_AREA
-    0x13: "對自身周圍{2}單位內的敵人造成最大HP{1}%的傷害，並對自己造成最大HP{3}%的傷害，同時在{0}秒內增加{4}%攻擊，{5}%防禦，{6}%移動速度",	// DAMAGED_ATTACK
-    0x5b: "DAMAGED_ATTACK_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_ATTACK_ALL
-    20: "DAMAGED_SHOOT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_SHOOT
-    0x15: "DAMAGED_SUPPORT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DAMAGED_SUPPORT
-    0x36: "DUAL_SPIRAL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// DUAL_SPIRAL
-    0x4a: "ECHO_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ECHO_AREA
-    0x58: "ENCHANT_GUTS : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// ENCHANT_GUTS
-    0x21: "FALL_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// FALL_AREA
-    0x42: "FIELD_CHANGE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// FIELD_CHANGE
-    0x51: "FLAG_ATTACK : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// FLAG_ATTACK
-    0x11: "GATHER_ENEMY : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// GATHER_ENEMY
-    11: "HEAL_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// HEAL_ALL
-    0x20: "HEAL_DEFENSE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// HEAL_DEFENSE
-    10: "治療自身{1}倍血量，如果解除狀態，免疫該狀態{2}秒",	//     HEAL_OWN
-    0x1f: "HEAL_POWER : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// HEAL_POWER
-    0x2e: "HEAL_STRENGTH : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// HEAL_STRENGTH
-    0x4b: "HEAL_UNION : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// HEAL_UNION
-    0x1c: "HEAL_WEAK : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// HEAL_WEAK
-    0x45: "HIGHJUMP_TARGET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// HIGHJUMP_TARGET
-    0x4e: "INTERVAL_FALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// INTERVAL_FALL
-    0x2b: "KNUCKLE_RUSH : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// KNUCKLE_RUSH
-    0x18: "LOCKED_CURSE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// LOCKED_CURSE
-    30: "LOCKED_HEAL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// LOCKED_HEAL
-    0x2d: "LOCKED_MAGNET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// LOCKED_MAGNET
-    0x3f: "LOCKED_MAGNET_LINE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// LOCKED_MAGNET_LINE
-    0x17: "LOCKED_SUPPORT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// LOCKED_SUPPORT
-    0x3e: "LOCKED_SUPPORT_TARGET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// LOCKED_SUPPORT_TARGET
-    0x39: "LOCKED_TARGET_CURSE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// LOCKED_TARGET_CURSE
-    40: "MAGIC_CIRCLE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// MAGIC_CIRCLE
-    0x43: "MAGIC_RANDOM : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// MAGIC_RANDOM
-    0x59: "MAKE_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// MAKE_AREA
-    0x44: "MANA_CYCLE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// MANA_CYCLE
-    0x3b: "MANA_PRESENT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// MANA_PRESENT
-    0x5c: "MAX : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// MAX
-    0x49: "MODE_LAUNCHER : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// MODE_LAUNCHER
-    0x34: "PCOMMAND : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// PCOMMAND
-    0x40: "REACTIVE_HEAL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// REACTIVE_HEAL
-    0x1b: "REGENERATION_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// REGENERATION_ALL
-    0x48: "SET_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SET_AREA
-    0x10: "SHIELD_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHIELD_ALL
-    15: "SHIELD_OWN : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHIELD_OWN
-    0x3d: "SHIELD_TARGET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHIELD_TARGET
-    0x47: "SHOOT_ALERT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_ALERT
-    6: "對自身前方最後面的敵人造成{1}倍傷害",	//     SHOOT_BACK
-    0x52: "SHOOT_CHAIN : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_CHAIN
-    0x25: "SHOOT_CURSE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_CURSE
-    0x31: "SHOOT_DOUBLE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_DOUBLE
-    0x22: "SHOOT_FRONT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_FRONT
-    50: "SHOOT_HEAL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_HEAL
-    0x37: "SHOOT_LASER : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_LASER
-    5: "對直線上單體敵人造成{1}倍傷害，彈飛力{3}",	//     SHOOT_NORMAL
-    90: "SHOOT_PRIORITY : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_PRIORITY
-    7: "發出{3}+1根箭矢，對隨機敵人造成{1}倍傷害",	//     SHOOT_RANDOM
-    0x2c: "SHOOT_REPEAT : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_REPEAT
-    0x4f: "SHOOT_SEMTEX : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_SEMTEX
-    0x27: "SHOOT_SET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_SET
-    0x2f: "SHOOT_SPREAD : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_SPREAD
-    0x3a: "SHOOT_TARGET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_TARGET
-    0x54: "SHOOT_YOYO : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SHOOT_YOYO
-    0x23: "SNIPE_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SNIPE_AREA
-    0x24: "STEEL_GUARD : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// STEEL_GUARD
-    0x12: "SUMMON : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUMMON
-    13: "SUPPORT_ALL : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_ALL
-    0x57: "SUPPORT_AREA : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_AREA
-    12: "SUPPORT_OWN : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_OWN
-    0x41: "SUPPORT_PLUS : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_PLUS
-    14: "SUPPORT_RANDOM : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_RANDOM
-    60: "SUPPORT_TARGET : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// SUPPORT_TARGET
-    0x38: "TARGET_CURSE : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// TARGET_CURSE
-    0xaaaa: "Type {10}: [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",    // not handled
-};
-
+﻿
 function SkillFormat(skillID, skillFlag1, skillParams) {
     switch(skillID) {
         case 0x4c:
-            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]);
         case 0x56:
-            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]*100, SkillFlagString(skillFlag1));
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]*100, SkillFlagString(skillFlag1));
         case 0x4d:
             var param4String = "";
             var param5String = "";
@@ -112,7 +16,7 @@ function SkillFormat(skillID, skillFlag1, skillParams) {
             } else if (skillParams[5] == 2) {
                 param5String = "，隱藏主手武器";
             }
-            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], param4String, param5String, skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], param4String, param5String, skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
         case 0x33:
             var width = Math.abs(parseInt((skillParams[2] / 10000) % 100) * 0.1);
             var height = Math.abs(parseInt((skillParams[2] / 100) % 100) * 0.1);
@@ -137,14 +41,14 @@ function SkillFormat(skillID, skillFlag1, skillParams) {
                 plusDamagedString = "受傷增加{0}%，".format(skillParams[6]);
             }
             
-            return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], width, height, targetString, damageString, plusDamageString, plusDamagedString);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], height, width, targetString, damageString, plusDamageString, plusDamagedString);
         case 0x13:
-            return SkillFormatData[skillID].format(skillParams[0], skillParams[1]*100, skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*100, skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9]);
         default:
-            if (typeof(SkillFormatData[skillID]) == "undefined" || SkillFormatData[skillID] == null) {
-                return SkillFormatData[0xaaaa].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillID);
+            if (typeof(SkillDatas[skillID]) == "undefined" || SkillDatas[skillID] == null) {
+                return SkillDatas[0xaaaa].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillID);
             } else {
-                return SkillFormatData[skillID].format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
+                return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
             }
     }
 }
