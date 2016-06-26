@@ -140,8 +140,6 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                     }
                 });
             }
-            
-            patternCell.appendChild(document.createElement("br"));
         } catch(e) {
         }
     });
@@ -202,10 +200,10 @@ function SkillDetailText(cellToWrite, skillType, indent, skillParams, skillFlag,
     var outputString = "";
 
     outputString += SkillFormat(skillType, skillParams, skillFlag, iParams);
-    var flagString = SkillFlagString(skillFlag[0]);
+/*    var flagString = SkillFlagString(skillFlag[0]);
     if (flagString != "") {
         outputString += "<div class=\"indent" + (indent+1) + "\">" + flagString + "</div>";
-    }
+    }*/
     cellToWrite.innerHTML = outputString;
     
     var popupCell = document.createElement("div");
@@ -224,7 +222,7 @@ function SkillText(characterData, cellToWrite) {
         {
             var patternCell = cellToWrite.appendChild(document.createElement("div"));
             patternCell.className = "skillPattern";
-            patternCell.innerHTML +=  "耗珠: " + characterData.skill_cost + "<br>" ;
+            patternCell.innerHTML +=  "耗珠: " + characterData.skill_cost;
             var skillDetailCell = patternCell.appendChild(document.createElement("div"));
             if (typeof(characterData.skillflag0_0) == "undefined" || characterData.skillflag0_0 == null) {
                 SkillDetailText(skillDetailCell, characterData.skillid[0], 0,
@@ -239,7 +237,6 @@ function SkillText(characterData, cellToWrite) {
                     [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
                 );
             }
-            patternCell.appendChild(document.createElement("br"));
         }
         {
             if(typeof(characterData.pattern0) != "undefined") {
