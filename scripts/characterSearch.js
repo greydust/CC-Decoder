@@ -13,15 +13,6 @@ function NullableNumber(n) {
     }
 }
 
-JobTypeText = {
-    0: "戰",
-    1: "弓",
-    2: "魔",
-    3: "僧",
-    4: "騎",
-    5: "全",
-};
-
 function SkillPatternText(patternID, skillCost, cellToWrite) {
     var patternCell = document.createElement("div");
     patternCell.className = "skillPattern";
@@ -89,8 +80,9 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                 firebase.database().ref('/bossskill/bossskill/' + patternData.skillid0).once('value').then(function(skillDataSnapshot) {
                     try {
                         skillData = skillDataSnapshot.val();
-                        SkillDetailText(patternSkillCell0, skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1,
+                        SkillDetailText(patternSkillCell0, skillData.skillid0, 1,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)],
+                            [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
                             [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
                         );
                     } catch(e) {
@@ -105,8 +97,9 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                firebase.database().ref('/bossskill/bossskill/' + patternData.skillid1).once('value').then(function(skillDataSnapshot) {
                     try {
                         skillData = skillDataSnapshot.val();
-                        SkillDetailText(patternSkillCell1, skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1,
+                        SkillDetailText(patternSkillCell1, skillData.skillid0, 1,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)],
+                            [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
                             [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
                         );
                     } catch(e) {
@@ -121,8 +114,9 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                 firebase.database().ref('/bossskill/bossskill/' + patternData.skillid2).once('value').then(function(skillDataSnapshot) {
                     try {
                         skillData = skillDataSnapshot.val();
-                        SkillDetailText(patternSkillCell2, skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1,
+                        SkillDetailText(patternSkillCell2, skillData.skillid0, 1,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)],
+                            [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
                             [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
                         );
                     } catch(e) {
@@ -137,8 +131,9 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                 firebase.database().ref('/bossskill/bossskill/' + patternData.skillid3).once('value').then(function(skillDataSnapshot) {
                     try {
                         skillData = skillDataSnapshot.val();
-                        SkillDetailText(patternSkillCell3, skillData.skillid0, MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1), 1,
+                        SkillDetailText(patternSkillCell3, skillData.skillid0, 1,
                             [NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)]
+                            [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
                             [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
                         );
                     } catch(e) {
@@ -156,7 +151,7 @@ function MergeSkillFlag(flag0, flag1) {
     return (NullableNumber(flag0) & 0xffffffff) + (NullableNumber(flag1) << 0x20);
 }
 
-function SkillSystemText(cellToWrite, skillType, skillFlag, skillFlag1, skillParams, iParams) {
+function SkillSystemText(cellToWrite, skillType, skillParams, skillFlag, iParams) {
     cellToWrite.innerHTML += "類別: " + SkillDatas[skillType].typeName;
     
     var paramDescriptions = SkillDatas[skillType].parameterDescription;
@@ -171,9 +166,21 @@ function SkillSystemText(cellToWrite, skillType, skillFlag, skillFlag1, skillPar
         tableString += "</tr>";
     }
     tableString += "</table>";
-    
     cellToWrite.innerHTML += tableString;
-    cellToWrite.innerHTML += "旗標: [" + skillFlag +", "  + skillFlag1 +"]<br>";
+
+    var flagDescriptions = SkillDatas[skillType].flagDescription;
+    var flagTableString = "<table class=\"skillSystem\">";
+    for (var i=0 ; i<1; i++) {
+        tableString += "<tr>";
+        for (var j=0 ; j<2 ; j++) {
+            flagTableString += "<td>";
+            flagTableString += flagDescriptions[i*2+j] + ": " + skillFlag[i*2+j];
+            flagTableString += "</td>";
+        }
+        flagTableString += "</tr>";
+    }
+    flagTableString += "</table>";
+    cellToWrite.innerHTML += flagTableString;
     
     var iParamDescriptions = SkillDatas[skillType].iParameterDescription;
     var iTableString = "<table class=\"skillSystem\">";
@@ -191,11 +198,11 @@ function SkillSystemText(cellToWrite, skillType, skillFlag, skillFlag1, skillPar
     cellToWrite.innerHTML += iTableString;
 }
 
-function SkillDetailText(cellToWrite, skillType, skillFlag, skillFlag1, indent, skillParams, iParams) {
+function SkillDetailText(cellToWrite, skillType, indent, skillParams, skillFlag, iParams) {
     var outputString = "";
 
-    outputString += SkillFormat(skillType, skillFlag1, skillParams, iParams);
-    var flagString = SkillFlagString(skillFlag);
+    outputString += SkillFormat(skillType, skillParams, skillFlag, iParams);
+    var flagString = SkillFlagString(skillFlag[0]);
     if (flagString != "") {
         outputString += "<div class=\"indent" + (indent+1) + "\">" + flagString + "</div>";
     }
@@ -205,7 +212,7 @@ function SkillDetailText(cellToWrite, skillType, skillFlag, skillFlag1, indent, 
     popupCell.className = "popup";
     cellToWrite.appendChild(popupCell);
     
-    SkillSystemText(popupCell, skillType, skillFlag, skillFlag1, skillParams, iParams);
+    SkillSystemText(popupCell, skillType, skillParams, skillFlag, iParams);
 }
 
 function SkillText(characterData, cellToWrite) {
@@ -220,9 +227,17 @@ function SkillText(characterData, cellToWrite) {
             patternCell.innerHTML +=  "耗珠: " + characterData.skill_cost + "<br>" ;
             var skillDetailCell = patternCell.appendChild(document.createElement("div"));
             if (typeof(characterData.skillflag0_0) == "undefined" || characterData.skillflag0_0 == null) {
-                SkillDetailText(skillDetailCell, characterData.skillid[0], characterData.skillflag, MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1),  0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)], [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]);
+                SkillDetailText(skillDetailCell, characterData.skillid[0], 0,
+                    [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)],
+                    [characterData.skillflag, MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1)],
+                    [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
+                );
             } else {
-                SkillDetailText(skillDetailCell, characterData.skillid[0], MergeSkillFlag(characterData.skillflag0_0, characterData.skillflag0_1), MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1), 0, [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)], [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]);
+                SkillDetailText(skillDetailCell, characterData.skillid[0], 0,
+                    [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)],
+                    [MergeSkillFlag(characterData.skillflag0_0, characterData.skillflag0_1), MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1)],
+                    [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
+                );
             }
             patternCell.appendChild(document.createElement("br"));
         }

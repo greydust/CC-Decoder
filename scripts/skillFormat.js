@@ -1,9 +1,9 @@
-﻿function SkillFormat(skillID, skillFlag1, skillParams, iParams) {
+﻿function SkillFormat(skillID, skillParams, skillFlag, iParams) {
     switch(skillID) {
         case 0x4c:
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]);
         case 0x56:
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]*100, SkillFlagString(skillFlag1));
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]*100, SkillFlagString(skillFlag[1]));
         case 0x4d:
             var param4String = "";
             var param5String = "";
@@ -73,11 +73,51 @@
                 overwriteString = "，直接覆蓋原本的地形"
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], deathReturnString, overwriteString, skillParams[3], BattlegroundIDText[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);            
+        case 0x4b:
+            var healString = "";
+            var healFlagString = HealFlagString(skillFlag[1]);
+            if (healFlagString != "") {
+                healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[9]);
+            }
+            var buffString = "";
+            var homeString = HomeIDString(skillParams[8]);
+            if (homeString != "") {
+                if (buffString == "") {
+                    buffString = "，同時增加" + homeString + "所屬";
+                } else {
+                    buffString += "且為" +homeString + "所屬";
+                }
+            }
+            var weaponString = WeaponFlagString(skillFlag[0]);
+            if (weaponString != "") {
+                if (buffString == "") {
+                    buffString = "，同持" + weaponString + "武";
+                } else {
+                    buffString += "且持" +weaponString + "武";
+                }
+            }
+            var jobString = JobFlagString(iParams[0]);
+            if (jobString != "") {
+                if (buffString == "") {
+                    buffString = "，同時增加" + jobString + "職業";
+                } else {
+                    buffString += "且為" +jobString + "職業";
+                }
+            }
+            if (buffString != "") {
+                if (skillParams[7] > 0) {
+                    buffString += "（至少" + skillParams[7] + "人）";
+                }
+                buffString += "{0}%攻擊，{1}%防禦，{2}%移動速度，{3}%爆擊率，{4}%攻速，持續{5}秒";
+                buffString = buffString.format(skillParams[1]*100, skillParams[3]*100, skillParams[2]*100, skillParams[5]*100, skillParams[6]*100, skillParams[4]);
+            }
+            
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], healString, buffString);            
         default:
             if (typeof(SkillDatas[skillID]) == "undefined" || SkillDatas[skillID] == null) {
-                return SkillDatas[0xaaaa].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag1, iParams[0], iParams[1], skillID);
+                return SkillDatas[0xaaaa].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], skillID);
             } else {
-                return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag1, iParams[0], iParams[1]);
+                return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
             }
     }
 }
@@ -209,6 +249,32 @@ PassiveFormat = {
     0x3e9: "WealPoint : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// WealPoint 
 };
 
+JobTypeText = [
+    "戰",
+    "弓",
+    "魔",
+    "僧",
+    "騎",
+    "全",
+];
+
+function JobFlagString(flag) {
+    var base2 = flag.toString(2);
+    var outputString = "";
+    for (var i=0 ; i<JobTypeText.length && i<base2.length ; i++) {
+        if (base2[base2.length-i-1] == '1') {
+            if (JobTypeText[i] != "") {
+                if (outputString == "") {
+                    outputString = JobTypeText[i];
+                } else {
+                    outputString += "、" + JobTypeText[i];
+                }
+            }
+        }
+    }
+    return outputString;
+}
+
 FindType = [
     "直線上",  // LINE
     "全場",  // TARGET_TYPE,
@@ -295,99 +361,6 @@ TargetType = [
     "aHP_HIGHTRATE",    // aHP_HIGHTRATE
 ]
 
-SkillFlag = [
-    "範圍內全體",
-    "火屬性",
-    "冰屬性",
-    "緩",
-    "暈",
-    
-    "冰凍",
-    "毒",
-    "緩",
-    "隱形",
-    "MOTION",
-    
-    "魔法",
-    "白骨化",
-    "黑暗",
-    "封技",
-    "詛咒",
-    
-    "CRACKUP",
-    "CANCEL",
-    "GUARD_BREAK",
-    "MINIMUM",
-    "MAXIMUM",
-    
-    "穿透",
-    "SHIELD_BREAK",
-    "WEAPON_SWORD",
-    "WEAPON_AXE",
-    "WEAPON_MACE",
-    
-    "WEAPON_BOW",
-    "WEAPON_EVIL",
-    "WEAPON_HOLY",
-    "WEAPON_FIST",
-    "WEAPON_GUN",
-    
-    "WEAPON_RIFLE",
-    "GUARDABLE",
-    "HEAL_REVERSE",
-    "HEAL_CUT",
-    "NOT_FALTER",
-    
-    "OVER_HEAL",
-    "ISBULLET",
-    "IGNOREWALL",
-    "ISPOISON",
-    "ISAIRSTRIKE",
-    
-    "ISREFLECTION_BULLET",
-    "ISCRACKUP",
-    "IGNORENOTPUSH"
-];
-
-    
-SkillPatternFlagText = [
-    "變身",
-    "無變身",
-    "超必殺滿",
-    "超必殺未滿",
-];
-
-BattlegroundFlagText = [
-    "無",
-    "",
-    "森林",
-    "雪山",
-    "砂漠",
-    
-    "",
-    "洞窟",
-    "遺跡",
-    "",
-    "街中",
-    
-    "",
-    "",
-    "荒地",
-    "夜",
-    "砂浜",
-    
-    "高地",
-    "船上",
-    "海中",
-    "城中",
-    "戰場",
-    
-    "",
-    "監獄内",
-    "湿地",
-    "異空間",
-];
-
 BattlegroundIDText = {
     1: "平原",
     10: "異空間",
@@ -443,6 +416,91 @@ BattlegroundIDText = {
     9: "街中",
 };
 
+HomeIDText = {
+    1: "義勇軍",
+    2: "魔神",
+    3: "旅人",
+    4: "副都",
+    5: "聖都",
+    6: "賢者の塔",
+    7: "迷宮山脈",
+    8: "湖都",
+    9: "精霊島",
+    10: "九領",
+    11: "海風の港",
+    12: "大海",
+    13: "レムレス",
+    14: "ケ者の大陸",
+    15: "罪の大陸",
+    16: "薄命の大陸",
+    17: "鉄煙の大陸",
+    18: "年代記の大陸",
+    19: "レムレス島",
+};
+
+function HomeIDString(id) {
+    var ret = HomeIDText[id];
+    if (typeof(ret) == "undefined" || ret == null) {
+        return "";
+    } else {
+        return ret;
+    }
+}
+
+SkillFlag = [
+    "範圍內全體",
+    "火屬性",
+    "冰屬性",
+    "緩",
+    "暈",
+    
+    "冰凍",
+    "毒",
+    "緩",
+    "隱形",
+    "MOTION",
+    
+    "魔法",
+    "白骨化",
+    "黑暗",
+    "封技",
+    "詛咒",
+    
+    "CRACKUP",
+    "CANCEL",
+    "GUARD_BREAK",
+    "MINIMUM",
+    "MAXIMUM",
+    
+    "穿透",
+    "SHIELD_BREAK",
+    "WEAPON_SWORD",
+    "WEAPON_AXE",
+    "WEAPON_MACE",
+    
+    "WEAPON_BOW",
+    "WEAPON_EVIL",
+    "WEAPON_HOLY",
+    "WEAPON_FIST",
+    "WEAPON_GUN",
+    
+    "WEAPON_RIFLE",
+    "GUARDABLE",
+    "HEAL_REVERSE",
+    "HEAL_CUT",
+    "NOT_FALTER",
+    
+    "OVER_HEAL",
+    "ISBULLET",
+    "IGNOREWALL",
+    "ISPOISON",
+    "ISAIRSTRIKE",
+    
+    "ISREFLECTION_BULLET",
+    "ISCRACKUP",
+    "IGNORENOTPUSH"
+];
+
 function SkillFlagString(flag) {
     var base2 = flag.toString(2);
     var outputString = "";
@@ -457,6 +515,155 @@ function SkillFlagString(flag) {
     }
     return outputString;
 }
+
+HealFlag = [
+    "",
+    "",
+    "",
+    "解除緩",
+    "解除暈",
+    
+    "解除冰凍",
+    "解除毒",
+    "解除緩",
+    "隱形",
+    "",
+    
+    "",
+    "解除白骨化",
+    "解除黑暗",
+    "解除封技",
+    "解除詛咒",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "超量治療",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    ""
+];
+
+function HealFlagString(flag) {
+    var base2 = flag.toString(2);
+    var outputString = "";
+    for (var i=0 ; i<HealFlag.length && i<base2.length ; i++) {
+        if (base2[base2.length-i-1] == '1') {
+            if (HealFlag[i] != "") {
+                if (outputString == "") {
+                    outputString = HealFlag[i];
+                } else {
+                    outputString += "、" + HealFlag[i];
+                }
+            }
+        }
+    }
+    return outputString;
+}
+
+WeaponFlag = [
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "斬",
+    "打",
+    "突",
+    
+    "弓",
+    "魔",
+    "聖",
+    "拳",
+    "銃",
+    
+    "狙",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    ""
+];
+
+function WeaponFlagString(flag) {
+    var base2 = flag.toString(2);
+    var outputString = "";
+    for (var i=0 ; i<WeaponFlag.length && i<base2.length ; i++) {
+        if (base2[base2.length-i-1] == '1') {
+            if (WeaponFlag[i] != "") {
+                if (outputString == "") {
+                    outputString = WeaponFlag[i];
+                } else {
+                    outputString += "、" + WeaponFlag[i];
+                }
+            }
+        }
+    }
+    return outputString;
+}
+
+SkillPatternFlagText = [
+    "變身",
+    "無變身",
+    "超必殺滿",
+    "超必殺未滿",
+];
 
 function SkillPatternFlagString(flag) {
     var base2 = flag.toString(2);
@@ -475,6 +682,37 @@ function SkillPatternFlagString(flag) {
     }
     return outputString;
 }
+
+BattlegroundFlagText = [
+    "無",
+    "",
+    "森林",
+    "雪山",
+    "砂漠",
+    
+    "",
+    "洞窟",
+    "遺跡",
+    "",
+    "街中",
+    
+    "",
+    "",
+    "荒地",
+    "夜",
+    "砂浜",
+    
+    "高地",
+    "船上",
+    "海中",
+    "城中",
+    "戰場",
+    
+    "",
+    "監獄内",
+    "湿地",
+    "異空間",
+];
 
 function BattlegroundFlagString(flag) {
     var base2 = flag.toString(2);
