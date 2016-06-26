@@ -1,5 +1,4 @@
-﻿
-function SkillFormat(skillID, skillFlag1, skillParams) {
+﻿function SkillFormat(skillID, skillFlag1, skillParams, iParams) {
     switch(skillID) {
         case 0x4c:
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9]);
@@ -44,11 +43,41 @@ function SkillFormat(skillID, skillFlag1, skillParams) {
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], height, width, targetString, damageString, plusDamageString, plusDamagedString);
         case 0x13:
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*100, skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9]);
+        case 0x5b:
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*10, skillParams[2]*100, skillParams[3]*100, skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
+        case 20:
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9]);
+        case 0x4a:
+            var radius = parseInt(skillParams[2]/100)  / 10;
+            var xShift = parseInt(skillParams[2]%100) / 10;
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], xShift, radius);
+        case 0x58:
+                return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], TargetType[skillParams[3]], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);        
+        case 0x21:
+            var rangeString = "";
+            if (skillParams[4] <= 1 && skillParams[5] <=1) {
+                rangeString = "半徑{0}單位內".format(skillParams[2]);
+            } else {
+                var width = skillParams[4] > 1 ? skillParams[4] : 1;
+                var height = skillParams[5] > 1 ? skillParams[5] : 1;
+                rangeString = "高{0}單位，寬{1}單位內".format(height*skillParams[2], width*skillParams[2])
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], rangeString);
+        case 0x42:
+            var overwriteString = "";
+            var deathReturnString = "";
+            if (skillParams[1] != 0) {
+                deathReturnString = "，施法者死亡時回復原本地形";
+            }
+            if (skillParams[2] != 0) {
+                overwriteString = "，直接覆蓋原本的地形"
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], deathReturnString, overwriteString, skillParams[3], BattlegroundIDText[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);            
         default:
             if (typeof(SkillDatas[skillID]) == "undefined" || SkillDatas[skillID] == null) {
-                return SkillDatas[0xaaaa].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillID);
+                return SkillDatas[0xaaaa].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag1, iParams[0], iParams[1], skillID);
             } else {
-                return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9]);
+                return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag1, iParams[0], iParams[1]);
             }
     }
 }
@@ -202,7 +231,7 @@ TargetType = [
     "APPANAGE_FAR",	// APPANAGE_FAR
     "APPANAGE_NEAR2",	// APPANAGE_NEAR2
     "APPANAGE_FAR2",	// APPANAGE_FAR2
-    "GROUP_ALL",	// GROUP_ALL
+    "隊伍全體",	// GROUP_ALL
     "pRANDOM",	// pRANDOM
     "pHP_LOW",	// pHP_LOW
     "pHP_HIGHT",	// pHP_HIGHT
@@ -217,8 +246,8 @@ TargetType = [
     "pAPPANAGE_NEAR",	// pAPPANAGE_NEAR
     "pAPPANAGE_FAR",	// pAPPANAGE_FAR
     "pAPPANAGE_NEAR2",	// pAPPANAGE_NEAR2
-    "pAPPANAGE_FAR2",	// pAPPANAGE_FAR2
-    "pGROUP_ALL",	// pGROUP_ALL
+    "最前方",	// pAPPANAGE_FAR2
+    "隊伍全體",	// pGROUP_ALL
     "隨機敵人",	// oRANDOM
     "oHP_LOW",	// oHP_LOW
     "oHP_HIGHT",	// oHP_HIGHT
@@ -234,7 +263,7 @@ TargetType = [
     "oAPPANAGE_FAR",	// oAPPANAGE_FAR
     "oAPPANAGE_NEAR2",	// oAPPANAGE_NEAR2
     "oAPPANAGE_FAR2",	// oAPPANAGE_FAR2
-    "oGROUP_ALL",	// oGROUP_ALL
+    "隊伍全體",	// oGROUP_ALL
     "aRANDOM",	// aRANDOM
     "aHP_LOW",	// aHP_LOW
     "aHP_HIGHT",	// aHP_HIGHT
@@ -250,7 +279,7 @@ TargetType = [
     "aAPPANAGE_FAR",	// aAPPANAGE_FAR
     "aAPPANAGE_NEAR2",	// aAPPANAGE_NEAR2
     "aAPPANAGE_FAR2",	// aAPPANAGE_FAR2
-    "aGROUP_ALL",	// aGROUP_ALL
+    "隊伍全體",	// aGROUP_ALL
     "MYSELF",	// MYSELF
     "GROUP_ALL_NOMYSELF",	// GROUP_ALL_NOMYSELF
     "pGROUP_ALL_NOMYSELF",	// pGROUP_ALL_NOMYSELF
@@ -358,6 +387,61 @@ BattlegroundFlagText = [
     "湿地",
     "異空間",
 ];
+
+BattlegroundIDText = {
+    1: "平原",
+    10: "異空間",
+    100: "砂浜",
+    101: "船上",
+    102: "海中",
+    103: "船上夜",
+    104: "砂浜夜",
+    105: "船上",
+    106: "高地",
+    107: "監獄外",
+    108: "監獄外",
+    109: "監獄外",
+    11: "城壁前",
+    110: "監獄内",
+    111: "湿地",
+    112: "薄命砦",
+    113: "荒地",
+    114: "森林夜",
+    115: "街中",
+    116: "街中",
+    117: "街中",
+    118: "城中",
+    119: "荒涼地",
+    12: "荒地",
+    120: "ほこら",
+    121: "荒涼地",
+    122: "森林",
+    123: "城中",
+    124: "船上",
+    125: "異空間",
+    126: "黒の大地",
+    127: "？？？",
+    128: "？？？",
+    13: "平原夜",
+    14: "戦場夜",
+    15: "戦場",
+    2: "森林",
+    3: "雪山",
+    4: "砂漠",
+    400: "街中夜",
+    401: "祭り夜",
+    402: "祭り夜",
+    403: "祭り昼",
+    404: "学園",
+    405: "森林",
+    406: "平原",
+    5: "戦場",
+    6: "洞窟",
+    7: "遺跡",
+    78: "街中夜",
+    8: "城中",
+    9: "街中",
+};
 
 function SkillFlagString(flag) {
     var base2 = flag.toString(2);
