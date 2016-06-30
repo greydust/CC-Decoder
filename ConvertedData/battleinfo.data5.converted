@@ -1,7 +1,7 @@
 {
-  "deceive": 1466489422,
+  "deceive": 1467280804,
   "res": 0,
-  "sv": "1460507202",
+  "sv": "1467002454",
   "battle_bg": {
     "1": {
       "id": "1",
@@ -367,6 +367,22 @@
       "id": "406",
       "flag": 0,
       "bg_name": "平原",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "407": {
+      "id": "407",
+      "flag": 64,
+      "bg_name": "洞窟",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "408": {
+      "id": "408",
+      "flag": 64,
+      "bg_name": "洞窟",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0

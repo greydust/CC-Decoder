@@ -1,5 +1,5 @@
 {
-  "deceive": 1466489437,
+  "deceive": 1467280819,
   "questdigest": {
     "20": {
       "append_skill": {},
@@ -14195,6 +14195,48 @@
       "stamina": 12,
       "field_type": [0,0]
     },
+    "50921": {
+      "append_skill": {},
+      "area_id": 4,
+      "chapter_list": [1,2],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":5092,"lv":1}]
+      },
+      "name": "森の力",
+      "quest_id": 50921,
+      "bg_list": [2,2],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 7,
+      "stamina": 8,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0]
+    },
+    "50922": {
+      "append_skill": {
+        "cid": 5092,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 31,
+      "flag": {
+        "chara": [{"cid":5092,"lv":30}]
+      },
+      "name": "自然の守り",
+      "quest_id": 50922,
+      "bg_list": [2,2,2],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 7,
+      "stamina": 10,
+      "field_type": [0,0,0]
+    },
     "60011": {
       "append_skill": {},
       "area_id": 5,
@@ -19873,6 +19915,50 @@
       "is_casino": false,
       "place_id": 9,
       "stamina": 13
+    },
+    "75201": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [1,2,3],
+      "difficulty": 38,
+      "flag": {
+        "chara": [{"cid":7520,"lv":1}]
+      },
+      "name": "剣士の休息",
+      "quest_id": 75201,
+      "bg_list": [100,1,114],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 5,
+      "stamina": 11,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
+    },
+    "75202": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [1,2,3],
+      "difficulty": 51,
+      "flag": {
+        "chara": [{"cid":7520,"lv":45}]
+      },
+      "name": "新たなる旅立ち",
+      "quest_id": 75202,
+      "bg_list": [100,100,7],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 5,
+      "stamina": 12,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
     },
     "75210": {
       "append_skill": {},
@@ -34055,6 +34141,46 @@
       "is_casino": false,
       "place_id": 2,
       "stamina": 8
+    },
+    "580171": {
+      "append_skill": {
+        "cid": 58017,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 20,
+      "flag": {
+        "chara": [{"cid":58017,"lv":1},{"cid":58017,"lv":13}]
+      },
+      "name": "計算少女",
+      "quest_id": 580171,
+      "bg_list": [1,1,11],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 9,
+      "stamina": 6,
+      "field_type": [0,0,0]
+    },
+    "580181": {
+      "append_skill": {
+        "cid": 58018,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 20,
+      "flag": {
+        "chara": [{"cid":58018,"lv":1},{"cid":58018,"lv":13}]
+      },
+      "name": "白球を追いかけて",
+      "quest_id": 580181,
+      "bg_list": [1,1,1],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 4,
+      "stamina": 6,
+      "field_type": [0,0,0]
     },
     "580200": {
       "append_skill": {},
@@ -61306,6 +61432,328 @@
       "eneset_treasure": [{"type":"item","id":10,"val":200},{"type":"item","id":10,"val":500},{"type":"item","id":10,"val":700},{"type":"chara_rf","id":90903,"val":1}],
       "fixed_help": [{"cid":7065,"lv":80,"hp":9400,"atk":9400,"helper_comment":"家名復興のためにっ！","skillflag":[true,true,true,false]}]
     },
+    "244801": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 4,
+      "flag": {},
+      "name": "ダスティの実戦販売",
+      "quest_id": 244801,
+      "bg_list": [1,1,1],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0,0,0]
+    },
+    "244802": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "金策の秘訣",
+      "quest_id": 244802,
+      "bg_list": [1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 15,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "card",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":5000},{"type":"item","id":10,"val":5000},{"type":"item","id":10,"val":5000},{"type":"item","id":10,"val":5000}],
+      "fixed_help": [{"cid":64,"lv":50,"hp":4900,"atk":5700,"helper_comment":"賞金を稼ごうぜ！","skillflag":[true,true,true,false]}]
+    },
+    "244803": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 24,
+      "flag": {},
+      "name": "戦士の秘訣",
+      "quest_id": 244803,
+      "bg_list": [1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 15,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90010,"val":1}],
+      "fixed_help": [{"cid":15,"lv":70,"hp":6900,"atk":7100,"helper_comment":"ふふ、盾には戦士です","skillflag":[true,true,true,false]}]
+    },
+    "244804": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 24,
+      "flag": {},
+      "name": "騎士の秘訣",
+      "quest_id": 244804,
+      "bg_list": [1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 15,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90014,"val":1}],
+      "fixed_help": [{"cid":1005,"lv":70,"hp":7440,"atk":7050,"helper_comment":"矢は盾に任せろ！","skillflag":[true,true,true,false]}]
+    },
+    "244805": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 24,
+      "flag": {},
+      "name": "弓使いの秘訣",
+      "quest_id": 244805,
+      "bg_list": [1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 15,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90011,"val":1}],
+      "fixed_help": [{"cid":7009,"lv":70,"hp":4870,"atk":6940,"helper_comment":"遠くから……殺す！","skillflag":[true,true,true,false]}]
+    },
+    "244901": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "遠き姉妹の想い・1",
+      "quest_id": 244901,
+      "bg_list": [101],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "sort": 100,
+      "field_type": [0]
+    },
+    "244902": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "遠き姉妹の想い・2",
+      "quest_id": 244902,
+      "bg_list": [101],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "sort": 90,
+      "field_type": [0]
+    },
+    "244903": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "遠き姉妹の想い・3",
+      "quest_id": 244903,
+      "bg_list": [101],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "sort": 80,
+      "field_type": [0]
+    },
+    "244904": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "遠き姉妹の想い・4",
+      "quest_id": 244904,
+      "bg_list": [105],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "sort": 70,
+      "field_type": [0]
+    },
+    "244905": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [0],
+      "difficulty": 1,
+      "flag": {},
+      "name": "成長の旅路",
+      "quest_id": 244905,
+      "bg_list": [103],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 20,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "sort": 50,
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90903,"val":1},{"type":"chara_rf","id":90903,"val":1}]
+    },
+    "244906": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [0],
+      "difficulty": 50,
+      "flag": {},
+      "name": "VSバルクス",
+      "quest_id": 244906,
+      "bg_list": [101],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 20,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":5000},{"type":"weapon_rf","id":93902,"val":1},{"type":"chara_rf","id":90014,"val":1},{"type":"chara_rf","id":90019,"val":1}]
+    },
+    "244907": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [0],
+      "difficulty": 50,
+      "flag": {},
+      "name": "VSマスカルウィン",
+      "quest_id": 244907,
+      "bg_list": [101],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 20,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":5000},{"type":"weapon_rf","id":93902,"val":1},{"type":"chara_rf","id":90012,"val":1},{"type":"chara_rf","id":90017,"val":1}]
+    },
+    "244908": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [0],
+      "difficulty": 50,
+      "flag": {},
+      "name": "VSラベゼリン",
+      "quest_id": 244908,
+      "bg_list": [101],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 20,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":5000},{"type":"weapon_rf","id":93902,"val":1},{"type":"chara_rf","id":90010,"val":1},{"type":"chara_rf","id":90015,"val":1}]
+    },
+    "244909": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [0],
+      "difficulty": 80,
+      "flag": {},
+      "name": "死闘！三魔神",
+      "quest_id": 244909,
+      "bg_list": [105],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 35,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":10000},{"type":"weapon_rf","id":93902,"val":1},{"type":"chara_rf","id":90904,"val":1},{"type":"chara_rf","id":90904,"val":1}]
+    },
+    "245101": {
+      "append_skill": {},
+      "area_id": 12,
+      "chapter_list": [0],
+      "difficulty": 45,
+      "flag": {},
+      "name": "義勇軍が行く大阪",
+      "quest_id": 245101,
+      "bg_list": [8],
+      "chapter_cnt": 1,
+      "casino_reward": {
+        "gold": [{"type":"stone","id":null,"val":1,"limited":1,"win_rate":"0","hit":true,"mass":6},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90904,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":3,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "gold_time": 7500,
+        "silver": [{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "silver_time": 11000,
+        "copper": [{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}]
+      },
+      "is_casino": true,
+      "place_id": 11,
+      "stamina": 10,
+      "sort": 100,
+      "field_type": [0],
+      "icon": "casino01",
+      "kind_prm": 1,
+      "eneset_treasure": [],
+      "fixed_help": [{"cid":7017,"lv":80,"hp":6800,"atk":9000,"helper_comment":"もうすぐ3周年ですね","skillflag":[true,true,true,false]}],
+      "casino_coin": 0,
+      "casino_reward_up_rate": 2
+    },
     "280001": {
       "append_skill": {},
       "area_id": 1,
@@ -61441,6 +61889,29 @@
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90007,"val":1},{"type":"weapon_rf","id":93004,"val":1},{"type":"weapon_rf","id":93004,"val":1},{"type":"chara_rf","id":90012,"val":1}],
       "fixed_help": [{"cid":4051,"lv":80,"hp":5550,"atk":9550,"helper_comment":"星の光よ……","skillflag":[true,true,true,false]}]
+    },
+    "280007": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [0],
+      "difficulty": 26,
+      "flag": {},
+      "name": "お試しクエスト",
+      "quest_id": 280007,
+      "bg_list": [4],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0],
+      "icon": "taiken_ring201607",
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000}],
+      "fixed_help": [{"cid":5092,"lv":80,"hp":5500,"atk":9200,"helper_comment":"森を守るだなんて…","skillflag":[true,true,true,false]}]
     },
     "281410": {
       "append_skill": {},
@@ -63279,7 +63750,7 @@
     "301338": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼1",
@@ -63295,14 +63766,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":4000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":6000}]
+      "icon": "danmachi_emergency"
     },
     "301339": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼2",
@@ -63318,14 +63787,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":4000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":6000}]
+      "icon": "danmachi_emergency"
     },
     "301340": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼3",
@@ -63341,14 +63808,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":4000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":6000}]
+      "icon": "danmachi_emergency"
     },
     "301341": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼4",
@@ -63364,14 +63829,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":4000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":6000}]
+      "icon": "danmachi_emergency"
     },
     "301343": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼1",
@@ -63387,13 +63850,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "301344": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼2",
@@ -63409,13 +63871,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "301345": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼3",
@@ -63431,13 +63892,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "301346": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼4",
@@ -63453,13 +63913,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "301347": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼1",
@@ -63475,13 +63934,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "301348": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼2",
@@ -63497,13 +63955,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "301349": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼3",
@@ -63519,13 +63976,12 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "301350": {
       "append_skill": {},
       "area_id": 1015,
-      "chapter_list": [0],
+      "chapter_list": [1],
       "difficulty": 50,
       "flag": {},
       "name": "【緊急】討伐依頼4",
@@ -63541,8 +63997,7 @@
         "box": 1
       },
       "field_type": [0],
-      "icon": "danmachi_emergency",
-      "kind_prm": 1
+      "icon": "danmachi_emergency"
     },
     "2394151": {
       "append_skill": {},
@@ -79945,7 +80400,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301304}]
       },
-      "name": "第1階層⇒第5階層",
+      "name": "第1階層-2⇒第5階層-1",
       "quest_id": 301305,
       "bg_list": [6],
       "chapter_cnt": 1,
@@ -79965,7 +80420,7 @@
       "chapter_list": [1,2],
       "difficulty": 12,
       "flag": {
-        "quest": [{"type":6,"qid":301305}]
+        "quest": [{"type":6,"qid":301304}]
       },
       "name": "第8話「探索」",
       "quest_id": 301306,
@@ -80058,7 +80513,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301309}]
       },
-      "name": "第5階層⇒第10階層",
+      "name": "第5階層-2⇒第10階層",
       "quest_id": 301310,
       "bg_list": [6],
       "chapter_cnt": 1,
@@ -80110,10 +80565,10 @@
       "is_casino": false,
       "place_id": 4,
       "stamina": 12,
-      "reward_box": 1,
+      "reward_box": 2,
       "reward_data": {
         "type": "box",
-        "box": 1
+        "box": 2
       },
       "field_type": [0,0,0,0],
       "icon": "danmachi_main"
@@ -80173,7 +80628,7 @@
       },
       "name": "第14話「進行」",
       "quest_id": 301315,
-      "bg_list": [120,120],
+      "bg_list": [407,407],
       "chapter_cnt": 2,
       "is_casino": false,
       "place_id": 5,
@@ -80196,7 +80651,7 @@
       },
       "name": "第15話「奮戦」",
       "quest_id": 301316,
-      "bg_list": [120,120,120],
+      "bg_list": [407,407,407],
       "chapter_cnt": 3,
       "is_casino": false,
       "place_id": 5,
@@ -80219,7 +80674,7 @@
       },
       "name": "第13階層⇒第15階層",
       "quest_id": 301317,
-      "bg_list": [120],
+      "bg_list": [407],
       "chapter_cnt": 1,
       "is_casino": false,
       "stamina": 3,
@@ -80241,7 +80696,7 @@
       },
       "name": "第16話「縦穴」",
       "quest_id": 301318,
-      "bg_list": [112,112],
+      "bg_list": [408,408],
       "chapter_cnt": 2,
       "is_casino": false,
       "place_id": 6,
@@ -80264,7 +80719,7 @@
       },
       "name": "第17話「応戦」",
       "quest_id": 301319,
-      "bg_list": [112,112],
+      "bg_list": [408,408],
       "chapter_cnt": 2,
       "is_casino": false,
       "place_id": 6,
@@ -80287,7 +80742,7 @@
       },
       "name": "第18話「落下」",
       "quest_id": 301320,
-      "bg_list": [112,112,112],
+      "bg_list": [408,408,408],
       "chapter_cnt": 3,
       "is_casino": false,
       "place_id": 6,
@@ -80308,9 +80763,9 @@
       "flag": {
         "quest": [{"type":6,"qid":301320}]
       },
-      "name": "第15階層⇒第17階層",
+      "name": "第15階層⇒第17階層-1",
       "quest_id": 301321,
-      "bg_list": [112],
+      "bg_list": [408],
       "chapter_cnt": 1,
       "is_casino": false,
       "stamina": 3,
@@ -80332,7 +80787,7 @@
       },
       "name": "第19話「階層主」",
       "quest_id": 301322,
-      "bg_list": [120,120,120,120],
+      "bg_list": [407,407,407,407],
       "chapter_cnt": 4,
       "is_casino": false,
       "place_id": 7,
@@ -80353,9 +80808,9 @@
       "flag": {
         "quest": [{"type":6,"qid":301322}]
       },
-      "name": "第20話「強敵」",
+      "name": "第20話「撃退」",
       "quest_id": 301323,
-      "bg_list": [120,120,120,120],
+      "bg_list": [407,407,407,407],
       "chapter_cnt": 4,
       "is_casino": false,
       "place_id": 7,
@@ -80376,9 +80831,9 @@
       "flag": {
         "quest": [{"type":6,"qid":301323}]
       },
-      "name": "第17階層⇒第18階層",
+      "name": "第17階層-1⇒第18階層",
       "quest_id": 301324,
-      "bg_list": [120],
+      "bg_list": [407],
       "chapter_cnt": 1,
       "is_casino": false,
       "stamina": 3,
@@ -80444,7 +80899,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301326}]
       },
-      "name": "第24話「討伐」",
+      "name": "第23話「討伐」",
       "quest_id": 301327,
       "bg_list": [14,14,14,14],
       "chapter_cnt": 4,
@@ -80481,7 +80936,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":200},{"type":"event_point","id":0,"val":200},{"type":"event_point","id":0,"val":300},{"type":"event_point","id":0,"val":300}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":1000}]
     },
     "301329": {
       "append_skill": {},
@@ -80506,7 +80961,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":300},{"type":"event_point","id":0,"val":300},{"type":"event_point","id":0,"val":400},{"type":"event_point","id":0,"val":400}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000}]
     },
     "301330": {
       "append_skill": {},
@@ -80531,8 +80986,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":500},{"type":"event_point","id":0,"val":500},{"type":"event_point","id":0,"val":500},{"type":"event_point","id":0,"val":1000}],
-      "fixed_help": [{"cid":8170,"lv":80,"hp":6000,"atk":9700,"helper_comment":"ありがとう","skillflag":[true,true,true,false]}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000}]
     },
     "301331": {
       "append_skill": {},
@@ -80557,8 +81011,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":600},{"type":"event_point","id":0,"val":600},{"type":"event_point","id":0,"val":600},{"type":"event_point","id":0,"val":1200}],
-      "fixed_help": [{"cid":8170,"lv":80,"hp":6000,"atk":9700,"helper_comment":"ありがとう","skillflag":[true,true,true,false]}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000}]
     },
     "301332": {
       "append_skill": {},
@@ -80583,8 +81036,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1500}],
-      "fixed_help": [{"cid":8170,"lv":80,"hp":6000,"atk":9700,"helper_comment":"ありがとう","skillflag":[true,true,true,false]}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":1000},{"type":"event_point","id":0,"val":1000}]
     },
     "301333": {
       "append_skill": {},
@@ -80596,7 +81048,7 @@
       },
       "name": "第13階層",
       "quest_id": 301333,
-      "bg_list": [120],
+      "bg_list": [407],
       "chapter_cnt": 1,
       "is_casino": false,
       "place_id": 5,
@@ -80609,7 +81061,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":1200},{"type":"event_point","id":0,"val":1200},{"type":"event_point","id":0,"val":1200},{"type":"event_point","id":0,"val":1800}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":1000}]
     },
     "301334": {
       "append_skill": {},
@@ -80621,7 +81073,7 @@
       },
       "name": "第15階層",
       "quest_id": 301334,
-      "bg_list": [112],
+      "bg_list": [408],
       "chapter_cnt": 1,
       "is_casino": false,
       "place_id": 6,
@@ -80634,7 +81086,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":1500},{"type":"event_point","id":0,"val":1500},{"type":"event_point","id":0,"val":1500},{"type":"event_point","id":0,"val":2000}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000}]
     },
     "301335": {
       "append_skill": {},
@@ -80646,7 +81098,7 @@
       },
       "name": "第17階層-1",
       "quest_id": 301335,
-      "bg_list": [120],
+      "bg_list": [407],
       "chapter_cnt": 1,
       "is_casino": false,
       "place_id": 7,
@@ -80659,7 +81111,7 @@
       "field_type": [0],
       "icon": "danmachi_free",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":3000}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":3000},{"type":"event_point","id":0,"val":3000},{"type":"event_point","id":0,"val":2000},{"type":"event_point","id":0,"val":2000}]
     },
     "301336": {
       "append_skill": {},
@@ -80667,19 +81119,19 @@
       "chapter_list": [0],
       "difficulty": 60,
       "flag": {
-        "quest": [{"type":6,"qid":301323}]
+        "quest": [{"type":6,"qid":301342}]
       },
       "name": "第17階層-2",
       "quest_id": 301336,
-      "bg_list": [120],
+      "bg_list": [407],
       "chapter_cnt": 1,
       "is_casino": false,
       "place_id": 8,
       "stamina": 24,
-      "reward_box": 1,
+      "reward_box": 2,
       "reward_data": {
         "type": "box",
-        "box": 1
+        "box": 2
       },
       "field_type": [0],
       "icon": "danmachi_free",
@@ -80717,11 +81169,11 @@
       "chapter_list": [0],
       "difficulty": 37,
       "flag": {
-        "quest": [{"type":6,"qid":301322}]
+        "quest": [{"type":6,"qid":301323}]
       },
       "name": "第17階層-1⇒第17階層-2",
       "quest_id": 301342,
-      "bg_list": [120],
+      "bg_list": [407],
       "chapter_cnt": 1,
       "is_casino": false,
       "stamina": 5,
@@ -83011,5 +83463,5 @@
     }
   },
   "res": 0,
-  "sv": "1466486507"
+  "sv": "1467189908"
 }
