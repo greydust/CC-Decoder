@@ -71,6 +71,7 @@ table.tablesorter div {
 
 table.tablesorter div.indent1 {
     padding-left: 10px;
+    padding-bottom: 3px;
 }
 
 table.tablesorter div.indent2 {

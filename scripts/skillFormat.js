@@ -1,17 +1,11 @@
 ﻿function SkillFormat(skillID, skillParams, skillFlag, iParams) {
     switch(skillID) {
         case 0x4c:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], FindType[skillParams[3]], TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], 8 * skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 0x56:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var debuff2String = DebuffFlagString(skillFlag[1]);
             if (debuff2String != "") {
                 debuff2String = ("，{0}%機率附帶" + debuff2String + "效果").format(skillParams[9]*100);
@@ -32,42 +26,34 @@
         case 0x1d:
         case 80:
         case 0:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+        case 0x31:
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], PushPowerString(skillParams[3]), skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 0x26:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 0x16:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 1:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+        case 7:
+        case 0x2c:
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]+1, skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 70:
-        case 0x35:
         case 0x2b:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+        case 6:
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
+        case 0x35:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], PushPowerString(skillParams[5]), skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 0x4d:
             var param4String = "";
             var param5String = "";
@@ -80,6 +66,12 @@
                 param5String = "，隱藏主手武器";
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], param4String, param5String, skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
+        case 0x5c:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var debuffString2 = AttackDebuffString(skillFlag[1]);
+            var attackTypeString2 = AttackTypeFlagString(skillFlag[1]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], PushPowerString(skillParams[5]), PushPowerString(skillParams[6]), skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, skillParams[1]+skillParams[2]*skillParams[4], debuffString2, attackTypeString2);
         case 0x33:
             var width = Math.abs(parseInt((skillParams[2] / 10000) % 100) * 0.1);
             var height = Math.abs(parseInt((skillParams[2] / 100) % 100) * 0.1);
@@ -105,31 +97,19 @@
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], height, width, targetString, damageString, plusDamageString, plusDamagedString);
         case 0x13:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*100, skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 0x5b:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*10, skillParams[2]*100, skillParams[3]*100, skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);            
         case 20:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]*100, skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         case 0x4a:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             var radius = parseInt(skillParams[2]/100)  / 10;
             var xShift = parseInt(skillParams[2]%100) / 10;
@@ -137,10 +117,7 @@
         case 0x58:
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], TargetType[skillParams[3]], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
         case 0x21:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             var rangeString = "";
             if (skillParams[4] <= 1 && skillParams[5] <=1) {
@@ -237,19 +214,13 @@
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], healString, buffString);
          case 0x45:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             var radius = Math.abs(parseInt((skillParams[5] / 100) % 100) * 0.1);
             var front = Math.abs(parseInt(skillParams[5] % 100) * 0.1);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], PushPowerString(skillParams[6]), skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, front, radius);
         case 0x4e:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             var spreadAttackString = "";
             if (skillParams[6] > 0 && skillParams[7] > 0) {
@@ -264,16 +235,10 @@
             var debuffString = DebuffFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString);
         case 0x17:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並免疫" + debuffString + "狀態";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*100, skillParams[2]*100, skillParams[3], skillParams[4]*100, skillParams[5]*100, skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString);
         case 0x43:
-            var debuffString = DebuffFlagString(skillFlag[0]);
-            if (debuffString != "") {
-                debuffString = "，並" + debuffString + "目標";
-            }
+            var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             var rangeString = "";
             if (skillParams[5] == 0) {
@@ -293,13 +258,153 @@
             var killNumber = skillParams[5] % 1000;
             var returnMana = parseInt(skillParams[5] / 1000) % 10;
             return SkillDatas[skillID].detailDescription.format(skillParams[0], (skillParams[1]-1)*100, (1-skillParams[2])*100, (skillParams[3]-1)*100, skillParams[4], skillParams[5], skillParams[6], skillParams[7]*100, skillParams[8]*100, skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], hp5String, killNumber, returnMana);
-       
+        case 0x49:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var radius = parseInt(skillParams[0] / 100) / 10;
+            var front = parseInt(skillParams[0] % 100) / 10;
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, front, radius);
+        case 0x34:
+            return SkillDatas[skillID].detailDescription.format(PCommandString(skillParams[0]), PCommandString(skillParams[1]), PCommandString(skillParams[2]), PCommandString(skillParams[3]), PCommandString(skillParams[4]), PCommandString(skillParams[5]), PCommandString(skillParams[6]), PCommandString(skillParams[7]), PCommandString(skillParams[8]), PCommandString(skillParams[9]), skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
+        case 0x40:
+            var jobString = JobFlagString(iParams[0]);
+            if (jobString != "") {
+                jobString = jobString + "職";
+            }
+            flagHealString = "";
+            debuffString = DebuffFlagString(skillFlag[1]);
+            if (debuffString != "") {
+                flagHealString = "，當受到" + debuffString + "傷害時改為治療" + skillParams[4] + "倍治療";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], TargetType[skillParams[3]], jobString, flagHealString);
+        case 0x1b:
+            var healString = "";
+            var healFlagString = HealFlagString(skillFlag[0]);
+            if (healFlagString != "") {
+                healString = "，並{0}".format(healFlagString);
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], healString);
+        case 0x48:
+            var front = parseInt(skillParams[3] % 100) / 10;
+            var radius = parseInt(skillParams[3] / 100) / 10;
+            var searchFront = parseInt(skillParams[2] % 100) / 10;
+            var searchRadius = parseInt(skillParams[2] / 100) / 10;
+            var debuffString = DebuffFlagString(skillFlag[0]);
+            if (debuffString != "") {
+                debuffString = "，並" + debuffString + "目標";
+            }
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var timeLimitString = "";
+            if (skillParams[6] > 0) {
+                timeLimitString = "，持續" + skillParams[6] + "秒";
+            }
+            var triggerString = "";
+            if (skillParams[0] == 1) {
+                triggerString = "有敵人進入時";                
+            } else {
+                triggerString = "定時";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], PushPowerString(skillParams[7]), skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, searchFront, searchRadius, radius, timeLimitString, triggerString);
+        case 0x52: 
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]-1, PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, skillParams[1]*skillParams[2]);
+        case 0x22:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var width = 1.5;
+            if (skillParams[4] > 0) {
+                width = skillParams[4];
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], PushPowerString(skillParams[3]), width, skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
+        case 50:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var jobString = JobFlagString(iParams[0]);
+            if (jobString != "") {
+                jobString = jobString + "職";
+            }
+            var healString = "";
+            var healFlagString = HealFlagString(skillFlag[1]);
+            if (healFlagString != "") {
+                healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[5]);
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], PushPowerString(skillParams[3]), TargetType[skillParams[4]], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, jobString, healFlagString);
+        case 0x37:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var followString = "";
+            if (skillParams[2] == 0) {
+                followString = "，並跟隨施法者移動";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, followString);
+        case 0x4f:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var bombRangeString = SpreadBulletString(skillParams[0], skillParams[5], skillParams[6]);
+            var bombDamageRange = "";
+            var bombDamageString = "";
+            if (skillParams[1] == skillParams[2]) {
+                bombDamageRange = skillParams[1];
+            } else {
+                bombDamageRange = skillParams[1] + "~" + skillParams[2];
+                bombDamageString = "，越遠越靠近後者";
+            }
+            var bombTeamString = "";
+            if (skillParams[9] != 0) {
+                bombTeamString = "，會炸到我方"
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], PushPowerString(skillParams[3]), skillParams[4], skillParams[5], skillParams[6], skillParams[7], PushPowerString(skillParams[8]), skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, bombRangeString, bombDamageRange, bombDamageString, bombTeamString);
+        case 0x27:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, skillParams[2]*1.5, PushPowerString(1.5));
+        case 0x2f:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            var bombRangeString = SpreadBulletString(skillParams[1], skillParams[2], skillParams[3]);
+            var bombDamageRange = "";
+            var bombDamageString = "";
+            if (skillParams[0] == skillParams[5]) {
+                bombDamageRange = skillParams[0];
+            } else {
+                bombDamageRange = skillParams[0] + "~" + skillParams[5];
+                bombDamageString = "，越遠越靠近後者";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, bombRangeString, bombDamageRange, bombDamageString);
+        case 0x3a:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], TargetType[skillParams[2]], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
+        case 0x54:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0]+1, skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], PushPowerString(skillParams[6]), skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
+        case 0x23:
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], FieldBitAreaString(skillParams[2]), PushPowerString(skillParams[3]), skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
+        case 0x24:
+            var teamMateString = "";
+            if (skillParams[2] != "") {
+                teamMateString = "及隊友";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], teamMateString, skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);       
         case 13:
             var jobString = JobFlagString(iParams[0]);
             if (jobString != "") {
                 jobString = jobString + "職";
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*100, skillParams[2]*100, skillParams[3], skillParams[4]*100, skillParams[5], skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], jobString);
+        case 0x57:
+            var front = (parseInt(skillParams[9]) % 100) / 10;
+            var width = (parseInt(skillParams[9] / 10000) % 100) / 10;
+            var height = (parseInt(skillParams[9] / 100) % 100) / 10;
+            var supportPowerUpString = SupportAreaPowerUpFlag[skillParams[5]];
+            if (supportPowerUpString != "") {
+                supportPowerUpString = "並獲得" + supportPowerUpString + "效果";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], parseInt(skillParams[1]*1000) / 10, skillParams[2]*100, skillParams[3]*100, skillParams[4]*100, skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], front, width, height, skillParams[8]+1, supportPowerUpString);   
         case 12:
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*100, skillParams[2]*100, skillParams[3], skillParams[4]*100, skillParams[5], skillParams[6]*100, skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
         case 14:
@@ -314,12 +419,58 @@
                 jobString = jobString + "職";
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*100, skillParams[2]*100, skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], jobString);
+        case 0x38:
+            var debuffString = DebuffFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], TargetType[skillParams[1]], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString);
+        
         default:
             if (typeof(SkillDatas[skillID]) == "undefined" || SkillDatas[skillID] == null) {
                 return SkillDatas[0xaaaa].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], skillID);
             } else {
                 return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
             }
+    }
+}
+
+SupportAreaPowerUpFlag = [
+    "",
+    "不死" ,
+    "格擋遠程攻擊",
+];
+
+function FieldBitAreaString(bitField) {
+    var width = 6;
+    var height = 3;
+    var bit = bitField;
+    var areaString = "";
+    for (var i=0 ; i<height ; i++) {
+        for (var j=0 ; j<width ; j++) {
+            if (bit & 1 > 0) {
+                areaString += "O";
+            } else {
+                areaString += "X";
+            }
+            bit = bit >> 1;
+        }
+        areaString += "<br>";
+    }
+    
+    return areaString;
+}
+
+function AttackDebuffString(flag) {
+    var debuffString = DebuffFlagString(flag);
+    if (debuffString != "") {
+        debuffString = "，並" + debuffString + "目標";
+    }
+    return debuffString;
+}
+
+function SpreadBulletString(type, range1, range2) {
+    if (type == 0) {
+        return "半徑" + range1 + "單位";
+    } else {
+        bombRangeString = "寬" + range1*2 + "單位、高" + range2 + "單位及寬" + range2 + "單位、高" + range1*2 + "單位";
     }
 }
 
@@ -450,6 +601,118 @@ PassiveFormat = {
     0x3e9: "WealPoint : [{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}]",	// WealPoint 
 };
 
+function PCommandString(commandParameter) {
+    var command = parseInt(Math.abs(commandParameter) / 10000) % 100;
+    var parameter1 = parseInt(Math.abs(commandParameter) / 100) % 100;
+    var parameter2 = parseInt(Math.abs(commandParameter)) % 100;
+    var direction = commandParameter >= 0 ? 1 : -1;
+    
+    var returnString = "";
+    switch (command) {
+        case 1: {
+            returnString = "儲存當前位置";
+            break;
+        }
+        case 2: {
+            returnString = "儲存當前地板位置";
+            break;
+        }
+        case 10: {
+            returnString = "設定移動時間為" + (parameter1 / 10) + "秒";
+            if (parameter2 == 1) {
+                returnString += "，並改變面對方向";
+            }
+            break;
+        }
+        case 11: {
+            returnString = "設定移動速度為" + (parameter1 / 10) + "秒";
+            if (parameter2 == 1) {
+                returnString += "，並改變面對方向";
+            }
+            break;
+        }
+        case 12: {
+            returnString = "跳起來" + (parameter1 / 10) + "單位高";
+            break;
+        }
+        case 20: {
+            returnString = "將終點設為目前儲存點";
+            break;
+        }
+        case 21: {
+            returnString = "將終點設為(" + parameter1 + ", " + parameter2 + ")";
+            break;
+        }
+        case 22: {
+            returnString = "將終點位移修正的X值設為" + (direction * parameter1 * 0.1);
+            break;
+        }
+        case 23: {
+            returnString = "將終點位移修正的Z值設為" + (direction * parameter1 * 0.1);
+            break;
+        }
+        case 24: {
+            returnString = "將終點位移修正的X值設為" + (direction * parameter1 * 1.5);
+            break;
+        }
+        case 25: {
+            returnString = "將終點位移修正的Z值設為" + (direction * parameter1 * 1.5);
+            break;
+        }
+        case 26: {
+            returnString = "將終點位移修正的X值設為" + (direction * parameter1 * 0.1 * 1.5);
+            break;
+        }
+        case 27: {
+            returnString = "將終點位移修正的Z值設為" + (direction * parameter1 * 0.1 * 1.5);
+            break;
+        }
+        case 30: {
+            var filterString = "";
+            if (parameter2 == 1) {
+                filterString = "全體";
+            } else if (parameter2 == 2) {
+                filterString = "我方";
+            } else {
+                filterString = "敵方";
+            }
+            returnString = "尋找{0}{1}目標並將目標列表暫存起來".format(TargetType[parameter1], filterString);
+            break;
+        }
+        case 31: {
+            var direcitonString = "";
+            if (parameter1 == 1 || parameter1 == 3) {
+                direcitonString = "背後";
+            } else {
+                direcitonString = "面前";
+            }
+            returnString = "讀取目標列表的當前目標，將終點設為它的{0}，並將讀取目標往後移一位。若無目標則將終點設為起點".format(direcitonString);
+            break;
+        }
+        case 32: {
+            returnString = "等待" + (parameter1 / 10) + "秒";
+            break;
+        }
+        case 33: {
+            returnString = "將目標列表的讀取目標重置到列表開頭";
+            break;
+        }
+        case 40: {
+            returnString = "{0}秒後開始殘影，每{1}秒一個".format(parameter2 / 10, parameter1 / 10);
+            break;
+        }
+        case 41: {
+            returnString = "停止殘影";
+            break;
+        }
+    }
+    
+    if (returnString != "") {
+        returnString = "<div class=\"indent1\">" + returnString + "</div>";
+    }
+    return returnString;
+}
+
 function PushPowerString(power) {
     if (power > 0) {
         return "，擊退力" + power;
@@ -491,7 +754,7 @@ FindType = [
 ];
 
 TargetType = [
-    "隨機敵人",	// RANDOM
+    "隨機",	// RANDOM
     "HP_LOW",	// HP_LOW
     "HP_HIGHT",	// HP_HIGHT
     "HPMAX_LOW",	// HPMAX_LOW
@@ -501,12 +764,12 @@ TargetType = [
     "LEVEL_LOW",	// LEVEL_LOW
     "LEVEL_HIGHT",	// LEVEL_HIGHT
     "DISTANCE_LOW",	// DISTANCE_LOW
-    "DISTANCE_HIGHT",	// DISTANCE_HIGHT
+    "依遠到近",	// DISTANCE_HIGHT
     "APPANAGE_NEAR",	// APPANAGE_NEAR
     "APPANAGE_FAR",	// APPANAGE_FAR
-    "APPANAGE_NEAR2",	// APPANAGE_NEAR2
-    "APPANAGE_FAR2",	// APPANAGE_FAR2
-    "隊伍全體",	// GROUP_ALL
+    "由後到前",	// APPANAGE_NEAR2
+    "由前到後",	// APPANAGE_FAR2
+    "所有",	// GROUP_ALL
     "pRANDOM",	// pRANDOM
     "pHP_LOW",	// pHP_LOW
     "pHP_HIGHT",	// pHP_HIGHT
@@ -517,13 +780,13 @@ TargetType = [
     "pLEVEL_LOW",	// pLEVEL_LOW
     "pLEVEL_HIGHT",	// pLEVEL_HIGHT
     "pDISTANCE_LOW",	// pDISTANCE_LOW
-    "pDISTANCE_HIGHT",	// pDISTANCE_HIGHT
+    "依遠到近",	// pDISTANCE_HIGHT
     "pAPPANAGE_NEAR",	// pAPPANAGE_NEAR
     "pAPPANAGE_FAR",	// pAPPANAGE_FAR
-    "pAPPANAGE_NEAR2",	// pAPPANAGE_NEAR2
-    "最前方",	// pAPPANAGE_FAR2
-    "隊伍全體",	// pGROUP_ALL
-    "隨機敵人",	// oRANDOM
+    "由後到前",	// pAPPANAGE_NEAR2
+    "由前到後",	// pAPPANAGE_FAR2
+    "所有",	// pGROUP_ALL
+    "隨機",	// oRANDOM
     "oHP_LOW",	// oHP_LOW
     "oHP_HIGHT",	// oHP_HIGHT
     "oHPMAX_LOW",	// oHPMAX_LOW
@@ -533,12 +796,12 @@ TargetType = [
     "oLEVEL_LOW",	// oLEVEL_LOW
     "oLEVEL_HIGHT",	// oLEVEL_HIGHT
     "oDISTANCE_LOW",	// oDISTANCE_LOW
-    "oDISTANCE_HIGHT",	// oDISTANCE_HIGHT
+    "依遠到近",	// oDISTANCE_HIGHT
     "oAPPANAGE_NEAR",	// oAPPANAGE_NEAR
     "oAPPANAGE_FAR",	// oAPPANAGE_FAR
-    "oAPPANAGE_NEAR2",	// oAPPANAGE_NEAR2
-    "oAPPANAGE_FAR2",	// oAPPANAGE_FAR2
-    "隊伍全體",	// oGROUP_ALL
+    "由後到前",	// oAPPANAGE_NEAR2
+    "由前到後",	// oAPPANAGE_FAR2
+    "所有",	// oGROUP_ALL
     "aRANDOM",	// aRANDOM
     "aHP_LOW",	// aHP_LOW
     "aHP_HIGHT",	// aHP_HIGHT
@@ -549,12 +812,12 @@ TargetType = [
     "aLEVEL_LOW",	// aLEVEL_LOW
     "aLEVEL_HIGHT",	// aLEVEL_HIGHT
     "aDISTANCE_LOW",	// aDISTANCE_LOW
-    "aDISTANCE_HIGHT",	// aDISTANCE_HIGHT
+    "依遠到近",	// aDISTANCE_HIGHT
     "aAPPANAGE_NEAR",	// aAPPANAGE_NEAR
     "aAPPANAGE_FAR",	// aAPPANAGE_FAR
-    "aAPPANAGE_NEAR2",	// aAPPANAGE_NEAR2
-    "aAPPANAGE_FAR2",	// aAPPANAGE_FAR2
-    "隊伍全體",	// aGROUP_ALL
+    "由後到前",	// aAPPANAGE_NEAR2
+    "由前到後",	// aAPPANAGE_FAR2
+    "所有",	// aGROUP_ALL
     "MYSELF",	// MYSELF
     "GROUP_ALL_NOMYSELF",	// GROUP_ALL_NOMYSELF
     "pGROUP_ALL_NOMYSELF",	// pGROUP_ALL_NOMYSELF
@@ -797,7 +1060,7 @@ function AttackTypeFlagString(flag) {
 }
 
 DebuffFlag = [
-    "",
+    "貫通",
     "",
     "",
     "麻痺",
