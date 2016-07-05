@@ -24,19 +24,38 @@ public class MainActivity extends AppCompatActivity {
         protected Void doInBackground(Void... params) {
             File externalRoot = Environment.getExternalStorageDirectory();
             String outputDataFolder = "/mnt/shared/Other/";
+            String outputDataFolderTW = "/mnt/shared/Other/TW/";
+            new File("/mnt/shared/Other/TW/").mkdirs();
 
-            List<File> files = GetListFiles(new File(externalRoot.getAbsolutePath() + "/Android/data/com.sega.chainchronicle/files"));
-            for (File file : files) {
-                String rawData = ReadFile(file);
-                try {
-                    String convertedFileName = outputDataFolder + file.getName();
-                    BufferedWriter writer = new BufferedWriter(new FileWriter(convertedFileName));
-                    writer.write(rawData);
-                    writer.flush();
-                    writer.close();
-                } catch (IOException e) {
+            {
+                List<File> files = GetListFiles(new File(externalRoot.getAbsolutePath() + "/Android/data/com.sega.chainchronicle/files"));
+                for (File file : files) {
+                    String rawData = ReadFile(file);
+                    try {
+                        String convertedFileName = outputDataFolder + file.getName();
+                        BufferedWriter writer = new BufferedWriter(new FileWriter(convertedFileName));
+                        writer.write(rawData);
+                        writer.flush();
+                        writer.close();
+                    } catch (IOException e) {
+                    }
                 }
             }
+            {
+                List<File> files = GetListFiles(new File(externalRoot.getAbsolutePath() + "/Android/data/net.gamon.chainchronicleTW/files"));
+                for (File file : files) {
+                    String rawData = ReadFile(file);
+                    try {
+                        String convertedFileName = outputDataFolderTW + file.getName();
+                        BufferedWriter writer = new BufferedWriter(new FileWriter(convertedFileName));
+                        writer.write(rawData);
+                        writer.flush();
+                        writer.close();
+                    } catch (IOException e) {
+                    }
+                }
+            }
+
 
             return null;
         }
