@@ -382,7 +382,7 @@ function PassiveText(passiveSkillID, cellToWrite) {
 
                         var subPassiveCell = document.createElement("div");
                         subPassiveCell.className = "passivePattern";
-                        passiveCell.appendChild(subPassiveCell);
+                        cellToWrite.appendChild(subPassiveCell);
                         
                         PassiveDetailText(subPassiveCell, subPassiveData.ability,
                             [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)],
