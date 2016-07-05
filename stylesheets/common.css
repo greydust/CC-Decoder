@@ -78,7 +78,7 @@ table.tablesorter div.indent2 {
     padding-left: 20px;
 }
 
-table.tablesorter div.skillPattern, div.popup {
+table.tablesorter div.skillPattern, table.tablesorter div.popup, table.tablesorter div.passivePattern {
     border: 1px solid #666666;
 }
 
@@ -97,7 +97,7 @@ table.tablesorter div:hover > div.popup {
   margin-left: 70px;
 }
 
-table.skillSystem {
+table.skillSystem, table.passiveSystem {
     border-spacing: 0px;
     padding-left: 2px;
     padding-top: 2px;
@@ -105,7 +105,7 @@ table.skillSystem {
     padding-bottom: 2px;
 }
 
-table.skillSystem tr td {
+table.skillSystem tr td, table.passiveSystem tr td {
     text-align: left;
 	padding: 2px 2px;
 	border-top: 1px solid #666666;
@@ -114,7 +114,7 @@ table.skillSystem tr td {
 	border-bottom: 0px solid #666666;
 }
 
-table.skillSystem tr td:last-child {
+table.skillSystem tr td:last-child, table.passiveSystem tr td:last-child {
     text-align: left;
 	padding: 2px 2px;
 	border-top: 1px solid #666666;
@@ -123,7 +123,7 @@ table.skillSystem tr td:last-child {
 	border-bottom: 0px solid #666666;
 }
 
-table.skillSystem tr:last-child td {
+table.skillSystem tr:last-child td, table.passiveSystem tr:last-child td {
     text-align: left;
 	padding: 2px 2px;
 	border-top: 1px solid #666666;
@@ -132,7 +132,7 @@ table.skillSystem tr:last-child td {
 	border-bottom: 1px solid #666666;
 }
 
-table.skillSystem tr:last-child td:last-child {
+table.skillSystem tr:last-child td:last-child, table.passiveSystem tr:last-child td:last-child {
     text-align: left;
 	padding: 2px 2px;
 	border-top: 1px solid #666666;

@@ -241,7 +241,7 @@ function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams
 
 function SkillText(characterData, cellToWrite) {
     cellToWrite.innerHTML = "";
-    cellToWrite.class = "skill";
+    cellToWrite.className = "skill";
     
     try {
         cellToWrite.innerHTML += characterData.skilltext.replace("\\n", "");
@@ -250,19 +250,17 @@ function SkillText(characterData, cellToWrite) {
             patternCell.className = "skillPattern";
             patternCell.innerHTML +=  "耗珠: " + characterData.skill_cost;
             var skillDetailCell = patternCell.appendChild(document.createElement("div"));
+            var skillflag0;
             if (typeof(characterData.skillflag0_0) == "undefined" || characterData.skillflag0_0 == null) {
-                SkillDetailText(skillDetailCell, characterData.skillid[0],
-                    [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)],
-                    [characterData.skillflag, MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1)],
-                    [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
-                );
+                skillflag0 = characterData.skillflag;
             } else {
-                SkillDetailText(skillDetailCell, characterData.skillid[0],
-                    [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)],
-                    [MergeSkillFlag(characterData.skillflag0_0, characterData.skillflag0_1), MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1)],
-                    [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
-                );
+                skillFlag0 = MergeSkillFlag(characterData.skillflag0_0, characterData.skillflag0_1);
             }
+            SkillDetailText(skillDetailCell, characterData.skillid[0],
+                [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)],
+                [skillFlag0, MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1)],
+                [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
+            );
         }
         {
             if(typeof(characterData.pattern0) != "undefined") {
@@ -298,36 +296,69 @@ function SkillText(characterData, cellToWrite) {
     }
 }
 
-function PassiveDetailText(passiveType, passiveFlag, passiveParams) {
+function PassiveSystemText(cellToWrite, passiveType, passiveParams, passiveFlag, iParams) {
+    cellToWrite.innerHTML += "類別: " + PassiveDatas[passiveType].typeName;
+    
+    var paramDescriptions = PassiveDatas[passiveType].parameterDescription;
+    var tableString = "<table class=\"passiveSystem\">";
+    for (var i=0 ; i<5; i++) {
+        tableString += "<tr>";
+        for (var j=0 ; j<2 ; j++) {
+            tableString += "<td>";
+            tableString += paramDescriptions[i*2+j] + ": " + passiveParams[i*2+j];
+            tableString += "</td>";
+        }
+        tableString += "</tr>";
+    }
+    tableString += "</table>";
+    cellToWrite.innerHTML += tableString;
+
+    var flagDescriptions = PassiveDatas[passiveType].flagDescription;
+    var flagTableString = "<table class=\"passiveSystem\">";
+    for (var i=0 ; i<1; i++) {
+        tableString += "<tr>";
+        for (var j=0 ; j<2 ; j++) {
+            flagTableString += "<td>";
+            flagTableString += flagDescriptions[i*2+j] + ": " + passiveFlag[i*2+j];
+            flagTableString += "</td>";
+        }
+        flagTableString += "</tr>";
+    }
+    flagTableString += "</table>";
+    cellToWrite.innerHTML += flagTableString;
+    
+    var iParamDescriptions = PassiveDatas[passiveType].iParameterDescription;
+    var iTableString = "<table class=\"passiveSystem\">";
+    for (var i=0 ; i<1; i++) {
+        tableString += "<tr>";
+        for (var j=0 ; j<1 ; j++) {
+            iTableString += "<td>";
+            iTableString += iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
+            iTableString += "</td>";
+        }
+        iTableString += "</tr>";
+    }
+    iTableString += "</table>";
+    
+    cellToWrite.innerHTML += iTableString;
+}
+
+function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag, iParams) {
     var outputString = "";
 
-    if (typeof(PassiveFormat[passiveType]) == "undefined" || PassiveFormat[passiveType] == null) {
-        outputString += "Type: " + passiveType + " [";
-        var first = true;
-        for(var param in passiveParams) {
-            if (first) {
-                outputString += passiveParams[param];
-                first = false;
-            } else {
-                outputString += ", " + passiveParams[param];
-            }
-        }
-        outputString += "]";
-    } else {
-        outputString += PassiveFormat[passiveType].format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9]);
-        var flagString = SkillFlagString(passiveFlag);
-        if (flagString != "") {
-            outputString += "<div class=\"indent1\">" + flagString + "</div>";
-        }
-    }
+    outputString += PassiveFormat(passiveType, passiveParams, passiveFlag, iParams);
+    cellToWrite.innerHTML = outputString;
 
+    var popupCell = document.createElement("div");
+    popupCell.className = "popup";
+    cellToWrite.appendChild(popupCell);
     
-    return outputString;
+    PassiveSystemText(popupCell, passiveType, passiveParams, passiveFlag, iParams);
 }
 
 function PassiveText(passiveSkillID, cellToWrite) {
     cellToWrite.innerHTML = "";
-    cellToWrite.class = "passiveSkill";
+    cellToWrite.className = "passiveSkill";
 
     currentDB.database().ref('/skilllist/skilllist/' + passiveSkillID).once('value').then(function(passiveDataSnapshot) {
         try {
@@ -336,22 +367,34 @@ function PassiveText(passiveSkillID, cellToWrite) {
             cellToWrite.innerHTML += passiveData.text.replace("\\n", "");;
 
             var passiveCell = document.createElement("div");
+            passiveCell.className = "passivePattern";
             cellToWrite.appendChild(passiveCell);
-            passiveCell.innerHTML += PassiveDetailText(passiveData.ability, MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]);
+
+            PassiveDetailText(passiveCell, passiveData.ability,
+                [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
+                [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
+                [NullableNumber(passiveData.iParam0)]
+            );
             for(var subID in passiveData.sub) {
                 currentDB.database().ref('/skilllist/skilllist/' + passiveData.sub[subID]).once('value').then(function(subPassiveDataSnapshot) {
                     try {
                         subPassiveData = subPassiveDataSnapshot.val();
 
                         var subPassiveCell = document.createElement("div");
+                        subPassiveCell.className = "passivePattern";
                         passiveCell.appendChild(subPassiveCell);
-                        subPassiveCell.innerHTML += PassiveDetailText(subPassiveData.ability, MergeSkillFlag(subPassiveData.flag0_0, subPassiveData.flag0_1), [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)]);
+                        
+                        PassiveDetailText(subPassiveCell, subPassiveData.ability,
+                            [NullableNumber(subPassiveData.param0), NullableNumber(subPassiveData.param1), NullableNumber(subPassiveData.param2), NullableNumber(subPassiveData.param3), NullableNumber(subPassiveData.param4), NullableNumber(subPassiveData.param5), NullableNumber(subPassiveData.param6), NullableNumber(subPassiveData.param7), NullableNumber(subPassiveData.param8), NullableNumber(subPassiveData.param9)],
+                            [MergeSkillFlag(subPassiveData.flag0_0, subPassiveData.flag0_1), MergeSkillFlag(subPassiveData.flag1_0, subPassiveData.flag1_1)],
+                            [NullableNumber(subPassiveData.iParam0)]
+                        );
                     } catch(e) {
                     }
                 });
             }
         } catch (e) {
-            cellToWrite.innerHTML = "";
+            passiveCell.innerHTML = "";
         }
     });
 }
@@ -366,11 +409,15 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
             
             cellToWrite.innerHTML += supportData.text.replace("\\n", "");
             cellToWrite.innerHTML += "<div>Cost: " + supportCost + "</div>";
+            
+            var typeCell = document.createElement("div");
+            cellToWrite.appendChild(typeCell);
+
             currentDB.database().ref('/supporterskill/supporterskill/' + supportSkillType).once('value').then(function(supportTypeDataSnapshot) {
                 try {
                     supportTypeData = supportTypeDataSnapshot.val();
-                
-                    cellToWrite.innerHTML += "<div>類型:" + supportTypeData.name + "</div>";
+                    
+                    typeCell.innerHTML = "類型:" + supportTypeData.name;
                 } catch(e) {
                 }
             });
@@ -380,7 +427,15 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
                     try {
                         passiveData = passiveDataSnapshot.val();
                         
-                        cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                        var passiveCell = document.createElement("div");
+                        passiveCell.className = "passivePattern";
+                        cellToWrite.appendChild(passiveCell);
+                        
+                        PassiveDetailText(passiveCell, passiveData.ability,
+                            [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
+                            [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
+                            [NullableNumber(passiveData.iParam0)]
+                        );
                     } catch(e) {
                     }
                 });
@@ -390,7 +445,15 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
                     try {
                         passiveData = passiveDataSnapshot.val();
                         
-                        cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                        var passiveCell = document.createElement("div");
+                        passiveCell.className = "passivePattern";
+                        cellToWrite.appendChild(passiveCell);
+                        
+                        PassiveDetailText(passiveCell, passiveData.ability,
+                            [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
+                            [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
+                            [NullableNumber(passiveData.iParam0)]
+                        );
                     } catch(e) {
                     }
                 });
@@ -400,7 +463,15 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
                     try {
                         passiveData = passiveDataSnapshot.val();
                         
-                        cellToWrite.innerHTML += "<div>" + PassiveDetailText(passiveData.ability, (passiveData.flag0_0 & 0xffffffff) + (passiveData.flag0_1 << 0x20), [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)]) + "</div>";
+                        var passiveCell = document.createElement("div");
+                        passiveCell.className = "passivePattern";
+                        cellToWrite.appendChild(passiveCell);
+                        
+                        PassiveDetailText(passiveCell, passiveData.ability,
+                            [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
+                            [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
+                            [NullableNumber(passiveData.iParam0)]
+                        );
                     } catch(e) {
                     }
                 });
