@@ -1,5 +1,5 @@
 {
-  "deceive": 1467280806,
+  "deceive": 1467698396,
   "bossskill": {
     "1": {
       "atkspeed": "3",
@@ -8246,7 +8246,7 @@
       "skillparam1": 0.5,
       "spmotname": "sp_slash21",
       "skillparam3": 10.0,
-      "skillparam2": 0.17,
+      "skillparam2": 0.15,
       "skillparam4": 4.0
     },
     "75202": {
@@ -10798,5 +10798,5 @@
     }
   },
   "res": 0,
-  "sv": "1467200213"
+  "sv": "1467525198"
 }

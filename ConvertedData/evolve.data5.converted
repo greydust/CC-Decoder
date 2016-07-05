@@ -1,5 +1,5 @@
 {
-  "deceive": 1467280807,
+  "deceive": 1467698402,
   "evolve": {
     "26000": {
       "evol_dst": 26000,
@@ -1497,6 +1497,54 @@
       "usable1": -1,
       "usable2": -1
     },
+    "26177": {
+      "evol_dst": 26177,
+      "id": 26177,
+      "name": "漆黒の金属",
+      "profile": "ダンまちコラボ用錬金素材 ヘスティア・ナイフ用",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 9999,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [9999]
+    },
+    "26178": {
+      "evol_dst": 26178,
+      "id": 26178,
+      "name": "ミノタウロスの角",
+      "profile": "ダンまちコラボ用錬金素材 牛若丸用",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 9999,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [9999]
+    },
+    "26179": {
+      "evol_dst": 26179,
+      "id": 26179,
+      "name": "魔石のかけら",
+      "profile": "ダンまちコラボ用錬金素材 火月用",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 9999,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [9999]
+    },
+    "26180": {
+      "evol_dst": 26180,
+      "id": 26180,
+      "name": "天燈の羽",
+      "profile": "ダンまちコラボ用錬金素材 天晴乃燈杖用",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": 9999,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [9999]
+    },
     "85001": {
       "evol_dst": 85001,
       "id": 85001,
@@ -2835,17 +2883,6 @@
       "usable1": -1,
       "usable2": -1
     },
-    "85200": {
-      "evol_dst": 85200,
-      "id": 85200,
-      "name": "天晴乃眩弓",
-      "profile": "ver2.6.6錬金",
-      "rank_limit": 2,
-      "rarity": 5,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
     "85171": {
       "evol_dst": 85171,
       "id": 85171,
@@ -3032,6 +3069,17 @@
       "profile": "魔神ラザニル武器",
       "rank_limit": 2,
       "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85200": {
+      "evol_dst": 85200,
+      "id": 85200,
+      "name": "天晴乃眩弓",
+      "profile": "ver2.6.6錬金",
+      "rank_limit": 2,
+      "rarity": 5,
       "usable0": -1,
       "usable1": -1,
       "usable2": -1
@@ -3507,7 +3555,7 @@
     "85252": {
       "evol_dst": 70025,
       "id": 85252,
-      "name": "１６－ＢＩＴワンド",
+      "name": "16-BITワンド",
       "profile": "セハガ探索用武器進化アルカナ",
       "rank_limit": 0,
       "rarity": 3,
@@ -3518,7 +3566,7 @@
     "85253": {
       "evol_dst": 70026,
       "id": 85253,
-      "name": "１６－ＢＩＴワンドミニ",
+      "name": "16-BITワンドミニ",
       "profile": "セハガ探索用武器進化アルカナ",
       "rank_limit": 0,
       "rarity": 3,
@@ -3544,6 +3592,83 @@
       "profile": "ラントカルテモチーフ武器",
       "rank_limit": 0,
       "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85264": {
+      "evol_dst": 85264,
+      "id": 85264,
+      "name": "ヘスティア・ナイフ",
+      "profile": "ダンまち踏破_錬金イベント用武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85265": {
+      "evol_dst": 85265,
+      "id": 85265,
+      "name": "牛若丸",
+      "profile": "ダンまち踏破_錬金イベント用武器",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85266": {
+      "evol_dst": 85266,
+      "id": 85266,
+      "name": "アルヴス・ルミナ",
+      "profile": "ダンまち踏破_探索イベント用武器",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85267": {
+      "evol_dst": 85267,
+      "id": 85267,
+      "name": "ヴェルフの大刀",
+      "profile": "ダンまち踏破_探索イベント用武器",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85268": {
+      "evol_dst": 85268,
+      "id": 85268,
+      "name": "デスペレート",
+      "profile": "ダンまち踏破_踏破報酬用武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85269": {
+      "evol_dst": 85269,
+      "id": 85269,
+      "name": "ウダイオスの黒剣",
+      "profile": "ダンまち踏破_踏破報酬用武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85270": {
+      "evol_dst": 85270,
+      "id": 85270,
+      "name": "火月",
+      "profile": "ダンまち踏破_踏破報酬用武器",
+      "rank_limit": 2,
+      "rarity": 5,
       "usable0": -1,
       "usable1": -1,
       "usable2": -1
@@ -3581,6 +3706,83 @@
       "profile": "リーゼロッテイベント武器",
       "rank_limit": 0,
       "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85277": {
+      "evol_dst": 85277,
+      "id": 85277,
+      "name": "オクトハンマー",
+      "profile": "３周年ＴＡルーレット景品",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85278": {
+      "evol_dst": 85278,
+      "id": 85278,
+      "name": "ゴッツハンマー",
+      "profile": "３周年キャラバン　大阪　景品",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85279": {
+      "evol_dst": 85279,
+      "id": 85279,
+      "name": "エビフリャンス",
+      "profile": "３周年ＴＡルーレット景品",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85280": {
+      "evol_dst": 85280,
+      "id": 85280,
+      "name": "デラリャンス",
+      "profile": "３周年キャラバン　名古屋　景品",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85281": {
+      "evol_dst": 85281,
+      "id": 85281,
+      "name": "トンコツカップ",
+      "profile": "３周年ＴＡルーレット景品",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85282": {
+      "evol_dst": 85282,
+      "id": 85282,
+      "name": "バリカップ",
+      "profile": "３周年キャラバン　福岡　景品",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85287": {
+      "evol_dst": 85287,
+      "id": 85287,
+      "name": "天晴乃燈杖",
+      "profile": "2.7.2錬金",
+      "rank_limit": 2,
+      "rarity": 5,
       "usable0": -1,
       "usable1": -1,
       "usable2": -1
@@ -6249,144 +6451,8 @@
       "usable1": -1,
       "usable2": -1,
       "usable": [8045]
-    },
-    "26177": {
-      "evol_dst": 26177,
-      "id": 26177,
-      "name": "漆黒の金属",
-      "profile": "ダンまちコラボ用錬金素材 ヘスティア・ナイフ用",
-      "rank_limit": 0,
-      "rarity": 3,
-      "usable0": 9999,
-      "usable1": -1,
-      "usable2": -1,
-      "usable": [9999]
-    },
-    "26178": {
-      "evol_dst": 26178,
-      "id": 26178,
-      "name": "ミノタウロスの角",
-      "profile": "ダンまちコラボ用錬金素材 牛若丸用",
-      "rank_limit": 0,
-      "rarity": 3,
-      "usable0": 9999,
-      "usable1": -1,
-      "usable2": -1,
-      "usable": [9999]
-    },
-    "26179": {
-      "evol_dst": 26179,
-      "id": 26179,
-      "name": "魔石のかけら",
-      "profile": "ダンまちコラボ用錬金素材 火月用",
-      "rank_limit": 0,
-      "rarity": 3,
-      "usable0": 9999,
-      "usable1": -1,
-      "usable2": -1,
-      "usable": [9999]
-    },
-    "26180": {
-      "evol_dst": 26180,
-      "id": 26180,
-      "name": "天燈の羽",
-      "profile": "ダンまちコラボ用錬金素材 天晴乃燈杖用",
-      "rank_limit": 2,
-      "rarity": 5,
-      "usable0": 9999,
-      "usable1": -1,
-      "usable2": -1,
-      "usable": [9999]
-    },
-    "85264": {
-      "evol_dst": 85264,
-      "id": 85264,
-      "name": "ヘスティア・ナイフ",
-      "profile": "ダンまち踏破_錬金イベント用武器",
-      "rank_limit": 2,
-      "rarity": 5,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
-    "85265": {
-      "evol_dst": 85265,
-      "id": 85265,
-      "name": "牛若丸",
-      "profile": "ダンまち踏破_錬金イベント用武器",
-      "rank_limit": 2,
-      "rarity": 4,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
-    "85266": {
-      "evol_dst": 85266,
-      "id": 85266,
-      "name": "アルヴス・ルミナ",
-      "profile": "ダンまち踏破_探索イベント用武器",
-      "rank_limit": 2,
-      "rarity": 4,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
-    "85267": {
-      "evol_dst": 85267,
-      "id": 85267,
-      "name": "ヴェルフの大刀",
-      "profile": "ダンまち踏破_探索イベント用武器",
-      "rank_limit": 0,
-      "rarity": 3,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
-    "85268": {
-      "evol_dst": 85268,
-      "id": 85268,
-      "name": "デスペレート",
-      "profile": "ダンまち踏破_踏破報酬用武器",
-      "rank_limit": 2,
-      "rarity": 5,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
-    "85269": {
-      "evol_dst": 85269,
-      "id": 85269,
-      "name": "ウダイオスの黒剣",
-      "profile": "ダンまち踏破_踏破報酬用武器",
-      "rank_limit": 2,
-      "rarity": 5,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
-    "85270": {
-      "evol_dst": 85270,
-      "id": 85270,
-      "name": "火月",
-      "profile": "ダンまち踏破_踏破報酬用武器",
-      "rank_limit": 2,
-      "rarity": 5,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
-    },
-    "85287": {
-      "evol_dst": 85287,
-      "id": 85287,
-      "name": "天晴乃燈杖",
-      "profile": "2.7.2錬金",
-      "rank_limit": 2,
-      "rarity": 5,
-      "usable0": -1,
-      "usable1": -1,
-      "usable2": -1
     }
   },
   "res": 0,
-  "sv": "1467163707"
+  "sv": "1467164080"
 }

@@ -1,5 +1,5 @@
 {
-  "deceive": 1467280819,
+  "deceive": 1467698409,
   "questdigest": {
     "20": {
       "append_skill": {},
@@ -19916,6 +19916,19 @@
       "place_id": 9,
       "stamina": 13
     },
+    "75200": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "登場リヴェラ",
+      "quest_id": 75200,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
+    },
     "75201": {
       "append_skill": {},
       "area_id": 10,
@@ -34142,6 +34155,19 @@
       "place_id": 2,
       "stamina": 8
     },
+    "580170": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "登場メガドライブ２",
+      "quest_id": 580170,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
+    },
     "580171": {
       "append_skill": {
         "cid": 58017,
@@ -34161,6 +34187,19 @@
       "place_id": 9,
       "stamina": 6,
       "field_type": [0,0,0]
+    },
+    "580180": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "登場ロボピッチャ",
+      "quest_id": 580180,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
     },
     "580181": {
       "append_skill": {
@@ -61539,6 +61578,52 @@
       "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90011,"val":1}],
       "fixed_help": [{"cid":7009,"lv":70,"hp":4870,"atk":6940,"helper_comment":"遠くから……殺す！","skillflag":[true,true,true,false]}]
     },
+    "244808": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 35,
+      "flag": {},
+      "name": "体験リヴェラ",
+      "quest_id": 244808,
+      "bg_list": [119],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "sort": 60,
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"chara_rf","id":90902,"val":1},{"type":"weapon_rf","id":93901,"val":1},{"type":"weapon_rf","id":93901,"val":1},{"type":"chara_rf","id":90902,"val":1}],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":"神技・玲瓏黒破斬！","skillflag":[true,true,true,false]}]
+    },
+    "244809": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [0],
+      "difficulty": 75,
+      "flag": {},
+      "name": "体験リヴェラ監獄編",
+      "quest_id": 244809,
+      "bg_list": [110],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "icon": "244808",
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":100},{"type":"item","id":10,"val":100},{"type":"item","id":10,"val":100},{"type":"item","id":10,"val":100}],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":"神技・玲瓏黒破斬！","skillflag":[true,true,true,false]}]
+    },
     "244901": {
       "append_skill": {},
       "area_id": 1,
@@ -61557,7 +61642,8 @@
         "box": 2
       },
       "sort": 100,
-      "field_type": [0]
+      "field_type": [0],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":"神技・玲瓏黒破斬！","skillflag":[true,true,true,false]}]
     },
     "244902": {
       "append_skill": {},
@@ -61577,7 +61663,8 @@
         "box": 2
       },
       "sort": 90,
-      "field_type": [0]
+      "field_type": [0],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":"神技・玲瓏黒破斬！","skillflag":[true,true,true,false]}]
     },
     "244903": {
       "append_skill": {},
@@ -61597,7 +61684,8 @@
         "box": 2
       },
       "sort": 80,
-      "field_type": [0]
+      "field_type": [0],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":"神技・玲瓏黒破斬！","skillflag":[true,true,true,false]}]
     },
     "244904": {
       "append_skill": {},
@@ -61617,7 +61705,8 @@
         "box": 2
       },
       "sort": 70,
-      "field_type": [0]
+      "field_type": [0],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":"神技・玲瓏黒破斬！","skillflag":[true,true,true,false]}]
     },
     "244905": {
       "append_skill": {},
@@ -61731,7 +61820,7 @@
       "chapter_list": [0],
       "difficulty": 45,
       "flag": {},
-      "name": "義勇軍が行く大阪",
+      "name": "義勇軍大阪へ行く",
       "quest_id": 245101,
       "bg_list": [8],
       "chapter_cnt": 1,
@@ -83463,5 +83552,5 @@
     }
   },
   "res": 0,
-  "sv": "1467189908"
+  "sv": "1467621019"
 }
