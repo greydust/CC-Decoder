@@ -27,6 +27,7 @@
         case 80:
         case 0:
         case 0x31:
+        case 5:
             var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], PushPowerString(skillParams[3]), skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
@@ -502,7 +503,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]*100, passiveParams[2]*100, passiveParams[3]*100, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
         }
         case 0x16: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]*100, passiveParams[2]*100, passiveParams[3]*100, passiveParams[4]*100, passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], parseInt(passiveParams[1]*1000)/10, parseInt(passiveParams[2]*1000)/10, parseInt(passiveParams[3]*1000)/10, parseInt(passiveParams[4]*1000)/10, passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
         }
         case 0x47: {
             var conditionString = "";
@@ -526,6 +527,12 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 battleGroundString = "，" + BattlegroundFlagString(flag) + "再額外增加{0}%、{1}%、{2}%".format(passiveParams[3]*100, passiveParams[4]*100, passiveParams[5]*100)
             }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]*100, parseInt(passiveParams[1]*1000)/10, passiveParams[2]*100, passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], battleGroundString);
+        }
+        case 0x1d: {
+            return PassiveDatas[passiveID].detailDescription.format(parseInt(passiveParams[0]*1000)/10 - 100, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+        }
+        case 0x3e: {
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2]*100 - 100, passiveParams[3]*100 - 100, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
         }
         default: {
             if (typeof(PassiveDatas[passiveID]) == "undefined" || PassiveDatas[passiveID] == null) {

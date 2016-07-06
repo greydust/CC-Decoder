@@ -25,6 +25,14 @@ function NullableNumber(n) {
     }
 }
 
+function NullableString(s) {
+    if (typeof(s) == "undefined" || s == null) {
+        return "";
+    } else {
+        return s;
+    }
+}
+
 function SkillPatternText(patternID, skillCost, cellToWrite) {
     var patternCell = document.createElement("div");
     patternCell.className = "skillPattern";
@@ -495,7 +503,7 @@ function SearchCharacter() {
             
             var nameCell = row.insertCell(-1);
             nameCell.class = "name";
-            nameCell.innerHTML = charactersData[characterData].title + "<br>" + charactersData[characterData].name;
+            nameCell.innerHTML = NullableString(charactersData[characterData].title) + "<br>" + charactersData[characterData].name;
             
             row.insertCell(-1).innerHTML = charactersData[characterData].rarity;
             row.insertCell(-1).innerHTML = charactersData[characterData].cost;
