@@ -252,7 +252,7 @@ function SkillText(characterData, cellToWrite) {
     cellToWrite.className = "skill";
     
     try {
-        cellToWrite.innerHTML += characterData.skilltext.replace("\\n", "");
+        cellToWrite.innerHTML += NullableString(characterData.skilltext).replace("\\n", "");
         {
             var patternCell = cellToWrite.appendChild(document.createElement("div"));
             patternCell.className = "skillPattern";
