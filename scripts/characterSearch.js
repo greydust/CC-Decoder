@@ -4,6 +4,9 @@ var searchButton = document.getElementById("searchCharacterButton");
 var resultText = document.getElementById("resultText");
 var characterDataTable = document.getElementById("characterDataTable");
 var serverSelect = document.getElementById("serverSelect");
+var skillPopup = document.getElementById("skillPopup");
+var passivePopup = document.getElementById("passivePopup");
+
 searchButton.addEventListener("click", SearchCharacter, false);
 serverSelect.addEventListener("change", ChangeServer, false)
 
@@ -33,9 +36,66 @@ function NullableString(s) {
     }
 }
 
+function MergeSkillFlag(flag0, flag1) {
+    return (NullableNumber(flag0) & 0xffffffff) + (NullableNumber(flag1) << 0x20);
+}
+
+function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams) {
+    var outputString = "";
+
+    outputString += SkillFormat(skillType, skillParams, skillFlag, iParams);
+    cellToWrite.innerHTML = outputString;
+    
+    cellToWrite.parentNode.addEventListener("mouseover", function(e) {
+        skillPopup.style.display = "block";
+        
+        skillPopup.getElementsByTagName("p")[0].innerHTML = "類別: " + SkillDatas[skillType].typeName;
+        var paramDescriptions = SkillDatas[skillType].parameterDescription;
+        for (var i=0 ; i<5; i++) {
+            for (var j=0 ; j<2 ; j++) {
+                skillPopup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + skillParams[i*2+j];
+            }
+        }
+        var flagDescriptions = SkillDatas[skillType].flagDescription;
+        for (var i=0 ; i<1; i++) {
+            for (var j=0 ; j<2 ; j++) {
+                skillPopup.getElementsByTagName("table")[1].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = flagDescriptions[i*2+j] + ": " + skillFlag[i*2+j];
+            }
+        }
+        var iParamDescriptions = SkillDatas[skillType].iParameterDescription;
+        for (var i=0 ; i<1; i++) {
+            for (var j=0 ; j<2 ; j++) {
+                skillPopup.getElementsByTagName("table")[2].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
+            }
+        }
+        
+        var clientWidth = GetClientWidth();
+        var clientHeight = GetClientHeight();
+        var height = skillPopup.clientHeight;
+        var width = skillPopup.clientWidth;
+        var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
+        var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
+        skillPopup.style.left = (e.pageX+xOffset) + "px";
+        skillPopup.style.top = (e.pageY+yOffset) + "px";
+    });
+    cellToWrite.parentNode.addEventListener("mousemove", function(e) {
+        var clientWidth = GetClientWidth();
+        var clientHeight = GetClientHeight();
+        var height = skillPopup.clientHeight;
+        var width = skillPopup.clientWidth;
+        var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
+        var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
+        skillPopup.style.left = (e.pageX+xOffset) + "px";
+        skillPopup.style.top = (e.pageY+yOffset) + "px";
+    });
+    cellToWrite.parentNode.addEventListener("mouseout", function(e){
+        skillPopup.style.display = "none";        
+    });    
+}
+
 function SkillPatternText(patternID, skillCost, cellToWrite) {
     var patternCell = document.createElement("div");
-    patternCell.className = "skillPattern";
+    patternCell.className = "skillDetail";
     cellToWrite.appendChild(patternCell);
     
     currentDB.database().ref('/bosspattern/bosspattern/' + patternID).once('value').then(function(patternDataSnapshot) {
@@ -183,70 +243,6 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
     });
 }
 
-function MergeSkillFlag(flag0, flag1) {
-    return (NullableNumber(flag0) & 0xffffffff) + (NullableNumber(flag1) << 0x20);
-}
-
-function SkillSystemText(cellToWrite, skillType, skillParams, skillFlag, iParams) {
-    cellToWrite.innerHTML += "類別: " + SkillDatas[skillType].typeName;
-    
-    var paramDescriptions = SkillDatas[skillType].parameterDescription;
-    var tableString = "<table class=\"skillSystem\">";
-    for (var i=0 ; i<5; i++) {
-        tableString += "<tr>";
-        for (var j=0 ; j<2 ; j++) {
-            tableString += "<td>";
-            tableString += paramDescriptions[i*2+j] + ": " + skillParams[i*2+j];
-            tableString += "</td>";
-        }
-        tableString += "</tr>";
-    }
-    tableString += "</table>";
-    cellToWrite.innerHTML += tableString;
-
-    var flagDescriptions = SkillDatas[skillType].flagDescription;
-    var flagTableString = "<table class=\"skillSystem\">";
-    for (var i=0 ; i<1; i++) {
-        tableString += "<tr>";
-        for (var j=0 ; j<2 ; j++) {
-            flagTableString += "<td>";
-            flagTableString += flagDescriptions[i*2+j] + ": " + skillFlag[i*2+j];
-            flagTableString += "</td>";
-        }
-        flagTableString += "</tr>";
-    }
-    flagTableString += "</table>";
-    cellToWrite.innerHTML += flagTableString;
-    
-    var iParamDescriptions = SkillDatas[skillType].iParameterDescription;
-    var iTableString = "<table class=\"skillSystem\">";
-    for (var i=0 ; i<1; i++) {
-        tableString += "<tr>";
-        for (var j=0 ; j<2 ; j++) {
-            iTableString += "<td>";
-            iTableString += iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
-            iTableString += "</td>";
-        }
-        iTableString += "</tr>";
-    }
-    iTableString += "</table>";
-    
-    cellToWrite.innerHTML += iTableString;
-}
-
-function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams) {
-    var outputString = "";
-
-    outputString += SkillFormat(skillType, skillParams, skillFlag, iParams);
-    cellToWrite.innerHTML = outputString;
-    
-    var popupCell = document.createElement("div");
-    popupCell.className = "popup";
-    cellToWrite.appendChild(popupCell);
-    
-    SkillSystemText(popupCell, skillType, skillParams, skillFlag, iParams);
-}
-
 function SkillText(characterData, cellToWrite) {
     cellToWrite.innerHTML = "";
     cellToWrite.className = "skill";
@@ -255,16 +251,20 @@ function SkillText(characterData, cellToWrite) {
         cellToWrite.innerHTML += NullableString(characterData.skilltext).replace("\\n", "");
         {
             var patternCell = cellToWrite.appendChild(document.createElement("div"));
-            patternCell.className = "skillPattern";
+            patternCell.className = "skillDetail";
             patternCell.innerHTML +=  "耗珠: " + characterData.skill_cost;
-            var skillDetailCell = patternCell.appendChild(document.createElement("div"));
+            
+            var patternSkillCell0 = document.createElement("div");
+            patternSkillCell0.className = "indent1";
+            patternCell.appendChild(patternSkillCell0);
+
             var skillflag0;
             if (typeof(characterData.skillflag0_0) == "undefined" || characterData.skillflag0_0 == null) {
                 skillflag0 = characterData.skillflag;
             } else {
                 skillFlag0 = MergeSkillFlag(characterData.skillflag0_0, characterData.skillflag0_1);
             }
-            SkillDetailText(skillDetailCell, characterData.skillid[0],
+            SkillDetailText(patternSkillCell0, characterData.skillid[0],
                 [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)],
                 [skillFlag0, MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1)],
                 [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
@@ -304,64 +304,57 @@ function SkillText(characterData, cellToWrite) {
     }
 }
 
-function PassiveSystemText(cellToWrite, passiveType, passiveParams, passiveFlag, iParams) {
-    cellToWrite.innerHTML += "類別: " + PassiveDatas[passiveType].typeName;
-    
-    var paramDescriptions = PassiveDatas[passiveType].parameterDescription;
-    var tableString = "<table class=\"passiveSystem\">";
-    for (var i=0 ; i<5; i++) {
-        tableString += "<tr>";
-        for (var j=0 ; j<2 ; j++) {
-            tableString += "<td>";
-            tableString += paramDescriptions[i*2+j] + ": " + passiveParams[i*2+j];
-            tableString += "</td>";
-        }
-        tableString += "</tr>";
-    }
-    tableString += "</table>";
-    cellToWrite.innerHTML += tableString;
-
-    var flagDescriptions = PassiveDatas[passiveType].flagDescription;
-    var flagTableString = "<table class=\"passiveSystem\">";
-    for (var i=0 ; i<1; i++) {
-        tableString += "<tr>";
-        for (var j=0 ; j<2 ; j++) {
-            flagTableString += "<td>";
-            flagTableString += flagDescriptions[i*2+j] + ": " + passiveFlag[i*2+j];
-            flagTableString += "</td>";
-        }
-        flagTableString += "</tr>";
-    }
-    flagTableString += "</table>";
-    cellToWrite.innerHTML += flagTableString;
-    
-    var iParamDescriptions = PassiveDatas[passiveType].iParameterDescription;
-    var iTableString = "<table class=\"passiveSystem\">";
-    for (var i=0 ; i<1; i++) {
-        tableString += "<tr>";
-        for (var j=0 ; j<1 ; j++) {
-            iTableString += "<td>";
-            iTableString += iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
-            iTableString += "</td>";
-        }
-        iTableString += "</tr>";
-    }
-    iTableString += "</table>";
-    
-    cellToWrite.innerHTML += iTableString;
-}
-
 function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag, iParams) {
     var outputString = "";
 
     outputString += PassiveFormat(passiveType, passiveParams, passiveFlag, iParams);
     cellToWrite.innerHTML = outputString;
 
-    var popupCell = document.createElement("div");
-    popupCell.className = "popup";
-    cellToWrite.appendChild(popupCell);
-    
-    PassiveSystemText(popupCell, passiveType, passiveParams, passiveFlag, iParams);
+    cellToWrite.addEventListener("mouseover", function(e) {
+        passivePopup.style.display = "block";
+        
+        passivePopup.getElementsByTagName("p")[0].innerHTML = "類別: " + PassiveDatas[passiveType].typeName;
+        var paramDescriptions = PassiveDatas[passiveType].parameterDescription;
+        for (var i=0 ; i<5; i++) {
+            for (var j=0 ; j<2 ; j++) {
+                passivePopup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + passiveParams[i*2+j];
+            }
+        }
+        var flagDescriptions = PassiveDatas[passiveType].flagDescription;
+        for (var i=0 ; i<1; i++) {
+            for (var j=0 ; j<2 ; j++) {
+                passivePopup.getElementsByTagName("table")[1].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = flagDescriptions[i*2+j] + ": " + passiveFlag[i*2+j];
+            }
+        }
+        var iParamDescriptions = PassiveDatas[passiveType].iParameterDescription;
+        for (var i=0 ; i<1; i++) {
+            for (var j=0 ; j<2 ; j++) {
+                passivePopup.getElementsByTagName("table")[2].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
+            }
+        }
+        
+        var clientWidth = GetClientWidth();
+        var clientHeight = GetClientHeight();
+        var height = passivePopup.clientHeight;
+        var width = passivePopup.clientWidth;
+        var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
+        var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
+        passivePopup.style.left = (e.pageX+xOffset) + "px";
+        passivePopup.style.top = (e.pageY+yOffset) + "px";
+    });
+    cellToWrite.addEventListener("mousemove", function(e) {
+        var clientWidth = GetClientWidth();
+        var clientHeight = GetClientHeight();
+        var height = passivePopup.clientHeight;
+        var width = passivePopup.clientWidth;
+        var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
+        var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
+        passivePopup.style.left = (e.pageX+xOffset) + "px";
+        passivePopup.style.top = (e.pageY+yOffset) + "px";
+    });
+    cellToWrite.addEventListener("mouseout", function(e){
+        passivePopup.style.display = "none";        
+    });
 }
 
 function PassiveText(passiveSkillID, cellToWrite) {
@@ -372,7 +365,7 @@ function PassiveText(passiveSkillID, cellToWrite) {
         try {
             passiveData = passiveDataSnapshot.val();
             
-            cellToWrite.innerHTML += passiveData.text.replace("\\n", "");;
+            cellToWrite.innerHTML += NullableString(passiveData.text).replace("\\n", "");;
 
             var passiveCell = document.createElement("div");
             passiveCell.className = "passivePattern";
@@ -415,7 +408,7 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
         try {
             supportData = supportDataSnapshot.val();
             
-            cellToWrite.innerHTML += supportData.text.replace("\\n", "");
+            cellToWrite.innerHTML += NullableString(supportData.text).replace("\\n", "");
             cellToWrite.innerHTML += "<div>Cost: " + supportCost + "</div>";
             
             var typeCell = document.createElement("div");
