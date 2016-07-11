@@ -46,7 +46,7 @@ function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams
     outputString += SkillFormat(skillType, skillParams, skillFlag, iParams);
     cellToWrite.innerHTML = outputString;
     
-    cellToWrite.parentNode.addEventListener("mouseover", function(e) {
+    cellToWrite.addEventListener("mouseover", function(e) {
         skillPopup.style.display = "block";
         
         skillPopup.getElementsByTagName("p")[0].innerHTML = "類別: " + SkillDatas[skillType].typeName;
@@ -78,7 +78,7 @@ function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams
         skillPopup.style.left = (e.pageX+xOffset) + "px";
         skillPopup.style.top = (e.pageY+yOffset) + "px";
     });
-    cellToWrite.parentNode.addEventListener("mousemove", function(e) {
+    cellToWrite.addEventListener("mousemove", function(e) {
         var clientWidth = GetClientWidth();
         var clientHeight = GetClientHeight();
         var height = skillPopup.clientHeight;
@@ -88,7 +88,7 @@ function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams
         skillPopup.style.left = (e.pageX+xOffset) + "px";
         skillPopup.style.top = (e.pageY+yOffset) + "px";
     });
-    cellToWrite.parentNode.addEventListener("mouseout", function(e){
+    cellToWrite.addEventListener("mouseout", function(e){
         skillPopup.style.display = "none";        
     });    
 }
