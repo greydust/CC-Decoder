@@ -47,18 +47,20 @@
             if (isNaN(argNumber)) throw new Error('format stringFormatInvalid');
 
             var argFormat = (colonIndex < 0) ? '' : brace.substring(colonIndex + 1);
+            
+            if (argNumber < args.length) {                
+                var arg = args[argNumber].toString();
+                if (typeof (arg) === "undefined" || arg === null) {
+                    arg = '';
+                }
 
-            var arg = args[argNumber].toString();
-            if (typeof (arg) === "undefined" || arg === null) {
-                arg = '';
+                // If it has a toFormattedString method, call it.  Otherwise, call toString()
+                if (arg.toFormattedString && argFormat != "") {
+                    arg = arg.toFormattedString(argFormat);
+                }
+                result += arg;
             }
-
-            // If it has a toFormattedString method, call it.  Otherwise, call toString()
-            if (arg.toFormattedString && argFormat != "") {
-                arg = arg.toFormattedString(argFormat);
-            }
-            result += arg;
-
+            
             i = close + 1;
         }
 
@@ -82,7 +84,7 @@ if (!String.prototype.toFormattedString) {
         } else if (format == "f") {
             var number = parseFloat(originalString);
             if (digit > -1) {
-                number = number.toFixed(digit);
+                number = number.round(digit);
             }
             return number.toString();
         } else if (format == "p") {

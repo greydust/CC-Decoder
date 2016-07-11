@@ -7,7 +7,146 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
     </head>
     <body>
-        <a href="character.html">角色搜尋</a><br>
-        <a href="system.html">系統</a>
+        <div class="header">
+            <a href="#" id="characterSearchButton">角色搜尋</a>
+            <a href="#" id="systemButton">系統設定</a>
+            <a target="_blank" href="https://github.com/greydust/CC-Decoder/issues" id="reportButton">回報錯誤</a>
+            <a href="#" id="versionButton">版本</a>
+        </div>
+        <div class="body initialHide" id="systemTab">
+目前所有的Buff分成三種，先稱之為1類、2類、以及3類。<br><br>
+1類的Buff僅有覺醒的KillUp和WaveUp兩個類別。共用100 % 傷害 、100 % 跑速、50 % 防禦、50 % 技能傷害、50 % 技能跑速、100 % 倍技能防禦的上限<br><br>
+2類的Buff有覺醒的DeadPlusCID PowerDrain SuperSkillFull2 ManaSpend ExtraResourse WaveSupport WaveSupportAll ManaPower AutoMotion FlagAdvance FlagAdvancePlus KillUpPlus，以及技能的DAMAGED_ATTACK DAMAGED_SHOOT FLAG_ATTACK HEAL_UNION SUPPORT_AREA。共用-50%~100%傷害、-50%~100%技能傷害、-50%~50%跑速、-50%~100%防禦、0%~50%爆擊、-150%~100%爆擊傷害、-50%~100%攻速的界限限制。<br><br>
+3類則是所有其他的，無上限。<br><br>
+而爆擊率除了以上的計算以外，還有獨立的另外兩類，先稱之為爆擊1類和爆擊2類。<br><br>
+爆擊1類包含覺醒的LowHP HighHP SuperSkillFull ChangeFormUp BossBattle FlagUp HeroOne HoldMana ManaCountUp，共用50%爆擊率上限。<br><br>
+爆擊2類包含覺醒的StrengthWeapon StrengthHome TargetStageAll ManaSlotUp StrengthJob2 Backup，共用50%爆擊率上限。<br><br>
+擊退力代表一秒會被擊退幾單位，被擊中後會在一秒內遞減至0，因此總移動距離是擊退力/2<br><br>
+一格代表1.5單位<br><br>
+各個debuff預設值:<br>
+ 暈: 4秒<br>
+ 緩: -50%, 60秒<br>
+ 冰凍: 10秒<br>
+ 白骨化: 30秒<br>
+ 黑暗: 60秒<br>
+ 毒: 15次, 4.2秒一次, 每次5%<br>
+ 衰弱: 15次, 4.2秒一次, 每次5%<br>
+ 封技: 30秒<br>
+        </div>
+        <div class="body" id="characterSearchTab">
+            <input type="text" id="characterName"/>
+            <input type="button" id="searchCharacterButton" value="搜尋">
+            <select id="serverSelect">
+                <option value="JP">日服</option>
+                <option value="TW">台服</option>
+            </select>
+            <table id="characterDataTable" class="tablesorter">
+                <thead>
+                    <tr>
+                        <th class="name">角色名</th>
+                        <th>星數</th>
+                        <th>Cost</th>
+                        <th>職業</th>
+                        <th>初始生命</th>
+                        <th>初始攻擊</th>
+                        <th class="skill">必殺</th>
+                        <th class="passiveSkill">覺醒1</th>
+                        <th class="passiveSkill">覺醒2</th>
+                        <th class="supportSkill">絆</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div class="popup skillPopup" id="skillPopup">
+                <p></p>
+                <table class="skillSystem" id="skillSystemParam">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table class="skillSystem" id="skillSystemFlag">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table class="skillSystem" id="skillSystemIParam">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="popup passivePopup" id="passivePopup">
+                <p></p>
+                <table class="passiveSystem" id="passiveSystemParam">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table class="passiveSystem" id="passiveSystemFlag">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table class="passiveSystem" id="passiveSystemIParam">
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="body initialHide" id="versionTab">
+             <table class="versionTable">
+                <tr>
+                    <td class="versionTime">7/12/2016 03:04</td>
+                    <td class="versionDescription">開始寫版本記錄</td>
+                </tr>
+             </table>
+        </div>
     </body>
 </html>
+<script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-database.js"></script>
+<script src="scripts/database.js"></script>
+<script src="scripts/common.js"></script>
+<script src="scripts/skillData.js"></script>
+<script src="scripts/passiveData.js"></script>
+<script src="scripts/skillFormat.js"></script>
+<script src="scripts/characterSearch.js"></script>

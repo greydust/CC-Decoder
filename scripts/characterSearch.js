@@ -1,14 +1,31 @@
 ﻿var searchButton = document.getElementById("searchCharacterButton");
 var characterName = document.getElementById("characterName");
-var searchButton = document.getElementById("searchCharacterButton");
 var resultText = document.getElementById("resultText");
 var characterDataTable = document.getElementById("characterDataTable");
-var serverSelect = document.getElementById("serverSelect");
 var skillPopup = document.getElementById("skillPopup");
 var passivePopup = document.getElementById("passivePopup");
 
-searchButton.addEventListener("click", SearchCharacter, false);
-serverSelect.addEventListener("change", ChangeServer, false)
+
+document.getElementById("searchCharacterButton").addEventListener("click", SearchCharacter, false);
+document.getElementById("serverSelect").addEventListener("change", ChangeServer, false);
+document.getElementById("characterSearchButton").addEventListener("click", function() {
+    ShowTab("characterSearch");
+});
+document.getElementById("systemButton").addEventListener("click", function() {
+    ShowTab("system");
+});
+document.getElementById("versionButton").addEventListener("click", function() {
+    ShowTab("version");
+});
+
+function ShowTab(tabName) {
+    var divs = document.getElementsByClassName("body");
+    for(var i=0 ; i<divs.length ; i++) {
+        divs[i].style.display = "none";
+    }
+    
+    document.getElementById(tabName + "Tab").style.display = "block";
+}
 
 function ChangeServer() {
     if (serverSelect.value == "JP") {

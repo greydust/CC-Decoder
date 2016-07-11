@@ -96,6 +96,30 @@ div.popup p {
     margin: 2px;
 }
 
+div.header {
+    border-bottom: 2px solid #666666;
+}
+
+div.body {
+    margin-top: 5px;
+}
+
+div.initialHide {
+    display: none;
+}
+
+table.versionTable {
+    
+}
+
+table.versionTime {
+    min-width: 100px;
+}
+
+table.versionDescription {
+    
+}
+
 table.skillSystem, table.passiveSystem {
     border-spacing: 0px;
     padding-left: 2px;

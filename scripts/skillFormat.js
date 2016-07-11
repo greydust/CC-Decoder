@@ -16,7 +16,7 @@
         }
         case 0x1a: 
         case 0x19: {
-            var jobString = JobFlagString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
             }
@@ -168,7 +168,7 @@
             if (healFlagString != "") {
                 healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[3]);
             }
-            var jobString = JobFlagString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
             }
@@ -184,7 +184,7 @@
             if (healFlagString != "") {
                 healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[5]);
             }
-            var jobString = JobFlagString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
             }
@@ -193,7 +193,7 @@
         case 12:
         case 13:
         case 14: {
-            var jobString = JobFlagString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
             }
@@ -222,7 +222,7 @@
                     buffString += "且持" +weaponString + "武";
                 }
             }
-            var jobString = JobFlagString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 if (buffString == "") {
                     buffString = "，同時增加" + jobString + "職業";
@@ -298,7 +298,7 @@
             return SkillDatas[skillID].detailDescription.format(PCommandString(skillParams[0]), PCommandString(skillParams[1]), PCommandString(skillParams[2]), PCommandString(skillParams[3]), PCommandString(skillParams[4]), PCommandString(skillParams[5]), PCommandString(skillParams[6]), PCommandString(skillParams[7]), PCommandString(skillParams[8]), PCommandString(skillParams[9]), skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
         }
         case 0x40: {
-            var jobString = JobFlagString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
             }
@@ -356,7 +356,7 @@
         case 50: {
             var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
-            var jobString = JobFlagString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
             }
@@ -465,9 +465,9 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             var debuffString = PassiveDebuffString(passiveFlag[0]);
             var jobString = "";
             if (passiveParams[3] == 0) {
-                jobString = JobFlagOrString(iParams[0]);
+                jobString = JobFlagString(iParams[0], "或");
             } else {
-                jobString = JobFlagAndString(iParams[0]);
+                jobString = JobFlagString(iParams[0], "且");
             }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString, jobString);
         }
@@ -475,9 +475,9 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             var debuffString = PassiveHealDebuffString(passiveFlag[0]);
             var jobString = "";
             if (passiveParams[3] == 0) {
-                jobString = JobFlagOrString(iParams[0]);
+                jobString = JobFlagString(iParams[0], "或");
             } else {
-                jobString = JobFlagAndString(iParams[0]);
+                jobString = JobFlagString(iParams[0], "且");
             }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString, jobString);
         }
@@ -492,7 +492,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
         }
         case 0x44: {
-            var jobString = JobFlagOrString(iParams[0]);
+            var jobString = JobFlagString(iParams[0], "或");
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);
         }
         case 0x30: {
@@ -530,7 +530,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 debuffString = DebuffFlagString(passiveFlag[0]);
                 conditionString = debuffString + "中的";
             } else if (passiveParams[0] == 2) {
-                var jobString = JobFlagOrString(iParams[0]);
+                var jobString = JobFlagString(iParams[0], "或");
                 conditionString = jobString + "的";
             } else {
                 conditionString = "不存在的";
@@ -550,6 +550,66 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         }
         case 0x3e: {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2] - 1, passiveParams[3] - 1, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+        }
+        case 0x34: {
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]-1, passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+        }
+        case 0x33: {
+            attackTypeString = AttackTypeFlagString(passiveFlag[0]);
+            if (attackTypeString != "") {
+                attackTypeString = "，並使攻擊附帶" + attackTypeString;
+            }
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);            
+        }
+        case 0x3f2: {
+            var bgString = "";
+            if (passiveParams[3] != 0) {
+                var bgFlag1 = parseInt(passiveParams[3]) % 100;
+                var bgFlag2 = parseInt(passiveParams[3] / 100) % 100;
+                var bgFlag3 = parseInt(passiveParams[3] / 10000) % 100;
+                
+                if (bgFlag1 != 0) {
+                    bgString += BattlegroundFlagText[bgFlag1];
+                }
+                if (bgFlag2 != 1) {
+                    if (bgString != "") {
+                        bgString += "、";
+                    }
+                    bgString += BattlegroundFlagText[bgFlag2];                    
+                }
+                if (bgFlag3 != 2) {
+                    if (bgString != "") {
+                        bgString += "、";
+                    }
+                    bgString += BattlegroundFlagText[bgFlag3];
+                }
+                
+                bgString = "當處於" + bgString + "時，";
+            }
+            var jobString = JobFlagString(iParams[0], "");
+            if (jobString == "") {
+                jobString = "隨機";
+            }
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], bgString, jobString);
+        }
+        case 0x3f3:
+        {
+            var jobString = JobFlagString(iParams[0], "");
+            if (jobString == "") {
+                jobString = "隨機";
+            }
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);            
+        }
+        case 0x3f5: {
+            var moveRequirementString = "";
+            if (passiveParams[8] != 0) {
+                moveRequirementString = "且不攻擊";
+            }
+            attackTypeString = AttackTypeFlagString(passiveFlag[0]);
+            if (attackTypeString != "") {
+                attackTypeString = "，疊滿時附帶" + attackTypeString;
+            }
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], moveRequirementString, passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);
         }
         default: {
             if (typeof(PassiveDatas[passiveID]) == "undefined" || PassiveDatas[passiveID] == null) {
@@ -764,7 +824,7 @@ JobTypeText = [
     "全",
 ];
 
-function JobFlagAndString(flag) {
+function JobFlagString(flag, concat) {
     var base2 = flag.toString(2);
     var outputString = "";
     for (var i=0 ; i<JobTypeText.length && i<base2.length ; i++) {
@@ -773,41 +833,7 @@ function JobFlagAndString(flag) {
                 if (outputString == "") {
                     outputString = JobTypeText[i];
                 } else {
-                    outputString += "與" + JobTypeText[i];
-                }
-            }
-        }
-    }
-    return outputString;
-}
-
-function JobFlagOrString(flag) {
-    var base2 = flag.toString(2);
-    var outputString = "";
-    for (var i=0 ; i<JobTypeText.length && i<base2.length ; i++) {
-        if (base2[base2.length-i-1] == '1') {
-            if (JobTypeText[i] != "") {
-                if (outputString == "") {
-                    outputString = JobTypeText[i];
-                } else {
-                    outputString += "或" + JobTypeText[i];
-                }
-            }
-        }
-    }
-    return outputString;
-}
-
-function JobFlagString(flag) {
-    var base2 = flag.toString(2);
-    var outputString = "";
-    for (var i=0 ; i<JobTypeText.length && i<base2.length ; i++) {
-        if (base2[base2.length-i-1] == '1') {
-            if (JobTypeText[i] != "") {
-                if (outputString == "") {
-                    outputString = JobTypeText[i];
-                } else {
-                    outputString += "、" + JobTypeText[i];
+                    outputString += concat + JobTypeText[i];
                 }
             }
         }
