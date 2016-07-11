@@ -190,6 +190,7 @@
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], healString, jobString);            
         }
+        case 12:
         case 13:
         case 14: {
             var jobString = JobFlagString(iParams[0]);
