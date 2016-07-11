@@ -611,6 +611,37 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], moveRequirementString, passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);
         }
+        case 0x3f8: {
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], -passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+        }
+        case 0x4f: {
+            var targetString = "";
+            if (passiveParams[6] == 0) {
+                targetString = "任何人";
+            } else if (passiveParams[6] == 1) {
+                targetString = "敵方目標";
+            } else if (passiveParams[6] == 2) {
+                targetString = "我方目標";
+            } else {
+                targetString = "沒有人";
+            }
+            var debuffString = DebuffFlagString(passiveFlag[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]==0 ? 0 : passiveParams[1]-1, passiveParams[2]==0 ? 0 : passiveParams[2]-1, passiveParams[3]==0 ? 0 : passiveParams[3]-1, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], targetString, debuffString);
+        }
+        case 0x53: {
+            var targetString = "";
+            if (passiveParams[5] == 0) {
+                targetString = "任何人";
+            } else if (passiveParams[5] == 1) {
+                targetString = "敵方目標";
+            } else if (passiveParams[5] == 2) {
+                targetString = "我方目標";
+            } else {
+                targetString = "沒有人";
+            }
+            var debuffString = DebuffFlagString(passiveFlag[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], -passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], targetString, debuffString);
+        }
         default: {
             if (typeof(PassiveDatas[passiveID]) == "undefined" || PassiveDatas[passiveID] == null) {
                 return PassiveDatas[0xaaaa].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], passiveID);
