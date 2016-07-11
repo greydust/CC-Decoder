@@ -466,7 +466,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]*100, PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
         }
         case 0x15: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]*100, passiveParams[1]*100, passiveParams[2]*100, passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(parseInt(passiveParams[0]*1000)/10, parseInt(passiveParams[1]*1000)/10, parseInt(passiveParams[2]*1000)/10, passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
         }
         case 0x44: {
             var jobString = JobFlagOrString(iParams[0]);
