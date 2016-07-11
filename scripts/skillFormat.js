@@ -234,7 +234,7 @@
                 if (skillParams[7] > 0) {
                     buffString += "（至少" + skillParams[7] + "人）";
                 }
-                buffString += "{0:1p}%攻擊，{1:1p}%防禦，{2:1p}%移動速度，{3:1p}%爆擊率，{4:1p}%攻速，持續{5}秒";
+                buffString += "{0:1p}%攻擊，{1:1p}%減傷，{2:1p}%移動速度，{3:1p}%爆擊率，{4:1p}%攻速，持續{5}秒";
                 buffString = buffString.format(skillParams[1], skillParams[3], skillParams[2], skillParams[5], skillParams[6], skillParams[4]);
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], healString, buffString);
@@ -675,7 +675,7 @@ function SpreadBulletString(type, range1, range2) {
     if (type == 0) {
         return "半徑" + range1 + "單位";
     } else {
-        bombRangeString = "寬" + range1*2 + "單位、高" + range2 + "單位及寬" + range2 + "單位、高" + range1*2 + "單位";
+        return "寬" + range1*2 + "單位、高" + range2 + "單位及寬" + range2 + "單位、高" + range1*2 + "單位";
     }
 }
 
