@@ -1,7 +1,7 @@
 {
-  "deceive": 1467280804,
+  "deceive": 1468303193,
   "res": 0,
-  "sv": "1467002454",
+  "sv": "1468222421",
   "battle_bg": {
     "1": {
       "id": "1",
@@ -265,6 +265,14 @@
       "bg_name": "？？？",
       "effect_s": "BG_Boss_a",
       "effect_l": "BG_Boss_a",
+      "change_flag": 1
+    },
+    "129": {
+      "id": "129",
+      "flag": 0,
+      "bg_name": "？？？",
+      "effect_s": "",
+      "effect_l": "",
       "change_flag": 1
     },
     "13": {

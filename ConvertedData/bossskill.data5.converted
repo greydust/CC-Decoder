@@ -1,5 +1,5 @@
 {
-  "deceive": 1467698396,
+  "deceive": 1468303193,
   "bossskill": {
     "1": {
       "atkspeed": "3",
@@ -7254,6 +7254,56 @@
       "skillparam2": 0.2,
       "skillparam4": 0.3
     },
+    "20010": {
+      "skillflag0_0": 4224,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 20010,
+      "skillid0": 11,
+      "skillparam1": 5.5,
+      "spmotname": "sp_healing01"
+    },
+    "20011": {
+      "skillflag0_0": 4224,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 20011,
+      "skillid0": 27,
+      "skillparam1": 1.2,
+      "spmotname": "ss_healing01",
+      "skillparam3": 20.0,
+      "skillparam2": 5.0
+    },
+    "20020": {
+      "skillflag0_0": 0,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 20020,
+      "skillid0": 47,
+      "skillparam1": 1.0,
+      "spmotname": "sp_magic01",
+      "skillparam3": 1.5,
+      "skillparam2": 1.8,
+      "skillparam4": 3.0,
+      "skillparam5": 15.0,
+      "skillparam0": 15.0
+    },
+    "20021": {
+      "skillflag0_0": 4224,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 20021,
+      "skillid0": 33,
+      "skillparam1": 30.0,
+      "spmotname": "ss_burst02",
+      "skillparam3": 4.0,
+      "skillparam2": 2.0,
+      "str0": "BE_Satellite_Laser_d"
+    },
     "20490": {
       "skillflag0_0": 1025,
       "skillflag0_1": 0,
@@ -7591,6 +7641,28 @@
       "skillflag": 1024,
       "charge": 3.0,
       "chargemotion": "wizard_healing02_loop"
+    },
+    "50680": {
+      "skillflag0_0": 65,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 50680,
+      "skillid0": 2,
+      "skillparam1": 6.0,
+      "spmotname": "sp_dash_thrust01",
+      "skillparam2": 6.0
+    },
+    "50681": {
+      "skillflag0_0": 65,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 50681,
+      "skillid0": 2,
+      "skillparam1": 6.0,
+      "spmotname": "sp_dash_thrust01",
+      "skillparam2": 9.0
     },
     "50690": {
       "skillflag0_0": 128,
@@ -9745,6 +9817,29 @@
       "spmotname": "sp_shield01",
       "skillparam2": 3.0
     },
+    "81890": {
+      "skillflag0_0": 0,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 81890,
+      "skillid0": 13,
+      "skillparam1": 0.2,
+      "spmotname": "sp_powerup01",
+      "skillparam3": 30.0,
+      "skillparam6": 0.3
+    },
+    "81891": {
+      "skillflag0_0": 1,
+      "skillflag0_1": 0,
+      "skillflag1_0": 0,
+      "skillflag1_1": 0,
+      "skillid": 81891,
+      "skillid0": 2,
+      "skillparam1": 3.0,
+      "spmotname": "sp_dush_slash01",
+      "skillparam2": 4.0
+    },
     "90080": {
       "skillflag0_0": 16,
       "skillflag0_1": 0,
@@ -10798,5 +10893,5 @@
     }
   },
   "res": 0,
-  "sv": "1467525198"
+  "sv": "1468205584"
 }

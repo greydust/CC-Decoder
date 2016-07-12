@@ -1,5 +1,5 @@
 {
-  "deceive": 1467698402,
+  "deceive": 1468303196,
   "weaponlist": {
     "-1": {
       "id": -1,
@@ -12417,8 +12417,49 @@
       "type": 0,
       "model": "weapon85296_body",
       "rank": 2
+    },
+    "85297": {
+      "id": 85297,
+      "name": "継刀・絶世",
+      "type_atk": 1,
+      "attackMax": 12,
+      "type_cri": 2,
+      "criticalMax": 14,
+      "type_grd": 3,
+      "guardMax": 9,
+      "type": 0,
+      "model": "weapon85297_body",
+      "rank": 3,
+      "skill": 1175
+    },
+    "85315": {
+      "id": 85315,
+      "name": "名刀アキバ・弐",
+      "type_atk": 1,
+      "attackMax": 10,
+      "type_cri": 2,
+      "criticalMax": 6,
+      "type_grd": 3,
+      "guardMax": 8,
+      "type": 0,
+      "model": "weapon85315_body",
+      "rank": 2
+    },
+    "85316": {
+      "id": 85316,
+      "name": "名刀キズナ",
+      "type_atk": 1,
+      "attackMax": 15,
+      "type_cri": 2,
+      "criticalMax": 8,
+      "type_grd": 3,
+      "guardMax": 11,
+      "type": 0,
+      "model": "weapon85315_body",
+      "rank": 3,
+      "skill": 3327
     }
   },
   "res": 0,
-  "sv": "1467164080"
+  "sv": "1467878402"
 }

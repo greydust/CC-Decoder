@@ -1,5 +1,5 @@
 {
-  "deceive": 1467698402,
+  "deceive": 1468303196,
   "evolve": {
     "26000": {
       "evol_dst": 26000,
@@ -3787,6 +3787,39 @@
       "usable1": -1,
       "usable2": -1
     },
+    "85297": {
+      "evol_dst": 85297,
+      "id": 85297,
+      "name": "継刀・絶世",
+      "profile": "リヴェラ外伝報酬",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85315": {
+      "evol_dst": 85315,
+      "id": 85315,
+      "name": "名刀アキバ・弐",
+      "profile": "３周年ＴＡルーレット景品",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85316": {
+      "evol_dst": 85316,
+      "id": 85316,
+      "name": "名刀キズナ",
+      "profile": "３周年キャラバン　秋葉原　景品",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
     "96002": {
       "evol_dst": 2,
       "id": 96002,
@@ -6454,5 +6487,5 @@
     }
   },
   "res": 0,
-  "sv": "1467164080"
+  "sv": "1467878402"
 }
