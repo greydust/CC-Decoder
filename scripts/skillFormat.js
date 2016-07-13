@@ -462,7 +462,7 @@
 function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
     switch(passiveID) {
         case 0x57: {
-            var debuffString = PassiveDebuffString(passiveFlag[0]);
+            var debuffString = AttackTypeFlagString(passiveFlag[0]);
             var jobString = "";
             if (passiveParams[3] == 0) {
                 jobString = JobFlagString(iParams[0], "或");
@@ -473,6 +473,9 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         }
         case 0x58: {
             var debuffString = PassiveHealDebuffString(passiveFlag[0]);
+            if (passiveParams[4] > 0) {
+                debuffString = "{0}，如果解除狀態則免疫該狀態{1}秒".format(debuffString, passiveParams[4]);
+            }
             var jobString = "";
             if (passiveParams[3] == 0) {
                 jobString = JobFlagString(iParams[0], "或");
@@ -484,11 +487,14 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         case 10:
         case 11:
         case 0x26: {
-            var debuffString = PassiveDebuffString(passiveFlag[0]);
+            var debuffString = AttackTypeFlagString(passiveFlag[0]);
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
         }
         case 0x2d: {
             var debuffString = PassiveHealDebuffString(passiveFlag[0]);
+            if (passiveParams[1] > 0) {
+                debuffString = "{0}，如果解除狀態則免疫該狀態{1}秒".format(debuffString, passiveParams[1]);
+            }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
         }
         case 0x44: {
@@ -934,6 +940,39 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             var timeString = passiveParams[7] > 0 ? "，持續{0:3f}秒".format(passiveParams[7]) : "";
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], targetString, triggerString, timeString, passiveParams[8], passiveParams[9], healString, passiveFlag[1], iParams[0]);
         }
+        case 0x2a: {
+            var attackString = passiveParams[6] == 1 ? "，攻擊時現形" : "";
+            var targetTypeString = TargetType[passiveParams[0]];
+            if (!(passiveParams[0] == 15 || passiveParams[0] == 31 || passiveParams[0] == 47 || passiveParams[0] == 63 || passiveParams[0] == 64 || passiveParams[0] == 65 || passiveParams[0] == 66 || passiveParams[0] == 67 || passiveParams[0] == 68)) {
+                targetTypeString = targetTypeString + "一名角色";
+            }
+            return PassiveDatas[passiveID].detailDescription.format(targetTypeString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], attackString, passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+        }
+        case 0x3f6: {
+            var targetTypeString = TargetType[passiveParams[2]];
+            if (!(passiveParams[2] == 15 || passiveParams[2] == 31 || passiveParams[2] == 47 || passiveParams[2] == 63 || passiveParams[2] == 64 || passiveParams[2] == 65 || passiveParams[2] == 66 || passiveParams[2] == 67 || passiveParams[2] == 68)) {
+                targetTypeString = targetTypeString + "一名角色";
+            }
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], targetTypeString, passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+        }
+        case 0x25: {
+            var attackSpeedString = passiveParams[2] > 0 ? "，基礎攻擊速度成為{0:3f}秒一次".format(passiveParams[2]) : "";
+            var attackString = passiveParams[0] > 0 ? "，基礎攻擊倍率成為{0:3f}倍（原為0.5倍）".format(passiveParams[0]) : "";
+            var debuffString = DebuffFlagString(passiveFlag[0]);
+            var attackFlagString = (passiveParams[3] > 0 && debuffString != "") ? "，並有{0:1p}%的機率使目標{1}".format(passiveParams[3], debuffString) : "";
+            return PassiveDatas[passiveID].detailDescription.format(attackString, passiveParams[1], attackSpeedString, attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+        }
+        case 90: {
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+        }
+        case 12: {
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], DebuffFlagString(passiveFlag[0]), passiveFlag[1], iParams[0]);            
+        }
+        case 9: {
+            var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
+            var attackFlagString = (passiveParams[3] > 0 && attackTypeString != "") ? "，並有{0:1p}%的機率帶{1}".format(passiveParams[3], attackTypeString) : "";
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+        }
         default: {
             if (typeof(PassiveDatas[passiveID]) == "undefined" || PassiveDatas[passiveID] == null) {
                 return PassiveDatas[0xaaaa].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], passiveID);
@@ -1261,15 +1300,15 @@ TargetType = [
     "由後到前",	// aAPPANAGE_NEAR2
     "由前到後",	// aAPPANAGE_FAR2
     "所有",	// aGROUP_ALL
-    "MYSELF",	// MYSELF
+    "自身",	// MYSELF
     "GROUP_ALL_NOMYSELF",	// GROUP_ALL_NOMYSELF
     "pGROUP_ALL_NOMYSELF",	// pGROUP_ALL_NOMYSELF
     "oGROUP_ALL_NOMYSELF",	// oGROUP_ALL_NOMYSELF
     "aGROUP_ALL_NOMYSELF",	// aGROUP_ALL_NOMYSELF
-    "HP_LOWRATE",	// HP_LOWRATE
-    "pHP_LOWRATE",	// pHP_LOWRATE
-    "oHP_LOWRATE",	// oHP_LOWRATE
-    "aHP_LOWRATE",	// aHP_LOWRATE
+    "血量比例由低至高",	// HP_LOWRATE
+    "血量比例由低至高",	// pHP_LOWRATE
+    "血量比例由低至高",	// oHP_LOWRATE
+    "血量比例由低至高",	// aHP_LOWRATE
     "HP_HIGHTRATE",	// HP_HIGHTRATE
     "pHP_HIGHTRATE",	// pHP_HIGHTRATE
     "oHP_HIGHTRATE",	// oHP_HIGHTRATE
@@ -1387,7 +1426,7 @@ SkillFlag = [
     "MINIMUM",
     "MAXIMUM",
     
-    "穿透",
+    "擊殺貫通",
     "SHIELD_BREAK",
     "WEAPON_SWORD",
     "WEAPON_AXE",
@@ -1456,7 +1495,7 @@ AttackTypeFlag = [
     "",
     "",
     
-    "穿透",
+    "擊殺貫通",
     "",
     "斬",
     "打",
@@ -1521,9 +1560,9 @@ DebuffFlag = [
     "封技",
     "詛咒",
     
+    "衰弱",
     "",
-    "",
-    "",
+    "破盾",
     "",
     "",
     
