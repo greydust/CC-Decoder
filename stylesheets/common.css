@@ -65,7 +65,13 @@ table.tablesorter {
     border-spacing: 0px;
 }
 
-table.tablesorter div {
+div.quote {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+table.tablesorter div :not(div.quote){
     text-align: left;
 }
 

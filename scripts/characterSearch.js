@@ -265,6 +265,8 @@ function SkillText(characterData, cellToWrite) {
     cellToWrite.className = "skill";
     
     try {
+        cellToWrite.innerHTML += "<h3>" + NullableString(characterData.skillname).replace("\\n", ""); + "</h3>"
+        cellToWrite.innerHTML += "<div class=\"quote\">" + NullableString(characterData.sptext).replace("\\n", ""); + "</div>"
         cellToWrite.innerHTML += NullableString(characterData.skilltext).replace("\\n", "");
         {
             var patternCell = cellToWrite.appendChild(document.createElement("div"));
@@ -385,6 +387,7 @@ function PassiveText(passiveSkillID, cellToWrite, isFirstLayer) {
             passiveData = passiveDataSnapshot.val();
             
             if (isFirstLayer) {
+                cellToWrite.innerHTML += "<h3>" + NullableString(passiveData.name).replace("\\n", ""); + "</h3>"
                 cellToWrite.innerHTML += NullableString(passiveData.text).replace("\\n", "");
             }
 
@@ -414,6 +417,7 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
         try {
             supportData = supportDataSnapshot.val();
             
+            cellToWrite.innerHTML += "<h3>" + NullableString(supportData.name).replace("\\n", ""); + "</h3>"
             cellToWrite.innerHTML += NullableString(supportData.text).replace("\\n", "");
             cellToWrite.innerHTML += "<div>Cost: " + supportCost + "</div>";
             
