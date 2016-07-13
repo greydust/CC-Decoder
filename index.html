@@ -18,9 +18,14 @@
 1類的Buff僅有覺醒的KillUp和WaveUp兩個類別。共用100 % 傷害 、100 % 跑速、50 % 防禦、50 % 技能傷害、50 % 技能跑速、100 % 技能防禦的上限<br><br>
 2類的Buff有覺醒的DeadPlusCID PowerDrain SuperSkillFull2 ManaSpend ExtraResourse WaveSupport WaveSupportAll ManaPower AutoMotion FlagAdvance FlagAdvancePlus KillUpPlus，以及技能的DAMAGED_ATTACK DAMAGED_SHOOT FLAG_ATTACK HEAL_UNION SUPPORT_AREA。共用-50%~100%傷害、-50%~100%技能傷害、-50%~50%跑速、-50%~100%防禦、0%~50%爆擊、-150%~100%爆擊傷害、-50%~100%攻速的界限限制。<br><br>
 3類則是所有其他的，無上限。<br><br>
-而爆擊率除了以上的計算以外，還有獨立的另外兩類，先稱之為爆擊1類和爆擊2類。<br><br>
-爆擊1類包含覺醒的LowHP HighHP SuperSkillFull ChangeFormUp BossBattle FlagUp HeroOne HoldMana ManaCountUp，共用50%爆擊率上限。<br><br>
-爆擊2類包含覺醒的StrengthWeapon StrengthHome TargetStageAll ManaSlotUp StrengthJob2 Backup，共用50%爆擊率上限。<br><br>
+技能的MANA_CYCLE，覺醒的StopUp、Position、SuperSkillFull、ChangeFormUp的總攻速倍率範圍為0.5~2倍。<br><br>
+技能的MANA_CYCLE，覺醒的MoveUp、StopUp、Position、LowHP、HighHP、FullHP、FlagUp、SuperSkillFull、ChangeFormUp、HeroOne、HoldMana、ManaCountUp、BossBattle的總暴擊率範圍為0~0.5。<br><br>
+覺醒的StrengthWeapon、StrengthHome、TargetStageAll、ManaSlotUp、StrengthJob2、Backup的總暴擊率範圍為0~0.5。<br><br>
+技能的MANA_CYCLE，覺醒的Position、StopUp、LowHP、HighHP、SuperSkillFull、ChangeFormUp、HeroOne、HoldMana、ManaCountUp的總暴擊傷害加成範圍為-1~2。<br><br>
+覺醒的TargetStageAll、ManaSlotUp、StrengthJob2的總暴擊傷害範圍為-1~2。<br><br>
+覺醒的ManaHealer的總治療範圍倍率範圍為0.5~2。<br><br>
+覺醒的ManaHealer、SuperSkillFull的總治療量倍率範圍為0~2<br><br>
+普攻、治療、殺敵的超必殺增加範圍為-100~100單位<br><br>
 擊退力代表一秒會被擊退幾單位，被擊中後會在一秒內遞減至0，因此總移動距離是擊退力/2<br><br>
 一格代表1.5單位<br><br>
 各個debuff預設值:<br>
@@ -134,6 +139,10 @@
         </div>
         <div class="body initialHide" id="versionTab">
              <table class="versionTable">
+                <tr>
+                    <td class="versionTime">7/13/2016 10:13</td>
+                    <td class="versionDescription">增加大量覺醒解讀</td>
+                </tr>
                 <tr>
                     <td class="versionTime">7/12/2016 06:02</td>
                     <td class="versionDescription">修正減傷與攻速用詞</td>
