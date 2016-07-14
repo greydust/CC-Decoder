@@ -100,7 +100,7 @@
             }
             var damageString = "";
             if (skillParams[1] > 0) {
-                damageString = "每{0}秒受到{1}倍傷害，".format(skillParams[0], skillParams[1]);
+                damageString = "每{0}秒受到{1}倍傷害，".format(skillParams[1], skillParams[0]);
             }
             var plusDamageString = "";
             if (skillParams[5] > 0) {
