@@ -376,15 +376,24 @@ function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag,
     });
 }
 
+var ReadPassiveList = {};
+
 function PassiveText(passiveSkillID, cellToWrite, isFirstLayer) {
     if (isFirstLayer) {
         cellToWrite.innerHTML = "";
         cellToWrite.className = "passiveSkill";
     }
+    
+    if (ReadPassiveList[passiveSkillID] == undefined) {
+        ReadPassiveList[passiveSkillID] = true;
+    } else {
+        return;
+    }
 
     currentDB.database().ref('/skilllist/skilllist/' + passiveSkillID).once('value').then(function(passiveDataSnapshot) {
         try {
             passiveData = passiveDataSnapshot.val();
+            
             
             if (isFirstLayer) {
                 cellToWrite.innerHTML += "<h3>" + NullableString(passiveData.name).replace("\\n", ""); + "</h3>"
@@ -496,6 +505,7 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
 function SearchCharacter() {
     searchButton.disabled = true;
     characterDataTable.tBodies[0].innerHTML = "";
+    ReadPassiveList = {};
     
     currentDB.database().goOnline();
     currentDB.database().ref('/charainfo/charainfo').orderByChild("name").equalTo(characterName.value).once('value').then(function(dataSnapshot) {
