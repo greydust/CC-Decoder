@@ -1,5 +1,5 @@
 {
-  "deceive": 1467882023,
+  "deceive": 1468492382,
   "questdigest": {
     "20": {
       "append_skill": {},
@@ -51182,7 +51182,7 @@
       "field_type": [0],
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90005,"val":1},{"type":"weapon_rf","id":93002,"val":1},{"type":"weapon_rf","id":93002,"val":1},{"type":"chara_rf","id":90010,"val":1}],
-      "fixed_help": [{"cid":11007,"lv":80,"hp":8900,"atk":9550,"helper_comment":"その血を、ちょうだい","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":11007,"lv":80,"hp":8900,"atk":9550,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "240601": {
       "append_skill": {},
@@ -72547,5 +72547,5 @@
     }
   },
   "res": 0,
-  "sv": "1467856274"
+  "sv": "1468484593"
 }

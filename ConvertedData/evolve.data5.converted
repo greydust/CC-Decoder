@@ -1,5 +1,5 @@
 {
-  "deceive": 1468303196,
+  "deceive": 1468996765,
   "evolve": {
     "26000": {
       "evol_dst": 26000,
@@ -3431,6 +3431,17 @@
       "usable1": -1,
       "usable2": -1
     },
+    "85238": {
+      "evol_dst": 70011,
+      "id": 85238,
+      "name": "始まりのナギナタ",
+      "profile": "セハガ探索用武器進化アルカナ",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
     "85241": {
       "evol_dst": 70014,
       "id": 85241,
@@ -3776,6 +3787,17 @@
       "usable1": -1,
       "usable2": -1
     },
+    "85283": {
+      "evol_dst": 85283,
+      "id": 85283,
+      "name": "サードアニバーサリー",
+      "profile": "三賢者踏破　弱特攻",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
     "85287": {
       "evol_dst": 85287,
       "id": 85287,
@@ -3792,6 +3814,41 @@
       "id": 85297,
       "name": "継刀・絶世",
       "profile": "リヴェラ外伝報酬",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85300": {
+      "evol_dst": 85300,
+      "id": 85300,
+      "name": "オブシディウム",
+      "profile": "三賢者踏破報酬武器",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85313": {
+      "evol_dst": 85313,
+      "id": 85313,
+      "name": "宿因のヴェーニク",
+      "profile": "ファティマ専用＆踏破武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": 2003,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [2003],
+      "ring": 0
+    },
+    "85314": {
+      "evol_dst": 85314,
+      "id": 85314,
+      "name": "シェムハメフォラル",
+      "profile": "三賢者踏破リング武器",
       "rank_limit": 2,
       "rarity": 5,
       "usable0": -1,
@@ -6487,5 +6544,5 @@
     }
   },
   "res": 0,
-  "sv": "1467878402"
+  "sv": "1468910957"
 }

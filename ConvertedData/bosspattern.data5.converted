@@ -1,5 +1,5 @@
 {
-  "deceive": 1468303193,
+  "deceive": 1468996754,
   "bosspattern": {
     "1": {
       "che": 0,
@@ -7741,6 +7741,170 @@
       "skillid5": 534,
       "skillid6": 525
     },
+    "436": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 100.0,
+      "hpstart": 0.0,
+      "patternid": 436,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 0,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 545,
+      "skillid1": 545,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0
+    },
+    "437": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 100.0,
+      "hpstart": 51.0,
+      "patternid": 437,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 100,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 546,
+      "skillid1": 0,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0,
+      "limit": 1
+    },
+    "438": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 100.0,
+      "hpstart": 51.0,
+      "patternid": 438,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 100,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 547,
+      "skillid1": 553,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0,
+      "limit": 1
+    },
+    "439": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 100.0,
+      "hpstart": 51.0,
+      "patternid": 439,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 0,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 548,
+      "skillid1": 0,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0
+    },
+    "440": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 100.0,
+      "hpstart": 51.0,
+      "patternid": 440,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 0,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 549,
+      "skillid1": 0,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0
+    },
+    "441": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 50.0,
+      "hpstart": 0.0,
+      "patternid": 441,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 100,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 552,
+      "skillid1": 0,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0,
+      "limit": 1
+    },
+    "442": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 50.0,
+      "hpstart": 0.0,
+      "patternid": 442,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 0,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 550,
+      "skillid1": 551,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0
+    },
+    "443": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 50.0,
+      "hpstart": 0.0,
+      "patternid": 443,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 100,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 553,
+      "skillid1": 0,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0,
+      "limit": 1
+    },
     "700": {
       "che": 0,
       "chs": 0,
@@ -8124,7 +8288,7 @@
       "skillid3": 0,
       "sname": "レスティスヒール",
       "stext": "冥々たる生命と魂の源泉よ湧け",
-      "voice": 0
+      "voice": 2
     },
     "20011": {
       "che": 0,
@@ -8144,7 +8308,7 @@
       "skillid3": 0,
       "sname": "リザイブレージュ",
       "stext": "生命と魂の真髄を、いまここに！",
-      "voice": 0
+      "voice": 3
     },
     "20020": {
       "che": 0,
@@ -8163,8 +8327,8 @@
       "skillid2": 0,
       "skillid3": 0,
       "sname": "崩落するベスティーゼ",
-      "stext": "―――――――",
-      "voice": 0
+      "stext": "大気中のマナを効率的に魔力へと変換し○☆△……",
+      "voice": 2
     },
     "20021": {
       "che": 0,
@@ -8184,7 +8348,7 @@
       "skillid3": 0,
       "sname": "超越するゼイヴァルド",
       "stext": "うひゃひゃひゃひゃ！",
-      "voice": 0
+      "voice": 3
     },
     "20490": {
       "che": 0,
@@ -12500,5 +12664,5 @@
     }
   },
   "res": 0,
-  "sv": "1468205584"
+  "sv": "1468918452"
 }

@@ -1,13 +1,13 @@
 {
-  "deceive": 1466489431,
+  "deceive": 1468996765,
   "casino_race": {
     "1": {
       "tournament_id": 1,
       "tournament_type": 0,
       "tournament_name": "低BETクラス",
       "start": 1465452000,
-      "end": 1468979999,
-      "bet_min": 10,
+      "end": 1483163999,
+      "bet_min": 100,
       "bet_max": 500,
       "presentation_threshold1": 1000,
       "presentation_threshold2": 10000
@@ -17,7 +17,7 @@
       "tournament_type": 1,
       "tournament_name": "高BETクラス",
       "start": 1465452000,
-      "end": 1468979999,
+      "end": 1483163999,
       "bet_min": 1000,
       "bet_max": 50000,
       "presentation_threshold1": 1000,
@@ -25,5 +25,5 @@
     }
   },
   "res": 0,
-  "sv": "1465376358"
+  "sv": "1468927118"
 }
