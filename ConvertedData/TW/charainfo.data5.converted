@@ -1,5 +1,5 @@
 {
-  "deceive": 1468492374,
+  "deceive": 1469091694,
   "charainfo": {
     "1": {
       "cid": 1,
@@ -29162,7 +29162,7 @@
       "attackflag": 0,
       "motionid": 1014,
       "spmotname": "sp_shield01",
-      "weaponid": 95756,
+      "weaponid": 82,
       "illustrator": "K.R.",
       "voice_artist": "伊波奈奈",
       "sptext": "來參加派對吧",
@@ -29258,7 +29258,7 @@
       "attackflag": 1024,
       "motionid": 1003,
       "spmotname": "sp_sing01",
-      "weaponid": 95758,
+      "weaponid": 72,
       "illustrator": "CHuN",
       "voice_artist": "友永朱音",
       "sptext": "這樣可以嗎",
@@ -119887,5 +119887,5 @@
     }
   },
   "res": 0,
-  "sv": "1468221519"
+  "sv": "1468921771"
 }

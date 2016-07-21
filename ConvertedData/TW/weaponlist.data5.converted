@@ -1,5 +1,5 @@
 {
-  "deceive": 1467881999,
+  "deceive": 1469091695,
   "weaponlist": {
     "1": {
       "id": 1,
@@ -12147,8 +12147,120 @@
       "model": "weapon95818_body",
       "rank": 3,
       "skill": 850051
+    },
+    "95819": {
+      "id": 95819,
+      "name": "藍薔薇伴奏琴",
+      "type_atk": 1,
+      "attackMax": 11,
+      "type_cri": 2,
+      "criticalMax": 6,
+      "type_grd": 3,
+      "guardMax": 6,
+      "type": 5,
+      "model": "weapon95819_body",
+      "rank": 2,
+      "skill": 400221
+    },
+    "95820": {
+      "id": 95820,
+      "name": "電磁鼓棒",
+      "type_atk": 1,
+      "attackMax": 7,
+      "type_cri": 2,
+      "criticalMax": 5,
+      "type_grd": 3,
+      "guardMax": 11,
+      "type": 2,
+      "model": "weapon95820_body",
+      "rank": 2,
+      "skill": 400231
+    },
+    "95821": {
+      "id": 95821,
+      "name": "黛紅麥克風",
+      "type_atk": 1,
+      "attackMax": 12,
+      "type_cri": 2,
+      "criticalMax": 7,
+      "type_grd": 3,
+      "guardMax": 4,
+      "type": 4,
+      "model": "weapon95821_body",
+      "rank": 2,
+      "skill": 400221
+    },
+    "95822": {
+      "id": 95822,
+      "name": "吉他No.154",
+      "type_atk": 1,
+      "attackMax": 13,
+      "type_cri": 2,
+      "criticalMax": 5,
+      "type_grd": 3,
+      "guardMax": 5,
+      "type": 1,
+      "model": "weapon95822_body",
+      "rank": 2,
+      "skill": 400231
+    },
+    "95823": {
+      "id": 95823,
+      "name": "切弦貝斯",
+      "type_atk": 1,
+      "attackMax": 8,
+      "type_cri": 2,
+      "criticalMax": 11,
+      "type_grd": 3,
+      "guardMax": 4,
+      "type": 3,
+      "model": "weapon95823_body",
+      "rank": 2,
+      "skill": 400231
+    },
+    "95824": {
+      "id": 95824,
+      "name": "潮流吉他",
+      "type_atk": 1,
+      "attackMax": 11,
+      "type_cri": 2,
+      "criticalMax": 8,
+      "type_grd": 3,
+      "guardMax": 4,
+      "type": 0,
+      "model": "weapon95824_body",
+      "rank": 2,
+      "skill": 400231
+    },
+    "95825": {
+      "id": 95825,
+      "name": "翡翠麥克風",
+      "type_atk": 1,
+      "attackMax": 12,
+      "type_cri": 2,
+      "criticalMax": 4,
+      "type_grd": 3,
+      "guardMax": 7,
+      "type": 5,
+      "model": "weapon95825_body",
+      "rank": 2,
+      "skill": 400231
+    },
+    "95826": {
+      "id": 95826,
+      "name": "水桶刷RX-78",
+      "type_atk": 1,
+      "attackMax": 6,
+      "type_cri": 2,
+      "criticalMax": 11,
+      "type_grd": 3,
+      "guardMax": 6,
+      "type": 4,
+      "model": "weapon95826_body",
+      "rank": 2,
+      "skill": 400231
     }
   },
   "res": 0,
-  "sv": "1467856649"
+  "sv": "1468921768"
 }

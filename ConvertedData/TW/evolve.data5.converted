@@ -1,5 +1,5 @@
 {
-  "deceive": 1467881999,
+  "deceive": 1469091695,
   "evolve": {
     "26000": {
       "evol_dst": 26000,
@@ -5680,8 +5680,96 @@
       "usable1": -1,
       "usable2": -1,
       "usable": [2003]
+    },
+    "95819": {
+      "evol_dst": 95819,
+      "id": 95819,
+      "name": "藍薔薇伴奏琴",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8843,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8843]
+    },
+    "95820": {
+      "evol_dst": 95820,
+      "id": 95820,
+      "name": "電磁鼓棒",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8844,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8844]
+    },
+    "95821": {
+      "evol_dst": 95821,
+      "id": 95821,
+      "name": "黛紅麥克風",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8845,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8845]
+    },
+    "95822": {
+      "evol_dst": 95822,
+      "id": 95822,
+      "name": "吉他No.154",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8846,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8846]
+    },
+    "95823": {
+      "evol_dst": 95823,
+      "id": 95823,
+      "name": "切弦貝斯",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8847,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8847]
+    },
+    "95824": {
+      "evol_dst": 95824,
+      "id": 95824,
+      "name": "潮流吉他",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8848,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8848]
+    },
+    "95825": {
+      "evol_dst": 95825,
+      "id": 95825,
+      "name": "翡翠麥克風",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8849,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8849]
+    },
+    "95826": {
+      "evol_dst": 95826,
+      "id": 95826,
+      "name": "水桶刷RX-78",
+      "rank_limit": 0,
+      "rarity": 3,
+      "usable0": 8850,
+      "usable1": -1,
+      "usable2": -1,
+      "usable": [8850]
     }
   },
   "res": 0,
-  "sv": "1467856649"
+  "sv": "1468921768"
 }

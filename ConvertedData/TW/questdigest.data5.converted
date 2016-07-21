@@ -1,5 +1,5 @@
 {
-  "deceive": 1468492382,
+  "deceive": 1469091713,
   "questdigest": {
     "20": {
       "append_skill": {},
@@ -48890,7 +48890,7 @@
       "chapter_list": [1],
       "difficulty": 1,
       "flag": {},
-      "name": "東奔西走。",
+      "name": "東奔西走",
       "quest_id": 239905,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -49209,7 +49209,7 @@
         "box": 2
       },
       "field_type": [0,0,0],
-      "fixed_help": [{"cid":76,"lv":60,"hp":6150,"atk":5250,"helper_comment":"わたしも頑張るよー！","skillflag":[true,true,true,false]},{"cid":76,"lv":60,"hp":6150,"atk":5250,"helper_comment":"わたしも頑張るよー！","skillflag":[true,true,true,false]},{"cid":76,"lv":60,"hp":6150,"atk":5250,"helper_comment":"わたしも頑張るよー！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":76,"lv":60,"hp":6150,"atk":5250,"helper_comment":null,"skillflag":[true,true,true,false]},{"cid":76,"lv":60,"hp":6150,"atk":5250,"helper_comment":null,"skillflag":[true,true,true,false]},{"cid":76,"lv":60,"hp":6150,"atk":5250,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "240012": {
       "append_skill": {},
@@ -49217,7 +49217,7 @@
       "chapter_list": [0],
       "difficulty": 4,
       "flag": {},
-      "name": "貧民窟的收益源・易",
+      "name": "貧民窟的收益源．易",
       "quest_id": 240012,
       "bg_list": [1],
       "chapter_cnt": 1,
@@ -49238,7 +49238,7 @@
       "chapter_list": [0],
       "difficulty": 18,
       "flag": {},
-      "name": "貧民窟的收益源・難",
+      "name": "貧民窟的收益源．難",
       "quest_id": 240013,
       "bg_list": [1],
       "chapter_cnt": 1,
@@ -49272,7 +49272,7 @@
       },
       "field_type": [0],
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"chara_rf","id":90901,"val":1},{"type":"chara_rf","id":90901,"val":1},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90903,"val":1}]
+      "eneset_treasure": [{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90903,"val":1},{"type":"weapon_rf","id":93902,"val":1}]
     },
     "240021": {
       "append_skill": {},
@@ -72547,5 +72547,5 @@
     }
   },
   "res": 0,
-  "sv": "1468484593"
+  "sv": "1469085153"
 }
