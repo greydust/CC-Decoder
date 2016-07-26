@@ -1,5 +1,5 @@
 {
-  "deceive": 1468996772,
+  "deceive": 1469516419,
   "questdigest": {
     "20": {
       "append_skill": {},
@@ -20030,6 +20030,61 @@
       "place_id": 9,
       "stamina": 13
     },
+    "75160": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "登場トリスメギストス",
+      "quest_id": 75160,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
+    },
+    "75161": {
+      "append_skill": {},
+      "area_id": 2,
+      "chapter_list": [1,2,3],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":7516,"lv":1}]
+      },
+      "name": "魔法兵団と超賢者",
+      "quest_id": 75161,
+      "bg_list": [1,1,1],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 10,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
+    },
+    "75162": {
+      "append_skill": {
+        "cid": 7516,
+        "idx": "2"
+      },
+      "area_id": 2,
+      "chapter_list": [1,2,3],
+      "difficulty": 31,
+      "flag": {
+        "chara": [{"cid":7516,"lv":30}]
+      },
+      "name": "超賢者の夢",
+      "quest_id": 75162,
+      "bg_list": [2,7,7],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 8,
+      "stamina": 10,
+      "field_type": [0,0,0]
+    },
     "75200": {
       "append_skill": {},
       "area_id": 1,
@@ -34048,6 +34103,46 @@
       "stamina": 11,
       "field_type": [0,0,0]
     },
+    "580011": {
+      "append_skill": {
+        "cid": 58001,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":58001,"lv":1}]
+      },
+      "name": "薄衣の魔女",
+      "quest_id": 580011,
+      "bg_list": [2,2,2],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 7,
+      "stamina": 5,
+      "field_type": [0,0,0]
+    },
+    "580021": {
+      "append_skill": {
+        "cid": 58002,
+        "idx": "2"
+      },
+      "area_id": 5,
+      "chapter_list": [1,2],
+      "difficulty": 20,
+      "flag": {
+        "chara": [{"cid":58002,"lv":13}]
+      },
+      "name": "格別な一杯",
+      "quest_id": 580021,
+      "bg_list": [12,12],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 3,
+      "stamina": 10,
+      "field_type": [0,0]
+    },
     "580050": {
       "append_skill": {},
       "area_id": 1,
@@ -34078,6 +34173,26 @@
       "is_casino": false,
       "place_id": 9,
       "stamina": 8
+    },
+    "580061": {
+      "append_skill": {
+        "cid": 58006,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 20,
+      "flag": {
+        "chara": [{"cid":58006,"lv":13}]
+      },
+      "name": "本場の味",
+      "quest_id": 580061,
+      "bg_list": [1,2,2],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 6,
+      "field_type": [0,0,0]
     },
     "580080": {
       "append_skill": {},
@@ -62159,7 +62274,6 @@
       "icon": "casino01",
       "kind_prm": 1,
       "eneset_treasure": [],
-      "fixed_help": [{"cid":7017,"lv":80,"hp":6800,"atk":9000,"helper_comment":"もうすぐ3周年ですね","skillflag":[true,true,true,false]}],
       "casino_coin": 0,
       "casino_reward_up_rate": 2
     },
@@ -62213,6 +62327,103 @@
       "place_id": 11,
       "stamina": 10,
       "sort": 150,
+      "field_type": [0],
+      "icon": "casino01",
+      "kind_prm": 1,
+      "eneset_treasure": [],
+      "casino_coin": 0,
+      "casino_reward_up_rate": 2
+    },
+    "245104": {
+      "append_skill": {},
+      "area_id": 12,
+      "chapter_list": [0],
+      "difficulty": 45,
+      "flag": {},
+      "name": "絆の大感謝祭・1",
+      "quest_id": 245104,
+      "bg_list": [8],
+      "chapter_cnt": 1,
+      "casino_reward": {
+        "gold": [{"type":"stone","id":null,"val":1,"limited":1,"win_rate":"0","hit":true,"mass":6},{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":3,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90904,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":3,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "gold_time": 7500,
+        "silver": [{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "silver_time": 11000,
+        "copper": [{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85277,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93001,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}]
+      },
+      "is_casino": true,
+      "place_id": 11,
+      "stamina": 10,
+      "sort": 100,
+      "field_type": [0],
+      "icon": "casino01",
+      "kind_prm": 1,
+      "eneset_treasure": [],
+      "casino_coin": 0,
+      "entry_limited": {
+        "category": "rarity",
+        "param": {
+          "compare": "under",
+          "rarity": "4"
+        }
+      },
+      "casino_reward_up_rate": 2
+    },
+    "245105": {
+      "append_skill": {},
+      "area_id": 12,
+      "chapter_list": [0],
+      "difficulty": 50,
+      "flag": {},
+      "name": "絆の大感謝祭・2",
+      "quest_id": 245105,
+      "bg_list": [8],
+      "chapter_cnt": 1,
+      "casino_reward": {
+        "gold": [{"type":"stone","id":null,"val":1,"limited":1,"win_rate":"0","hit":true,"mass":6},{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":3,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85279,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90904,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93002,"val":3,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85279,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "gold_time": 25000,
+        "silver": [{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85279,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93002,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "silver_time": 28000,
+        "copper": [{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85279,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93002,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}]
+      },
+      "is_casino": true,
+      "place_id": 11,
+      "stamina": 10,
+      "sort": 90,
+      "field_type": [0],
+      "icon": "casino01",
+      "kind_prm": 1,
+      "eneset_treasure": [],
+      "casino_coin": 0,
+      "entry_limited": {
+        "category": "cost",
+        "param": {
+          "border": 60
+        }
+      },
+      "casino_reward_up_rate": 2
+    },
+    "245106": {
+      "append_skill": {},
+      "area_id": 12,
+      "chapter_list": [0],
+      "difficulty": 60,
+      "flag": {},
+      "name": "絆の大感謝祭・3",
+      "quest_id": 245106,
+      "bg_list": [8],
+      "chapter_cnt": 1,
+      "casino_reward": {
+        "gold": [{"type":"stone","id":null,"val":1,"limited":1,"win_rate":"0","hit":true,"mass":6},{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":3,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85281,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90904,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93018,"val":3,"limited":0,"win_rate":"0.1","hit":false,"mass":3},{"type":"weapon_ev","id":85281,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "gold_time": 18500,
+        "silver": [{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85281,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93018,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}],
+        "silver_time": 22000,
+        "copper": [{"type":"weapon_ev","id":85315,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93000,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_ev","id":85281,"val":1,"limited":0,"win_rate":"0.1","hit":true,"mass":4},{"type":"chara_rf","id":90903,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"weapon_rf","id":93018,"val":2,"limited":0,"win_rate":"0.1","hit":false,"mass":4},{"type":"chara_rf","id":90902,"val":1,"limited":0,"win_rate":"0.1","hit":false,"mass":4}]
+      },
+      "is_casino": true,
+      "place_id": 11,
+      "stamina": 10,
+      "sort": 80,
       "field_type": [0],
       "icon": "casino01",
       "kind_prm": 1,
@@ -62474,6 +62685,255 @@
         "box": 3
       },
       "sort": 15,
+      "field_type": [0],
+      "icon": "Event023"
+    },
+    "245213": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "エピローグ",
+      "quest_id": 245213,
+      "bg_list": [123],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "sort": 25,
+      "field_type": [0]
+    },
+    "245301": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 1,
+      "flag": {},
+      "name": "村人シナリオ(仮)",
+      "quest_id": 245301,
+      "bg_list": [9,9,9],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "stamina": 3,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
+    },
+    "245302": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [0],
+      "difficulty": 3,
+      "flag": {},
+      "name": "おじさんを守れ！",
+      "quest_id": 245302,
+      "bg_list": [9],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 3,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":3333},{"type":"item","id":10,"val":3333},{"type":"item","id":10,"val":33333},{"type":"item","id":10,"val":33333}]
+    },
+    "245303": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [0],
+      "difficulty": 3,
+      "flag": {},
+      "name": "おばさんを守れ！",
+      "quest_id": 245303,
+      "bg_list": [9],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 3,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":3333},{"type":"item","id":10,"val":3333},{"type":"item","id":10,"val":33333},{"type":"item","id":10,"val":33333}]
+    },
+    "245304": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [0],
+      "difficulty": 3,
+      "flag": {},
+      "name": "少年を守れ！",
+      "quest_id": 245304,
+      "bg_list": [9],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 3,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":3333},{"type":"item","id":10,"val":3333},{"type":"item","id":10,"val":33333},{"type":"item","id":10,"val":33333}]
+    },
+    "245401": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 14,
+      "flag": {},
+      "name": "海風の夏",
+      "quest_id": 245401,
+      "bg_list": [100],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "item",
+        "box": 3
+      },
+      "sort": 20,
+      "field_type": [0],
+      "icon": "Event023"
+    },
+    "245402": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 16,
+      "flag": {},
+      "name": "大海の夏",
+      "quest_id": 245402,
+      "bg_list": [101],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "item",
+        "box": 3
+      },
+      "sort": 19,
+      "field_type": [0],
+      "icon": "Event023"
+    },
+    "245403": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 18,
+      "flag": {},
+      "name": "ケ者の夏",
+      "quest_id": 245403,
+      "bg_list": [106],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "item",
+        "box": 3
+      },
+      "sort": 18,
+      "field_type": [0],
+      "icon": "Event023"
+    },
+    "245404": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 20,
+      "flag": {},
+      "name": "監獄の夏",
+      "quest_id": 245404,
+      "bg_list": [110],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "item",
+        "box": 3
+      },
+      "sort": 17,
+      "field_type": [0],
+      "icon": "Event023"
+    },
+    "245405": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 22,
+      "flag": {},
+      "name": "薄命の夏",
+      "quest_id": 245405,
+      "bg_list": [111],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "item",
+        "box": 3
+      },
+      "sort": 16,
+      "field_type": [0],
+      "icon": "Event023"
+    },
+    "245406": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 24,
+      "flag": {},
+      "name": "鉄煙の夏",
+      "quest_id": 245406,
+      "bg_list": [117],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "item",
+        "box": 3
+      },
+      "sort": 15,
+      "field_type": [0],
+      "icon": "Event023"
+    },
+    "245407": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 26,
+      "flag": {},
+      "name": "年代記の夏",
+      "quest_id": 245407,
+      "bg_list": [9],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "item",
+        "box": 3
+      },
+      "sort": 14,
       "field_type": [0],
       "icon": "Event023"
     },
@@ -81997,7 +82457,7 @@
       "append_skill": {},
       "area_id": 1016,
       "chapter_list": [0],
-      "difficulty": 1,
+      "difficulty": 9,
       "flag": {
         "quest": [{"type":6,"qid":301404}]
       },
@@ -82006,7 +82466,7 @@
       "bg_list": [123],
       "chapter_cnt": 1,
       "is_casino": false,
-      "stamina": 1,
+      "stamina": 5,
       "field_type": [0],
       "kind_prm": 2,
       "from": 1,
@@ -82572,10 +83032,10 @@
       "is_casino": false,
       "place_id": 9,
       "stamina": 20,
-      "reward_box": 1,
+      "reward_box": 3,
       "reward_data": {
         "type": "card",
-        "box": 1
+        "box": 3
       },
       "field_type": [0,0,0,0]
     },
@@ -82816,7 +83276,7 @@
       },
       "field_type": [0],
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":10000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":5000}]
+      "eneset_treasure": [{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":5000},{"type":"event_point","id":0,"val":10000}]
     },
     "400101": {
       "append_skill": {},
@@ -85096,5 +85556,5 @@
     }
   },
   "res": 0,
-  "sv": "1468978308"
+  "sv": "1469434744"
 }

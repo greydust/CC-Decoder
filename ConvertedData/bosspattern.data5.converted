@@ -1,5 +1,5 @@
 {
-  "deceive": 1468996754,
+  "deceive": 1469516403,
   "bosspattern": {
     "1": {
       "che": 0,
@@ -7812,7 +7812,7 @@
       "patternid": 439,
       "pose": 0.0,
       "posp": 0.0,
-      "priority": 0,
+      "priority": 1,
       "scost": 0,
       "sinfo": "",
       "skillid0": 548,
@@ -7821,7 +7821,8 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0
+      "voice": 0,
+      "limit": 1
     },
     "440": {
       "che": 0,
@@ -7832,7 +7833,7 @@
       "patternid": 440,
       "pose": 0.0,
       "posp": 0.0,
-      "priority": 0,
+      "priority": 1,
       "scost": 0,
       "sinfo": "",
       "skillid0": 549,
@@ -7841,7 +7842,8 @@
       "skillid3": 0,
       "sname": "",
       "stext": "",
-      "voice": 0
+      "voice": 0,
+      "limit": 1
     },
     "441": {
       "che": 0,
@@ -8250,6 +8252,26 @@
       "stext": "",
       "voice": 0
     },
+    "10630": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 100.0,
+      "hpstart": 0.0,
+      "patternid": 10630,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 100,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 10630,
+      "skillid1": 10631,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0
+    },
     "10690": {
       "che": 0,
       "chs": 0,
@@ -8264,6 +8286,26 @@
       "sinfo": "",
       "skillid0": 10690,
       "skillid1": 10691,
+      "skillid2": 0,
+      "skillid3": 0,
+      "sname": "",
+      "stext": "",
+      "voice": 0
+    },
+    "10740": {
+      "che": 0,
+      "chs": 0,
+      "flag": 0,
+      "hpend": 100.0,
+      "hpstart": 0.0,
+      "patternid": 10740,
+      "pose": 0.0,
+      "posp": 0.0,
+      "priority": 100,
+      "scost": 0,
+      "sinfo": "",
+      "skillid0": 10740,
+      "skillid1": 10741,
       "skillid2": 0,
       "skillid3": 0,
       "sname": "",
@@ -11347,20 +11389,20 @@
       "stext": "",
       "voice": 0
     },
-    "81890": {
+    "81870": {
       "che": 0,
       "chs": 0,
       "flag": 0,
       "hpend": 100.0,
       "hpstart": 0.0,
-      "patternid": 81890,
+      "patternid": 81870,
       "pose": 0.0,
       "posp": 0.0,
       "priority": 0,
       "scost": 0,
       "sinfo": "",
-      "skillid0": 81890,
-      "skillid1": 81891,
+      "skillid0": 81870,
+      "skillid1": 81871,
       "skillid2": 0,
       "skillid3": 0,
       "sname": "",
@@ -12664,5 +12706,5 @@
     }
   },
   "res": 0,
-  "sv": "1468918452"
+  "sv": "1469432853"
 }
