@@ -376,16 +376,14 @@ function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag,
     });
 }
 
-var ReadPassiveList = {};
-
-function PassiveText(passiveSkillID, cellToWrite, isFirstLayer) {
+function PassiveText(passiveSkillID, cellToWrite, isFirstLayer, readPassiveList) {
     if (isFirstLayer) {
         cellToWrite.innerHTML = "";
         cellToWrite.className = "passiveSkill";
     }
     
-    if (ReadPassiveList[passiveSkillID] == undefined) {
-        ReadPassiveList[passiveSkillID] = true;
+    if (readPassiveList[passiveSkillID] == undefined) {
+        readPassiveList[passiveSkillID] = true;
     } else {
         return;
     }
@@ -410,7 +408,7 @@ function PassiveText(passiveSkillID, cellToWrite, isFirstLayer) {
                 [NullableNumber(passiveData.iParam0)]
             );
             for(var subIDKey in passiveData.sub) {
-                PassiveText(passiveData.sub[subIDKey], cellToWrite, false);
+                PassiveText(passiveData.sub[subIDKey], cellToWrite, false, readPassiveList);
             }
         } catch (e) {
             passiveCell.innerHTML = "";
@@ -524,8 +522,8 @@ function SearchCharacter() {
             row.insertCell(-1).innerHTML = charactersData[characterData].inihp;
             row.insertCell(-1).innerHTML = charactersData[characterData].iniap;
             SkillText(charactersData[characterData], row.insertCell(-1));
-            PassiveText(charactersData[characterData].skillid[1], row.insertCell(-1), true);
-            PassiveText(charactersData[characterData].skillid[2], row.insertCell(-1), true);
+            PassiveText(charactersData[characterData].skillid[1], row.insertCell(-1), true, {});
+            PassiveText(charactersData[characterData].skillid[2], row.insertCell(-1), true, {});
             SupportText(charactersData[characterData].sup_cost, charactersData[characterData].sup1, charactersData[characterData].sup2, row.insertCell(-1));
         }
         
