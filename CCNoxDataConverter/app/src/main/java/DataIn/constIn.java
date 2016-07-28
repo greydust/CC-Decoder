@@ -24,6 +24,7 @@ public class constIn
     public int casino_coin_limit;
     public int casino_coin_exchange_limit;
     public int casino_coin_price;
+    public int casino_roulette_border;
     public int res;
     public List<body> body;
     public mVer mVer;

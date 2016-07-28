@@ -21,6 +21,7 @@ public class questdigest
     public reward_data reward_data;
     public Integer sort;
     public List<Integer> field_type;
+    public List<List<helpers>> helpers;
     public String icon;
     public List<Object> relation;
     public List<Integer> relation_id;

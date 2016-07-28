@@ -18,6 +18,7 @@ public class JsonForFirebase
     public bosspatternOutManager bosspattern;
     public bossskillOutManager bossskill;
     public casino_raceOutManager casino_race;
+    public casino_rouletteOutManager casino_roulette;
     public charainfoOutManager charainfo;
     public charalbOutManager charalb;
     public charareinOutManager chararein;

@@ -1,6 +1,7 @@
 package com.greydust.ccnoxdataconverter;
 
 import android.os.AsyncTask;
+import android.os.Debug;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,8 +10,11 @@ import android.widget.EditText;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ServerValue;
@@ -21,6 +25,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -57,6 +62,7 @@ import DataOut.booklistOutManager;
 import DataOut.bosspatternOutManager;
 import DataOut.bossskillOutManager;
 import DataOut.casino_raceOutManager;
+import DataOut.casino_rouletteOutManager;
 import DataOut.charainfoOutManager;
 import DataOut.charalbOutManager;
 import DataOut.charareinOutManager;
@@ -115,9 +121,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            // convert Data
-
-
             return null;
         }
 
@@ -135,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
             ObjectMapper mapper = new ObjectMapper();
             mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
 
+            String debugMessage = "";
             JsonForFirebase firebase = new JsonForFirebase();
             {
                 {
@@ -148,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
                             mapper.writerWithDefaultPrettyPrinter().writeValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "battleinfo.data5.converted"), convertedData);
                         }
                     } catch (Exception e) {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -163,6 +168,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
 
@@ -184,6 +190,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -201,9 +208,16 @@ public class MainActivity extends AppCompatActivity {
                             firebase.high_and_low = convertedData;
                             mapper.writerWithDefaultPrettyPrinter().writeValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "high_and_low.data5.converted"), convertedData);
                         }
+                        {
+                            casino_rouletteOutManager convertedData = data.ConvertTocasino_roulette();
+                            firebase.casino_roulette = convertedData;
+                            mapper.writerWithDefaultPrettyPrinter().writeValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "casino_roulette.data5.converted"), convertedData);
+
+                        }
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -234,6 +248,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -245,6 +260,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -256,6 +272,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -271,6 +288,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -282,6 +300,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -293,6 +312,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -308,6 +328,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -323,6 +344,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -338,6 +360,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -353,6 +376,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -368,6 +392,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -383,6 +408,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -394,6 +420,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -409,6 +436,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -420,6 +448,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -435,6 +464,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -446,6 +476,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -457,6 +488,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -468,6 +500,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -483,6 +516,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -508,6 +542,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
                 {
@@ -519,11 +554,20 @@ public class MainActivity extends AppCompatActivity {
                     }
                     catch (Exception e)
                     {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
                     }
                 }
 
                 try {
                     mapper.writerWithDefaultPrettyPrinter().writeValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "firebase.json"), firebase);
+                } catch (Exception e) {
+                    debugMessage += e.getMessage() + "\n" + e.getStackTrace();
+                }
+
+                try {
+                    PrintWriter writer = new PrintWriter("/mnt/shared/Other/" + prefix + "log.txt", "UTF-8");
+                    writer.write(debugMessage);
+                    writer.close();
                 } catch (Exception e) {
 
                 }
@@ -549,24 +593,57 @@ public class MainActivity extends AppCompatActivity {
     private class UploadData extends AsyncTask<Void, Void, Void> {
         private void UploadJsonData(String prefix) {
             ObjectMapper mapper = new ObjectMapper();
+            String debugMessage = "";
 
-            FirebaseDatabase database;
-            if (prefix == "TW/") {
-                FirebaseOptions options = new FirebaseOptions.Builder()
-                        .setApiKey("AIzaSyBnbAxZf0RBqc8fgu3lMTELBPvMVC0HE4M")
-                        .setApplicationId("1:512240485651:android:08bfe55a84bcc8b8")
-                        .setDatabaseUrl("https://cc-decoderbackendtw.firebaseio.com")
-                        .build();
-                FirebaseApp secondApp = FirebaseApp.initializeApp(getApplicationContext(), options, "TW");
-                database = FirebaseDatabase.getInstance(secondApp);
-            } else {
-                database = FirebaseDatabase.getInstance();
+            FirebaseDatabase database = null;
+            try {
+                if (prefix == "TW/") {
+                    FirebaseOptions options = new FirebaseOptions.Builder()
+                            .setApiKey("AIzaSyBnbAxZf0RBqc8fgu3lMTELBPvMVC0HE4M")
+                            .setApplicationId("1:512240485651:android:08bfe55a84bcc8b8")
+                            .setDatabaseUrl("https://cc-decoderbackendtw.firebaseio.com")
+                            .build();
+                    FirebaseApp secondApp = FirebaseApp.initializeApp(getApplicationContext(), options, "TW");
+                    database = FirebaseDatabase.getInstance(secondApp);
+                } else {
+                    database = FirebaseDatabase.getInstance();
+                }
+            } catch (Exception e) {
+                debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
             }
 
             try {
-                Map<String, Object> data = mapper.readValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "firebase.json"), new TypeReference<Map<String,Object>>(){});
-                DatabaseReference ref = database.getReference("/");
-                ref.setValue(data);
+                if (database != null) {
+                    Map<String, Object> data = mapper.readValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "firebase.json"), new TypeReference<Map<String, Object>>() {});
+                    DatabaseReference ref = database.getReference("/");
+                    ref.setValue(data, new DatabaseReference.CompletionListener() {
+                        @Override
+                        public void onComplete(DatabaseError error, DatabaseReference ref) {
+                            if(error != null) {
+                                String message = "Not Successful\n";
+                                message += error.toException().getMessage() + "\n" + error.toException().getStackTrace() + "\n";
+
+                                try {
+                                    PrintWriter writer = new PrintWriter("/mnt/shared/Other/firebaseCompleteError.txt", "UTF-8");
+                                    writer.write(message);
+                                    writer.close();
+                                } catch (Exception e) {
+
+                                }
+                            }
+                        }
+                    });
+                } else {
+                    debugMessage += "database is null\n";
+                }
+            } catch (Exception e) {
+                debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
+            }
+
+            try {
+                PrintWriter writer = new PrintWriter("/mnt/shared/Other/" + prefix + "firebaseLog.txt", "UTF-8");
+                writer.write(debugMessage);
+                writer.close();
             } catch (Exception e) {
 
             }
@@ -575,7 +652,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... params) {
             UploadJsonData("");
-            UploadJsonData("TW/");
+            //UploadJsonData("TW/");
 
             return null;
         }

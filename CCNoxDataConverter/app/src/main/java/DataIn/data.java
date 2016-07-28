@@ -8,6 +8,7 @@ public class data
     public Object cover;
     public Object raid;
     public Object totalwar;
+    public int subjugation_shop_banner;
     public List<Object> subjugation;
     public expup expup;
     public weaponcompose weaponcompose;
