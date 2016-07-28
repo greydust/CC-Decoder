@@ -1,11 +1,11 @@
 {
-  "deceive": 1468996753,
-  "create_weap": {
-    "recipe": [],
-    "material": [],
-    "category": [],
-    "bonus_param": []
+  "create_weap" : {
+    "bonus_param" : [ ],
+    "category" : [ ],
+    "material" : [ ],
+    "recipe" : [ ]
   },
-  "res": 0,
-  "sv": "1"
+  "sv" : "1",
+  "res" : 0,
+  "deceive" : 1468996753
 }

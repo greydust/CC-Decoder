@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "512240485651",
+    "firebase_url": "https://cc-decoderbackendtw.firebaseio.com",
+    "project_id": "cc-decoderbackendtw",
+    "storage_bucket": "cc-decoderbackendtw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512240485651:android:08bfe55a84bcc8b8",
+        "android_client_info": {
+          "package_name": "com.greydust.ccnoxdataconverter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512240485651-3dor2ekbf8k2u5dlccgg4csdq15j8e7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnbAxZf0RBqc8fgu3lMTELBPvMVC0HE4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -314,7 +314,7 @@ namespace JsonConverter
                         motionlistOutManager convertedData = data.Convert();
                         firebase.motionlist = convertedData;
                         string convertedString = JsonConvert.SerializeObject(convertedData, serializeSetting);
-                        File.WriteAllText("ConvertedData/" + prefix + "itemlist.data5.converted", convertedString);
+                        File.WriteAllText("ConvertedData/" + prefix + "motionlist.data5.converted", convertedString);
                     }
                 }
                 catch (Exception e)

@@ -1,6 +1,776 @@
 {
-  "deceive": 1469091697,
-  "subjugation_expedition_info": [],
-  "res": 0,
-  "sv": "1464102484"
+  "sv" : "1469426134",
+  "subjugation_expedition_info" : [ {
+    "blocks" : [ {
+      "stage_img_id" : "6",
+      "start_expedition_cnt" : 1,
+      "end_expedition_cnt" : 1,
+      "occurrence_cnt" : 2,
+      "title" : "祭典的開始",
+      "base_info" : [ {
+        "name" : "鬼之劍舞",
+        "info" : "對手是鬼劍士！"
+      }, {
+        "name" : "鬼之弓舞",
+        "info" : "對付遠距離攻擊用騎士較有利！"
+      }, {
+        "name" : "血氣方剛的鬼",
+        "info" : "呣呣！似乎有血氣方剛的鬼喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 1 ]
+    }, {
+      "stage_img_id" : "7",
+      "start_expedition_cnt" : 2,
+      "end_expedition_cnt" : 2,
+      "occurrence_cnt" : 2,
+      "title" : "東奔西走",
+      "base_info" : [ {
+        "name" : "鬼之劍舞",
+        "info" : "對手是鬼劍士！"
+      }, {
+        "name" : "炎鬼之劍舞",
+        "info" : "對手是炎屬性的鬼劍士！"
+      }, {
+        "name" : "血氣方剛的鬼",
+        "info" : "呣呣！似乎有血氣方剛的鬼喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 2 ]
+    }, {
+      "stage_img_id" : "6",
+      "start_expedition_cnt" : 3,
+      "end_expedition_cnt" : 4,
+      "occurrence_cnt" : 2,
+      "title" : "慶典白晝部",
+      "base_info" : [ {
+        "name" : "鬼之劍舞",
+        "info" : "對手是鬼劍士！"
+      }, {
+        "name" : "炎鬼之劍舞",
+        "info" : "對手是炎屬性的鬼劍士！"
+      }, {
+        "name" : "冰鬼之劍舞",
+        "info" : "對手是冰屬性的鬼劍士！"
+      }, {
+        "name" : "血氣方剛的鬼",
+        "info" : "呣呣！似乎有血氣方剛的鬼喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 6, 9 ]
+    }, {
+      "stage_img_id" : "8",
+      "start_expedition_cnt" : 5,
+      "end_expedition_cnt" : 5,
+      "occurrence_cnt" : 2,
+      "title" : "義理人情",
+      "base_info" : [ {
+        "name" : "鬼之弓術",
+        "info" : "要小心護衛弓箭手的盾兵！"
+      }, {
+        "name" : "鬼之魔術",
+        "info" : "要小心護衛魔法師的盾兵！"
+      }, {
+        "name" : "鬼慶典騷動",
+        "info" : "用騎士防禦對手的遠距離攻擊！"
+      }, {
+        "name" : "血氣方剛的鬼",
+        "info" : "呣呣！似乎有血氣方剛的鬼喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 14 ]
+    }, {
+      "stage_img_id" : "6",
+      "start_expedition_cnt" : 6,
+      "end_expedition_cnt" : 7,
+      "occurrence_cnt" : 2,
+      "title" : "慶典白晝部2",
+      "base_info" : [ {
+        "name" : "鬼之弓術",
+        "info" : "要小心護衛弓箭手的盾兵！"
+      }, {
+        "name" : "鬼之魔術",
+        "info" : "要小心護衛魔法師的盾兵！"
+      }, {
+        "name" : "鬼慶典騷動",
+        "info" : "用騎士防禦對手的遠距離攻擊！"
+      }, {
+        "name" : "血氣方剛的鬼",
+        "info" : "呣呣！似乎有血氣方剛的鬼喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 17, 20 ]
+    }, {
+      "stage_img_id" : "9",
+      "start_expedition_cnt" : 8,
+      "end_expedition_cnt" : 8,
+      "occurrence_cnt" : 2,
+      "title" : "意氣投合",
+      "base_info" : [ {
+        "name" : "河童慶典",
+        "info" : "似乎有很多持盾的河童！"
+      }, {
+        "name" : "冰鬼之護衛",
+        "info" : "持盾的冰鬼逼近了喔！"
+      }, {
+        "name" : "鬼之護衛",
+        "info" : "要小心護衛弓箭手的盾兵！"
+      }, {
+        "name" : "魔像慶典",
+        "info" : "讓魔像盡情品嚐戰士的暴擊攻擊！"
+      }, {
+        "name" : "血氣方剛的鬼",
+        "info" : "呣呣！似乎有血氣方剛的鬼喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 26 ]
+    }, {
+      "stage_img_id" : "6",
+      "start_expedition_cnt" : 9,
+      "end_expedition_cnt" : 9,
+      "occurrence_cnt" : 2,
+      "title" : "慶典白晝部3",
+      "base_info" : [ {
+        "name" : "妖怪的氣息・遠",
+        "info" : "要小心護衛天狗的盾兵！"
+      }, {
+        "name" : "妖怪的氣息・近",
+        "info" : "河童與天狗有拿劍喔！"
+      }, {
+        "name" : "海邊的音頭",
+        "info" : "需注意衰弱攻擊！"
+      }, {
+        "name" : "血氣方剛的鬼",
+        "info" : "呣呣！似乎有血氣方剛的鬼喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 30 ]
+    }, {
+      "stage_img_id" : "6",
+      "start_expedition_cnt" : 10,
+      "end_expedition_cnt" : 12,
+      "occurrence_cnt" : 2,
+      "title" : "慶典白晝部3",
+      "base_info" : [ {
+        "name" : "妖怪的氣息・遠",
+        "info" : "要小心護衛天狗的盾兵！"
+      }, {
+        "name" : "妖怪的氣息・近",
+        "info" : "河童與天狗有拿劍喔！"
+      }, {
+        "name" : "海邊的音頭",
+        "info" : "需注意衰弱攻擊！"
+      }, {
+        "name" : "妖怪的巢穴・河童",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4010,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 31, 32, 33 ]
+    }, {
+      "stage_img_id" : "10",
+      "start_expedition_cnt" : 13,
+      "end_expedition_cnt" : 13,
+      "occurrence_cnt" : 3,
+      "title" : "夏之夜",
+      "base_info" : [ {
+        "name" : "歡迎重擊河童團",
+        "info" : "需注意紅色河童！"
+      }, {
+        "name" : "海邊的天狗",
+        "info" : "同伴當中有無魔法師"
+      }, {
+        "name" : "精銳河童弓團",
+        "info" : "用騎士防禦對手的遠距離攻擊！"
+      }, {
+        "name" : "妖怪的巢穴・河童",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4011,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 34 ]
+    }, {
+      "stage_img_id" : "10",
+      "start_expedition_cnt" : 14,
+      "end_expedition_cnt" : 16,
+      "occurrence_cnt" : 3,
+      "title" : "慶典黑夜部",
+      "base_info" : [ {
+        "name" : "歡迎重擊河童團",
+        "info" : "需注意紅色河童！"
+      }, {
+        "name" : "海邊的天狗",
+        "info" : "同伴當中有無魔法師"
+      }, {
+        "name" : "精銳河童弓團",
+        "info" : "用騎士防禦對手的遠距離攻擊！"
+      }, {
+        "name" : "妖怪的巢穴・河童",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4011,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 35, 36, 37 ]
+    }, {
+      "stage_img_id" : "11",
+      "start_expedition_cnt" : 17,
+      "end_expedition_cnt" : 17,
+      "occurrence_cnt" : 3,
+      "title" : "新的敵人",
+      "base_info" : [ {
+        "name" : "歡迎重擊河童團",
+        "info" : "需注意紅色河童！"
+      }, {
+        "name" : "海邊的天狗",
+        "info" : "同伴當中有無魔法師"
+      }, {
+        "name" : "精銳河童弓團",
+        "info" : "用騎士防禦對手的遠距離攻擊！"
+      }, {
+        "name" : "妖怪貓又",
+        "info" : "以神聖武器制裁！"
+      }, {
+        "name" : "妖怪的巢穴・河童",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4011,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 38 ]
+    }, {
+      "stage_img_id" : "10",
+      "start_expedition_cnt" : 18,
+      "end_expedition_cnt" : 19,
+      "occurrence_cnt" : 3,
+      "title" : "慶典黑夜部2",
+      "base_info" : [ {
+        "name" : "河童大集合",
+        "info" : "該用砍的！該用打的！"
+      }, {
+        "name" : "炎之鬼劍士聯合",
+        "info" : "冰屬性有效！"
+      }, {
+        "name" : "冰之鬼劍士聯合",
+        "info" : "炎屬性有效！"
+      }, {
+        "name" : "妖怪貓又",
+        "info" : "以神聖武器制裁！"
+      }, {
+        "name" : "妖怪的巢穴・河童",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4011,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 39, 40 ]
+    }, {
+      "stage_img_id" : "12",
+      "start_expedition_cnt" : 20,
+      "end_expedition_cnt" : 20,
+      "occurrence_cnt" : 3,
+      "title" : "團結一心",
+      "base_info" : [ {
+        "name" : "貓又的恐怖",
+        "info" : "以神聖武器制裁！"
+      }, {
+        "name" : "龜甲戰隊",
+        "info" : "同伴當中有無魔法師"
+      }, {
+        "name" : "潛伏於海岸線的妖怪們",
+        "info" : "該用砍的！該用打的！"
+      }, {
+        "name" : "樂在其中的樹妖",
+        "info" : "歡鬧慶典的木人！用炎迎擊！"
+      }, {
+        "name" : "前往三途的邀約",
+        "info" : "海洋魔物及妖怪集結！運用所有職業應戰！"
+      }, {
+        "name" : "妖怪的巢穴・天狗",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4011,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 44 ]
+    }, {
+      "stage_img_id" : "10",
+      "start_expedition_cnt" : 21,
+      "end_expedition_cnt" : 24,
+      "occurrence_cnt" : 3,
+      "title" : "慶典黑夜部3",
+      "base_info" : [ {
+        "name" : "天狗與木人之共存",
+        "info" : "天狗會用妖術的樣子喔！"
+      }, {
+        "name" : "樂在其中的樹妖",
+        "info" : "歡鬧慶典的木人！用炎攻擊來迎擊！"
+      }, {
+        "name" : "龜甲戰隊",
+        "info" : "同伴當中有無魔法師"
+      }, {
+        "name" : "潛伏於海岸線的妖怪們",
+        "info" : "該用砍的！該用打的！"
+      }, {
+        "name" : "妖怪的巢穴・天狗",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4011,
+        "x" : 0,
+        "y" : 0
+      },
+      "level_list" : [ 47, 48, 49, 50 ]
+    }, {
+      "stage_img_id" : "13",
+      "start_expedition_cnt" : 25,
+      "end_expedition_cnt" : 25,
+      "occurrence_cnt" : 4,
+      "title" : "大團圓！",
+      "base_info" : [ {
+        "name" : "妖怪決戰",
+        "info" : "使出所有力量！"
+      }, {
+        "name" : "河童軍團",
+        "info" : "該用砍的！該用打的！"
+      }, {
+        "name" : "天狗兵團",
+        "info" : "以魔法武器制裁！"
+      }, {
+        "name" : "與蝶共舞的調皮貓",
+        "info" : "以神聖武器制裁！"
+      }, {
+        "name" : "妖怪的巢穴・天狗",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4012,
+        "x" : -20,
+        "y" : 70
+      },
+      "level_list" : [ 54 ]
+    }, {
+      "stage_img_id" : "14",
+      "start_expedition_cnt" : 26,
+      "end_expedition_cnt" : 29,
+      "occurrence_cnt" : 4,
+      "title" : "施放煙火",
+      "base_info" : [ {
+        "name" : "河童的襲擊",
+        "info" : "該用砍的！該用打的！"
+      }, {
+        "name" : "龜甲戰隊",
+        "info" : "同伴當中有無魔法師"
+      }, {
+        "name" : "飛翔的麻煩人物",
+        "info" : "需注意狀態異常！"
+      }, {
+        "name" : "石像來襲",
+        "info" : "讓魔像盡情品嚐戰士的暴擊攻擊！"
+      }, {
+        "name" : "鬼與死靈之饗宴",
+        "info" : "逼近的幽靈與青鬼！用炎一口氣打倒！"
+      }, {
+        "name" : "妖怪的巢穴・天狗",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      } ],
+      "map" : {
+        "id" : 4012,
+        "x" : -20,
+        "y" : 70
+      },
+      "level_list" : [ 61, 62, 63, 64 ]
+    }, {
+      "stage_img_id" : "14",
+      "start_expedition_cnt" : 30,
+      "end_expedition_cnt" : 30,
+      "occurrence_cnt" : 4,
+      "title" : "擊退殘黨！",
+      "base_info" : [ {
+        "name" : "妖怪總動員",
+        "info" : "使出所有力量！"
+      }, {
+        "name" : "天狗與木人之共存",
+        "info" : "天狗會用妖術的樣子喔！"
+      }, {
+        "name" : "前往三途的邀約",
+        "info" : "使出所有力量！"
+      }, {
+        "name" : "巨像來襲",
+        "info" : "讓魔像盡情品嚐戰士的暴擊攻擊！"
+      }, {
+        "name" : "貓又的威脅",
+        "info" : "以神聖武器制裁！"
+      }, {
+        "name" : "妖怪的巢穴・貓又",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      }, {
+        "name" : "妖怪的巢穴・魑魅魍魎",
+        "info" : "呵、呵、呵～輪到我出場了呢！！"
+      } ],
+      "map" : {
+        "id" : 4012,
+        "x" : -20,
+        "y" : 70
+      },
+      "level_list" : [ 68 ]
+    }, {
+      "stage_img_id" : "14",
+      "start_expedition_cnt" : 31,
+      "end_expedition_cnt" : 39,
+      "occurrence_cnt" : 4,
+      "title" : "收拾善後",
+      "base_info" : [ {
+        "name" : "妖怪總動員",
+        "info" : "使出所有力量！"
+      }, {
+        "name" : "河童的大進擊",
+        "info" : "該用砍的！該用打的！"
+      }, {
+        "name" : "天狗的住處",
+        "info" : "同伴當中有無魔法師"
+      }, {
+        "name" : "貓又的威脅",
+        "info" : "以神聖武器制裁！"
+      }, {
+        "name" : "巨像之剛鎚",
+        "info" : "讓魔像盡情品嚐戰士的暴擊攻擊！"
+      }, {
+        "name" : "飛翔的麻煩人物",
+        "info" : "同伴當中有無弓箭手"
+      }, {
+        "name" : "妖怪的巢穴・貓又",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      }, {
+        "name" : "妖怪的巢穴・魑魅魍魎",
+        "info" : "呵、呵、呵～輪到我出場了呢！！"
+      } ],
+      "map" : {
+        "id" : 4012,
+        "x" : -20,
+        "y" : 70
+      },
+      "level_list" : [ 72, 73, 74, 75, 76, 77, 78, 79, 80 ]
+    }, {
+      "stage_img_id" : "14",
+      "start_expedition_cnt" : 40,
+      "end_expedition_cnt" : 40,
+      "occurrence_cnt" : 4,
+      "title" : "收拾善後",
+      "base_info" : [ {
+        "name" : "續！妖怪大決戰",
+        "info" : "使出所有力量！"
+      }, {
+        "name" : "續！妖怪總動員",
+        "info" : "使出所有力量！"
+      }, {
+        "name" : "前往三途的邀約",
+        "info" : "逼近的幽靈與青鬼！一口氣打倒！"
+      }, {
+        "name" : "河童的大進擊",
+        "info" : "該用砍的！該用打的！"
+      }, {
+        "name" : "貓又的威脅",
+        "info" : "以神聖武器制裁！"
+      }, {
+        "name" : "妖怪的巢穴・貓又",
+        "info" : "呣呣！似乎有血氣方剛的妖怪喔！"
+      }, {
+        "name" : "妖怪的巢穴・魑魅魍魎",
+        "info" : "呵、呵、呵～輪到我出場了呢！！"
+      } ],
+      "map" : {
+        "id" : 4012,
+        "x" : -20,
+        "y" : 70
+      },
+      "level_list" : [ 85 ]
+    } ],
+    "first_clear_reward" : [ {
+      "type" : "item",
+      "id" : 7,
+      "val" : 1,
+      "num" : 1,
+      "box_type" : 2
+    }, {
+      "type" : "stone",
+      "id" : 0,
+      "val" : 1,
+      "num" : 2,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 1500,
+      "num" : 3,
+      "box_type" : 1
+    }, {
+      "type" : "stone",
+      "id" : 0,
+      "val" : 1,
+      "num" : 4,
+      "box_type" : 2
+    }, {
+      "type" : "stone",
+      "id" : 0,
+      "val" : 2,
+      "num" : 5,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 1500,
+      "num" : 6,
+      "box_type" : 1
+    }, {
+      "type" : "stone",
+      "id" : 0,
+      "val" : 1,
+      "num" : 7,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 7,
+      "val" : 1,
+      "num" : 8,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 2500,
+      "num" : 9,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 2500,
+      "num" : 10,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 2500,
+      "num" : 11,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 2500,
+      "num" : 12,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 7,
+      "val" : 1,
+      "num" : 13,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 3000,
+      "num" : 14,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 3000,
+      "num" : 15,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 3000,
+      "num" : 16,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 19,
+      "val" : 1,
+      "num" : 17,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 5000,
+      "num" : 18,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 5000,
+      "num" : 19,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 7,
+      "val" : 1,
+      "num" : 20,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 7000,
+      "num" : 21,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 7000,
+      "num" : 22,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 7000,
+      "num" : 23,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 7000,
+      "num" : 24,
+      "box_type" : 1
+    }, {
+      "type" : "card",
+      "id" : 6063,
+      "val" : 1,
+      "num" : 25,
+      "box_type" : 3
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 9000,
+      "num" : 26,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 9000,
+      "num" : 27,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 9000,
+      "num" : 28,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 9000,
+      "num" : 29,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 19,
+      "val" : 1,
+      "num" : 30,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 12000,
+      "num" : 31,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 12000,
+      "num" : 32,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 12000,
+      "num" : 33,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 12000,
+      "num" : 34,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 7,
+      "val" : 1,
+      "num" : 35,
+      "box_type" : 2
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 15000,
+      "num" : 36,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 15000,
+      "num" : 37,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 15000,
+      "num" : 38,
+      "box_type" : 1
+    }, {
+      "type" : "item",
+      "id" : 17,
+      "val" : 15000,
+      "num" : 39,
+      "box_type" : 1
+    }, {
+      "type" : "card",
+      "id" : 6063,
+      "val" : 1,
+      "num" : 40,
+      "box_type" : 3
+    } ],
+    "subjugation_id" : 5
+  } ],
+  "res" : 0,
+  "deceive" : 1469696425
 }

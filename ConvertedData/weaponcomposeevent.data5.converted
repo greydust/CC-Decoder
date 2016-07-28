@@ -1,6 +1,6 @@
 {
-  "deceive": 1468996759,
-  "weapon_compose_event": {},
-  "res": 0,
-  "sv": "1"
+  "weapon_compose_event" : { },
+  "sv" : "1",
+  "res" : 0,
+  "deceive" : 1468996759
 }
