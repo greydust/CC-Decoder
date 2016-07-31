@@ -1,15 +1,17 @@
 {
-  "deceive": 1468996754,
-  "explorer_info": {
-    "1": {
-      "time": 180,
-      "interval_id": 1
+  "sv" : "1453707665",
+  "explorer_info" : {
+    "1" : {
+      "gold" : 0,
+      "interval_id" : 1,
+      "time" : 180
     },
-    "2": {
-      "time": 480,
-      "interval_id": 2
+    "2" : {
+      "gold" : 0,
+      "interval_id" : 2,
+      "time" : 480
     }
   },
-  "res": 0,
-  "sv": "1453707665"
+  "res" : 0,
+  "deceive" : 1469775603
 }

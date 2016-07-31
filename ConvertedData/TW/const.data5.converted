@@ -1,61 +1,1040 @@
 {
-  "stamina_recover": 480,
-  "power_recover": 1800,
-  "exp_up": 604800,
-  "card_limit": 700,
-  "present_recv": 10,
-  "sell_ring": {
-    "chara": [0,0,0,3,20,50,30],
-    "chara_rf": [0,0,0,0,1,1,1],
-    "chara_lb": [0,0,0,1,1,1,1],
-    "weapon_rf": [0,0,0,0,1,1,1],
-    "weapon_ev": [0,0,0,0,1,1,1]
+  "body" : [ {
+    "data" : {
+      "expup" : {
+        "cids" : [ 68, 1046, 2043, 65, 6045, 7070, 1058, 2069, 2074, 1056, 1057, 2070 ],
+        "end" : 1470290399,
+        "exp_rate" : 2.0,
+        "id" : 13,
+        "start" : 1440482400
+      },
+      "global" : {
+        "purchase" : 1,
+        "raid_item" : -1,
+        "review" : 1,
+        "tmp_interval" : 600
+      },
+      "party_opt" : {
+        "cost_border1" : 16,
+        "cost_border2" : 12,
+        "type" : 1
+      },
+      "subjugation" : [ {
+        "subjugation_id" : 5,
+        "name" : "風子的夏日祭典",
+        "event_start" : 1469685600,
+        "event_end" : 1470376800,
+        "disable_continue" : false,
+        "recovery_time" : 1800,
+        "cmdMax" : 6,
+        "close" : 1470290400,
+        "own_base_position" : {
+          "x" : "320",
+          "y" : "-100"
+        },
+        "border_quest_id" : 210101,
+        "suicide_id" : 7002,
+        "full_atk_params" : {
+          "hp_up" : 1.5,
+          "atk_up" : 1.5,
+          "mana" : true
+        },
+        "retry_mana" : true,
+        "first_clear_reward" : [ {
+          "type" : "item",
+          "id" : 7,
+          "val" : 1,
+          "num" : 1,
+          "box_type" : 2,
+          "param" : {
+            "name" : "轉蛋券",
+            "unit" : "張",
+            "img" : "/img/item/item07.jpg",
+            "mst" : {
+              "name" : "轉蛋券",
+              "unit" : "張"
+            }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 2,
+          "box_type" : 2,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 1500,
+          "num" : 3,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 4,
+          "box_type" : 2,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 2,
+          "num" : 5,
+          "box_type" : 2,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 1500,
+          "num" : 6,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 7,
+          "box_type" : 2,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "item",
+          "id" : 7,
+          "val" : 1,
+          "num" : 8,
+          "box_type" : 2,
+          "param" : {
+            "name" : "轉蛋券",
+            "unit" : "張",
+            "img" : "/img/item/item07.jpg",
+            "mst" : {
+              "name" : "轉蛋券",
+              "unit" : "張"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 2500,
+          "num" : 9,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 2500,
+          "num" : 10,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 2500,
+          "num" : 11,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 2500,
+          "num" : 12,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 7,
+          "val" : 1,
+          "num" : 13,
+          "box_type" : 2,
+          "param" : {
+            "name" : "轉蛋券",
+            "unit" : "張",
+            "img" : "/img/item/item07.jpg",
+            "mst" : {
+              "name" : "轉蛋券",
+              "unit" : "張"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 3000,
+          "num" : 14,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 3000,
+          "num" : 15,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 3000,
+          "num" : 16,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 19,
+          "val" : 1,
+          "num" : 17,
+          "box_type" : 2,
+          "param" : {
+            "name" : "覺醒之黃金笛",
+            "unit" : "個",
+            "img" : "/img/item/item19.jpg",
+            "mst" : {
+              "name" : "覺醒之黃金笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 5000,
+          "num" : 18,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 5000,
+          "num" : 19,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 7,
+          "val" : 1,
+          "num" : 20,
+          "box_type" : 2,
+          "param" : {
+            "name" : "轉蛋券",
+            "unit" : "張",
+            "img" : "/img/item/item07.jpg",
+            "mst" : {
+              "name" : "轉蛋券",
+              "unit" : "張"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 7000,
+          "num" : 21,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 7000,
+          "num" : 22,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 7000,
+          "num" : 23,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 7000,
+          "num" : 24,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "card",
+          "id" : 6063,
+          "val" : 1,
+          "num" : 25,
+          "box_type" : 3,
+          "param" : {
+            "name" : "風子",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_06063.jpg",
+            "mst" : {
+              "name" : "風子",
+              "title" : "精銳忍者",
+              "inihp" : 1900,
+              "maxhp" : 5010,
+              "limithp" : 130,
+              "iniap" : 2600,
+              "maxap" : 5800,
+              "limitap" : 140,
+              "skillname" : "女忍者奧義",
+              "skilltext" : "【連擊】對直線範圍上的一名敵人造成中度傷害後，移動到距離最遠的敵人面前，以色誘術造成輕度傷害並附加暈眩狀態。",
+              "limit_break" : 4,
+              "rarity" : 5,
+              "jobtype" : 0,
+              "gacha_title" : "◆完成劇情模式第2話之後",
+              "gacha_text" : "提升自己的移動速度。並可覺醒隨著WAVE經過，長時間提升自身攻擊力與暴擊機率的能力！",
+              "voice_artist" : "小岩井小鳥",
+              "illustrator" : "Nardack",
+              "lastap" : 9000,
+              "lasthp" : 8010,
+              "sup_ability_name" : "影子隊長",
+              "sup_ability_text" : "自己為後備隊員時，可增加主要隊員的移動速度，並減少所受傷害。",
+              "rairty_web_class" : "arcana_ssr"
+            },
+            "card_image" : "/img/chara/card/cha_2d_card_06063.jpg"
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 9000,
+          "num" : 26,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 9000,
+          "num" : 27,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 9000,
+          "num" : 28,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 9000,
+          "num" : 29,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 19,
+          "val" : 1,
+          "num" : 30,
+          "box_type" : 2,
+          "param" : {
+            "name" : "覺醒之黃金笛",
+            "unit" : "個",
+            "img" : "/img/item/item19.jpg",
+            "mst" : {
+              "name" : "覺醒之黃金笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 12000,
+          "num" : 31,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 12000,
+          "num" : 32,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 12000,
+          "num" : 33,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 12000,
+          "num" : 34,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 7,
+          "val" : 1,
+          "num" : 35,
+          "box_type" : 2,
+          "param" : {
+            "name" : "轉蛋券",
+            "unit" : "張",
+            "img" : "/img/item/item07.jpg",
+            "mst" : {
+              "name" : "轉蛋券",
+              "unit" : "張"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 15000,
+          "num" : 36,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 15000,
+          "num" : 37,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 15000,
+          "num" : 38,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 17,
+          "val" : 15000,
+          "num" : 39,
+          "box_type" : 1,
+          "param" : {
+            "name" : "名譽點數",
+            "unit" : "pt",
+            "img" : "/img/item/item17.jpg",
+            "mst" : {
+              "name" : "名譽點數",
+              "unit" : "pt"
+            }
+          }
+        }, {
+          "type" : "card",
+          "id" : 6063,
+          "val" : 1,
+          "num" : 40,
+          "box_type" : 3,
+          "param" : {
+            "name" : "風子",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_06063.jpg",
+            "mst" : {
+              "name" : "風子",
+              "title" : "精銳忍者",
+              "inihp" : 1900,
+              "maxhp" : 5010,
+              "limithp" : 130,
+              "iniap" : 2600,
+              "maxap" : 5800,
+              "limitap" : 140,
+              "skillname" : "女忍者奧義",
+              "skilltext" : "【連擊】對直線範圍上的一名敵人造成中度傷害後，移動到距離最遠的敵人面前，以色誘術造成輕度傷害並附加暈眩狀態。",
+              "limit_break" : 4,
+              "rarity" : 5,
+              "jobtype" : 0,
+              "gacha_title" : "◆完成劇情模式第2話之後",
+              "gacha_text" : "提升自己的移動速度。並可覺醒隨著WAVE經過，長時間提升自身攻擊力與暴擊機率的能力！",
+              "voice_artist" : "小岩井小鳥",
+              "illustrator" : "Nardack",
+              "lastap" : 9000,
+              "lasthp" : 8010,
+              "sup_ability_name" : "影子隊長",
+              "sup_ability_text" : "自己為後備隊員時，可增加主要隊員的移動速度，並減少所受傷害。",
+              "rairty_web_class" : "arcana_ssr"
+            },
+            "card_image" : "/img/chara/card/cha_2d_card_06063.jpg"
+          }
+        } ],
+        "total_point_reward" : [ {
+          "type" : "item",
+          "id" : 18,
+          "val" : 1,
+          "num" : 1000,
+          "param" : {
+            "name" : "覺醒之笛",
+            "unit" : "個",
+            "img" : "/img/item/item18.jpg",
+            "mst" : {
+              "name" : "覺醒之笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "chara_rf",
+          "id" : 90903,
+          "val" : 1,
+          "num" : 5000,
+          "param" : {
+            "name" : "全職成長卡III",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_90903.jpg",
+            "mst" : {
+              "name" : "全職成長卡III"
+            }
+          }
+        }, {
+          "type" : "chara_rf",
+          "id" : 90903,
+          "val" : 1,
+          "num" : 10000,
+          "param" : {
+            "name" : "全職成長卡III",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_90903.jpg",
+            "mst" : {
+              "name" : "全職成長卡III"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 3,
+          "val" : 1,
+          "num" : 15000,
+          "param" : {
+            "name" : "復活果實",
+            "unit" : "個",
+            "img" : "/img/item/item03.jpg",
+            "mst" : {
+              "name" : "復活果實",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 20000,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "chara_rf",
+          "id" : 90903,
+          "val" : 1,
+          "num" : 30000,
+          "param" : {
+            "name" : "全職成長卡III",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_90903.jpg",
+            "mst" : {
+              "name" : "全職成長卡III"
+            }
+          }
+        }, {
+          "type" : "chara_rf",
+          "id" : 90903,
+          "val" : 1,
+          "num" : 50000,
+          "param" : {
+            "name" : "全職成長卡III",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_90903.jpg",
+            "mst" : {
+              "name" : "全職成長卡III"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 3,
+          "val" : 1,
+          "num" : 75000,
+          "param" : {
+            "name" : "復活果實",
+            "unit" : "個",
+            "img" : "/img/item/item03.jpg",
+            "mst" : {
+              "name" : "復活果實",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 18,
+          "val" : 1,
+          "num" : 100000,
+          "param" : {
+            "name" : "覺醒之笛",
+            "unit" : "個",
+            "img" : "/img/item/item18.jpg",
+            "mst" : {
+              "name" : "覺醒之笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 3,
+          "val" : 1,
+          "num" : 150000,
+          "param" : {
+            "name" : "復活果實",
+            "unit" : "個",
+            "img" : "/img/item/item03.jpg",
+            "mst" : {
+              "name" : "復活果實",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 200000,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "item",
+          "id" : 18,
+          "val" : 1,
+          "num" : 250000,
+          "param" : {
+            "name" : "覺醒之笛",
+            "unit" : "個",
+            "img" : "/img/item/item18.jpg",
+            "mst" : {
+              "name" : "覺醒之笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 3,
+          "val" : 1,
+          "num" : 300000,
+          "param" : {
+            "name" : "復活果實",
+            "unit" : "個",
+            "img" : "/img/item/item03.jpg",
+            "mst" : {
+              "name" : "復活果實",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 18,
+          "val" : 1,
+          "num" : 400000,
+          "param" : {
+            "name" : "覺醒之笛",
+            "unit" : "個",
+            "img" : "/img/item/item18.jpg",
+            "mst" : {
+              "name" : "覺醒之笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "chara_rf",
+          "id" : 90904,
+          "val" : 1,
+          "num" : 500000,
+          "param" : {
+            "name" : "全職成長卡IV",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_90904.jpg",
+            "mst" : {
+              "name" : "全職成長卡IV"
+            }
+          }
+        }, {
+          "type" : "chara_rf",
+          "id" : 90904,
+          "val" : 1,
+          "num" : 600000,
+          "param" : {
+            "name" : "全職成長卡IV",
+            "unit" : "枚",
+            "img" : "/img/chara/icon/cha_2d_icon_90904.jpg",
+            "mst" : {
+              "name" : "全職成長卡IV"
+            }
+          }
+        }, {
+          "type" : "item",
+          "id" : 18,
+          "val" : 1,
+          "num" : 700000,
+          "param" : {
+            "name" : "覺醒之笛",
+            "unit" : "個",
+            "img" : "/img/item/item18.jpg",
+            "mst" : {
+              "name" : "覺醒之笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 800000,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 900000,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "item",
+          "id" : 18,
+          "val" : 1,
+          "num" : 1000000,
+          "param" : {
+            "name" : "覺醒之笛",
+            "unit" : "個",
+            "img" : "/img/item/item18.jpg",
+            "mst" : {
+              "name" : "覺醒之笛",
+              "unit" : "個"
+            }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 1250000,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "stone",
+          "id" : 0,
+          "val" : 1,
+          "num" : 1500000,
+          "param" : {
+            "name" : "精靈石",
+            "unit" : "個",
+            "img" : "/img/item/stone.jpg",
+            "mst" : { }
+          }
+        }, {
+          "type" : "item",
+          "id" : 7,
+          "val" : 3,
+          "num" : 3000000,
+          "param" : {
+            "name" : "轉蛋券",
+            "unit" : "張",
+            "img" : "/img/item/item07.jpg",
+            "mst" : {
+              "name" : "轉蛋券",
+              "unit" : "張"
+            }
+          }
+        } ]
+      } ],
+      "subjugation_shop_banner" : 1470376800
+    },
+    "proc" : 0,
+    "type" : 14
+  } ],
+  "sv" : "0",
+  "sell_ring" : {
+    "chara" : [ 0, 0, 0, 3, 20, 50, 30 ],
+    "chara_lb" : [ 0, 0, 0, 1, 1, 1, 1 ],
+    "chara_rf" : [ 0, 0, 0, 0, 1, 1, 1 ],
+    "weapon_ev" : [ 0, 0, 0, 0, 1, 1, 1 ],
+    "weapon_rf" : [ 0, 0, 0, 0, 1, 1, 1 ]
   },
-  "resume_update": true,
-  "friend": false,
-  "friend_recycle": 3600,
-  "friend_last": 86400,
-  "helper_recycle": 43200,
-  "mission_grace_period": 86400,
-  "purchase_regulation": [{"age":0,"limit":99999999}],
-  "cut_stamina_recover": 10,
-  "raid_anger_rescue_max": 0,
-  "tutorial_name_skip": false,
-  "raid_relief_login_border": 0,
-  "casino_coin_limit": 0,
-  "casino_coin_exchange_limit": 0,
-  "casino_coin_price": 0,
-  "res": 0,
-  "body": [{"type":14,"data":{"global":{"tmp_interval":600,"purchase":1,"raid_item":-1,"review":1},"cover":null,"raid":null,"totalwar":null,"subjugation":[{"subjugation_id":5,"name":"風子的夏日祭典","event_start":1469685600,"event_end":1470376800,"disable_continue":false,"recovery_time":1800,"cmdMax":6,"close":1470290400,"own_base_position":{"x":"320","y":"-100"},"border_quest_id":210101,"suicide_id":7002,"full_atk_params":{"hp_up":1.5,"atk_up":1.5,"mana":true},"retry_mana":true,"first_clear_reward":[{"type":"item","id":7,"val":1,"num":1,"box_type":2},{"type":"stone","id":0,"val":1,"num":2,"box_type":2},{"type":"item","id":17,"val":1500,"num":3,"box_type":1},{"type":"stone","id":0,"val":1,"num":4,"box_type":2},{"type":"stone","id":0,"val":2,"num":5,"box_type":2},{"type":"item","id":17,"val":1500,"num":6,"box_type":1},{"type":"stone","id":0,"val":1,"num":7,"box_type":2},{"type":"item","id":7,"val":1,"num":8,"box_type":2},{"type":"item","id":17,"val":2500,"num":9,"box_type":1},{"type":"item","id":17,"val":2500,"num":10,"box_type":1},{"type":"item","id":17,"val":2500,"num":11,"box_type":1},{"type":"item","id":17,"val":2500,"num":12,"box_type":1},{"type":"item","id":7,"val":1,"num":13,"box_type":2},{"type":"item","id":17,"val":3000,"num":14,"box_type":1},{"type":"item","id":17,"val":3000,"num":15,"box_type":1},{"type":"item","id":17,"val":3000,"num":16,"box_type":1},{"type":"item","id":19,"val":1,"num":17,"box_type":2},{"type":"item","id":17,"val":5000,"num":18,"box_type":1},{"type":"item","id":17,"val":5000,"num":19,"box_type":1},{"type":"item","id":7,"val":1,"num":20,"box_type":2},{"type":"item","id":17,"val":7000,"num":21,"box_type":1},{"type":"item","id":17,"val":7000,"num":22,"box_type":1},{"type":"item","id":17,"val":7000,"num":23,"box_type":1},{"type":"item","id":17,"val":7000,"num":24,"box_type":1},{"type":"card","id":6063,"val":1,"num":25,"box_type":3},{"type":"item","id":17,"val":9000,"num":26,"box_type":1},{"type":"item","id":17,"val":9000,"num":27,"box_type":1},{"type":"item","id":17,"val":9000,"num":28,"box_type":1},{"type":"item","id":17,"val":9000,"num":29,"box_type":1},{"type":"item","id":19,"val":1,"num":30,"box_type":2},{"type":"item","id":17,"val":12000,"num":31,"box_type":1},{"type":"item","id":17,"val":12000,"num":32,"box_type":1},{"type":"item","id":17,"val":12000,"num":33,"box_type":1},{"type":"item","id":17,"val":12000,"num":34,"box_type":1},{"type":"item","id":7,"val":1,"num":35,"box_type":2},{"type":"item","id":17,"val":15000,"num":36,"box_type":1},{"type":"item","id":17,"val":15000,"num":37,"box_type":1},{"type":"item","id":17,"val":15000,"num":38,"box_type":1},{"type":"item","id":17,"val":15000,"num":39,"box_type":1},{"type":"card","id":6063,"val":1,"num":40,"box_type":3}],"total_point_reward":[{"type":"item","id":18,"val":1,"num":1000},{"type":"chara_rf","id":90903,"val":1,"num":5000},{"type":"chara_rf","id":90903,"val":1,"num":10000},{"type":"item","id":3,"val":1,"num":15000},{"type":"stone","id":0,"val":1,"num":20000},{"type":"chara_rf","id":90903,"val":1,"num":30000},{"type":"chara_rf","id":90903,"val":1,"num":50000},{"type":"item","id":3,"val":1,"num":75000},{"type":"item","id":18,"val":1,"num":100000},{"type":"item","id":3,"val":1,"num":150000},{"type":"stone","id":0,"val":1,"num":200000},{"type":"item","id":18,"val":1,"num":250000},{"type":"item","id":3,"val":1,"num":300000},{"type":"item","id":18,"val":1,"num":400000},{"type":"chara_rf","id":90904,"val":1,"num":500000},{"type":"chara_rf","id":90904,"val":1,"num":600000},{"type":"item","id":18,"val":1,"num":700000},{"type":"stone","id":0,"val":1,"num":800000},{"type":"stone","id":0,"val":1,"num":900000},{"type":"item","id":18,"val":1,"num":1000000},{"type":"stone","id":0,"val":1,"num":1250000},{"type":"stone","id":0,"val":1,"num":1500000},{"type":"item","id":7,"val":3,"num":3000000}]}],"expup":{"id":13,"start":1440482400,"end":1470290399,"exp_rate":2.0,"cids":[68,1046,2043,65,6045,7070,1058,2069,2074,1056,1057,2070]},"weaponcompose":null,"party_opt":{"type":1,"cost_border1":16,"cost_border2":12}},"proc":0}],
-  "mVer": {
-    "charainfo": 1468921771,
-    "weaponlist": 1468921768,
-    "skilllist": 1469519320,
-    "worldinfo": 1463020541,
-    "episodeinfo": 1468515390,
-    "questdigest": 1469680106,
-    "itemlist": 1462761349,
-    "booklist": 1465286869,
-    "motionlist": 1449824945,
-    "missionlist": 1469085212,
-    "repeatmissionlist": 1462761348,
-    "bossinfo": 1464688506,
-    "battleinfo": 1462761348,
-    "homelist": 1462761348,
-    "supporterskill": 1469435406,
-    "subjugationexpeditioninfo": 1469426134,
-    "create_weap": 1,
-    "explorerinfo": 1446619109,
-    "explorerlocation": 1463032875,
-    "weaponcompose": 0,
-    "teacherdisciple": 0,
-    "weaponcomposeevent": 0,
-    "various": 1464748534,
-    "eventplace": 0,
-    "eventbadge": 0,
-    "casinoinfo": 0,
-    "reload": 1464594693,
-    "servertime": 1469696507
+  "resume_update" : true,
+  "purchase_regulation" : [ {
+    "age" : 0,
+    "limit" : 99999999
+  } ],
+  "mVer" : {
+    "battleinfo" : 1462761348,
+    "booklist" : 1465286869,
+    "bossinfo" : 1464688506,
+    "casinoinfo" : 0,
+    "charainfo" : 1468921771,
+    "create_weap" : 1,
+    "episodeinfo" : 1468515390,
+    "eventbadge" : 0,
+    "eventplace" : 0,
+    "explorerinfo" : 1446619109,
+    "explorerlocation" : 1463032875,
+    "homelist" : 1462761348,
+    "itemlist" : 1462761349,
+    "missionlist" : 1469085212,
+    "motionlist" : 1449824945,
+    "questdigest" : 1469680106,
+    "reload" : 1464594693,
+    "repeatmissionlist" : 1462761348,
+    "servertime" : 1469981034,
+    "skilllist" : 1469519320,
+    "subjugationexpeditioninfo" : 1469426134,
+    "supporterskill" : 1469435406,
+    "teacherdisciple" : 0,
+    "various" : 1464748534,
+    "weaponcompose" : 0,
+    "weaponcomposeevent" : 0,
+    "weaponlist" : 1468921768,
+    "worldinfo" : 1463020541
   },
-  "sv": "0"
+  "friend" : false,
+  "exp_up" : 604800,
+  "friend_last" : 86400,
+  "friend_recycle" : 3600,
+  "helper_recycle" : 43200,
+  "cut_stamina_recover" : 10,
+  "mission_grace_period" : 86400,
+  "power_recover" : 1800,
+  "present_recv" : 10,
+  "casino_roulette_border" : 0,
+  "raid_anger_rescue_max" : 0,
+  "raid_relief_login_border" : 0,
+  "res" : 0,
+  "casino_coin_price" : 0,
+  "casino_coin_limit" : 0,
+  "stamina_recover" : 480,
+  "casino_coin_exchange_limit" : 0,
+  "card_limit" : 700
 }

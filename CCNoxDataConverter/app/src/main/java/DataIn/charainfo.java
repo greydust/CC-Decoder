@@ -19,8 +19,6 @@ public class charainfo
     public int Aparam;
     public String skillname;
     public String skilltext;
-    public double skillparam1;
-    public double skillparam3;
     public int skillflag;
     public double atkspeed;
     public double movspeed;
@@ -52,37 +50,50 @@ public class charainfo
     public Integer ring;
     public Integer disp_quest;
     public Integer weaponid2;
-    public Double skillparam2;
     public Integer effectid;
     public Integer atknumber;
     public Double revision;
     public Double CRIrevision;
     public Integer CRInumber;
     public Integer master_flag;
-    public Integer pattern0;
     public Double hp_offset;
-    public Integer pattern1;
+
     public Double skillparam0;
+    public double skillparam1;
+    public Double skillparam2;
+    public double skillparam3;
     public Double skillparam4;
-    public String str0;
-    public String str1;
-    public String modelname;
     public Double skillparam5;
-    public Double modelscale;
-    public Integer iparam0;
-    public Integer charge;
-    public String chargemotion;
     public Double skillparam6;
     public Double skillparam7;
     public Double skillparam8;
     public Double skillparam9;
+
+    public String str0;
+    public String str1;
+    public String str2;
+    public String str3;
+    public String str4;
+    public String str5;
+
+    public String modelname;
+    public Double modelscale;
+    public Integer iparam0;
+    public Integer charge;
+    public String chargemotion;
+
+    public Integer pattern0;
+    public Integer pattern1;
     public Integer pattern2;
     public Integer pattern3;
     public Integer pattern4;
     public Integer pattern5;
+    public Integer pattern6;
+    public Integer pattern7;
+    public Integer pattern8;
+
     public Integer meet_chara;
     public Double defmagic;
-    public String str2;
     public Integer gender;
     public Integer movetype;
     public Integer is_enemy;
@@ -94,9 +105,6 @@ public class charainfo
     public Double defphysics;
     public Double atkrange;
     public Double bodyrange;
-    public Integer pattern6;
-    public Integer pattern7;
-    public Integer pattern8;
     public Integer d_autoskill;
     public Integer fd_autoskill;
     public Integer iparam1;

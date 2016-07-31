@@ -1,6 +1,322 @@
 {
-  "deceive": 1468996754,
-  "repeatmissionlist": [{"id":0,"type":0,"title":"タイムボーナスを達成せよ！","sub_id":"Result","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":""},{"id":4,"type":0,"title":"負傷者なしボーナスを達成せよ！","sub_id":"Result","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":""},{"id":7,"type":0,"title":"必殺フィニッシュボーナスを達成せよ！","sub_id":"Result","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":""},{"id":12,"type":0,"title":"１回合成せよ！","sub_id":"Enhance","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":""},{"id":13,"type":0,"title":"MAX Chainを達成せよ！","sub_id":"Chain","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":""},{"id":2,"type":1,"title":"雪山戦闘訓練","sub_id":"Geography","max_num":5,"reward":{"type":"stone","id":null,"val":"1"},"help":"地形「雪山」のクエストで\\n5回勝利しよう！"},{"id":3,"type":1,"title":"洞窟戦闘訓練","sub_id":"Geography","max_num":5,"reward":{"type":"stone","id":null,"val":"1"},"help":"地形「洞窟」のクエストで\\n5回勝利しよう！"},{"id":5,"type":1,"title":"3マナを5回揃えろ","sub_id":"Mana","max_num":5,"reward":{"type":"stone","id":null,"val":"1"},"help":"5回、バトル中のマナスロットを3つ揃えよう"},{"id":6,"type":1,"title":"曜日クエストの宝箱を全て揃えろ","sub_id":"Treasure","max_num":1,"reward":{"type":"stone","id":null,"val":"1"},"help":"曜日クエストの宝箱を全て開こう！\\n何曜日でもいいよ！"},{"id":10,"type":0,"title":"バトルの全ボーナスを同時達成せよ！","sub_id":"Result","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":""},{"id":16,"type":0,"title":"難易度5以上のバトルをクリアしろ！","sub_id":"Difficulty","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"難易度はクエストの右上に\\n地形情報と交互に表示されるよ"},{"id":17,"type":0,"title":"最大ダメージ1500を超えろ！","sub_id":"Assault","max_num":1500,"reward":{"type":"item","id":"13","val":"1"},"help":"敵1体に与えた一撃のダメージを\\nカウントするよ"},{"id":7,"type":1,"title":"平原戦闘訓練","sub_id":"Geography","max_num":5,"reward":{"type":"stone","id":null,"val":"1"},"help":"地形「平原」のクエストで5回勝利しよう！\\n「平原夜」はカウントしないよ！"},{"id":4,"type":1,"title":"砂漠戦闘訓練","sub_id":"Treasure","max_num":3,"reward":{"type":"stone","id":null,"val":"1"},"help":"地形「砂漠」のクエストで\\n3回勝利しよう！"},{"id":1,"type":0,"title":"弓タイプの武器でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を「弓」タイプの武器で倒そう！"},{"id":2,"type":0,"title":"戦士でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を戦士で倒そう！"},{"id":3,"type":0,"title":"斬タイプの武器でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を「斬」タイプの武器で倒そう！"},{"id":5,"type":0,"title":"打タイプの武器でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を「打」タイプの武器で倒そう！"},{"id":6,"type":0,"title":"魔法使いでとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を魔法使いで倒そう！"},{"id":8,"type":0,"title":"騎士でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を騎士で倒そう！"},{"id":9,"type":0,"title":"突タイプの武器でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を「突」タイプの武器で倒そう！"},{"id":11,"type":0,"title":"弓使いでとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を弓使いで倒そう！"},{"id":14,"type":0,"title":"僧侶でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"2"},"help":"最後の敵を僧侶で倒そう！"},{"id":15,"type":0,"title":"魔タイプの武器でとどめを刺せ！","sub_id":"Finish","max_num":1,"reward":{"type":"item","id":"13","val":"1"},"help":"最後の敵を「魔」タイプの武器で倒そう！"},{"id":18,"type":0,"title":"宝箱を4個回収せよ！","sub_id":"Treasure","max_num":4,"reward":{"type":"item","id":"13","val":"1"},"help":"魔物が落とす宝箱をカウントするよ"},{"id":0,"type":1,"title":"海浜戦闘訓練","sub_id":"Geography","max_num":5,"reward":{"type":"stone","id":null,"val":"1"},"help":"地形「砂浜」「船上」「海中」のクエストで\\n5回勝利しよう！"},{"id":1,"type":1,"title":"森林戦闘訓練","sub_id":"Geography","max_num":5,"reward":{"type":"stone","id":null,"val":"1"},"help":"地形「森林」のクエストで\\n5回勝利しよう！"}],
-  "res": 0,
-  "sv": "1466660819"
+  "sv" : "1466660819",
+  "repeatmissionlist" : [ {
+    "help" : "",
+    "title" : "タイムボーナスを達成せよ！",
+    "sub_id" : "Result",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 0,
+    "type" : 0
+  }, {
+    "help" : "",
+    "title" : "負傷者なしボーナスを達成せよ！",
+    "sub_id" : "Result",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 4,
+    "type" : 0
+  }, {
+    "help" : "",
+    "title" : "必殺フィニッシュボーナスを達成せよ！",
+    "sub_id" : "Result",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 7,
+    "type" : 0
+  }, {
+    "help" : "",
+    "title" : "１回合成せよ！",
+    "sub_id" : "Enhance",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 12,
+    "type" : 0
+  }, {
+    "help" : "",
+    "title" : "MAX Chainを達成せよ！",
+    "sub_id" : "Chain",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 13,
+    "type" : 0
+  }, {
+    "help" : "地形「雪山」のクエストで\\n5回勝利しよう！",
+    "title" : "雪山戦闘訓練",
+    "sub_id" : "Geography",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 5,
+    "id" : 2,
+    "type" : 1
+  }, {
+    "help" : "地形「洞窟」のクエストで\\n5回勝利しよう！",
+    "title" : "洞窟戦闘訓練",
+    "sub_id" : "Geography",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 5,
+    "id" : 3,
+    "type" : 1
+  }, {
+    "help" : "5回、バトル中のマナスロットを3つ揃えよう",
+    "title" : "3マナを5回揃えろ",
+    "sub_id" : "Mana",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 5,
+    "id" : 5,
+    "type" : 1
+  }, {
+    "help" : "曜日クエストの宝箱を全て開こう！\\n何曜日でもいいよ！",
+    "title" : "曜日クエストの宝箱を全て揃えろ",
+    "sub_id" : "Treasure",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 6,
+    "type" : 1
+  }, {
+    "help" : "",
+    "title" : "バトルの全ボーナスを同時達成せよ！",
+    "sub_id" : "Result",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 10,
+    "type" : 0
+  }, {
+    "help" : "難易度はクエストの右上に\\n地形情報と交互に表示されるよ",
+    "title" : "難易度5以上のバトルをクリアしろ！",
+    "sub_id" : "Difficulty",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 16,
+    "type" : 0
+  }, {
+    "help" : "敵1体に与えた一撃のダメージを\\nカウントするよ",
+    "title" : "最大ダメージ1500を超えろ！",
+    "sub_id" : "Assault",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1500,
+    "id" : 17,
+    "type" : 0
+  }, {
+    "help" : "地形「平原」のクエストで5回勝利しよう！\\n「平原夜」はカウントしないよ！",
+    "title" : "平原戦闘訓練",
+    "sub_id" : "Geography",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 5,
+    "id" : 7,
+    "type" : 1
+  }, {
+    "help" : "地形「砂漠」のクエストで\\n3回勝利しよう！",
+    "title" : "砂漠戦闘訓練",
+    "sub_id" : "Treasure",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 3,
+    "id" : 4,
+    "type" : 1
+  }, {
+    "help" : "最後の敵を「弓」タイプの武器で倒そう！",
+    "title" : "弓タイプの武器でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 1,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を戦士で倒そう！",
+    "title" : "戦士でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 2,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を「斬」タイプの武器で倒そう！",
+    "title" : "斬タイプの武器でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 3,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を「打」タイプの武器で倒そう！",
+    "title" : "打タイプの武器でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 5,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を魔法使いで倒そう！",
+    "title" : "魔法使いでとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 6,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を騎士で倒そう！",
+    "title" : "騎士でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 8,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を「突」タイプの武器で倒そう！",
+    "title" : "突タイプの武器でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 9,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を弓使いで倒そう！",
+    "title" : "弓使いでとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 11,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を僧侶で倒そう！",
+    "title" : "僧侶でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "2"
+    },
+    "max_num" : 1,
+    "id" : 14,
+    "type" : 0
+  }, {
+    "help" : "最後の敵を「魔」タイプの武器で倒そう！",
+    "title" : "魔タイプの武器でとどめを刺せ！",
+    "sub_id" : "Finish",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 1,
+    "id" : 15,
+    "type" : 0
+  }, {
+    "help" : "魔物が落とす宝箱をカウントするよ",
+    "title" : "宝箱を4個回収せよ！",
+    "sub_id" : "Treasure",
+    "reward" : {
+      "id" : "13",
+      "type" : "item",
+      "val" : "1"
+    },
+    "max_num" : 4,
+    "id" : 18,
+    "type" : 0
+  }, {
+    "help" : "地形「砂浜」「船上」「海中」のクエストで\\n5回勝利しよう！",
+    "title" : "海浜戦闘訓練",
+    "sub_id" : "Geography",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 5,
+    "id" : 0,
+    "type" : 1
+  }, {
+    "help" : "地形「森林」のクエストで\\n5回勝利しよう！",
+    "title" : "森林戦闘訓練",
+    "sub_id" : "Geography",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 5,
+    "id" : 1,
+    "type" : 1
+  } ],
+  "res" : 0,
+  "deceive" : 1469775603
 }
