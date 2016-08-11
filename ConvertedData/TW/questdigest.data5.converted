@@ -1,5 +1,5 @@
 {
-  "sv" : "1469680106",
+  "sv" : "1470883945",
   "questdigest" : {
     "0" : {
       "append_skill" : { },
@@ -26192,6 +26192,89 @@
       "chapter_cnt" : 3,
       "area_id" : 10
     },
+    "1000131" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 20,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "fixed_help" : [ {
+        "skillflag" : [ true, true, true, false ],
+        "cid" : 8882,
+        "hp" : 6450,
+        "lv" : 80,
+        "atk" : 9550
+      } ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "神明的愛的訓練！",
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 0,
+        "box" : 3
+      },
+      "quest_id" : 1000131,
+      "difficulty" : 12,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "1000130" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 500
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 500
+      }, {
+        "type" : "chara_rf",
+        "id" : 90000,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93000,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "尋找夏彌爾",
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "box",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 1000130,
+      "difficulty" : 1,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "80231" : {
       "append_skill" : {
         "cid" : 8023,
@@ -26211,6 +26294,26 @@
       "quest_id" : 80231,
       "difficulty" : 14,
       "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "1000129" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 1, 1, 1 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0, 0, 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "從天而降的女神與徒兒",
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "box",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 1000129,
+      "difficulty" : 10,
+      "chapter_cnt" : 4,
       "area_id" : 1
     },
     "1000128" : {
@@ -26391,6 +26494,51 @@
       "name" : "托巴拉歐登場",
       "quest_id" : 50500,
       "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "1000132" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93902,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "fixed_help" : [ {
+        "skillflag" : [ true, true, true, false ],
+        "cid" : 8883,
+        "hp" : 9400,
+        "lv" : 80,
+        "atk" : 9200
+      } ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "神明的愛的鍊成！",
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 1000132,
+      "difficulty" : 12,
       "chapter_cnt" : 1,
       "area_id" : 1
     },
@@ -41750,6 +41898,66 @@
       "chapter_cnt" : 2,
       "area_id" : 2
     },
+    "88851" : {
+      "append_skill" : {
+        "cid" : 8885,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 6,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8885,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "落日夕的責任",
+      "place_id" : 1,
+      "quest_id" : 88851,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "88850" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "落日夕登場",
+      "quest_id" : 88850,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "88852" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 1, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8885,
+          "lv" : 20
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "落日夕的優雅",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 88852,
+      "difficulty" : 24,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
     "211414" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
@@ -41876,6 +42084,32 @@
       "chapter_cnt" : 2,
       "area_id" : 12
     },
+    "88862" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 1, 1 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8886,
+          "lv" : 20
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "羈絆的決意",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 88862,
+      "difficulty" : 24,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
     "211408" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
@@ -41897,6 +42131,29 @@
       "chapter_cnt" : 3,
       "area_id" : 12
     },
+    "88861" : {
+      "append_skill" : {
+        "cid" : 8886,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 6,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8886,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "勇氣起源",
+      "place_id" : 1,
+      "quest_id" : 88861,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
     "211409" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
@@ -41917,6 +42174,17 @@
       "difficulty" : 57,
       "chapter_cnt" : 3,
       "area_id" : 12
+    },
+    "88860" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "風鈴登場",
+      "quest_id" : 88860,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
     },
     "211407" : {
       "append_skill" : { },
@@ -41980,6 +42248,32 @@
       "difficulty" : 55,
       "chapter_cnt" : 2,
       "area_id" : 12
+    },
+    "88832" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 2, 1 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8883,
+          "lv" : 20
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "為了朋友",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 88832,
+      "difficulty" : 24,
+      "chapter_cnt" : 3,
+      "area_id" : 1
     },
     "211404" : {
       "append_skill" : { },
@@ -42063,6 +42357,126 @@
       "difficulty" : 51,
       "chapter_cnt" : 3,
       "area_id" : 12
+    },
+    "88842" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 2, 6 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8884,
+          "lv" : 20
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "渾沌小隊，崛起！",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 88842,
+      "difficulty" : 24,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "88840" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "碧兒登場",
+      "quest_id" : 88840,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "88841" : {
+      "append_skill" : {
+        "cid" : 8884,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 6,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8884,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "渾沌小隊，結成！",
+      "place_id" : 1,
+      "quest_id" : 88841,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "88881" : {
+      "append_skill" : {
+        "cid" : 8888,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 6,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8888,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "作為寵物的可能性",
+      "place_id" : 1,
+      "quest_id" : 88881,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "88880" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "沁芷柔登場",
+      "quest_id" : 88880,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "88882" : {
+      "append_skill" : { },
+      "bg_list" : [ 2, 2, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8888,
+          "lv" : 20
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "洶湧而至的魔物潮",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 88882,
+      "difficulty" : 24,
+      "chapter_cnt" : 3,
+      "area_id" : 1
     },
     "221012" : {
       "append_skill" : { },
@@ -42647,6 +43061,17 @@
       "chapter_cnt" : 1,
       "area_id" : 12
     },
+    "88870" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "幻櫻登場",
+      "quest_id" : 88870,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "221003" : {
       "append_skill" : { },
       "bg_list" : [ 110 ],
@@ -42685,6 +43110,55 @@
       "difficulty" : 50,
       "chapter_cnt" : 1,
       "area_id" : 12
+    },
+    "88871" : {
+      "append_skill" : {
+        "cid" : 8887,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 2 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 6,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8887,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "將薰",
+      "place_id" : 1,
+      "quest_id" : 88871,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "88872" : {
+      "append_skill" : { },
+      "bg_list" : [ 2, 2, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8887,
+          "lv" : 20
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "將薰——櫻花祭登場",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 88872,
+      "difficulty" : 24,
+      "chapter_cnt" : 3,
+      "area_id" : 1
     },
     "234104" : {
       "append_skill" : { },
@@ -47127,6 +47601,29 @@
       "chapter_cnt" : 1,
       "area_id" : 10
     },
+    "88812" : {
+      "append_skill" : {
+        "cid" : 8881,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1, 1 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8881,
+          "lv" : 45
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "女神的自信",
+      "place_id" : 3,
+      "quest_id" : 88812,
+      "difficulty" : 40,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
     "220807" : {
       "append_skill" : { },
       "bg_list" : [ 101 ],
@@ -47164,6 +47661,29 @@
       "difficulty" : 60,
       "chapter_cnt" : 1,
       "area_id" : 10
+    },
+    "88811" : {
+      "append_skill" : {
+        "cid" : 8881,
+        "idx" : "1"
+      },
+      "bg_list" : [ 1, 1 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8881,
+          "lv" : 15
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "夏彌爾的遊戲時間",
+      "place_id" : 1,
+      "quest_id" : 88811,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
     },
     "80970" : {
       "append_skill" : { },
@@ -47215,6 +47735,17 @@
       "difficulty" : 55,
       "chapter_cnt" : 1,
       "area_id" : 10
+    },
+    "88810" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "夏彌爾登場",
+      "quest_id" : 88810,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
     },
     "80971" : {
       "append_skill" : {
@@ -47572,6 +48103,17 @@
       "chapter_cnt" : 3,
       "area_id" : 1
     },
+    "88830" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "剜登場",
+      "quest_id" : 88830,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "80991" : {
       "append_skill" : {
         "cid" : 8099,
@@ -47593,6 +48135,29 @@
       "quest_id" : 80991,
       "difficulty" : 31,
       "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "88831" : {
+      "append_skill" : {
+        "cid" : 8883,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 6,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8883,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "永遠之友",
+      "place_id" : 1,
+      "quest_id" : 88831,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
       "area_id" : 1
     },
     "80990" : {
@@ -47762,6 +48327,32 @@
       "chapter_cnt" : 3,
       "area_id" : 6
     },
+    "88822" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 2, 1 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8882,
+          "lv" : 20
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "守在……身後",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 88822,
+      "difficulty" : 24,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
     "242105" : {
       "append_skill" : { },
       "bg_list" : [ 2 ],
@@ -47877,6 +48468,17 @@
       "chapter_cnt" : 3,
       "area_id" : 6
     },
+    "88820" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "flag" : { },
+      "name" : "爾善登場",
+      "quest_id" : 88820,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "80981" : {
       "append_skill" : {
         "cid" : 8098,
@@ -47920,6 +48522,29 @@
       "difficulty" : 64,
       "chapter_cnt" : 1,
       "area_id" : 3
+    },
+    "88821" : {
+      "append_skill" : {
+        "cid" : 8882,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 6 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 6,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8882,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "害羞的痕跡",
+      "place_id" : 1,
+      "quest_id" : 88821,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
     },
     "80980" : {
       "append_skill" : { },
@@ -96288,8 +96913,7 @@
       "field_type" : [ 0, 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "兩週年的準備2",
-      "sort" : 95,
+      "name" : "兩週年的準備5",
       "reward_box" : 2,
       "reward_data" : {
         "type" : "stone",
@@ -96333,8 +96957,7 @@
       "field_type" : [ 0, 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "兩週年的準備2",
-      "sort" : 96,
+      "name" : "兩週年的準備4",
       "reward_box" : 2,
       "reward_data" : {
         "type" : "stone",
@@ -96378,8 +97001,7 @@
       "field_type" : [ 0, 0, 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "兩週年的準備2",
-      "sort" : 93,
+      "name" : "兩週年的準備7",
       "reward_box" : 2,
       "reward_data" : {
         "type" : "stone",
@@ -96423,8 +97045,7 @@
       "field_type" : [ 0, 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "兩週年的準備2",
-      "sort" : 94,
+      "name" : "兩週年的準備6",
       "reward_box" : 2,
       "reward_data" : {
         "type" : "stone",
@@ -96468,8 +97089,7 @@
       "field_type" : [ 0, 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "兩週年的準備2",
-      "sort" : 99,
+      "name" : "兩週年的準備1",
       "reward_box" : 2,
       "reward_data" : {
         "type" : "box",
@@ -96513,8 +97133,7 @@
       "field_type" : [ 0, 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "兩週年的準備2",
-      "sort" : 97,
+      "name" : "兩週年的準備3",
       "reward_box" : 2,
       "reward_data" : {
         "type" : "stone",
@@ -96535,7 +97154,6 @@
       "flag" : { },
       "is_casino" : false,
       "name" : "兩週年的準備2",
-      "sort" : 98,
       "reward_box" : 2,
       "reward_data" : {
         "type" : "stone",
@@ -96598,7 +97216,6 @@
       "field_type" : [ 0 ],
       "fixed_help" : [ {
         "skillflag" : [ true, true, true, false ],
-        "helper_comment" : "実践の積み重ねじゃ！",
         "cid" : 71,
         "hp" : 4700,
         "lv" : 0,
@@ -96670,7 +97287,6 @@
       "field_type" : [ 0 ],
       "fixed_help" : [ {
         "skillflag" : [ true, true, true, false ],
-        "helper_comment" : "邪魔だあああ！",
         "cid" : 70,
         "hp" : 7450,
         "lv" : 0,
@@ -96739,7 +97355,6 @@
       "field_type" : [ 0 ],
       "fixed_help" : [ {
         "skillflag" : [ true, true, true, false ],
-        "helper_comment" : "ハッピーにするね！",
         "cid" : 75,
         "hp" : 7250,
         "lv" : 0,
@@ -96791,8 +97406,7 @@
       "field_type" : [ 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "二週年宴會",
-      "sort" : 91,
+      "name" : "兩週年宴會",
       "reward_box" : 2,
       "reward_data" : {
         "type" : "stone",
@@ -97304,7 +97918,6 @@
       "is_casino" : false,
       "name" : "每日都是宴會・2",
       "place_id" : 1,
-      "sort" : 29,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "box",
@@ -97326,7 +97939,6 @@
       "is_casino" : false,
       "name" : "每日都是宴會・3",
       "place_id" : 1,
-      "sort" : 28,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "box",
@@ -97348,7 +97960,6 @@
       "is_casino" : false,
       "name" : "每日都是宴會・1",
       "place_id" : 1,
-      "sort" : 30,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "box",
@@ -97799,7 +98410,6 @@
       "is_casino" : false,
       "name" : "每日都是宴會・7",
       "place_id" : 1,
-      "sort" : 24,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "box",
@@ -97821,7 +98431,6 @@
       "is_casino" : false,
       "name" : "每日都是宴會・6",
       "place_id" : 1,
-      "sort" : 25,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "box",
@@ -97843,7 +98452,6 @@
       "is_casino" : false,
       "name" : "每日都是宴會・5",
       "place_id" : 1,
-      "sort" : 26,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "box",
@@ -97865,7 +98473,6 @@
       "is_casino" : false,
       "name" : "每日都是宴會・4",
       "place_id" : 1,
-      "sort" : 27,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "box",
@@ -105630,5 +106237,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1469696433
+  "deceive" : 1470906105
 }

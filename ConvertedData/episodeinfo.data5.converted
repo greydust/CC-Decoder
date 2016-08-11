@@ -1,5 +1,5 @@
 {
-  "sv" : "1469527287",
+  "sv" : "1470203512",
   "episodeinfo" : {
     "(1,1)" : {
       "episode" : [ {
@@ -4708,6 +4708,20 @@
       "id" : 1057,
       "type" : 0
     },
+    "(1063,0)" : {
+      "collabo" : false,
+      "episode" : [ {
+        "quest" : [ 10631 ],
+        "name" : "運命の物語",
+        "develop_only" : 0
+      }, {
+        "quest" : [ 10632 ],
+        "name" : "絆の物語",
+        "develop_only" : 0
+      } ],
+      "id" : 1063,
+      "type" : 0
+    },
     "(7575,0)" : {
       "collabo" : false,
       "episode" : [ {
@@ -4748,6 +4762,20 @@
         "develop_only" : 0
       } ],
       "id" : 7573,
+      "type" : 0
+    },
+    "(1074,0)" : {
+      "collabo" : false,
+      "episode" : [ {
+        "quest" : [ 10741 ],
+        "name" : "運命の物語",
+        "develop_only" : 0
+      }, {
+        "quest" : [ 10742 ],
+        "name" : "絆の物語",
+        "develop_only" : 0
+      } ],
+      "id" : 1074,
       "type" : 0
     },
     "(7582,0)" : {
@@ -8803,5 +8831,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1469775604
+  "deceive" : 1470722393
 }

@@ -1127,6 +1127,26 @@
       "che" : 0,
       "voice" : 0
     },
+    "88870" : {
+      "stext" : "",
+      "sname" : "",
+      "sinfo" : "",
+      "pose" : 0.0,
+      "posp" : 0.0,
+      "hpend" : 100.0,
+      "hpstart" : 0.0,
+      "patternid" : 88870,
+      "skillid0" : 88870,
+      "skillid1" : 88871,
+      "skillid2" : 0,
+      "skillid3" : 0,
+      "scost" : 0,
+      "priority" : 100,
+      "flag" : 0,
+      "chs" : 0,
+      "che" : 0,
+      "voice" : 0
+    },
     "90350" : {
       "stext" : "",
       "sname" : "",
@@ -8324,7 +8344,7 @@
       "voice" : 0
     }
   },
-  "sv" : "1464688506",
+  "sv" : "1470740893",
   "res" : 0,
-  "deceive" : 1467349746
+  "deceive" : 1470906081
 }

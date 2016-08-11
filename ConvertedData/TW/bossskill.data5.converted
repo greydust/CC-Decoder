@@ -737,6 +737,17 @@
       "skillflag0_1" : 0,
       "skillid0" : 12
     },
+    "88870" : {
+      "skillflag" : 16,
+      "spmotname" : "sp_dush_slash01",
+      "skillflag0_0" : 16,
+      "skillparam1" : 1.0,
+      "skillid" : 88870,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 5
+    },
     "90350" : {
       "skillflag" : 1024,
       "spmotname" : "monk_sp_rush01",
@@ -764,6 +775,17 @@
       "skillflag1_0" : 0,
       "skillflag0_1" : 0,
       "skillid0" : 41
+    },
+    "88871" : {
+      "spmotname" : "sp_dush_slash01",
+      "skillparam2" : 4.0,
+      "skillflag0_0" : 0,
+      "skillparam1" : 9.0,
+      "skillid" : 88871,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 2
     },
     "90351" : {
       "skillflag" : 1024,
@@ -7679,7 +7701,7 @@
       "skillid0" : 43
     }
   },
-  "sv" : "1464688506",
+  "sv" : "1470740893",
   "res" : 0,
-  "deceive" : 1467349746
+  "deceive" : 1470906081
 }

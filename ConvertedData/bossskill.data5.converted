@@ -7440,6 +7440,24 @@
       "skillflag0_1" : 0,
       "skillid0" : 1
     },
+    "554" : {
+      "skillflag" : 1216,
+      "str2" : "BE_SpiderWeb_a",
+      "str0" : "BE_SpiderWeb_b",
+      "skillparam0" : 1.0,
+      "spmotname" : "sp_shoot02",
+      "skillparam2" : 1330.0,
+      "skillparam3" : 1330.0,
+      "skillparam4" : 4.0,
+      "skillparam5" : 3.0,
+      "skillflag0_0" : 1216,
+      "skillparam1" : 0.4,
+      "skillid" : 554,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 72
+    },
     "10451" : {
       "spmotname" : "sp_dash_thrust06",
       "skillparam2" : 2.0,
@@ -7451,6 +7469,24 @@
       "skillflag1_0" : 0,
       "skillflag0_1" : 0,
       "skillid0" : 2
+    },
+    "555" : {
+      "skillflag" : 1216,
+      "str2" : "BE_SpiderWeb_a",
+      "str0" : "BE_SpiderWeb_b",
+      "skillparam0" : 1.0,
+      "spmotname" : "sp_shoot02",
+      "skillparam2" : 1315.0,
+      "skillparam3" : 1315.0,
+      "skillparam4" : 4.0,
+      "skillparam5" : 3.0,
+      "skillflag0_0" : 1216,
+      "skillparam1" : 0.4,
+      "skillid" : 555,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 72
     },
     "552" : {
       "str1" : "BE_CautionMagic_a_blue",
@@ -8763,7 +8799,7 @@
       "skillparam3" : 20.0,
       "skillparam6" : 0.3,
       "skillflag0_0" : 0,
-      "skillparam1" : 0.25,
+      "skillparam1" : 0.3,
       "skillid" : 10631,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
@@ -8773,8 +8809,8 @@
     "10630" : {
       "skillflag" : 1,
       "spmotname" : "sp_slash22",
-      "skillparam2" : 4.0,
-      "skillparam3" : 1.0,
+      "skillparam2" : 5.5,
+      "skillparam3" : 1.5,
       "skillflag0_0" : 1,
       "skillparam1" : 7.5,
       "skillid" : 10630,
@@ -9457,6 +9493,53 @@
       "skillflag1_0" : 0,
       "skillflag0_1" : 0,
       "skillid0" : 23
+    },
+    "90121" : {
+      "spmotname" : "monk_sp_upper01",
+      "skillparam2" : 1.3,
+      "skillflag0_0" : 1,
+      "skillparam1" : 2.5,
+      "skillid" : 90121,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 3
+    },
+    "90120" : {
+      "spmotname" : "monk_sp_powerup06",
+      "skillparam3" : 120.0,
+      "skillparam6" : 0.2,
+      "skillflag0_0" : 0,
+      "skillparam1" : 0.1,
+      "skillid" : 90120,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 13
+    },
+    "90160" : {
+      "spmotname" : "monk_sp_punch05",
+      "skillparam2" : 1.5,
+      "skillparam3" : 5.5,
+      "skillparam4" : 0.001,
+      "skillflag0_0" : 1,
+      "skillparam1" : 10.0,
+      "skillid" : 90160,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 22
+    },
+    "90161" : {
+      "spmotname" : "monk_sp_punch02",
+      "skillparam3" : 1.5,
+      "skillflag0_0" : 1,
+      "skillparam1" : 4.5,
+      "skillid" : 90161,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 5
     },
     "90151" : {
       "spmotname" : "beast_sp_powerup01",
@@ -10169,10 +10252,10 @@
       "spmotname" : "koubu_sp_ogami",
       "skillparam2" : 0.2,
       "skillparam3" : 5.0,
-      "skillparam4" : 6.0,
+      "skillparam4" : 8.0,
       "skillparam5" : 1.5,
       "skillflag0_0" : 0,
-      "skillparam1" : 0.8,
+      "skillparam1" : 1.1,
       "skillid" : 81891,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
@@ -10181,7 +10264,7 @@
     },
     "81890" : {
       "str1" : "BtEffect_OT_Aura_L_04",
-      "str0" : "char08178b_body",
+      "str0" : "char08189b_body",
       "skillparam0" : -1.0,
       "spmotname" : "sp_changekoubu_ogami",
       "skillparam5" : 1.0,
@@ -10196,7 +10279,7 @@
     "81901" : {
       "str1" : "BE_Sakura_Sakura_Koubu_b",
       "str0" : "BE_Sakura_Sakura_Lazer_a",
-      "skillparam0" : 9.0,
+      "skillparam0" : 10.0,
       "spmotname" : "koubu_sp_sakura",
       "skillparam2" : 1.0,
       "skillparam3" : 30.0,
@@ -10204,7 +10287,7 @@
       "skillparam5" : 1.5,
       "skillparam6" : 0.1,
       "skillflag0_0" : 1,
-      "skillparam1" : 1.2,
+      "skillparam1" : 1.5,
       "skillid" : 81901,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
@@ -10213,7 +10296,7 @@
     },
     "81900" : {
       "str1" : "BtEffect_OT_Aura_L_04",
-      "str0" : "char08177b_body",
+      "str0" : "char08190b_body",
       "skillparam0" : -1.0,
       "spmotname" : "sp_changekoubu_sakura",
       "skillparam5" : 1.0,
@@ -10336,11 +10419,11 @@
     "81921" : {
       "str1" : "BE_Sakura_Maria_Koubu_a",
       "str0" : "BE_Sakura_Maria_Koubu_Bullet_a",
-      "skillparam0" : 8.5,
+      "skillparam0" : 9.5,
       "spmotname" : "koubu_sp_maria",
-      "skillparam2" : 1.8,
-      "skillparam5" : 8.5,
-      "skillflag0_0" : 5,
+      "skillparam2" : 1.9,
+      "skillparam5" : 8.0,
+      "skillflag0_0" : 4,
       "skillparam1" : 0.0,
       "skillid" : 81921,
       "skillflag1_1" : 0,
@@ -10350,7 +10433,7 @@
     },
     "81920" : {
       "str1" : "BtEffect_OT_Aura_L_04",
-      "str0" : "char08179b_body",
+      "str0" : "char08192b_body",
       "skillparam0" : -1.0,
       "spmotname" : "sp_changekoubu_maria",
       "skillparam5" : 1.0,
@@ -10378,7 +10461,7 @@
     },
     "81970" : {
       "str1" : "BtEffect_OT_Aura_L_04",
-      "str0" : "char08184b_body",
+      "str0" : "char08197b_body",
       "skillparam0" : -1.0,
       "spmotname" : "sp_changekoubu_reni",
       "skillparam5" : 1.0,
@@ -10395,7 +10478,7 @@
       "skillparam2" : 5.0,
       "skillparam3" : 1.5,
       "skillflag0_0" : 1,
-      "skillparam1" : 8.0,
+      "skillparam1" : 11.0,
       "skillid" : 81971,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
@@ -10430,7 +10513,7 @@
       "skillparam3" : 5.0,
       "skillparam4" : 1.0,
       "skillflag0_0" : 1024,
-      "skillparam1" : 0.75,
+      "skillparam1" : 0.85,
       "skillid" : 81961,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
@@ -10439,7 +10522,7 @@
     },
     "81960" : {
       "str1" : "BtEffect_OT_Aura_L_04",
-      "str0" : "char08185b_body",
+      "str0" : "char08196b_body",
       "skillparam0" : -1.0,
       "spmotname" : "sp_changekoubu_orihime",
       "skillparam5" : 1.0,
@@ -11212,7 +11295,7 @@
       "skillid0" : 31
     }
   },
-  "sv" : "1469696502",
+  "sv" : "1470575889",
   "res" : 0,
-  "deceive" : 1469775605
+  "deceive" : 1470722394
 }

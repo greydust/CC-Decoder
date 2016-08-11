@@ -1,5 +1,5 @@
 {
-  "sv" : "1469766611",
+  "sv" : "1470401533",
   "evolve" : {
     "26169" : {
       "name" : "スピアハート・速撃",
@@ -5065,6 +5065,7 @@
     },
     "85329" : {
       "usable" : [ 1030 ],
+      "ring" : 0,
       "name" : "フィオレスパード",
       "profile" : "シンフォニアv1専用武器",
       "rank_limit" : 2,
@@ -5126,6 +5127,17 @@
       "rarity" : 5,
       "id" : 26010,
       "evol_dst" : 26010,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85333" : {
+      "name" : "マルトー・ド・JP",
+      "profile" : "サクラ大戦コラボ_イベントカジノ景品",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85333,
+      "evol_dst" : 85333,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6170,6 +6182,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85308" : {
+      "name" : "華撃団の棍",
+      "profile" : "サクラ大戦コラボ_SSRカンナ武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85308,
+      "evol_dst" : 85308,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26098" : {
       "name" : "ジェダイト・体",
       "profile" : "ver2.6錬金",
@@ -6181,6 +6204,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85309" : {
+      "name" : "ランチャーくん",
+      "profile" : "サクラ大戦コラボ_SSR紅蘭武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85309,
+      "evol_dst" : 85309,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26099" : {
       "name" : "ジェダイト・疾",
       "profile" : "ver2.6錬金",
@@ -6188,6 +6222,17 @@
       "rarity" : 5,
       "id" : 26099,
       "evol_dst" : 26099,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85310" : {
+      "name" : "華撃団の聖杖",
+      "profile" : "サクラ大戦コラボ_SSRアイリス武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85310,
+      "evol_dst" : 85310,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6214,6 +6259,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85304" : {
+      "name" : "エンフィールド改",
+      "profile" : "サクラ大戦コラボ_SSRマリア武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85304,
+      "evol_dst" : 85304,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26102" : {
       "name" : "ジェダイト・撃",
       "profile" : "ver2.6錬金",
@@ -6221,6 +6277,17 @@
       "rarity" : 5,
       "id" : 26102,
       "evol_dst" : 26102,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85305" : {
+      "name" : "華撃団の槍",
+      "profile" : "サクラ大戦コラボ_SSRレ二武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85305,
+      "evol_dst" : 85305,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6236,6 +6303,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85306" : {
+      "name" : "華撃団の杖",
+      "profile" : "サクラ大戦コラボ_SSR織姫武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85306,
+      "evol_dst" : 85306,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26100" : {
       "name" : "ジェダイト・命",
       "profile" : "ver2.6錬金",
@@ -6243,6 +6321,17 @@
       "rarity" : 5,
       "id" : 26100,
       "evol_dst" : 26100,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85307" : {
+      "name" : "神崎家の薙刀",
+      "profile" : "サクラ大戦コラボ_SSRすみれ武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85307,
+      "evol_dst" : 85307,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6280,6 +6369,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85301" : {
+      "name" : "霊剣荒鷹",
+      "profile" : "サクラ大戦コラボ_SSRさくら武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85301,
+      "evol_dst" : 85301,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26107" : {
       "name" : "デスウィスパー・疾",
       "profile" : "ver2.6錬金",
@@ -6291,6 +6391,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85302" : {
+      "name" : "神刀滅却",
+      "profile" : "サクラ大戦コラボ_SSR大神武器1",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85302,
+      "evol_dst" : 85302,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26104" : {
       "name" : "デスウィスパー・早",
       "profile" : "ver2.6錬金",
@@ -6298,6 +6409,17 @@
       "rarity" : 5,
       "id" : 26104,
       "evol_dst" : 26104,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85303" : {
+      "name" : "光刀無形",
+      "profile" : "サクラ大戦コラボ_SSR大神武器2",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85303,
+      "evol_dst" : 85303,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6645,5 +6767,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1469775607
+  "deceive" : 1470722396
 }

@@ -6115,7 +6115,7 @@
     "85012" : {
       "skill" : 3138,
       "rank" : 3,
-      "name" : "二度周年",
+      "name" : "兩週年",
       "model" : "weapon85012_body",
       "id" : 85012,
       "guardMax" : 7,
@@ -11038,6 +11038,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "95834" : {
+      "skill" : 88818,
+      "rank" : 2,
+      "name" : "尖尖碰碰拳套",
+      "model" : "weapon95834_body",
+      "id" : 95834,
+      "guardMax" : 5,
+      "criticalMax" : 9,
+      "attackMax" : 9,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "1021" : {
       "name" : "月牙",
       "model" : "weapon1021_body",
@@ -11045,6 +11059,20 @@
       "guardMax" : 0,
       "criticalMax" : 0,
       "attackMax" : 0,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "95833" : {
+      "skill" : 88819,
+      "rank" : 2,
+      "name" : "歃櫻",
+      "model" : "weapon95833_body",
+      "id" : 95833,
+      "guardMax" : 5,
+      "criticalMax" : 10,
+      "attackMax" : 8,
       "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
@@ -11062,6 +11090,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "95832" : {
+      "skill" : 88819,
+      "rank" : 2,
+      "name" : "愛與正義的守護者",
+      "model" : "weapon95832_body",
+      "id" : 95832,
+      "guardMax" : 9,
+      "criticalMax" : 5,
+      "attackMax" : 9,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "1023" : {
       "name" : "敵方用機族銃腕R",
       "model" : "weapon1023_body",
@@ -11074,6 +11116,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "95831" : {
+      "skill" : 88818,
+      "rank" : 2,
+      "name" : "深淵狙擊槍",
+      "model" : "weapon95831_body",
+      "id" : 95831,
+      "guardMax" : 8,
+      "criticalMax" : 7,
+      "attackMax" : 8,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "1008" : {
       "name" : "敵方用拳",
       "model" : "weapon1008_body",
@@ -11081,6 +11137,20 @@
       "guardMax" : 0,
       "criticalMax" : 0,
       "attackMax" : 0,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "95830" : {
+      "skill" : 88818,
+      "rank" : 2,
+      "name" : "多說無用拳套",
+      "model" : "weapon95830_body",
+      "id" : 95830,
+      "guardMax" : 6,
+      "criticalMax" : 6,
+      "attackMax" : 11,
       "type" : 8,
       "type_atk" : 1,
       "type_cri" : 2,
@@ -11098,6 +11168,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "95829" : {
+      "skill" : 88819,
+      "rank" : 2,
+      "name" : "流線手刃",
+      "model" : "weapon95829_body",
+      "id" : 95829,
+      "guardMax" : 3,
+      "criticalMax" : 10,
+      "attackMax" : 10,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "1010" : {
       "name" : "敵方用槍",
       "model" : "weapon1010_body",
@@ -11110,6 +11194,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "95828" : {
+      "skill" : 88819,
+      "rank" : 2,
+      "name" : "燎原法杖",
+      "model" : "weapon95828_body",
+      "id" : 95828,
+      "guardMax" : 5,
+      "criticalMax" : 8,
+      "attackMax" : 10,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "1011" : {
       "name" : "敵方用爪",
       "model" : "weapon1011_body",
@@ -11118,6 +11216,19 @@
       "criticalMax" : 0,
       "attackMax" : 0,
       "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "95827" : {
+      "rank" : 3,
+      "name" : "閃爍幻光",
+      "model" : "weapon95827_body",
+      "id" : 95827,
+      "guardMax" : 7,
+      "criticalMax" : 10,
+      "attackMax" : 13,
+      "type" : 4,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -12260,7 +12371,7 @@
       "type_grd" : 3
     }
   },
-  "sv" : "1468921768",
+  "sv" : "1470728808",
   "res" : 0,
-  "deceive" : 1469091695
+  "deceive" : 1470906083
 }

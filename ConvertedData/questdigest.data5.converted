@@ -1,5 +1,5 @@
 {
-  "sv" : "1469710627",
+  "sv" : "1470726440",
   "questdigest" : {
     "0" : {
       "append_skill" : { },
@@ -11857,6 +11857,27 @@
       "chapter_cnt" : 4,
       "area_id" : 6
     },
+    "245502" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "危地の魔神襲来2",
+      "sort" : 9,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 2,
+        "box" : 2
+      },
+      "quest_id" : 245502,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "631" : {
       "append_skill" : {
         "cid" : 63,
@@ -11882,6 +11903,27 @@
       "chapter_cnt" : 3,
       "area_id" : 1
     },
+    "245503" : {
+      "append_skill" : { },
+      "bg_list" : [ 12 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "危地の魔神襲来3",
+      "sort" : 8,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 5,
+        "box" : 2
+      },
+      "quest_id" : 245503,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "630" : {
       "append_skill" : { },
       "bg_list" : [ -1 ],
@@ -11890,6 +11932,27 @@
       "name" : "登場ミシディア",
       "quest_id" : 630,
       "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245501" : {
+      "append_skill" : { },
+      "bg_list" : [ 114 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "危地の魔神襲来1",
+      "sort" : 10,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 7,
+        "box" : 2
+      },
+      "quest_id" : 245501,
+      "difficulty" : 4,
       "chapter_cnt" : 1,
       "area_id" : 1
     },
@@ -16590,6 +16653,125 @@
       "chapter_cnt" : 1,
       "area_id" : 1
     },
+    "245510" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "危地の魔神・後日談",
+      "sort" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245510,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245508" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90009,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93000,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93000,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90014,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "聖騎士たちよ、立て！",
+        "enable_act" : false,
+        "cid" : 1063,
+        "hp" : 10000,
+        "lv" : 80,
+        "atk" : 9500
+      } ] ],
+      "icon" : "245508",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "お試しベルヴィード",
+      "sort" : 6,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245508,
+      "difficulty" : 24,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245509" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90009,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93000,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93000,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90014,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "いつだって、共に！",
+        "enable_act" : false,
+        "cid" : 1074,
+        "hp" : 9800,
+        "lv" : 80,
+        "atk" : 9400
+      } ] ],
+      "icon" : "245509",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "お試しシンフォニア",
+      "sort" : 5,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245509,
+      "difficulty" : 24,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "236901" : {
       "append_skill" : { },
       "bg_list" : [ 8 ],
@@ -16770,6 +16952,162 @@
       "place_id" : 11,
       "quest_id" : 236901,
       "difficulty" : 45,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245506" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93902,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93902,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "武器強化",
+      "sort" : 3,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 93902,
+        "box" : 2
+      },
+      "quest_id" : 245506,
+      "difficulty" : 12,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245507" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 10000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 10000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 15000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 20000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "討伐資金稼ぎ",
+      "sort" : 2,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 10,
+        "box" : 2
+      },
+      "quest_id" : 245507,
+      "difficulty" : 12,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245504" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 4,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 200
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 200
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 200
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 400
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "危地の魔神探し",
+      "sort" : 7,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 2,
+        "box" : 2
+      },
+      "quest_id" : 245504,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245505" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 20,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "討伐隊育成",
+      "sort" : 4,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90903,
+        "box" : 2
+      },
+      "quest_id" : 245505,
+      "difficulty" : 12,
       "chapter_cnt" : 1,
       "area_id" : 1
     },
@@ -47844,6 +48182,32 @@
       "chapter_cnt" : 2,
       "area_id" : 2
     },
+    "10742" : {
+      "append_skill" : { },
+      "bg_list" : [ 7, 7 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 1074,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "聖剣騎士団の務め",
+      "place_id" : 7,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 10742,
+      "difficulty" : 31,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
     "20310" : {
       "append_skill" : { },
       "bg_list" : [ -1 ],
@@ -47853,6 +48217,68 @@
       "quest_id" : 20310,
       "difficulty" : 4,
       "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "10740" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場シンフォニア",
+      "quest_id" : 10740,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "10741" : {
+      "append_skill" : {
+        "cid" : 1074,
+        "idx" : "2"
+      },
+      "bg_list" : [ 2, 1, 11 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 1074,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "絢爛貴族の悩み",
+      "place_id" : 5,
+      "quest_id" : 10741,
+      "difficulty" : 14,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "10632" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 2, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 1063,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "聖王の器",
+      "place_id" : 5,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 10632,
+      "difficulty" : 31,
+      "chapter_cnt" : 3,
       "area_id" : 1
     },
     "80521" : {
@@ -47922,6 +48348,45 @@
       "quest_id" : 20271,
       "difficulty" : 14,
       "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "10631" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 78, 1 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 1063,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "かつての聖王候補",
+      "place_id" : 5,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 10631,
+      "difficulty" : 14,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "10630" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場ベルヴィード",
+      "quest_id" : 10630,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
       "area_id" : 1
     },
     "120252" : {
@@ -125856,5 +126321,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1469775614
+  "deceive" : 1470938414
 }

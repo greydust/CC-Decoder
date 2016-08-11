@@ -652,7 +652,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... params) {
             UploadJsonData("");
-            //UploadJsonData("TW/");
+            UploadJsonData("TW/");
 
             return null;
         }

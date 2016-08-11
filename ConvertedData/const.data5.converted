@@ -1,25 +1,12 @@
 {
   "body" : [ {
     "data" : {
-      "cover" : {
-        "cover_id" : 14,
-        "name" : "三賢者と超賢者",
-        "area_id" : 1016,
-        "dist_start" : 1469512800,
-        "event_start" : 1469512800,
-        "event_end" : 1470031199,
-        "dist_end" : 1470117599,
-        "bgm" : "",
-        "normal_fever" : 1.5,
-        "great_fever" : 3,
-        "sp_cards" : [ 2001, 2002, 2003 ]
-      },
       "expup" : {
-        "cids" : [ 34, 45, 40, 46, 41, 63, 7024, 2001, 2002, 2003 ],
-        "end" : 1470031199,
-        "exp_rate" : 1.5,
-        "id" : 38,
-        "start" : 1468994400
+        "cids" : [ 1063, 1074, 34, 45, 40, 46, 41, 63, 7024 ],
+        "end" : 1471931999,
+        "exp_rate" : 2.0,
+        "id" : 40,
+        "start" : 1470722400
       },
       "global" : {
         "purchase" : 1,
@@ -35,6 +22,19 @@
       "subjugation" : [ ],
       "weaponcompose" : {
         "weapon_compose_disabled" : false
+      },
+      "totalwar" : {
+        "totalwar_id" : 10,
+        "event_start" : 1470754800,
+        "close" : 1471273199,
+        "event_end" : 1471359599,
+        "token_cnt_per_request" : 100,
+        "banner_image" : "160810_souryokusen_top",
+        "start_cnt" : [ 1, 2, 3, 5 ],
+        "close_interval" : 10,
+        "first_border_ap" : 10,
+        "event_days" : 6,
+        "rest_border_ap" : 30
       },
       "subjugation_shop_banner" : 0
     },
@@ -60,32 +60,32 @@
   } ],
   "mVer" : {
     "battleinfo" : 1468222421,
-    "booklist" : 1468230770,
-    "bossinfo" : 1469696502,
+    "booklist" : 1469695010,
+    "bossinfo" : 1470575889,
     "casinoinfo" : 1468927118,
-    "charainfo" : 1469702743,
+    "charainfo" : 1470652698,
     "create_weap" : 1,
-    "episodeinfo" : 1469527287,
-    "eventbadge" : 1469772296,
+    "episodeinfo" : 1470203512,
+    "eventbadge" : 1470643740,
     "eventplace" : 1,
     "explorerinfo" : 1453707665,
     "explorerlocation" : 1469702916,
     "homelist" : 1455305736,
     "itemlist" : 1460619995,
-    "missionlist" : 1469434985,
-    "motionlist" : 1466661459,
-    "questdigest" : 1469710627,
+    "missionlist" : 1470042436,
+    "motionlist" : 1470626411,
+    "questdigest" : 1470726440,
     "reload" : 1465398000,
     "repeatmissionlist" : 1466660819,
-    "servertime" : 1469980977,
-    "skilllist" : 1469705454,
+    "servertime" : 1470943312,
+    "skilllist" : 1470642738,
     "subjugationexpeditioninfo" : 1,
-    "supporterskill" : 1469702670,
+    "supporterskill" : 1470640993,
     "teacherdisciple" : 1455807601,
     "various" : 1469703222,
     "weaponcompose" : 1466479748,
     "weaponcomposeevent" : 1,
-    "weaponlist" : 1469766611,
+    "weaponlist" : 1470401533,
     "worldinfo" : 1469000841
   },
   "friend" : false,
