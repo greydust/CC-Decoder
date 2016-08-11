@@ -87,6 +87,7 @@ table.tablesorter div.indent2 {
 table.tablesorter div.skillDetail, table.tablesorter div.popup, table.tablesorter div.passivePattern {
     border: 1px solid #666666;
     background: #ffffff;
+    text-align: left;
 }
 
 div.popup {
