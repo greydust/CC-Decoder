@@ -569,9 +569,9 @@ function DoSearch() {
                 
                 row.insertCell(-1).innerHTML = WeaponRank[NullableNumber(weaponsData[key].rank)];
                 row.insertCell(-1).innerHTML = WeaponType[NullableNumber(weaponsData[key].type)];
-                row.insertCell(-1).innerHTML = NullableNumber(weaponsData[key].attackMax) + "<br>每格" + WeaponParameter[weaponsData[key].type_atk];
-                row.insertCell(-1).innerHTML = NullableNumber(weaponsData[key].criticalMax) + "<br>每格" + WeaponParameter[weaponsData[key].type_cri];
-                row.insertCell(-1).innerHTML = NullableNumber(weaponsData[key].guardMax) + "<br>每格" + WeaponParameter[weaponsData[key].type_grd];
+                row.insertCell(-1).innerHTML = WeaponParameterName[weaponsData[key].type_atk] + "（每格" + WeaponParameter[weaponsData[key].type_atk] + "）<br>" + NullableNumber(weaponsData[key].attackMax);
+                row.insertCell(-1).innerHTML = WeaponParameterName[weaponsData[key].type_cri] + "（每格" + WeaponParameter[weaponsData[key].type_cri] + "）<br>" + NullableNumber(weaponsData[key].criticalMax);
+                row.insertCell(-1).innerHTML = WeaponParameterName[weaponsData[key].type_grd] + "（每格" + WeaponParameter[weaponsData[key].type_grd] + "）<br>" + NullableNumber(weaponsData[key].guardMax);
                 PassiveText(NullableNumber(weaponsData[key].skill), row.insertCell(-1), true, {}, weaponPassivePopup);
                 
                 currentDB.database().ref("/evolve/evolve/" + weaponsData[key].id).once("value").then(function(evolveDataSnapshot) {
