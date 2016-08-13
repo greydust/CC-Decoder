@@ -580,20 +580,28 @@ function DoSearch() {
                     if (typeof(evolveData) == "undefined" || evolveData == null) {
                         restrictRow.innerHTML = "無";
                     } else {
-                        if (typeof(evolveData.usable) == "undefined" || evolveData.usable == null) {
-                            restrictRow.innerHTML = "無";                            
-                        } else {
-                            restrictRow.innerHTML = "限以下角色：";
+                        if (typeof(evolveData.rank_limit) != "undefined" && evolveData.rank_limit != null) {
+                            var rankRestriction = restrictRow.appendChild(document.createElement("div"));
+                            rankRestriction.innerHTML = "限" + WeaponRank[evolveData.rank_limit] + "武以上";
+                        }
+                        
+                        if (typeof(evolveData.usable) != "undefined" && evolveData.usable != null) {
+                            var characterRestriction = restrictRow.appendChild(document.createElement("div"));
+                            characterRestriction.innerHTML = "限以下角色：";
                             
                             for(var key in evolveData.usable) {
                                 var characterCell = [];
-                                characterCell[key] = restrictRow.appendChild(document.createElement("div"));
+                                characterCell[key] = characterRestriction.appendChild(document.createElement("div"));
                                 characterCell[key].className = "indent1";
                                 currentDB.database().ref("/charainfo/charainfo/" + evolveData.usable[key]).once("value").then(function(characterDataSnapshot) {
                                     var characterData = characterDataSnapshot.val();
                                     characterCell[key].innerHTML = characterData.title + " " + characterData.name;
                                 });
                             }
+                        }
+                        
+                        if (restrictRow.innerHTML == "") {
+                            restrictRow.innerHTML = "無";
                         }
                     }
                 });

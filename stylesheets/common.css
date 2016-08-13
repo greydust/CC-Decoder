@@ -71,7 +71,7 @@ div.quote {
     margin-bottom: 5px;
 }
 
-table.tablesorter div :not(div.quote){
+table.tablesorter div:not(.quote){
     text-align: left;
 }
 
