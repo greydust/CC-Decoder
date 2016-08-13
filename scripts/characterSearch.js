@@ -1,38 +1,53 @@
-﻿var searchButton = document.getElementById("searchCharacterButton");
-var characterName = document.getElementById("characterName");
-var resultText = document.getElementById("resultText");
+﻿var searchButton = document.getElementById("searchButton");
+var searchName = document.getElementById("searchName");
+
 var characterDataTable = document.getElementById("characterDataTable");
 var skillPopup = document.getElementById("skillPopup");
 var passivePopup = document.getElementById("passivePopup");
 
+var weaponDataTable = document.getElementById("weaponDataTable");
+var weaponPassivePopup = document.getElementById("weaponPassivePopup");
 
-document.getElementById("searchCharacterButton").addEventListener("click", SearchCharacter, false);
+var resultText = document.getElementById("resultText");
+
+var searchMode = 0;
+
+searchButton.addEventListener("click", DoSearch, false);
 document.getElementById("serverSelect").addEventListener("change", ChangeServer, false);
 document.getElementById("characterSearchButton").addEventListener("click", function() {
-    ShowTab("characterSearch");
+    ShowTab(["characterSearch", "search"]);
+    searchMode = 0;
+});
+document.getElementById("weaponSearchButton").addEventListener("click", function() {
+    ShowTab(["weaponSearch", "search"]);
+    searchMode = 1;
 });
 document.getElementById("systemButton").addEventListener("click", function() {
-    ShowTab("system");
+    ShowTab(["system"]);
 });
 document.getElementById("versionButton").addEventListener("click", function() {
-    ShowTab("version");
+    ShowTab(["version"]);
 });
 
-function ShowTab(tabName) {
+function ShowTab(tabNames) {
     var divs = document.getElementsByClassName("body");
     for(var i=0 ; i<divs.length ; i++) {
         divs[i].style.display = "none";
     }
     
-    document.getElementById(tabName + "Tab").style.display = "block";
+    for (var tab in tabNames) {
+        document.getElementById(tabNames[tab] + "Tab").style.display = "block";        
+    }
 }
 
 function ChangeServer() {
     if (serverSelect.value == "JP") {
         characterDataTable.tBodies[0].innerHTML = "";
+        weaponDataTable.tBodies[0].innerHTML = "";
         InitializeJP();
     } else if (serverSelect.value == "TW") {
         characterDataTable.tBodies[0].innerHTML = "";
+        weaponDataTable.tBodies[0].innerHTML = "";
         InitializeTW();
     }
 }
@@ -57,60 +72,60 @@ function MergeSkillFlag(flag0, flag1) {
     return (NullableNumber(flag0) & 0xffffffff) + (NullableNumber(flag1) << 0x20);
 }
 
-function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams) {
+function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams, popup) {
     var outputString = "";
 
     outputString += SkillFormat(skillType, skillParams, skillFlag, iParams);
     cellToWrite.innerHTML = outputString;
     
     cellToWrite.addEventListener("mouseover", function(e) {
-        skillPopup.style.display = "block";
+        popup.style.display = "block";
         
-        skillPopup.getElementsByTagName("p")[0].innerHTML = "類別: " + SkillDatas[skillType].typeName;
+        popup.getElementsByTagName("p")[0].innerHTML = "類別: " + SkillDatas[skillType].typeName;
         var paramDescriptions = SkillDatas[skillType].parameterDescription;
         for (var i=0 ; i<5; i++) {
             for (var j=0 ; j<2 ; j++) {
-                skillPopup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + skillParams[i*2+j];
+                popup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + skillParams[i*2+j];
             }
         }
         var flagDescriptions = SkillDatas[skillType].flagDescription;
         for (var i=0 ; i<1; i++) {
             for (var j=0 ; j<2 ; j++) {
-                skillPopup.getElementsByTagName("table")[1].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = flagDescriptions[i*2+j] + ": " + skillFlag[i*2+j];
+                popup.getElementsByTagName("table")[1].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = flagDescriptions[i*2+j] + ": " + skillFlag[i*2+j];
             }
         }
         var iParamDescriptions = SkillDatas[skillType].iParameterDescription;
         for (var i=0 ; i<1; i++) {
             for (var j=0 ; j<2 ; j++) {
-                skillPopup.getElementsByTagName("table")[2].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
+                popup.getElementsByTagName("table")[2].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
             }
         }
         
         var clientWidth = GetClientWidth();
         var clientHeight = GetClientHeight();
-        var height = skillPopup.clientHeight;
-        var width = skillPopup.clientWidth;
+        var height = popup.clientHeight;
+        var width = popup.clientWidth;
         var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
         var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
-        skillPopup.style.left = (e.pageX+xOffset) + "px";
-        skillPopup.style.top = (e.pageY+yOffset) + "px";
+        popup.style.left = (e.pageX+xOffset) + "px";
+        popup.style.top = (e.pageY+yOffset) + "px";
     });
     cellToWrite.addEventListener("mousemove", function(e) {
         var clientWidth = GetClientWidth();
         var clientHeight = GetClientHeight();
-        var height = skillPopup.clientHeight;
-        var width = skillPopup.clientWidth;
+        var height = popup.clientHeight;
+        var width = popup.clientWidth;
         var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
         var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
-        skillPopup.style.left = (e.pageX+xOffset) + "px";
-        skillPopup.style.top = (e.pageY+yOffset) + "px";
+        popup.style.left = (e.pageX+xOffset) + "px";
+        popup.style.top = (e.pageY+yOffset) + "px";
     });
     cellToWrite.addEventListener("mouseout", function(e){
-        skillPopup.style.display = "none";        
+        popup.style.display = "none";        
     });    
 }
 
-function SkillPatternText(patternID, skillCost, cellToWrite) {
+function SkillPatternText(patternID, skillCost, cellToWrite, popup) {
     var patternCell = document.createElement("div");
     patternCell.className = "skillDetail";
     cellToWrite.appendChild(patternCell);
@@ -180,7 +195,8 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                         SkillDetailText(patternSkillCell0, skillData.skillid0,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)],
                             [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
-                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
+                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)],
+                            popup
                         );
                     } catch(e) {
                     }
@@ -197,7 +213,8 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                         SkillDetailText(patternSkillCell1, skillData.skillid0,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)],
                             [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
-                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
+                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)],
+                            popup
                         );
                     } catch(e) {
                     }
@@ -214,7 +231,8 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                         SkillDetailText(patternSkillCell2, skillData.skillid0,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)],
                             [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
-                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
+                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)],
+                            popup
                         );
                     } catch(e) {
                     }
@@ -231,7 +249,8 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                         SkillDetailText(patternSkillCell3, skillData.skillid0,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)], 
                             [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
-                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
+                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)],
+                            popup
                         );
                     } catch(e) {
                     }
@@ -248,7 +267,8 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
                         SkillDetailText(patternSkillCell3, skillData.skillid0,
                             [NullableNumber(skillData.skillparam0), NullableNumber(skillData.skillparam1), NullableNumber(skillData.skillparam2), NullableNumber(skillData.skillparam3), NullableNumber(skillData.skillparam4), NullableNumber(skillData.skillparam5), NullableNumber(skillData.skillparam6), NullableNumber(skillData.skillparam7), NullableNumber(skillData.skillparam8), NullableNumber(skillData.skillparam9)], 
                             [MergeSkillFlag(skillData.skillflag0_0, skillData.skillflag0_1), MergeSkillFlag(skillData.skillflag1_0, skillData.skillflag1_1)],
-                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)]
+                            [NullableNumber(skillData.iparam0), NullableNumber(skillData.iparam1)],
+                            popup
                         );
                     } catch(e) {
                     }
@@ -260,7 +280,7 @@ function SkillPatternText(patternID, skillCost, cellToWrite) {
     });
 }
 
-function SkillText(characterData, cellToWrite) {
+function SkillText(characterData, cellToWrite, popup) {
     cellToWrite.innerHTML = "";
     cellToWrite.className = "skill";
     
@@ -286,36 +306,37 @@ function SkillText(characterData, cellToWrite) {
             SkillDetailText(patternSkillCell0, characterData.skillid[0],
                 [NullableNumber(characterData.skillparam0), NullableNumber(characterData.skillparam1), NullableNumber(characterData.skillparam2), NullableNumber(characterData.skillparam3), NullableNumber(characterData.skillparam4), NullableNumber(characterData.skillparam5), NullableNumber(characterData.skillparam6), NullableNumber(characterData.skillparam7), NullableNumber(characterData.skillparam8), NullableNumber(characterData.skillparam9)],
                 [skillFlag0, MergeSkillFlag(characterData.skillflag1_0, characterData.skillflag1_1)],
-                [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)]
+                [NullableNumber(characterData.iparam0), NullableNumber(characterData.iparam1)], 
+                popup
             );
         }
         {
             if(typeof(characterData.pattern0) != "undefined") {
-                SkillPatternText(characterData.pattern0, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern0, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern1) != "undefined") {
-                SkillPatternText(characterData.pattern1, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern1, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern2) != "undefined") {
-                SkillPatternText(characterData.pattern2, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern2, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern3) != "undefined") {
-                SkillPatternText(characterData.pattern3, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern3, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern4) != "undefined") {
-                SkillPatternText(characterData.pattern4, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern4, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern5) != "undefined") {
-                SkillPatternText(characterData.pattern5, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern5, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern6) != "undefined") {
-                SkillPatternText(characterData.pattern6, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern6, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern7) != "undefined") {
-                SkillPatternText(characterData.pattern7, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern7, characterData.skill_cost, cellToWrite, popup);
             }
             if(typeof(characterData.pattern8) != "undefined") {
-                SkillPatternText(characterData.pattern8, characterData.skill_cost, cellToWrite);
+                SkillPatternText(characterData.pattern8, characterData.skill_cost, cellToWrite, popup);
             }
         }
     } catch (e) {
@@ -323,60 +344,60 @@ function SkillText(characterData, cellToWrite) {
     }
 }
 
-function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag, iParams) {
+function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag, iParams, popup) {
     var outputString = "";
 
     outputString += PassiveFormat(passiveType, passiveParams, passiveFlag, iParams);
     cellToWrite.innerHTML = outputString;
 
     cellToWrite.addEventListener("mouseover", function(e) {
-        passivePopup.style.display = "block";
+        popup.style.display = "block";
         
-        passivePopup.getElementsByTagName("p")[0].innerHTML = "類別: " + PassiveDatas[passiveType].typeName;
+        popup.getElementsByTagName("p")[0].innerHTML = "類別: " + PassiveDatas[passiveType].typeName;
         var paramDescriptions = PassiveDatas[passiveType].parameterDescription;
         for (var i=0 ; i<5; i++) {
             for (var j=0 ; j<2 ; j++) {
-                passivePopup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + passiveParams[i*2+j];
+                popup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + passiveParams[i*2+j];
             }
         }
         var flagDescriptions = PassiveDatas[passiveType].flagDescription;
         for (var i=0 ; i<1; i++) {
             for (var j=0 ; j<2 ; j++) {
-                passivePopup.getElementsByTagName("table")[1].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = flagDescriptions[i*2+j] + ": " + passiveFlag[i*2+j];
+                popup.getElementsByTagName("table")[1].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = flagDescriptions[i*2+j] + ": " + passiveFlag[i*2+j];
             }
         }
         var iParamDescriptions = PassiveDatas[passiveType].iParameterDescription;
         for (var i=0 ; i<1; i++) {
             for (var j=0 ; j<1 ; j++) {
-                passivePopup.getElementsByTagName("table")[2].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
+                popup.getElementsByTagName("table")[2].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
             }
         }
         
         var clientWidth = GetClientWidth();
         var clientHeight = GetClientHeight();
-        var height = passivePopup.clientHeight;
-        var width = passivePopup.clientWidth;
+        var height = popup.clientHeight;
+        var width = popup.clientWidth;
         var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
         var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
-        passivePopup.style.left = (e.pageX+xOffset) + "px";
-        passivePopup.style.top = (e.pageY+yOffset) + "px";
+        popup.style.left = (e.pageX+xOffset) + "px";
+        popup.style.top = (e.pageY+yOffset) + "px";
     });
     cellToWrite.addEventListener("mousemove", function(e) {
         var clientWidth = GetClientWidth();
         var clientHeight = GetClientHeight();
-        var height = passivePopup.clientHeight;
-        var width = passivePopup.clientWidth;
+        var height = popup.clientHeight;
+        var width = popup.clientWidth;
         var xOffset = e.pageX + width + 5 <= clientWidth ? 5 : -width-5;
         var yOffset = e.pageY + height + 5 <= clientHeight ? 5 : -height-5;
-        passivePopup.style.left = (e.pageX+xOffset) + "px";
-        passivePopup.style.top = (e.pageY+yOffset) + "px";
+        popup.style.left = (e.pageX+xOffset) + "px";
+        popup.style.top = (e.pageY+yOffset) + "px";
     });
     cellToWrite.addEventListener("mouseout", function(e){
-        passivePopup.style.display = "none";        
+        popup.style.display = "none";        
     });
 }
 
-function PassiveText(passiveSkillID, cellToWrite, isFirstLayer, readPassiveList) {
+function PassiveText(passiveSkillID, cellToWrite, isFirstLayer, readPassiveList, popup) {
     if (isFirstLayer) {
         cellToWrite.innerHTML = "";
         cellToWrite.className = "passiveSkill";
@@ -385,6 +406,10 @@ function PassiveText(passiveSkillID, cellToWrite, isFirstLayer, readPassiveList)
     if (readPassiveList[passiveSkillID] == undefined) {
         readPassiveList[passiveSkillID] = true;
     } else {
+        return;
+    }
+    
+    if (passiveSkillID == 0) {
         return;
     }
 
@@ -405,10 +430,11 @@ function PassiveText(passiveSkillID, cellToWrite, isFirstLayer, readPassiveList)
             PassiveDetailText(passiveCell, passiveData.ability,
                 [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                 [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                [NullableNumber(passiveData.iParam0)]
+                [NullableNumber(passiveData.iParam0)], 
+                popup
             );
             for(var subIDKey in passiveData.sub) {
-                PassiveText(passiveData.sub[subIDKey], cellToWrite, false, readPassiveList);
+                PassiveText(passiveData.sub[subIDKey], cellToWrite, false, readPassiveList, popup);
             }
         } catch (e) {
             passiveCell.innerHTML = "";
@@ -416,7 +442,7 @@ function PassiveText(passiveSkillID, cellToWrite, isFirstLayer, readPassiveList)
     });
 }
 
-function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite) {
+function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite, popup) {
     cellToWrite.innerHTML = "";
     cellToWrite.class = "supportSkill";
 
@@ -452,7 +478,8 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
                         PassiveDetailText(passiveCell, passiveData.ability,
                             [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                             [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                            [NullableNumber(passiveData.iParam0)]
+                            [NullableNumber(passiveData.iParam0)], 
+                            popup
                         );
                     } catch(e) {
                     }
@@ -470,7 +497,8 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
                         PassiveDetailText(passiveCell, passiveData.ability,
                             [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                             [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                            [NullableNumber(passiveData.iParam0)]
+                            [NullableNumber(passiveData.iParam0)], 
+                            popup
                         );
                     } catch(e) {
                     }
@@ -488,7 +516,8 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
                         PassiveDetailText(passiveCell, passiveData.ability,
                             [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                             [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                            [NullableNumber(passiveData.iParam0)]
+                            [NullableNumber(passiveData.iParam0)],
+                            popup
                         );
                     } catch(e) {
                     }
@@ -500,33 +529,77 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite)
     });
 }
 
-function SearchCharacter() {
+function DoSearch() {
     searchButton.disabled = true;
-    characterDataTable.tBodies[0].innerHTML = "";
-    ReadPassiveList = {};
-    
     currentDB.database().goOnline();
-    currentDB.database().ref('/charainfo/charainfo').orderByChild("name").equalTo(characterName.value).once('value').then(function(dataSnapshot) {
-        var n = dataSnapshot.numChildren();
-        var charactersData = dataSnapshot.val();
-        for (var characterData in charactersData) {
-            var row = characterDataTable.tBodies[0].insertRow(-1);
-            
-            var nameCell = row.insertCell(-1);
-            nameCell.class = "name";
-            nameCell.innerHTML = NullableString(charactersData[characterData].title) + "<br>" + charactersData[characterData].name;
-            
-            row.insertCell(-1).innerHTML = charactersData[characterData].rarity;
-            row.insertCell(-1).innerHTML = charactersData[characterData].cost;
-            row.insertCell(-1).innerHTML = JobTypeText[NullableNumber(charactersData[characterData].jobtype)];
-            row.insertCell(-1).innerHTML = charactersData[characterData].inihp;
-            row.insertCell(-1).innerHTML = charactersData[characterData].iniap;
-            SkillText(charactersData[characterData], row.insertCell(-1));
-            PassiveText(charactersData[characterData].skillid[1], row.insertCell(-1), true, {});
-            PassiveText(charactersData[characterData].skillid[2], row.insertCell(-1), true, {});
-            SupportText(charactersData[characterData].sup_cost, charactersData[characterData].sup1, charactersData[characterData].sup2, row.insertCell(-1));
-        }
+    if (searchMode == 0) { // character
+        characterDataTable.tBodies[0].innerHTML = "";
         
-        searchButton.disabled = false;
-    });
+        currentDB.database().ref('/charainfo/charainfo').orderByChild("name").equalTo(searchName.value).once('value').then(function(dataSnapshot) {
+            var charactersData = dataSnapshot.val();
+            for (var characterData in charactersData) {
+                var row = characterDataTable.tBodies[0].insertRow(-1);
+                
+                var nameCell = row.insertCell(-1);
+                nameCell.class = "name";
+                nameCell.innerHTML = NullableString(charactersData[characterData].title) + "<br>" + charactersData[characterData].name;
+                
+                row.insertCell(-1).innerHTML = charactersData[characterData].rarity;
+                row.insertCell(-1).innerHTML = charactersData[characterData].cost;
+                row.insertCell(-1).innerHTML = JobTypeText[NullableNumber(charactersData[characterData].jobtype)];
+                row.insertCell(-1).innerHTML = charactersData[characterData].inihp;
+                row.insertCell(-1).innerHTML = charactersData[characterData].iniap;
+                SkillText(charactersData[characterData], row.insertCell(-1), skillPopup);
+                PassiveText(charactersData[characterData].skillid[1], row.insertCell(-1), true, {}, passivePopup);
+                PassiveText(charactersData[characterData].skillid[2], row.insertCell(-1), true, {}, passivePopup);
+                SupportText(charactersData[characterData].sup_cost, charactersData[characterData].sup1, charactersData[characterData].sup2, row.insertCell(-1), passivePopup);
+            }
+            
+            searchButton.disabled = false;
+        });
+    } else if (searchMode == 1) {
+        weaponDataTable.tBodies[0].innerHTML = "";
+        currentDB.database().ref('/weaponlist/weaponlist').orderByChild("name").equalTo(searchName.value).once('value').then(function(dataSnapshot) {
+            var weaponsData = dataSnapshot.val();
+            for (var key in weaponsData) {
+                var row  = weaponDataTable.tBodies[0].insertRow(-1);
+                var nameCell = row.insertCell(-1);
+                nameCell.class = "name";
+                nameCell.innerHTML = NullableString(weaponsData[key].name);
+                
+                row.insertCell(-1).innerHTML = WeaponRank[NullableNumber(weaponsData[key].rank)];
+                row.insertCell(-1).innerHTML = WeaponType[NullableNumber(weaponsData[key].type)];
+                row.insertCell(-1).innerHTML = NullableNumber(weaponsData[key].attackMax) + "<br>每格" + WeaponParameter[weaponsData[key].type_atk];
+                row.insertCell(-1).innerHTML = NullableNumber(weaponsData[key].criticalMax) + "<br>每格" + WeaponParameter[weaponsData[key].type_cri];
+                row.insertCell(-1).innerHTML = NullableNumber(weaponsData[key].guardMax) + "<br>每格" + WeaponParameter[weaponsData[key].type_grd];
+                PassiveText(NullableNumber(weaponsData[key].skill), row.insertCell(-1), true, {}, weaponPassivePopup);
+                
+                currentDB.database().ref("/evolve/evolve/" + weaponsData[key].id).once("value").then(function(evolveDataSnapshot) {
+                    var evolveData = evolveDataSnapshot.val();
+                    var restrictRow = row.insertCell(-1);
+                    if (typeof(evolveData) == "undefined" || evolveData == null) {
+                        restrictRow.innerHTML = "無";
+                    } else {
+                        if (typeof(evolveData.usable) == "undefined" || evolveData.usable == null) {
+                            restrictRow.innerHTML = "無";                            
+                        } else {
+                            restrictRow.innerHTML = "限以下角色：";
+                            
+                            for(var key in evolveData.usable) {
+                                var characterCell = [];
+                                characterCell[key] = restrictRow.appendChild(document.createElement("div"));
+                                characterCell[key].className = "indent1";
+                                currentDB.database().ref("/charainfo/charainfo/" + evolveData.usable[key]).once("value").then(function(characterDataSnapshot) {
+                                    var characterData = characterDataSnapshot.val();
+                                    characterCell[key].innerHTML = characterData.title + " " + characterData.name;
+                                });
+                            }
+                        }
+                    }
+                });
+            }
+            
+            searchButton.disabled = false;
+        });
+    }
 }

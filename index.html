@@ -9,6 +9,7 @@
     <body>
         <div class="header">
             <a href="#" id="characterSearchButton">角色搜尋</a>
+            <a href="#" id="weaponSearchButton">武器搜尋</a>
             <a href="#" id="systemButton">系統設定</a>
             <a target="_blank" href="https://github.com/greydust/CC-Decoder/issues" id="reportButton">回報錯誤</a>
             <a href="#" id="versionButton">版本</a>
@@ -38,13 +39,15 @@
  衰弱: 15次, 4.2秒一次, 每次5%<br>
  封技: 30秒<br>
         </div>
-        <div class="body" id="characterSearchTab">
-            <input type="text" id="characterName"/>
-            <input type="button" id="searchCharacterButton" value="搜尋">
+        <div class="body" id="searchTab">
+            <input type="text" id="searchName"/>
+            <input type="button" id="searchButton" value="搜尋">
             <select id="serverSelect">
                 <option value="JP">日服</option>
                 <option value="TW">台服</option>
             </select>
+        </div>
+        <div class="body" id="characterSearchTab">
             <table id="characterDataTable" class="tablesorter">
                 <thead>
                     <tr>
@@ -137,6 +140,60 @@
                 </table>
             </div>
         </div>
+        <div class="body initialHide" id="weaponSearchTab">
+            <table id="weaponDataTable" class="tablesorter">
+                <thead>
+                    <tr>
+                        <th class="name">武器名</th>
+                        <th>Rank</th>
+                        <th>種類</th>
+                        <th>第一格</th>
+                        <th>第二格</th>
+                        <th>第三格</th>
+                        <th>能力</th>
+                        <th>條件限制</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div class="popup passivePopup" id="weaponPassivePopup">
+                <p></p>
+                <table class="passiveSystem" id="passiveSystemParam">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table class="passiveSystem" id="passiveSystemFlag">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table class="passiveSystem" id="passiveSystemIParam">
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
         <div class="body initialHide" id="versionTab">
              <table class="versionTable">
                 <tr>
@@ -193,5 +250,6 @@
 <script src="scripts/common.js"></script>
 <script src="scripts/skillData.js"></script>
 <script src="scripts/passiveData.js"></script>
+<script src="scripts/weaponData.js"></script>
 <script src="scripts/skillFormat.js"></script>
 <script src="scripts/characterSearch.js"></script>
