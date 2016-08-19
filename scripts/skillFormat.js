@@ -1790,6 +1790,7 @@ BattlegroundIDText = {
 };
 
 HomeIDText = {
+    0: "",
     1: "義勇軍",
     2: "魔神",
     3: "旅人",

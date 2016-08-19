@@ -549,6 +549,8 @@ function DoSearch() {
                 row.insertCell(-1).innerHTML = JobTypeText[NullableNumber(charactersData[characterData].jobtype)];
                 row.insertCell(-1).innerHTML = charactersData[characterData].inihp;
                 row.insertCell(-1).innerHTML = charactersData[characterData].iniap;
+                row.insertCell(-1).innerHTML = ExpType[charactersData[characterData].exp_type];
+                row.insertCell(-1).innerHTML = HomeIDText[charactersData[characterData].home];
                 SkillText(charactersData[characterData], row.insertCell(-1), skillPopup);
                 PassiveText(charactersData[characterData].skillid[1], row.insertCell(-1), true, {}, passivePopup);
                 PassiveText(charactersData[characterData].skillid[2], row.insertCell(-1), true, {}, passivePopup);
