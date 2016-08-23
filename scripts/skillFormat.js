@@ -56,11 +56,15 @@
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]+1, skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         }
         case 70:
-        case 0x2b:
         case 6: {
             var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
+        }
+        case 0x2b: {
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], PushPowerString(skillParams[5]), skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         }
         case 0x35: {
             var debuffString = AttackDebuffString(skillFlag[0]);
