@@ -1,5 +1,5 @@
 {
-  "sv" : "1470726440",
+  "sv" : "1471915766",
   "questdigest" : {
     "0" : {
       "append_skill" : { },
@@ -16655,7 +16655,7 @@
     },
     "245510" : {
       "append_skill" : { },
-      "bg_list" : [ 1 ],
+      "bg_list" : [ 12 ],
       "chapter_list" : [ 1 ],
       "stamina" : 4,
       "field_type" : [ 0 ],
@@ -17241,6 +17241,1012 @@
       "difficulty" : 21,
       "chapter_cnt" : 3,
       "area_id" : 5
+    },
+    "245601" : {
+      "append_skill" : { },
+      "bg_list" : [ 409, 1, 1, 9 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0, 0 ],
+      "flag" : { },
+      "helpers" : [ [ ], [ ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "さあ、いきますわよ！",
+        "enable_act" : false,
+        "cid" : 8199,
+        "hp" : 5700,
+        "lv" : 50,
+        "atk" : 5800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "まとめて面倒みるぜ！",
+        "enable_act" : false,
+        "cid" : 8203,
+        "hp" : 5500,
+        "lv" : 50,
+        "atk" : 5900
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "帝国華撃団、出撃！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 5350,
+        "lv" : 60,
+        "atk" : 5350
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "さくら、参ります！",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      } ] ],
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "name" : "魔神復活",
+      "sort" : 30,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 8189,
+        "box" : 3
+      },
+      "quest_id" : 245601,
+      "difficulty" : 5,
+      "chapter_cnt" : 4,
+      "area_id" : 1
+    },
+    "245602" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 5, 410, 10 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0, 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "さぁ、覚悟しなさい",
+        "enable_act" : false,
+        "cid" : 8192,
+        "hp" : 3950,
+        "lv" : 60,
+        "atk" : 7700
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "指示、よろしく……",
+        "enable_act" : false,
+        "cid" : 8197,
+        "hp" : 7800,
+        "lv" : 60,
+        "atk" : 7450
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "日比谷は守ります！",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "降魔陣は絶対阻止や！",
+        "enable_act" : false,
+        "cid" : 8202,
+        "hp" : 3700,
+        "lv" : 50,
+        "atk" : 5600
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "地中海の……赤い風！",
+        "enable_act" : false,
+        "cid" : 8196,
+        "hp" : 4580,
+        "lv" : 60,
+        "atk" : 7650
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "みんな、気を抜くな！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 6300,
+        "lv" : 65,
+        "atk" : 6300
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "大和が……",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "私がなんとかします",
+        "enable_act" : false,
+        "cid" : 8192,
+        "hp" : 3950,
+        "lv" : 60,
+        "atk" : 7700
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "あれが大和か……",
+        "enable_act" : false,
+        "cid" : 8197,
+        "hp" : 7800,
+        "lv" : 60,
+        "atk" : 7450
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "でっかい島ですね～",
+        "enable_act" : false,
+        "cid" : 8196,
+        "hp" : 4580,
+        "lv" : 60,
+        "atk" : 7650
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "タブリスを止めるぞ！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 6300,
+        "lv" : 65,
+        "atk" : 6300
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "好きにはさせません！",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ここもひさしぶりね",
+        "enable_act" : false,
+        "cid" : 8192,
+        "hp" : 3950,
+        "lv" : 60,
+        "atk" : 7700
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "戦闘準備……完了",
+        "enable_act" : false,
+        "cid" : 8197,
+        "hp" : 7800,
+        "lv" : 60,
+        "atk" : 7450
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "陰気な島ですね～",
+        "enable_act" : false,
+        "cid" : 8196,
+        "hp" : 4580,
+        "lv" : 60,
+        "atk" : 7650
+      } ] ],
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "name" : "六破星降魔陣",
+      "sort" : 29,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 8189,
+        "box" : 3
+      },
+      "quest_id" : 245602,
+      "difficulty" : 8,
+      "chapter_cnt" : 4,
+      "area_id" : 1
+    },
+    "245603" : {
+      "append_skill" : { },
+      "bg_list" : [ 409, 6, 6, 10 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0, 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "みんな、大丈夫かしら",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "やれやれですわ",
+        "enable_act" : false,
+        "cid" : 8199,
+        "hp" : 5700,
+        "lv" : 50,
+        "atk" : 5800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "アイリスで～す！",
+        "enable_act" : false,
+        "cid" : 8201,
+        "hp" : 4600,
+        "lv" : 50,
+        "atk" : 5200
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "元気、出させてやるか",
+        "enable_act" : false,
+        "cid" : 8203,
+        "hp" : 5500,
+        "lv" : 50,
+        "atk" : 5900
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ほな、いってみよか！",
+        "enable_act" : false,
+        "cid" : 8202,
+        "hp" : 3700,
+        "lv" : 50,
+        "atk" : 5600
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "二剣二刀の儀か……",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 7250,
+        "lv" : 70,
+        "atk" : 7250
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "いくぞ、さくらくん！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 7250,
+        "lv" : 70,
+        "atk" : 7250
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "はい、大神さん！",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "みんなをユグドに！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 7250,
+        "lv" : 70,
+        "atk" : 7250
+      } ] ],
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "name" : "残されし者",
+      "sort" : 28,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 8189,
+        "box" : 3
+      },
+      "quest_id" : 245603,
+      "difficulty" : 12,
+      "chapter_cnt" : 4,
+      "area_id" : 1
+    },
+    "245604" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 101, 11, 7 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0, 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ここがユグドか……",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 8200,
+        "lv" : 75,
+        "atk" : 8200
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "綺麗な場所ですね",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "空気がおいしいねー",
+        "enable_act" : false,
+        "cid" : 8201,
+        "hp" : 4600,
+        "lv" : 50,
+        "atk" : 5200
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "こんな世界があるとは",
+        "enable_act" : false,
+        "cid" : 8197,
+        "hp" : 7800,
+        "lv" : 60,
+        "atk" : 7450
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "うん、摩訶不思議やな",
+        "enable_act" : false,
+        "cid" : 8202,
+        "hp" : 3700,
+        "lv" : 50,
+        "atk" : 5600
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "なんてところですの！",
+        "enable_act" : false,
+        "cid" : 8199,
+        "hp" : 5700,
+        "lv" : 50,
+        "atk" : 5800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "早く合流しないと……",
+        "enable_act" : false,
+        "cid" : 8192,
+        "hp" : 3950,
+        "lv" : 60,
+        "atk" : 7700
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "美味いものねぇかな",
+        "enable_act" : false,
+        "cid" : 8203,
+        "hp" : 5500,
+        "lv" : 50,
+        "atk" : 5900
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "とんだバカンスでーす",
+        "enable_act" : false,
+        "cid" : 8196,
+        "hp" : 4580,
+        "lv" : 60,
+        "atk" : 7650
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "奇天烈な世界ですわね",
+        "enable_act" : false,
+        "cid" : 8199,
+        "hp" : 5700,
+        "lv" : 50,
+        "atk" : 5800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ひと休みしたいわね",
+        "enable_act" : false,
+        "cid" : 8192,
+        "hp" : 3950,
+        "lv" : 60,
+        "atk" : 7700
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ふぅ……やっと副都か",
+        "enable_act" : false,
+        "cid" : 8203,
+        "hp" : 5500,
+        "lv" : 50,
+        "atk" : 5900
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ユグドは楽しいね！",
+        "enable_act" : false,
+        "cid" : 8201,
+        "hp" : 4600,
+        "lv" : 50,
+        "atk" : 5200
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "興味深い世界やな",
+        "enable_act" : false,
+        "cid" : 8202,
+        "hp" : 3700,
+        "lv" : 50,
+        "atk" : 5600
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "俺たちも戦うぞ！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 8200,
+        "lv" : 75,
+        "atk" : 8200
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ユグドを守ります！",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "腕がなるぜ！",
+        "enable_act" : false,
+        "cid" : 8203,
+        "hp" : 5500,
+        "lv" : 50,
+        "atk" : 5900
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "降魔までいるとは……",
+        "enable_act" : false,
+        "cid" : 8197,
+        "hp" : 7800,
+        "lv" : 60,
+        "atk" : 7450
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "アイリスがんばるもん",
+        "enable_act" : false,
+        "cid" : 8201,
+        "hp" : 4600,
+        "lv" : 50,
+        "atk" : 5200
+      } ] ],
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "name" : "帝都からの訪問者",
+      "sort" : 27,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 8189,
+        "box" : 3
+      },
+      "quest_id" : 245604,
+      "difficulty" : 16,
+      "chapter_cnt" : 4,
+      "area_id" : 1
+    },
+    "245605" : {
+      "append_skill" : { },
+      "bg_list" : [ 7, 409, 124, 410 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0, 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "サタンが復活するとは",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 9150,
+        "lv" : 80,
+        "atk" : 9150
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "サタンですって……",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "引導を渡してやります",
+        "enable_act" : false,
+        "cid" : 8199,
+        "hp" : 5700,
+        "lv" : 50,
+        "atk" : 5800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "お兄ちゃん……こわい",
+        "enable_act" : false,
+        "cid" : 8201,
+        "hp" : 4600,
+        "lv" : 50,
+        "atk" : 5200
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "図に乗ってますね～",
+        "enable_act" : false,
+        "cid" : 8196,
+        "hp" : 4580,
+        "lv" : 60,
+        "atk" : 7650
+      } ], [ ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "みんな、いくぞっ！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 9150,
+        "lv" : 80,
+        "atk" : 9150
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "あたしも戦います！",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 7100,
+        "lv" : 60,
+        "atk" : 7800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "ここはウチの出番やな",
+        "enable_act" : false,
+        "cid" : 8202,
+        "hp" : 3700,
+        "lv" : 50,
+        "atk" : 5600
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "みんなはボクが守る",
+        "enable_act" : false,
+        "cid" : 8197,
+        "hp" : 7800,
+        "lv" : 60,
+        "atk" : 7450
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "目にもの見せるで～す",
+        "enable_act" : false,
+        "cid" : 8196,
+        "hp" : 4580,
+        "lv" : 60,
+        "atk" : 7650
+      } ], [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "これが最後の戦いだ！",
+        "enable_act" : false,
+        "cid" : 8189,
+        "hp" : 9150,
+        "lv" : 80,
+        "atk" : 9150
+      } ] ],
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "name" : "希望の光",
+      "sort" : 26,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 7,
+        "box" : 2
+      },
+      "quest_id" : 245605,
+      "difficulty" : 20,
+      "chapter_cnt" : 4,
+      "area_id" : 1
+    },
+    "245606" : {
+      "append_skill" : { },
+      "bg_list" : [ 409 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93901,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93902,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "帝国華撃団、参上！",
+        "enable_act" : false,
+        "cid" : 8190,
+        "hp" : 9100,
+        "lv" : 80,
+        "atk" : 9800
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "帝国華撃団、参上！",
+        "enable_act" : false,
+        "cid" : 8192,
+        "hp" : 5950,
+        "lv" : 80,
+        "atk" : 9700
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "拍手をくださーい！",
+        "enable_act" : false,
+        "cid" : 8196,
+        "hp" : 6580,
+        "lv" : 80,
+        "atk" : 9650
+      }, {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "勝つよ……絶対！",
+        "enable_act" : false,
+        "cid" : 8197,
+        "hp" : 9800,
+        "lv" : 80,
+        "atk" : 9450
+      } ] ],
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "華撃団　試し斬り",
+      "sort" : 25,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 7,
+        "box" : 2
+      },
+      "quest_id" : 245606,
+      "difficulty" : 24,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245607" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 20,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 5000
+      }, {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "華撃団育成・初級",
+      "sort" : 20,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90904,
+        "box" : 3
+      },
+      "quest_id" : 245607,
+      "difficulty" : 8,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245608" : {
+      "append_skill" : { },
+      "bg_list" : [ 13 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 30,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 10000
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "華撃団育成・中級",
+      "sort" : 19,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90905,
+        "box" : 3
+      },
+      "quest_id" : 245608,
+      "difficulty" : 15,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245609" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 15,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 3000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 3000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 5000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 10000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "胡蝶の舞！",
+        "enable_act" : false,
+        "cid" : 8199,
+        "hp" : 7500,
+        "lv" : 70,
+        "atk" : 7600
+      } ] ],
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "ユグド通貨稼ぎ",
+      "sort" : 18,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 10,
+        "box" : 2
+      },
+      "quest_id" : 245609,
+      "difficulty" : 12,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245610" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 15,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 2000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : {
+        "quest" : [ {
+          "qid" : 245601,
+          "type" : 3
+        } ]
+      },
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "第一章・再",
+      "sort" : 15,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245610,
+      "difficulty" : 8,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245611" : {
+      "append_skill" : { },
+      "bg_list" : [ 410 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 15,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 2000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : {
+        "quest" : [ {
+          "qid" : 245602,
+          "type" : 3
+        } ]
+      },
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "第二章・再",
+      "sort" : 14,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245611,
+      "difficulty" : 16,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245612" : {
+      "append_skill" : { },
+      "bg_list" : [ 409 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 15,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 2000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : {
+        "quest" : [ {
+          "qid" : 245603,
+          "type" : 3
+        } ]
+      },
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "第三章・再",
+      "sort" : 13,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245612,
+      "difficulty" : 22,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245613" : {
+      "append_skill" : { },
+      "bg_list" : [ 10 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 15,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 2000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : {
+        "quest" : [ {
+          "qid" : 245604,
+          "type" : 3
+        } ]
+      },
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "第四章・再",
+      "sort" : 12,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245613,
+      "difficulty" : 28,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245614" : {
+      "append_skill" : { },
+      "bg_list" : [ 410 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 15,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 1000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 2000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : {
+        "quest" : [ {
+          "qid" : 245605,
+          "type" : 3
+        } ]
+      },
+      "icon" : "Sakura_event",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "第五章・再",
+      "sort" : 11,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245614,
+      "difficulty" : 44,
+      "chapter_cnt" : 1,
+      "area_id" : 1
     },
     "201904" : {
       "append_skill" : { },
@@ -60407,6 +61413,68 @@
       "chapter_cnt" : 2,
       "area_id" : 4
     },
+    "81891" : {
+      "append_skill" : { },
+      "bg_list" : [ 78, 78 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8189,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "夜の見まわり",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 81891,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "81890" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場大神一郎",
+      "quest_id" : 81890,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "81892" : {
+      "append_skill" : {
+        "cid" : 8189,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1, 1 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8189,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "ようこそ、劇場へ",
+      "place_id" : 1,
+      "quest_id" : 81892,
+      "difficulty" : 31,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
     "50112" : {
       "append_skill" : {
         "cid" : 5011,
@@ -60429,6 +61497,29 @@
       "chapter_cnt" : 2,
       "area_id" : 1
     },
+    "81902" : {
+      "append_skill" : {
+        "cid" : 8190,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 9, 9 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8190,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "異国の踊り子",
+      "place_id" : 1,
+      "quest_id" : 81902,
+      "difficulty" : 31,
+      "chapter_cnt" : 3,
+      "area_id" : 3
+    },
     "50122" : {
       "append_skill" : {
         "cid" : 5012,
@@ -60450,6 +61541,32 @@
       "chapter_cnt" : 3,
       "area_id" : 4
     },
+    "81901" : {
+      "append_skill" : { },
+      "bg_list" : [ 9, 9 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8190,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "愛情料理",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 81901,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
     "50121" : {
       "append_skill" : {
         "cid" : 5012,
@@ -60469,6 +61586,19 @@
       "difficulty" : 21,
       "chapter_cnt" : 3,
       "area_id" : 2
+    },
+    "81900" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場真宮寺さくら",
+      "quest_id" : 81900,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
     },
     "50120" : {
       "append_skill" : { },
@@ -96873,6 +98003,32 @@
       "chapter_cnt" : 3,
       "area_id" : 1
     },
+    "81921" : {
+      "append_skill" : { },
+      "bg_list" : [ 1, 1 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8192,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "花組のまとめ役",
+      "place_id" : 3,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 81921,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
     "110370" : {
       "append_skill" : { },
       "bg_list" : [ -1 ],
@@ -96882,6 +98038,19 @@
       "is_casino" : false,
       "name" : "登場ゼハティ",
       "quest_id" : 110370,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "81920" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場マリア・タチバナ",
+      "quest_id" : 81920,
       "difficulty" : 0,
       "chapter_cnt" : 1,
       "area_id" : 1
@@ -96953,6 +98122,29 @@
       "difficulty" : 10,
       "chapter_cnt" : 3,
       "area_id" : 1009
+    },
+    "81922" : {
+      "append_skill" : {
+        "cid" : 8192,
+        "idx" : "2"
+      },
+      "bg_list" : [ 9, 9, 9 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8192,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "正しい選択",
+      "place_id" : 6,
+      "quest_id" : 81922,
+      "difficulty" : 31,
+      "chapter_cnt" : 3,
+      "area_id" : 1
     },
     "110382" : {
       "append_skill" : {
@@ -97079,6 +98271,29 @@
       "chapter_cnt" : 2,
       "area_id" : 1009
     },
+    "81972" : {
+      "append_skill" : {
+        "cid" : 8197,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1, 6 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8197,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "守りたいもの",
+      "place_id" : 2,
+      "quest_id" : 81972,
+      "difficulty" : 31,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
     "300713" : {
       "append_skill" : { },
       "bg_list" : [ 2, 2, 2, 2 ],
@@ -97131,6 +98346,19 @@
       "chapter_cnt" : 4,
       "area_id" : 1009
     },
+    "81970" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場レニ・ミルヒシュトラーセ",
+      "quest_id" : 81970,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "300719" : {
       "append_skill" : { },
       "bg_list" : [ 6, 6, 6, 6 ],
@@ -97156,6 +98384,32 @@
       "difficulty" : 34,
       "chapter_cnt" : 4,
       "area_id" : 1009
+    },
+    "81971" : {
+      "append_skill" : { },
+      "bg_list" : [ 13, 13 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8197,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "冷たい戦闘機械",
+      "place_id" : 4,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 81971,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
     },
     "300716" : {
       "append_skill" : { },
@@ -98362,6 +99616,29 @@
       "chapter_cnt" : 2,
       "area_id" : 1009
     },
+    "81962" : {
+      "append_skill" : {
+        "cid" : 8196,
+        "idx" : "2"
+      },
+      "bg_list" : [ 8, 8, 8 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8196,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "記憶のメロディ",
+      "place_id" : 10,
+      "quest_id" : 81962,
+      "difficulty" : 31,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
     "300725" : {
       "append_skill" : { },
       "bg_list" : [ 9 ],
@@ -98406,6 +99683,32 @@
       "chapter_cnt" : 1,
       "area_id" : 1009
     },
+    "81961" : {
+      "append_skill" : { },
+      "bg_list" : [ 9, 9 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8196,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "シエスタはいかが？",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 81961,
+      "difficulty" : 14,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
     "300724" : {
       "append_skill" : { },
       "bg_list" : [ 9, 9, 9, 9 ],
@@ -98431,6 +99734,19 @@
       "difficulty" : 36,
       "chapter_cnt" : 4,
       "area_id" : 1009
+    },
+    "81960" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場ソレッタ・織姫",
+      "quest_id" : 81960,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
     },
     "240414" : {
       "append_skill" : { },
@@ -98836,6 +100152,19 @@
       "chapter_cnt" : 1,
       "area_id" : 1
     },
+    "82010" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場アイリス",
+      "quest_id" : 82010,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "240405" : {
       "append_skill" : { },
       "bg_list" : [ 1 ],
@@ -98874,6 +100203,32 @@
       "quest_id" : 240405,
       "difficulty" : 20,
       "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "82011" : {
+      "append_skill" : {
+        "cid" : 8201,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 8,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8201,
+          "lv" : 1
+        }, {
+          "cid" : 8201,
+          "lv" : 25
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "魔法少女のお誘い",
+      "place_id" : 1,
+      "quest_id" : 82011,
+      "difficulty" : 29,
+      "chapter_cnt" : 3,
       "area_id" : 1
     },
     "300736" : {
@@ -99122,6 +100477,45 @@
       "difficulty" : 54,
       "chapter_cnt" : 3,
       "area_id" : 12
+    },
+    "81991" : {
+      "append_skill" : {
+        "cid" : 8199,
+        "idx" : "2"
+      },
+      "bg_list" : [ 9, 9 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 8,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8199,
+          "lv" : 1
+        }, {
+          "cid" : 8199,
+          "lv" : 25
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "それが女優！",
+      "place_id" : 1,
+      "quest_id" : 81991,
+      "difficulty" : 29,
+      "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "81990" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場神崎すみれ",
+      "quest_id" : 81990,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
     },
     "110442" : {
       "append_skill" : {
@@ -99424,6 +100818,29 @@
       "chapter_cnt" : 3,
       "area_id" : 12
     },
+    "75462" : {
+      "append_skill" : {
+        "cid" : 7546,
+        "idx" : "2"
+      },
+      "bg_list" : [ 12, 12, 12 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 7546,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "軍師と幼将",
+      "place_id" : 3,
+      "quest_id" : 75462,
+      "difficulty" : 31,
+      "chapter_cnt" : 3,
+      "area_id" : 5
+    },
     "40482" : {
       "append_skill" : {
         "cid" : 4048,
@@ -99447,6 +100864,45 @@
       "chapter_cnt" : 3,
       "area_id" : 3
     },
+    "82021" : {
+      "append_skill" : {
+        "cid" : 8202,
+        "idx" : "2"
+      },
+      "bg_list" : [ 1, 1, 7 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 8,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8202,
+          "lv" : 1
+        }, {
+          "cid" : 8202,
+          "lv" : 25
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "ウチの光武",
+      "place_id" : 1,
+      "quest_id" : 82021,
+      "difficulty" : 29,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "75460" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場ザロビ",
+      "quest_id" : 75460,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "40481" : {
       "append_skill" : {
         "cid" : 4048,
@@ -99469,6 +100925,45 @@
       "difficulty" : 21,
       "chapter_cnt" : 3,
       "area_id" : 3
+    },
+    "82020" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場李紅蘭",
+      "quest_id" : 82020,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "75461" : {
+      "append_skill" : { },
+      "bg_list" : [ 2, 2, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 7546,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "罠の本領",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 75461,
+      "difficulty" : 14,
+      "chapter_cnt" : 3,
+      "area_id" : 1
     },
     "40480" : {
       "append_skill" : { },
@@ -99528,6 +101023,32 @@
       "difficulty" : 29,
       "chapter_cnt" : 3,
       "area_id" : 3
+    },
+    "82031" : {
+      "append_skill" : {
+        "cid" : 8203,
+        "idx" : "2"
+      },
+      "bg_list" : [ 9, 1, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 8,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 8203,
+          "lv" : 1
+        }, {
+          "cid" : 8203,
+          "lv" : 25
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "苦手なモノ",
+      "place_id" : 1,
+      "quest_id" : 82031,
+      "difficulty" : 29,
+      "chapter_cnt" : 3,
+      "area_id" : 1
     },
     "40491" : {
       "append_skill" : { },
@@ -99599,6 +101120,19 @@
       "difficulty" : 51,
       "chapter_cnt" : 3,
       "area_id" : 10
+    },
+    "82030" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場桐島カンナ",
+      "quest_id" : 82030,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
     },
     "40490" : {
       "append_skill" : { },
@@ -126321,5 +127855,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1470938414
+  "deceive" : 1471932005
 }

@@ -160,6 +160,14 @@
       "flag" : 0,
       "change_flag" : 1
     },
+    "409" : {
+      "bg_name" : "街中",
+      "id" : "409",
+      "effect_l" : "",
+      "effect_s" : "",
+      "flag" : 512,
+      "change_flag" : 0
+    },
     "3" : {
       "bg_name" : "雪山",
       "id" : "3",
@@ -376,6 +384,14 @@
       "flag" : 0,
       "change_flag" : 0
     },
+    "410" : {
+      "bg_name" : "城中",
+      "id" : "410",
+      "effect_l" : "",
+      "effect_s" : "",
+      "flag" : 262144,
+      "change_flag" : 0
+    },
     "106" : {
       "bg_name" : "高地",
       "id" : "106",
@@ -441,7 +457,7 @@
       "change_flag" : 0
     }
   },
-  "sv" : "1468222421",
+  "sv" : "1470388903",
   "res" : 0,
-  "deceive" : 1470722392
+  "deceive" : 1471931991
 }

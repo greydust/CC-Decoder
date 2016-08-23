@@ -1,5 +1,5 @@
 {
-  "sv" : "1470401533",
+  "sv" : "1470967922",
   "evolve" : {
     "26169" : {
       "name" : "スピアハート・速撃",
@@ -6182,17 +6182,6 @@
       "usable1" : -1,
       "usable2" : -1
     },
-    "85308" : {
-      "name" : "華撃団の棍",
-      "profile" : "サクラ大戦コラボ_SSRカンナ武器",
-      "rank_limit" : 2,
-      "rarity" : 4,
-      "id" : 85308,
-      "evol_dst" : 85308,
-      "usable0" : -1,
-      "usable1" : -1,
-      "usable2" : -1
-    },
     "26098" : {
       "name" : "ジェダイト・体",
       "profile" : "ver2.6錬金",
@@ -6206,7 +6195,7 @@
     },
     "85309" : {
       "name" : "ランチャーくん",
-      "profile" : "サクラ大戦コラボ_SSR紅蘭武器",
+      "profile" : "サクラ大戦コラボ_SR紅蘭武器",
       "rank_limit" : 2,
       "rarity" : 4,
       "id" : 85309,
@@ -6222,17 +6211,6 @@
       "rarity" : 5,
       "id" : 26099,
       "evol_dst" : 26099,
-      "usable0" : -1,
-      "usable1" : -1,
-      "usable2" : -1
-    },
-    "85310" : {
-      "name" : "華撃団の聖杖",
-      "profile" : "サクラ大戦コラボ_SSRアイリス武器",
-      "rank_limit" : 2,
-      "rarity" : 4,
-      "id" : 85310,
-      "evol_dst" : 85310,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6281,17 +6259,6 @@
       "usable1" : -1,
       "usable2" : -1
     },
-    "85305" : {
-      "name" : "華撃団の槍",
-      "profile" : "サクラ大戦コラボ_SSRレ二武器",
-      "rank_limit" : 2,
-      "rarity" : 4,
-      "id" : 85305,
-      "evol_dst" : 85305,
-      "usable0" : -1,
-      "usable1" : -1,
-      "usable2" : -1
-    },
     "26103" : {
       "name" : "ジェダイト・防",
       "profile" : "ver2.6錬金",
@@ -6303,17 +6270,6 @@
       "usable1" : -1,
       "usable2" : -1
     },
-    "85306" : {
-      "name" : "華撃団の杖",
-      "profile" : "サクラ大戦コラボ_SSR織姫武器",
-      "rank_limit" : 2,
-      "rarity" : 4,
-      "id" : 85306,
-      "evol_dst" : 85306,
-      "usable0" : -1,
-      "usable1" : -1,
-      "usable2" : -1
-    },
     "26100" : {
       "name" : "ジェダイト・命",
       "profile" : "ver2.6錬金",
@@ -6321,17 +6277,6 @@
       "rarity" : 5,
       "id" : 26100,
       "evol_dst" : 26100,
-      "usable0" : -1,
-      "usable1" : -1,
-      "usable2" : -1
-    },
-    "85307" : {
-      "name" : "神崎家の薙刀",
-      "profile" : "サクラ大戦コラボ_SSRすみれ武器",
-      "rank_limit" : 2,
-      "rarity" : 4,
-      "id" : 85307,
-      "evol_dst" : 85307,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6767,5 +6712,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1470722396
+  "deceive" : 1471931994
 }

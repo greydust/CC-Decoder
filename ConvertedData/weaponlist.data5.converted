@@ -10649,7 +10649,7 @@
     },
     "85308" : {
       "rank" : 3,
-      "name" : "華撃団の棍",
+      "name" : "華撃団の双棍",
       "model" : "weapon85308_body",
       "id" : 85308,
       "guardMax" : 8,
@@ -10766,7 +10766,7 @@
     },
     "85305" : {
       "rank" : 3,
-      "name" : "華撃団の槍",
+      "name" : "華撃団の尖槍",
       "model" : "weapon85305_body",
       "id" : 85305,
       "guardMax" : 10,
@@ -10792,7 +10792,7 @@
     },
     "85306" : {
       "rank" : 3,
-      "name" : "華撃団の杖",
+      "name" : "華撃団の奏杖",
       "model" : "weapon85306_body",
       "id" : 85306,
       "guardMax" : 8,
@@ -10824,7 +10824,7 @@
       "guardMax" : 11,
       "criticalMax" : 6,
       "attackMax" : 13,
-      "type" : 4,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -12855,7 +12855,7 @@
       "type_grd" : 3
     }
   },
-  "sv" : "1470401533",
+  "sv" : "1470967922",
   "res" : 0,
-  "deceive" : 1470722396
+  "deceive" : 1471931994
 }
