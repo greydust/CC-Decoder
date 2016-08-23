@@ -523,6 +523,25 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite,
                     }
                 });
             }
+            if (NullableNumber(supportData.abi3) != 0) {
+                currentDB.database().ref('/skilllist/skilllist/' + supportData.abi3).once('value').then(function(passiveDataSnapshot) {
+                    try {
+                        passiveData = passiveDataSnapshot.val();
+                        
+                        var passiveCell = document.createElement("div");
+                        passiveCell.className = "passivePattern";
+                        cellToWrite.appendChild(passiveCell);
+                        
+                        PassiveDetailText(passiveCell, passiveData.ability,
+                            [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
+                            [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
+                            [NullableNumber(passiveData.iParam0)],
+                            popup
+                        );
+                    } catch(e) {
+                    }
+                });
+            }
         } catch(e) {
             cellToWrite.innerHTML = "";
         }
