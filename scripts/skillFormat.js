@@ -67,7 +67,8 @@
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], PushPowerString(skillParams[5]), skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         }
-        case 0x4d: {
+        case 0x4d:
+        case 0x5d: {
             var param4String = "";
             var param5String = "";
             if (skillParams[4] == 1) {
@@ -1810,6 +1811,7 @@ HomeIDText = {
     17: "鉄煙の大陸",
     18: "年代記の大陸",
     19: "レムレス島",
+    20: "華撃団",
 };
 
 function HomeIDString(id) {
@@ -2252,7 +2254,7 @@ RaceText = [
 	"",
 	"人類",
 	"骷髏",
-	"Shadow",
+	"黑軍",
 	"哥布林",
 	"樹人",
 	"Boss",
