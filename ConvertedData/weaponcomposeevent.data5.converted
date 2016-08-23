@@ -1,6 +1,22 @@
 {
-  "weapon_compose_event" : { },
-  "sv" : "1",
+  "weapon_compose_event" : {
+    "6" : {
+      "collabo" : {
+        "border_quest_check" : false,
+        "first_message" : "",
+        "hit_message" : "",
+        "hit_voice" : "",
+        "img_name" : ""
+      },
+      "text" : "30％OFFキャンペーン中！",
+      "gold" : [ 35000, 24500, 17500, 10500 ],
+      "event_type" : 28,
+      "event_id" : 6,
+      "start" : 1471327200,
+      "end" : 1472018399
+    }
+  },
+  "sv" : "1470643010",
   "res" : 0,
-  "deceive" : 1470722392
+  "deceive" : 1471931991
 }

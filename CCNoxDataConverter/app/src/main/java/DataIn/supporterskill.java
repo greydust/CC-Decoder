@@ -9,6 +9,7 @@ public class supporterskill
     public Integer abi0;
     public Integer abi1;
     public Integer abi2;
+    public Integer abi3;
     public Integer param0;
     public Integer param1;
     public Integer param2;
