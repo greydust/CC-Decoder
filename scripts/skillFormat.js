@@ -69,6 +69,10 @@
         }
         case 0x4d:
         case 0x5d: {
+            var timeString = "";
+            if (skillParams[0] > 0) {
+                timeString = skillParams[0] + "秒";
+            }
             var param4String = "";
             var param5String = "";
             if (skillParams[4] == 1) {
@@ -79,7 +83,7 @@
             } else if (skillParams[5] == 2) {
                 param5String = "，隱藏主手武器";
             }
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], param4String, param5String, skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
+            return SkillDatas[skillID].detailDescription.format(timeString, skillParams[1], skillParams[2], skillParams[3], param4String, param5String, skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);
         }
         case 0x5c: {
             var debuffString = AttackDebuffString(skillFlag[0]);
