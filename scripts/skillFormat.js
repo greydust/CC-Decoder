@@ -1796,6 +1796,7 @@ BattlegroundIDText = {
     78: "街中夜",
     8: "城中",
     9: "街中",
+    81: "雨の砂漠",
 };
 
 HomeIDText = {
@@ -2238,7 +2239,9 @@ BattlegroundFlagText = [
     "監獄内",
     "湿地",
     "異空間",
+    "雨の砂漠",
 ];
+
 
 function BattlegroundFlagString(flag) {
     var base2 = flag.toString(2);
