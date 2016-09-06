@@ -1,15 +1,10 @@
 {
-  "sv" : "1471851737",
+  "sv" : "1472730029",
   "event_badge" : [ {
     "text" : "SALE!!",
     "position" : 7,
     "start" : 1470722400,
     "end" : 1473141599
-  }, {
-    "text" : "限定武器",
-    "position" : 3,
-    "start" : 1471327200,
-    "end" : 1472018399
   }, {
     "text" : "SALE!!",
     "position" : 7,
@@ -20,7 +15,12 @@
     "position" : 4,
     "start" : 1472623200,
     "end" : 1473141599
+  }, {
+    "text" : "EVENT",
+    "position" : 4,
+    "start" : 1473141600,
+    "end" : 1473901199
   } ],
   "res" : 0,
-  "deceive" : 1471931990
+  "deceive" : 1473141591
 }

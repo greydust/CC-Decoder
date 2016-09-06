@@ -19,40 +19,6 @@
         "cost_border2" : 12,
         "type" : 1
       },
-      "raid" : {
-        "raid_id" : 23,
-        "bg" : 2000,
-        "banner" : 1,
-        "event_start" : 1471327200,
-        "event_end" : 1472018399,
-        "close" : 1471931999,
-        "name" : "ザロビ襲来",
-        "full_time" : 130,
-        "part_time" : 90,
-        "sp_cards" : [ {
-          "cid" : "1063",
-          "skill_id" : "30048"
-        }, {
-          "cid" : "1074",
-          "skill_id" : "30048"
-        }, {
-          "cid" : "7573",
-          "skill_id" : "30049"
-        } ],
-        "full_pirica_time" : 13,
-        "part_pirica_time" : 22,
-        "hp_up" : 2,
-        "atk_up" : 2,
-        "anger_hp_up" : 2,
-        "anger_atk_up" : 2,
-        "anger_battle_time" : 30,
-        "repeat_reward" : {
-          "per_smash_cnt" : 5,
-          "type" : "weapon_ev",
-          "id" : 26004,
-          "val" : 1
-        }
-      },
       "subjugation" : [ ],
       "weaponcompose" : {
         "weapon_compose_disabled" : false
@@ -62,7 +28,7 @@
     "proc" : 0,
     "type" : 14
   } ],
-  "tutorial_name_skip" : true,
+  "tutorial_name_skip" : false,
   "sv" : "0",
   "sell_ring" : {
     "chara" : [ 0, 0, 0, 3, 20, 50, 30 ],
@@ -80,33 +46,33 @@
     "limit" : 20000
   } ],
   "mVer" : {
-    "battleinfo" : 1470388903,
-    "booklist" : 1471856900,
-    "bossinfo" : 1471589338,
-    "casinoinfo" : 1468927118,
-    "charainfo" : 1471857700,
+    "battleinfo" : 1472033265,
+    "booklist" : 1473063064,
+    "bossinfo" : 1473059682,
+    "casinoinfo" : 1472710894,
+    "charainfo" : 1473060699,
     "create_weap" : 1,
-    "episodeinfo" : 1470798133,
-    "eventbadge" : 1471851737,
+    "episodeinfo" : 1472636656,
+    "eventbadge" : 1472730029,
     "eventplace" : 1471858830,
     "explorerinfo" : 1453707665,
-    "explorerlocation" : 1469702916,
+    "explorerlocation" : 1473062240,
     "homelist" : 1469607167,
     "itemlist" : 1460619995,
     "missionlist" : 1471855193,
-    "motionlist" : 1471596172,
-    "questdigest" : 1471915766,
+    "motionlist" : 1472895110,
+    "questdigest" : 1473062182,
     "reload" : 1465398000,
-    "repeatmissionlist" : 1466660819,
-    "servertime" : 1471933514,
-    "skilllist" : 1471839890,
+    "repeatmissionlist" : 1472208268,
+    "servertime" : 1473141713,
+    "skilllist" : 1473050216,
     "subjugationexpeditioninfo" : 1,
-    "supporterskill" : 1471596816,
+    "supporterskill" : 1472713811,
     "teacherdisciple" : 1455807601,
     "various" : 1469703222,
     "weaponcompose" : 1466479748,
-    "weaponcomposeevent" : 1470643010,
-    "weaponlist" : 1470967922,
+    "weaponcomposeevent" : 1,
+    "weaponlist" : 1472801990,
     "worldinfo" : 1471430355
   },
   "friend" : false,

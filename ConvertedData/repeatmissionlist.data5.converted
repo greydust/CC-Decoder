@@ -1,5 +1,5 @@
 {
-  "sv" : "1466660819",
+  "sv" : "1472208268",
   "repeatmissionlist" : [ {
     "help" : "",
     "title" : "タイムボーナスを達成せよ！",
@@ -295,17 +295,6 @@
     "id" : 18,
     "type" : 0
   }, {
-    "help" : "地形「砂浜」「船上」「海中」のクエストで\\n5回勝利しよう！",
-    "title" : "海浜戦闘訓練",
-    "sub_id" : "Geography",
-    "reward" : {
-      "type" : "stone",
-      "val" : "1"
-    },
-    "max_num" : 5,
-    "id" : 0,
-    "type" : 1
-  }, {
     "help" : "地形「森林」のクエストで\\n5回勝利しよう！",
     "title" : "森林戦闘訓練",
     "sub_id" : "Geography",
@@ -316,7 +305,18 @@
     "max_num" : 5,
     "id" : 1,
     "type" : 1
+  }, {
+    "help" : "戦士を20回使おう！\\n助っ人とサブパーティもカウントするよ",
+    "title" : "戦士戦闘訓練",
+    "sub_id" : "Warrior",
+    "reward" : {
+      "type" : "stone",
+      "val" : "1"
+    },
+    "max_num" : 20,
+    "id" : 0,
+    "type" : 1
   } ],
   "res" : 0,
-  "deceive" : 1470722392
+  "deceive" : 1473141590
 }

@@ -1,5 +1,5 @@
 {
-  "sv" : "1470967922",
+  "sv" : "1472801990",
   "evolve" : {
     "26169" : {
       "name" : "スピアハート・速撃",
@@ -4942,6 +4942,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85338" : {
+      "name" : "ラクリムロッド",
+      "profile" : "人気投票結果武器1",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 85338,
+      "evol_dst" : 85338,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26004" : {
       "name" : "さびたワンド",
       "profile" : "ver2.6錬金",
@@ -4993,6 +5004,17 @@
       "rarity" : 5,
       "id" : 26002,
       "evol_dst" : 26002,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85341" : {
+      "name" : "痴れ者の爪",
+      "profile" : "監獄踏破報酬武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85341,
+      "evol_dst" : 85341,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6712,5 +6734,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1471931994
+  "deceive" : 1473141595
 }

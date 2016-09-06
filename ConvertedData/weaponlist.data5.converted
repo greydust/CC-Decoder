@@ -9107,6 +9107,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85338" : {
+      "skill" : 435,
+      "rank" : 3,
+      "name" : "ラクリムロッド",
+      "model" : "weapon85338_body",
+      "id" : 85338,
+      "guardMax" : 10,
+      "criticalMax" : 15,
+      "attackMax" : 10,
+      "type" : 4,
+      "type_atk" : 12,
+      "type_cri" : 21,
+      "type_grd" : 3
+    },
     "26004" : {
       "rank" : 3,
       "name" : "さびたワンド",
@@ -9116,6 +9130,20 @@
       "criticalMax" : 1,
       "attackMax" : 1,
       "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85339" : {
+      "skill" : 40042,
+      "rank" : 3,
+      "name" : "トランキュリティ",
+      "model" : "weapon85339_body",
+      "id" : 85339,
+      "guardMax" : 10,
+      "criticalMax" : 14,
+      "attackMax" : 10,
+      "type" : 10,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -9159,6 +9187,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85340" : {
+      "rank" : 3,
+      "name" : "愚者の鉤爪",
+      "model" : "weapon85340_body",
+      "id" : 85340,
+      "guardMax" : 8,
+      "criticalMax" : 12,
+      "attackMax" : 14,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "26002" : {
       "rank" : 3,
       "name" : "さびた槍",
@@ -9168,6 +9209,19 @@
       "criticalMax" : 1,
       "attackMax" : 1,
       "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85341" : {
+      "rank" : 3,
+      "name" : "痴れ者の爪",
+      "model" : "weapon85340_body",
+      "id" : 85341,
+      "guardMax" : 8,
+      "criticalMax" : 12,
+      "attackMax" : 14,
+      "type" : 8,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -9472,6 +9526,20 @@
       "criticalMax" : 12,
       "attackMax" : 12,
       "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85318" : {
+      "skill" : 40042,
+      "rank" : 3,
+      "name" : "鍵槍オルドヌング",
+      "model" : "weapon85318_body",
+      "id" : 85318,
+      "guardMax" : 10,
+      "criticalMax" : 12,
+      "attackMax" : 12,
+      "type" : 2,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -11051,6 +11119,19 @@
       "type" : 9,
       "type_atk" : 1,
       "type_cri" : 5,
+      "type_grd" : 3
+    },
+    "85293" : {
+      "rank" : 2,
+      "name" : "イスティスカー",
+      "model" : "weapon85293_body",
+      "id" : 85293,
+      "guardMax" : 7,
+      "criticalMax" : 5,
+      "attackMax" : 8,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
       "type_grd" : 3
     },
     "26083" : {
@@ -12855,7 +12936,7 @@
       "type_grd" : 3
     }
   },
-  "sv" : "1470967922",
+  "sv" : "1472801990",
   "res" : 0,
-  "deceive" : 1471931994
+  "deceive" : 1473141595
 }
