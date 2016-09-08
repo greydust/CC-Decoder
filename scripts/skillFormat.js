@@ -351,7 +351,7 @@
         case 0x52: {
             var debuffString = AttackDebuffString(skillFlag[0]);
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]-1, PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString, skillParams[1]*skillParams[2]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3]-1, PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         }
         case 0x22: {
             var debuffString = AttackDebuffString(skillFlag[0]);
@@ -1906,23 +1906,23 @@ AttackTypeFlag = [
     "火屬性",
     "冰屬性",
     "麻痺",
-    "暈",
+    "",
     
-    "冰凍",
-    "毒",
-    "緩",
-    "隱形",
+    "",
+    "",
+    "",
+    "",
     "",
     
     "魔法",
-    "白骨化",
-    "黑暗",
-    "封技",
-    "詛咒",
-    
-    "衰弱",
     "",
-    "破盾",
+    "",
+    "",
+    "",
+    
+    "",
+    "",
+    "",
     "",
     "",
     
@@ -2282,7 +2282,7 @@ RaceText = [
 	"螃蟹",
 	"Kraken",
 	"Metal",
-	"Butterfly",
+	"昆蟲",
 	"鳥",
 	"Giantbird",
 	"翼龍",
