@@ -25,7 +25,9 @@
         }
         case 0x54: {
             var attackTypeString = AttackTypeNoElementFlagString(skillFlag[0]);
-            return SkillDatas[skillID].detailDescription.format(skillParams[0]+1, skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], PushPowerString(skillParams[6]), skillParams[7], skillParams[8], skillParams[9], attackTypeString, skillFlag[1], iParams[0], iParams[1]);
+            var startSpeed = skillParams[7] / skillParams[8] * 2;
+            var accel = -startSpeed / skillParams[8];
+            return SkillDatas[skillID].detailDescription.format(skillParams[0]+1, skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], PushPowerString(skillParams[6]), skillParams[7], skillParams[8], skillParams[9], attackTypeString, skillFlag[1], iParams[0], iParams[1], startSpeed, accel);
         }
         case 0x23: {
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
