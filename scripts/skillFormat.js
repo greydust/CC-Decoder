@@ -202,7 +202,7 @@
             if (healFlagString != "") {
                 healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[3]);
             }
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], healString, skillFlag[1], iParams[0], iParams[1];
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], healString, skillFlag[1], iParams[0], iParams[1]);
 
         }
         case 0x10: {
@@ -210,7 +210,7 @@
             if (jobString != "") {
                 jobString = jobString + "職";
             }
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], jobString, iParams[1];            
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], jobString, iParams[1]);            
 
         }
         case 12: {
@@ -225,7 +225,18 @@
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], PushPowerBuffString(skillParams[5]), skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], jobString, iParams[1]);
         }
-        case 11:
+        case 11: {
+            var healString = "";
+            var healFlagString = HealFlagString(skillFlag[0]);
+            if (healFlagString != "") {
+                healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[2]);
+            }
+            var jobString = JobFlagString(iParams[0], "、");
+            if (jobString != "") {
+                jobString = jobString + "職";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], healString, skillFlag[1], jobString, iParams[1]);
+        }
         case 0x1c:
         case 0x1f: 
         case 0x20:
@@ -239,7 +250,7 @@
             if (jobString != "") {
                 jobString = jobString + "職";
             }
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], healString, skillFlag[1], jobString, iParams[1];            
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], healString, skillFlag[1], jobString, iParams[1]);            
         }
         case 0x4b: {
             var healString = "";
