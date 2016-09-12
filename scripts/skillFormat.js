@@ -99,6 +99,7 @@
         case 0x33: {
             var width = Math.abs(parseInt((skillParams[2] / 10000) % 100) * 0.1);
             var height = Math.abs(parseInt((skillParams[2] / 100) % 100) * 0.1);
+            var front = Math.abs(parseInt((skillParams[2]) % 100) * 0.1);
             var targetString = "";
             if (skillParams[3] == 0) {
                 targetString = "敵方";
@@ -109,17 +110,24 @@
             }
             var damageString = "";
             if (skillParams[1] > 0) {
-                damageString = "每{0}秒受到{1}倍傷害，".format(skillParams[1], skillParams[0]);
+                damageString = "每{0}秒受到{1}倍傷害".format(skillParams[1], skillParams[0]);
             }
-            var plusDamageString = "";
             if (skillParams[5] > 0) {
-                plusDamageString = "傷害增加{0:2p}%，".format(skillParams[5]);
+                if (damageString == "") {
+                    damageString = "傷害增加{0:2p}%".format(skillParams[5]);
+                } else {
+                    damageString += "、傷害增加{0:2p}%".format(skillParams[5]);
+                }
             }
-            var plusDamagedString = "";
             if (skillParams[6] > 0) {
-                plusDamagedString = "受傷增加{0:2p}%，".format(skillParams[6]);
+                if (damageString == "") {
+                    damageString = "受傷增加{0:2p}%".format(skillParams[6]);
+                } else {
+                    damageString += "、受傷增加{0:2p}%".format(skillParams[6]);
+                }
             }
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1], height, width, targetString, damageString, plusDamageString, plusDamagedString);
+            var debuffString = AttackDebuffString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], debuffString, skillFlag[1], iParams[0], iParams[1], height, width, front, targetString, damageString);
         }
         case 0x13: {
             var debuffString = AttackDebuffString(skillFlag[0]);
@@ -471,14 +479,14 @@
 function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
     switch(passiveID) {
         case 0x57: {
-            var debuffString = AttackTypeFlagString(passiveFlag[0]);
+            var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
             var jobString = "";
             if (passiveParams[3] == 0) {
                 jobString = JobFlagString(iParams[0], "或");
             } else {
                 jobString = JobFlagString(iParams[0], "且");
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString, jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString, jobString);
         }
         case 0x58: {
             var debuffString = PassiveHealDebuffString(passiveFlag[0]);
@@ -496,8 +504,8 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         case 10:
         case 11:
         case 0x26: {
-            var debuffString = AttackTypeFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
+            var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);
         }
         case 0x2d: {
             var debuffString = PassiveHealDebuffString(passiveFlag[0]);
@@ -655,7 +663,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         }
         case 0x20: {
             var debuffString = DebuffFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], -passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
         }
         case 0x22: {
             var debuffString = DebuffFlagString(passiveFlag[0]);
@@ -977,7 +985,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], DebuffFlagString(passiveFlag[0]), passiveFlag[1], iParams[0]);            
         }
         case 9: {
-            var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
+            var attackTypeString = DebuffFlagString(passiveFlag[0]);
             var attackFlagString = (passiveParams[3] > 0 && attackTypeString != "") ? "，並有{0:2p}%的機率帶{1}".format(passiveParams[3], attackTypeString) : "";
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
         }
@@ -1832,7 +1840,7 @@ function HomeIDString(id) {
     }
 }
 
-SkillFlag = [
+AttackTypeFlag = [
     "貫通",
     "火屬性",
     "冰屬性",
@@ -1851,9 +1859,9 @@ SkillFlag = [
     "封技",
     "詛咒",
     
-    "CRACKUP",
+    "衰弱",
     "CANCEL",
-    "GUARD_BREAK",
+    "破盾",
     "MINIMUM",
     "MAXIMUM",
     
@@ -1884,75 +1892,6 @@ SkillFlag = [
     "ISREFLECTION_BULLET",
     "ISCRACKUP",
     "IGNORENOTPUSH"
-];
-
-function SkillFlagString(flag) {
-    var base2 = flag.toString(2);
-    var outputString = "";
-    for (var i=0 ; i<SkillFlag.length && i<base2.length ; i++) {
-        if (base2[base2.length-i-1] == '1') {
-            if (outputString == "") {
-                outputString = SkillFlag[i];
-            } else {
-                outputString += " " + SkillFlag[i];
-            }
-        }
-    }
-    return outputString;
-}
-
-AttackTypeFlag = [
-    "貫通",
-    "火屬性",
-    "冰屬性",
-    "麻痺",
-    "",
-    
-    "",
-    "",
-    "",
-    "",
-    "",
-    
-    "魔法",
-    "",
-    "",
-    "",
-    "",
-    
-    "",
-    "",
-    "",
-    "",
-    "",
-    
-    "擊殺貫通",
-    "破盾",
-    "斬",
-    "打",
-    "突",
-    
-    "弓",
-    "魔",
-    "聖",
-    "拳",
-    "銃",
-    
-    "狙",
-    "",
-    "",
-    "",
-    "",
-    
-    "",
-    "",
-    "",
-    "",
-    "",
-    
-    "",
-    "",
-    ""
 ];
 
 function AttackTypeFlagString(flag) {
@@ -2062,7 +2001,7 @@ HealFlag = [
     "解除封技",
     "解除詛咒",
     
-    "",
+    "解除衰弱",
     "",
     "",
     "",
