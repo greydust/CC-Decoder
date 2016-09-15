@@ -757,7 +757,30 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                     buffString += "且為" +jobString + "職";
                 }
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], buffString);
+            var addAttackTypeString = "";
+            var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
+            if (passiveParams[5] > 0 || passiveParams[6] > 0 || passiveParams[7] > 0) {
+                if (passiveParams[5] >0) {
+                    addAttackTypeString = "，且普攻時有{0:2p}%機會".format(passiveParams[5]);
+                }
+                if (passiveParams[6] > 0) {
+                    if (addAttackTypeString == "") {
+                        addAttackTypeString = "，且暴擊時有{0:2p}%機會".format(passiveParams[6]);
+                    } else {
+                        addAttackTypeString += "、暴擊時有{0:2p}%機會".format(passiveParams[6]);
+                    }
+                }
+                if (passiveParams[7] > 0) {
+                    if (addAttackTypeString == "") {
+                        addAttackTypeString = "，且必殺時有{0:2p}%機會".format(passiveParams[7]);
+                    } else {
+                        addAttackTypeString += "、必殺時有{0:2p}%機會".format(passiveParams[7]);
+                    }
+                }
+                addAttackTypeString += "使目標上" + attackTypeString;
+            }
+            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], buffString, addAttackTypeString);
         }
         case 0x3f0: {
             var bgString = "";
