@@ -1,5 +1,5 @@
 {
-  "sv" : "1472895110",
+  "sv" : "1473149777",
   "motionlist" : {
     "11000" : {
       "_appear" : "damage02",
@@ -2080,6 +2080,27 @@
       "_walkWarn" : "koubu_walk02",
       "_motionID" : 1700
     },
+    "1708" : {
+      "_appear" : "damage01",
+      "_atk" : "koubu_monk_punch03",
+      "_atk2" : "koubu_monk_punch04",
+      "_boneType" : "human",
+      "_charaType" : "李紅蘭用 光武搭乗後モーション・スライド歩行",
+      "_collision" : "koubu_collision01",
+      "_death" : "koubu_dead01",
+      "_dmg_l" : "koubu_damage02",
+      "_dmg_s" : "koubu_damage01",
+      "_guard" : "koubu_guard01",
+      "_win" : "sakura_koubu_win_aoo01",
+      "_shot" : "koubu_gun_shoot05",
+      "_shot2" : "koubu_gun_shoot06",
+      "_stun" : "koubu_stun01",
+      "_wait" : "koubu_neutral01",
+      "_waitWarn" : "koubu_neutral01",
+      "_walk" : "koubu_walk02",
+      "_walkWarn" : "koubu_walk02",
+      "_motionID" : 1708
+    },
     "1707" : {
       "_appear" : "damage01",
       "_atk" : "koubu_monk_punch01",
@@ -2118,8 +2139,8 @@
       "_stun" : "koubu_stun01",
       "_wait" : "koubu_neutral01",
       "_waitWarn" : "koubu_neutral01",
-      "_walk" : "koubu_walk02",
-      "_walkWarn" : "koubu_walk02",
+      "_walk" : "koubu_walk03",
+      "_walkWarn" : "koubu_walk03",
       "_motionID" : 1706
     },
     "1705" : {
@@ -4686,5 +4707,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1473141591
+  "deceive" : 1473915260
 }

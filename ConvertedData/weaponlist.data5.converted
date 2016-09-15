@@ -3096,6 +3096,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26190" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のダーケン・リコエ",
+      "model" : "weapon85110_body",
+      "id" : 26190,
+      "guardMax" : 10,
+      "criticalMax" : 15,
+      "attackMax" : 13,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "239" : {
       "rank" : 3,
       "name" : "ミリオルフォース",
@@ -3105,6 +3119,20 @@
       "criticalMax" : 6,
       "attackMax" : 13,
       "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "26191" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のシュライフリース",
+      "model" : "weapon85111_body",
+      "id" : 26191,
+      "guardMax" : 10,
+      "criticalMax" : 13,
+      "attackMax" : 15,
+      "type" : 10,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -3122,6 +3150,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26188" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のアイディール",
+      "model" : "weapon084_body",
+      "id" : 26188,
+      "guardMax" : 15,
+      "criticalMax" : 11,
+      "attackMax" : 12,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "237" : {
       "rank" : 2,
       "name" : "トシマの剣",
@@ -3131,6 +3173,20 @@
       "criticalMax" : 6,
       "attackMax" : 6,
       "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "26189" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のアンバーレット",
+      "model" : "weapon306_body",
+      "id" : 26189,
+      "guardMax" : 10,
+      "criticalMax" : 14,
+      "attackMax" : 14,
+      "type" : 8,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -3149,6 +3205,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26186" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のスティールボウ",
+      "model" : "weapon062_body",
+      "id" : 26186,
+      "guardMax" : 12,
+      "criticalMax" : 14,
+      "attackMax" : 12,
+      "type" : 3,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "235" : {
       "skill" : 30015,
       "rank" : 2,
@@ -3163,6 +3233,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26187" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のコンセクティヴォ",
+      "model" : "weapon85116_body",
+      "id" : 26187,
+      "guardMax" : 12,
+      "criticalMax" : 12,
+      "attackMax" : 14,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "234" : {
       "skill" : 30015,
       "rank" : 2,
@@ -3172,6 +3256,20 @@
       "guardMax" : 5,
       "criticalMax" : 7,
       "attackMax" : 8,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "26184" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のモーニングスター",
+      "model" : "weapon048_body",
+      "id" : 26184,
+      "guardMax" : 12,
+      "criticalMax" : 15,
+      "attackMax" : 11,
       "type" : 1,
       "type_atk" : 1,
       "type_cri" : 2,
@@ -3191,6 +3289,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26185" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のパルチザン",
+      "model" : "weapon053_body",
+      "id" : 26185,
+      "guardMax" : 14,
+      "criticalMax" : 13,
+      "attackMax" : 11,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "232" : {
       "skill" : 30016,
       "rank" : 2,
@@ -3205,6 +3317,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26182" : {
+      "rank" : 3,
+      "name" : "天絢の羽",
+      "model" : "weapon85173_body",
+      "id" : 26182,
+      "guardMax" : 1,
+      "criticalMax" : 1,
+      "attackMax" : 1,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 1,
+      "type_grd" : 1
+    },
     "231" : {
       "skill" : 30016,
       "rank" : 2,
@@ -3218,6 +3343,20 @@
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
+    },
+    "26183" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のブレイブソード",
+      "model" : "weapon004_body",
+      "id" : 26183,
+      "guardMax" : 11,
+      "criticalMax" : 18,
+      "attackMax" : 9,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 1
     },
     "230" : {
       "skill" : 30016,
@@ -3568,6 +3707,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26194" : {
+      "rank" : 3,
+      "name" : "生命の杖・広",
+      "model" : "weapon089_body",
+      "id" : 26194,
+      "guardMax" : 10,
+      "criticalMax" : 11,
+      "attackMax" : 15,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 8,
+      "type_grd" : 3
+    },
     "243" : {
       "rank" : 2,
       "name" : "デュアルエッジ改",
@@ -3581,6 +3733,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26193" : {
+      "rank" : 3,
+      "name" : "アイディール・広",
+      "model" : "weapon084_body",
+      "id" : 26193,
+      "guardMax" : 14,
+      "criticalMax" : 11,
+      "attackMax" : 10,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 8,
+      "type_grd" : 3
+    },
     "240" : {
       "rank" : 3,
       "name" : "風切・改",
@@ -3589,6 +3754,20 @@
       "guardMax" : 6,
       "criticalMax" : 13,
       "attackMax" : 9,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "26192" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のグリーフソード",
+      "model" : "weapon005_body",
+      "id" : 26192,
+      "guardMax" : 14,
+      "criticalMax" : 6,
+      "attackMax" : 18,
       "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
@@ -9161,6 +9340,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85337" : {
+      "skill" : 2646,
+      "rank" : 3,
+      "name" : "監獄島看守制式剣",
+      "model" : "weapon85337_body",
+      "id" : 85337,
+      "guardMax" : 16,
+      "criticalMax" : 9,
+      "attackMax" : 10,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "26000" : {
       "rank" : 3,
       "name" : "さびた剣",
@@ -9188,6 +9381,7 @@
       "type_grd" : 3
     },
     "85340" : {
+      "skill" : 45001,
       "rank" : 3,
       "name" : "愚者の鉤爪",
       "model" : "weapon85340_body",
@@ -9215,7 +9409,7 @@
     },
     "85341" : {
       "rank" : 3,
-      "name" : "痴れ者の爪",
+      "name" : "痴れ者の鉤爪",
       "model" : "weapon85340_body",
       "id" : 85341,
       "guardMax" : 8,
@@ -11186,6 +11380,20 @@
       "type_cri" : 2,
       "type_grd" : 21
     },
+    "85289" : {
+      "skill" : 3278,
+      "rank" : 3,
+      "name" : "天晴乃絢銃",
+      "model" : "weapon26017_body",
+      "id" : 85289,
+      "guardMax" : 10,
+      "criticalMax" : 15,
+      "attackMax" : 15,
+      "type" : 9,
+      "type_atk" : 4,
+      "type_cri" : 5,
+      "type_grd" : 19
+    },
     "26087" : {
       "rank" : 3,
       "name" : "アイディール・命",
@@ -12936,7 +13144,7 @@
       "type_grd" : 3
     }
   },
-  "sv" : "1472801990",
+  "sv" : "1473647839",
   "res" : 0,
-  "deceive" : 1473141595
+  "deceive" : 1473915263
 }

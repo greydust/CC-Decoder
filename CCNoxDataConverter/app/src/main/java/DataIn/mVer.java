@@ -30,4 +30,5 @@ public class mVer
     public int casinoinfo;
     public int reload;
     public int servertime;
+    public int uzuinfo;
 }

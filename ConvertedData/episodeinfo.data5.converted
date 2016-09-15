@@ -1,5 +1,5 @@
 {
-  "sv" : "1472636656",
+  "sv" : "1473828284",
   "episodeinfo" : {
     "(1,1)" : {
       "episode" : [ {
@@ -1103,6 +1103,16 @@
       "id" : 86,
       "type" : 0
     },
+    "(83,0)" : {
+      "collabo" : false,
+      "episode" : [ {
+        "quest" : [ 831, 832 ],
+        "name" : "絆の物語",
+        "develop_only" : 0
+      } ],
+      "id" : 83,
+      "type" : 0
+    },
     "(82,0)" : {
       "collabo" : false,
       "episode" : [ {
@@ -2089,6 +2099,20 @@
       "id" : 11018,
       "type" : 0
     },
+    "(11028,0)" : {
+      "collabo" : false,
+      "episode" : [ {
+        "quest" : [ 110281 ],
+        "name" : "運命の物語",
+        "develop_only" : 0
+      }, {
+        "quest" : [ 110282 ],
+        "name" : "絆の物語",
+        "develop_only" : 0
+      } ],
+      "id" : 11028,
+      "type" : 0
+    },
     "(11031,0)" : {
       "episode" : [ {
         "quest" : [ 110311 ],
@@ -2131,6 +2155,20 @@
         "develop_only" : 0
       } ],
       "id" : 11024,
+      "type" : 0
+    },
+    "(11027,0)" : {
+      "collabo" : false,
+      "episode" : [ {
+        "quest" : [ 110271 ],
+        "name" : "運命の物語",
+        "develop_only" : 0
+      }, {
+        "quest" : [ 110272 ],
+        "name" : "絆の物語",
+        "develop_only" : 0
+      } ],
+      "id" : 11027,
       "type" : 0
     },
     "(11026,0)" : {
@@ -4872,6 +4910,20 @@
         "develop_only" : 0
       } ],
       "id" : 7573,
+      "type" : 0
+    },
+    "(7572,0)" : {
+      "collabo" : false,
+      "episode" : [ {
+        "quest" : [ 75721 ],
+        "name" : "運命の物語",
+        "develop_only" : 0
+      }, {
+        "quest" : [ 75722 ],
+        "name" : "絆の物語",
+        "develop_only" : 0
+      } ],
+      "id" : 7572,
       "type" : 0
     },
     "(1074,0)" : {
@@ -8997,5 +9049,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1473141593
+  "deceive" : 1473915256
 }

@@ -1,5 +1,5 @@
 {
-  "sv" : "1473062182",
+  "sv" : "1473842239",
   "questdigest" : {
     "0" : {
       "append_skill" : { },
@@ -12840,7 +12840,9 @@
         "id" : 90014,
         "val" : 1
       } ],
+      "field_type" : [ 0 ],
       "flag" : { },
+      "is_casino" : false,
       "kind_prm" : 1,
       "name" : "騎士の水曜・上級",
       "reward_box" : 2,
@@ -12876,7 +12878,9 @@
         "id" : 90013,
         "val" : 1
       } ],
+      "field_type" : [ 0 ],
       "flag" : { },
+      "is_casino" : false,
       "kind_prm" : 1,
       "name" : "僧侶の木曜・上級",
       "reward_box" : 2,
@@ -12912,7 +12916,9 @@
         "id" : 90012,
         "val" : 1
       } ],
+      "field_type" : [ 0 ],
       "flag" : { },
+      "is_casino" : false,
       "kind_prm" : 1,
       "name" : "魔法の月曜・上級",
       "reward_box" : 2,
@@ -12948,7 +12954,9 @@
         "id" : 90010,
         "val" : 1
       } ],
+      "field_type" : [ 0 ],
       "flag" : { },
+      "is_casino" : false,
       "kind_prm" : 1,
       "name" : "戦士の火曜・上級",
       "reward_box" : 2,
@@ -14311,7 +14319,9 @@
         "id" : 10,
         "val" : 20000
       } ],
+      "field_type" : [ 0 ],
       "flag" : { },
+      "is_casino" : false,
       "kind_prm" : 1,
       "name" : "ゴールドハント上級",
       "reward_box" : 2,
@@ -14347,6 +14357,7 @@
         "id" : 90011,
         "val" : 1
       } ],
+      "field_type" : [ 0 ],
       "flag" : { },
       "is_casino" : false,
       "kind_prm" : 1,
@@ -15331,6 +15342,45 @@
       "quest_id" : 60432,
       "difficulty" : 39,
       "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "831" : {
+      "append_skill" : {
+        "cid" : 83,
+        "idx" : "1"
+      },
+      "bg_list" : [ 1, 6, 2 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 12,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 83,
+          "lv" : 1
+        }, {
+          "cid" : 83,
+          "lv" : 60
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "方向音痴、征く",
+      "place_id" : 1,
+      "quest_id" : 831,
+      "difficulty" : 46,
+      "chapter_cnt" : 3,
+      "area_id" : 1
+    },
+    "830" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場エンヴィ",
+      "quest_id" : 830,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
       "area_id" : 1
     },
     "60442" : {
@@ -16399,6 +16449,29 @@
       "quest_id" : 245705,
       "difficulty" : 12,
       "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "832" : {
+      "append_skill" : {
+        "cid" : 83,
+        "idx" : "2"
+      },
+      "bg_list" : [ 9, 8, 9 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 15,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 83,
+          "lv" : 80
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "大商人？エンヴィ",
+      "place_id" : 4,
+      "quest_id" : 832,
+      "difficulty" : 60,
+      "chapter_cnt" : 3,
       "area_id" : 1
     },
     "245704" : {
@@ -54179,6 +54252,27 @@
       "quest_id" : 221012,
       "difficulty" : 55,
       "chapter_cnt" : 1,
+      "area_id" : 12
+    },
+    "221014" : {
+      "append_skill" : { },
+      "bg_list" : [ 110, 110, 110 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 10,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "監獄の大掃除",
+      "place_id" : 7,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 85337,
+        "box" : 3
+      },
+      "quest_id" : 221014,
+      "difficulty" : 4,
+      "chapter_cnt" : 3,
       "area_id" : 12
     },
     "234004" : {
@@ -102674,6 +102768,32 @@
       "chapter_cnt" : 4,
       "area_id" : 1
     },
+    "110271" : {
+      "append_skill" : { },
+      "bg_list" : [ 110, 107, 12 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 11,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 11027,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "十分生きた？",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 110271,
+      "difficulty" : 38,
+      "chapter_cnt" : 3,
+      "area_id" : 12
+    },
     "400111" : {
       "append_skill" : { },
       "bg_list" : [ 9, 9, 8 ],
@@ -102709,6 +102829,19 @@
       "quest_id" : 231602,
       "difficulty" : 21,
       "chapter_cnt" : 4,
+      "area_id" : 1
+    },
+    "110270" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場キサ",
+      "quest_id" : 110270,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
       "area_id" : 1
     },
     "400104" : {
@@ -103985,6 +104118,29 @@
       "chapter_cnt" : 4,
       "area_id" : 1011
     },
+    "110282" : {
+      "append_skill" : {
+        "cid" : 11028,
+        "idx" : "2"
+      },
+      "bg_list" : [ 12, 12, 7 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 12,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 11028,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "大悪人の過去",
+      "place_id" : 7,
+      "quest_id" : 110282,
+      "difficulty" : 47,
+      "chapter_cnt" : 3,
+      "area_id" : 12
+    },
     "300917" : {
       "append_skill" : { },
       "bg_list" : [ 12, 12, 12, 12 ],
@@ -104065,6 +104221,32 @@
       "difficulty" : 28,
       "chapter_cnt" : 4,
       "area_id" : 1011
+    },
+    "110281" : {
+      "append_skill" : { },
+      "bg_list" : [ 110, 107, 110 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 11,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 11028,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "愚痴の力",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 110281,
+      "difficulty" : 38,
+      "chapter_cnt" : 3,
+      "area_id" : 12
     },
     "300912" : {
       "append_skill" : { },
@@ -104326,6 +104508,32 @@
       "difficulty" : 12,
       "chapter_cnt" : 1,
       "area_id" : 1011
+    },
+    "110272" : {
+      "append_skill" : { },
+      "bg_list" : [ 9, 2 ],
+      "chapter_list" : [ 1, 2 ],
+      "stamina" : 18,
+      "field_type" : [ 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 11027,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "殺しの教え",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 110272,
+      "difficulty" : 47,
+      "chapter_cnt" : 2,
+      "area_id" : 12
     },
     "300927" : {
       "append_skill" : { },
@@ -106840,6 +107048,71 @@
       "difficulty" : 0,
       "chapter_cnt" : 1,
       "area_id" : 1
+    },
+    "75720" : {
+      "append_skill" : { },
+      "bg_list" : [ -1 ],
+      "chapter_list" : [ 1 ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "登場アメリー",
+      "quest_id" : 75720,
+      "difficulty" : 0,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "75721" : {
+      "append_skill" : { },
+      "bg_list" : [ 108, 109, 109 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 11,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 7572,
+          "lv" : 1
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "看守長の仕事",
+      "place_id" : 7,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 75721,
+      "difficulty" : 38,
+      "chapter_cnt" : 3,
+      "area_id" : 12
+    },
+    "75722" : {
+      "append_skill" : { },
+      "bg_list" : [ 110, 110, 110 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 12,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : {
+        "chara" : [ {
+          "cid" : 7572,
+          "lv" : 30
+        } ]
+      },
+      "is_casino" : false,
+      "name" : "過去の罪",
+      "place_id" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 75722,
+      "difficulty" : 47,
+      "chapter_cnt" : 3,
+      "area_id" : 12
     },
     "301036" : {
       "append_skill" : { },
@@ -111709,7 +111982,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "薄暗い森フリー",
+      "name" : "混沌の魔獣 ",
       "place_id" : 7,
       "reward_box" : 1,
       "reward_data" : {
@@ -111815,7 +112088,7 @@
     "301506" : {
       "append_skill" : { },
       "bg_list" : [ 8, 8, 8 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 8,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -111825,7 +112098,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "中央管理塔１",
+      "name" : "判明する元凶１",
       "place_id" : 2,
       "reward_box" : 1,
       "reward_data" : {
@@ -111841,7 +112114,7 @@
     "301507" : {
       "append_skill" : { },
       "bg_list" : [ 8, 8, 8 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 9,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -111851,7 +112124,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "中央管理塔２",
+      "name" : "判明する元凶２",
       "place_id" : 2,
       "reward_box" : 1,
       "reward_data" : {
@@ -111867,7 +112140,7 @@
     "301504" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 7,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -111877,7 +112150,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "愚痴の監獄２",
+      "name" : "暴走する処刑人２",
       "place_id" : 1,
       "reward_box" : 1,
       "reward_data" : {
@@ -111927,7 +112200,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "拷問部屋２",
+      "name" : "激突する暴威２",
       "place_id" : 3,
       "reward_box" : 1,
       "reward_data" : {
@@ -111943,7 +112216,7 @@
     "301511" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 10,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -111953,7 +112226,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "拷問部屋３",
+      "name" : "激突する暴威３",
       "place_id" : 3,
       "reward_box" : 1,
       "reward_data" : {
@@ -111993,7 +112266,7 @@
     "301509" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 10,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -112003,7 +112276,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "拷問部屋１",
+      "name" : "激突する暴威１",
       "place_id" : 3,
       "reward_box" : 1,
       "reward_data" : {
@@ -112029,7 +112302,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "憤怒の監獄２",
+      "name" : "白熱する憤怒２",
       "place_id" : 4,
       "reward_box" : 1,
       "reward_data" : {
@@ -112045,7 +112318,7 @@
     "301515" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 12,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -112055,7 +112328,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "憤怒の監獄３",
+      "name" : "白熱する憤怒３",
       "place_id" : 4,
       "reward_box" : 1,
       "reward_data" : {
@@ -112095,7 +112368,7 @@
     "301513" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 12,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -112105,7 +112378,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "憤怒の監獄１",
+      "name" : "白熱する憤怒１",
       "place_id" : 4,
       "reward_box" : 1,
       "reward_data" : {
@@ -112131,7 +112404,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "貪欲の監獄２",
+      "name" : "暗躍する黒幕２",
       "place_id" : 5,
       "reward_box" : 1,
       "reward_data" : {
@@ -112168,7 +112441,7 @@
     "301519" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 14,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -112178,7 +112451,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "貪欲の監獄３",
+      "name" : "暗躍する黒幕３",
       "place_id" : 5,
       "reward_box" : 1,
       "reward_data" : {
@@ -112265,7 +112538,7 @@
     "301517" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 14,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -112275,7 +112548,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "貪欲の監獄１",
+      "name" : "暗躍する黒幕１",
       "place_id" : 5,
       "reward_box" : 1,
       "reward_data" : {
@@ -112291,7 +112564,7 @@
     "301523" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 18,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -112301,7 +112574,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "貪欲の果て３",
+      "name" : "咆哮する魔獣３",
       "place_id" : 6,
       "reward_box" : 1,
       "reward_data" : {
@@ -112327,7 +112600,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "貪欲の果て２",
+      "name" : "咆哮する魔獣２",
       "place_id" : 6,
       "reward_box" : 1,
       "reward_data" : {
@@ -112343,7 +112616,7 @@
     "301521" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 16,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -112353,7 +112626,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "貪欲の果て１",
+      "name" : "咆哮する魔獣１",
       "place_id" : 6,
       "reward_box" : 1,
       "reward_data" : {
@@ -112399,11 +112672,11 @@
       "flag" : {
         "quest" : [ {
           "qid" : 301526,
-          "type" : 0
+          "type" : 6
         } ]
       },
       "is_casino" : false,
-      "name" : "薄暗い森３",
+      "name" : "収束する混沌３",
       "place_id" : 7,
       "reward_box" : 1,
       "reward_data" : {
@@ -112425,11 +112698,11 @@
       "flag" : {
         "quest" : [ {
           "qid" : 301525,
-          "type" : 0
+          "type" : 6
         } ]
       },
       "is_casino" : false,
-      "name" : "薄暗い森２",
+      "name" : "収束する混沌２",
       "place_id" : 7,
       "reward_box" : 1,
       "reward_data" : {
@@ -112445,7 +112718,7 @@
     "301525" : {
       "append_skill" : { },
       "bg_list" : [ 2, 2, 2, 2 ],
-      "chapter_list" : [ 1, 0, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
       "stamina" : 20,
       "field_type" : [ 0, 0, 0, 0 ],
       "flag" : {
@@ -112455,7 +112728,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "薄暗い森１",
+      "name" : "収束する混沌１",
       "place_id" : 7,
       "reward_box" : 1,
       "reward_data" : {
@@ -112523,7 +112796,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "中央監視塔フリー",
+      "name" : "魔獣鎮圧",
       "place_id" : 2,
       "reward_box" : 1,
       "reward_data" : {
@@ -112587,7 +112860,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "愚痴の監獄フリー",
+      "name" : "愚痴の悪人",
       "place_id" : 1,
       "reward_box" : 2,
       "reward_data" : {
@@ -112631,7 +112904,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "上陸地点フリー",
+      "name" : "上陸地点の鎮圧",
       "reward_box" : 1,
       "reward_data" : {
         "type" : "event_point",
@@ -112639,7 +112912,7 @@
         "box" : 1
       },
       "quest_id" : 301529,
-      "difficulty" : 12,
+      "difficulty" : 11,
       "chapter_cnt" : 1,
       "area_id" : 1017
     },
@@ -112685,7 +112958,7 @@
     "301528" : {
       "append_skill" : { },
       "bg_list" : [ 2, 2, 2, 2 ],
-      "chapter_list" : [ 1, 0, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3, 4 ],
       "stamina" : 20,
       "field_type" : [ 0, 0, 0, 0 ],
       "flag" : {
@@ -112695,12 +112968,12 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "薄暗い森４",
+      "name" : "収束する混沌４",
       "place_id" : 7,
       "reward_box" : 3,
       "reward_data" : {
         "type" : "card",
-        "id" : 7516,
+        "id" : 11002,
         "box" : 3
       },
       "quest_id" : 301528,
@@ -112778,7 +113051,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "貪欲の果てフリー",
+      "name" : "貪欲の果て",
       "place_id" : 6,
       "reward_box" : 2,
       "reward_data" : {
@@ -112862,7 +113135,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "貪欲の監獄フリー",
+      "name" : "貪欲の悪人",
       "place_id" : 5,
       "reward_box" : 1,
       "reward_data" : {
@@ -112946,7 +113219,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "憤怒の監獄フリー",
+      "name" : "憤怒の囚人",
       "place_id" : 4,
       "reward_box" : 3,
       "reward_data" : {
@@ -112990,7 +113263,7 @@
       },
       "is_casino" : false,
       "kind_prm" : 1,
-      "name" : "拷問部屋フリー",
+      "name" : "拷問部屋の魔物",
       "place_id" : 3,
       "reward_box" : 2,
       "reward_data" : {
@@ -113314,12 +113587,12 @@
     "301501" : {
       "append_skill" : { },
       "bg_list" : [ 12, 12, 12 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 5,
       "field_type" : [ 0, 0, 0 ],
       "flag" : { },
       "is_casino" : false,
-      "name" : "上陸地点",
+      "name" : "混乱する愚痴",
       "reward_box" : 1,
       "reward_data" : {
         "type" : "event_point",
@@ -113428,7 +113701,7 @@
     "301503" : {
       "append_skill" : { },
       "bg_list" : [ 110, 110, 110 ],
-      "chapter_list" : [ 1, 0, 0 ],
+      "chapter_list" : [ 1, 2, 3 ],
       "stamina" : 6,
       "field_type" : [ 0, 0, 0 ],
       "flag" : {
@@ -113438,7 +113711,7 @@
         } ]
       },
       "is_casino" : false,
-      "name" : "愚痴の監獄１",
+      "name" : "暴走する処刑人１",
       "place_id" : 1,
       "reward_box" : 1,
       "reward_data" : {
@@ -123262,6 +123535,227 @@
       "chapter_cnt" : 1,
       "area_id" : 1
     },
+    "245808" : {
+      "append_skill" : { },
+      "bg_list" : [ 110 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90006,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93020,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93020,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90011,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "……殺してあげる",
+        "enable_act" : false,
+        "cid" : 11027,
+        "hp" : 5500,
+        "lv" : 80,
+        "atk" : 9700
+      } ] ],
+      "icon" : "245808",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "お試しキサ",
+      "sort" : 3,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245808,
+      "difficulty" : 24,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245809" : {
+      "append_skill" : { },
+      "bg_list" : [ 1 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "エピローグ",
+      "sort" : 1,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245809,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245804" : {
+      "append_skill" : { },
+      "bg_list" : [ 110 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 20,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "監獄強化訓練",
+      "sort" : 2,
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90904,
+        "box" : 3
+      },
+      "quest_id" : 245804,
+      "difficulty" : 12,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245807" : {
+      "append_skill" : { },
+      "bg_list" : [ 110 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90005,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93002,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93002,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90010,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "罰します！",
+        "enable_act" : false,
+        "cid" : 7572,
+        "hp" : 9450,
+        "lv" : 80,
+        "atk" : 9450
+      } ] ],
+      "icon" : "245807",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "お試しアメリー",
+      "sort" : 4,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "stone",
+        "id" : 0,
+        "box" : 2
+      },
+      "quest_id" : 245807,
+      "difficulty" : 24,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245801" : {
+      "append_skill" : { },
+      "bg_list" : [ 110 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "悪意の兆し１",
+      "sort" : 7,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 7,
+        "box" : 2
+      },
+      "quest_id" : 245801,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245803" : {
+      "append_skill" : { },
+      "bg_list" : [ 12 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "悪意の兆し３",
+      "sort" : 5,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 1,
+        "box" : 2
+      },
+      "quest_id" : 245803,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "245802" : {
+      "append_skill" : { },
+      "bg_list" : [ 110 ],
+      "chapter_list" : [ 1 ],
+      "stamina" : 4,
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "is_casino" : false,
+      "name" : "悪意の兆し２",
+      "sort" : 6,
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90903,
+        "box" : 2
+      },
+      "quest_id" : 245802,
+      "difficulty" : 4,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "230602" : {
       "append_skill" : { },
       "bg_list" : [ 1 ],
@@ -129602,5 +130096,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1473141604
+  "deceive" : 1473915270
 }

@@ -1,5 +1,5 @@
 {
-  "sv" : "1472801990",
+  "sv" : "1473647839",
   "evolve" : {
     "26169" : {
       "name" : "スピアハート・速撃",
@@ -265,6 +265,117 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "26190" : {
+      "name" : "恩恵のダーケン・リコエ",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26190,
+      "evol_dst" : 26190,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26191" : {
+      "name" : "恩恵のシュライフリース",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26191,
+      "evol_dst" : 26191,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26188" : {
+      "name" : "恩恵のアイディール",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26188,
+      "evol_dst" : 26188,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26189" : {
+      "name" : "恩恵のアンバーレット",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26189,
+      "evol_dst" : 26189,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26186" : {
+      "name" : "恩恵のスティールボウ",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26186,
+      "evol_dst" : 26186,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26187" : {
+      "name" : "恩恵のコンセクティヴォ",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26187,
+      "evol_dst" : 26187,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26184" : {
+      "name" : "恩恵のモーニングスター",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26184,
+      "evol_dst" : 26184,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26185" : {
+      "name" : "恩恵のパルチザン",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26185,
+      "evol_dst" : 26185,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26182" : {
+      "usable" : [ 9999 ],
+      "name" : "天絢の羽",
+      "profile" : "監獄踏破報酬用　錬金素材",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26182,
+      "evol_dst" : 26182,
+      "usable0" : 9999,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26183" : {
+      "name" : "恩恵のブレイブソード",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26183,
+      "evol_dst" : 26183,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26180" : {
       "usable" : [ 9999 ],
       "name" : "天燈の羽",
@@ -333,6 +444,39 @@
       "id" : 26177,
       "evol_dst" : 26177,
       "usable0" : 9999,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26194" : {
+      "name" : "生命の杖・広",
+      "profile" : "1：特殊パラ武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26194,
+      "evol_dst" : 26194,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26193" : {
+      "name" : "アイディール・広",
+      "profile" : "1：特殊パラ武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26193,
+      "evol_dst" : 26193,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26192" : {
+      "name" : "恩恵のグリーフソード",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26192,
+      "evol_dst" : 26192,
+      "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
     },
@@ -4975,6 +5119,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85337" : {
+      "name" : "監獄島看守制式剣",
+      "profile" : "人気投票結果武器2",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 85337,
+      "evol_dst" : 85337,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26000" : {
       "name" : "さびた剣",
       "profile" : "ver2.6錬金",
@@ -5009,7 +5164,7 @@
       "usable2" : -1
     },
     "85341" : {
-      "name" : "痴れ者の爪",
+      "name" : "痴れ者の鉤爪",
       "profile" : "監獄踏破報酬武器",
       "rank_limit" : 2,
       "rarity" : 4,
@@ -6237,6 +6392,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85310" : {
+      "name" : "華撃団の聖杖",
+      "profile" : "サクラ大戦コラボ_SRアイリス武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85310,
+      "evol_dst" : 85310,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26096" : {
       "name" : "アンバーレット・防",
       "profile" : "ver2.6錬金",
@@ -6288,6 +6454,17 @@
       "rarity" : 5,
       "id" : 26103,
       "evol_dst" : 26103,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85306" : {
+      "name" : "華撃団の奏杖",
+      "profile" : "サクラ大戦コラボ_SSR織姫武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85306,
+      "evol_dst" : 85306,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6497,6 +6674,17 @@
       "rarity" : 5,
       "id" : 26080,
       "evol_dst" : 26080,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85289" : {
+      "name" : "天晴乃絢銃",
+      "profile" : "監獄踏破報酬錬金素材での作成",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 85289,
+      "evol_dst" : 85289,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6734,5 +6922,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1473141595
+  "deceive" : 1473915263
 }

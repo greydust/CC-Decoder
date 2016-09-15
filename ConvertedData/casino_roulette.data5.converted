@@ -1,46 +1,46 @@
 {
   "casino_roulette" : [ {
+    "type" : "item",
+    "mass" : 1,
+    "id" : 7,
+    "val" : 5
+  }, {
+    "type" : "item",
+    "mass" : 8,
+    "id" : 10,
+    "val" : 5000000
+  }, {
     "type" : "weapon_ev",
     "mass" : 4,
     "id" : 26000,
+    "val" : 3
+  }, {
+    "type" : "item",
+    "mass" : 4,
+    "id" : 10,
+    "val" : 2500000
+  }, {
+    "type" : "item",
+    "mass" : 3,
+    "id" : 7,
     "val" : 1
   }, {
-    "type" : "item",
+    "type" : "weapon_ev",
     "mass" : 4,
-    "id" : 20,
-    "val" : 25
-  }, {
-    "type" : "chara_rf",
-    "mass" : 4,
-    "id" : 90903,
-    "val" : 2
+    "id" : 26000,
+    "val" : 3
   }, {
     "type" : "item",
     "mass" : 4,
     "id" : 10,
-    "val" : 400000
-  }, {
-    "type" : "weapon_rf",
-    "mass" : 4,
-    "id" : 93902,
-    "val" : 2
-  }, {
-    "type" : "item",
-    "mass" : 4,
-    "id" : 20,
-    "val" : 25
+    "val" : 2500000
   }, {
     "type" : "chara_rf",
     "mass" : 4,
-    "id" : 90903,
-    "val" : 2
-  }, {
-    "type" : "item",
-    "mass" : 4,
-    "id" : 10,
-    "val" : 400000
+    "id" : 90905,
+    "val" : 3
   } ],
-  "sv" : "1472710894",
+  "sv" : "1473239985",
   "res" : 0,
-  "deceive" : 1473141597
+  "deceive" : 1473915262
 }

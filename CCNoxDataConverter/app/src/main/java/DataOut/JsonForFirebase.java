@@ -10,6 +10,7 @@ import DataIn.teacherdiscipleInManager;
 import DataIn.variousIn;
 import DataIn.weaponcomposeInManager;
 import DataIn.worldinfoInManager;
+import DataIn.uzuinfo;
 
 public class JsonForFirebase
 {
@@ -49,4 +50,5 @@ public class JsonForFirebase
     public variousIn various;
     public weaponcomposeInManager weaponcompose;
     public worldinfoInManager worldinfo;
+    public uzuinfo uzuinfo;
 }

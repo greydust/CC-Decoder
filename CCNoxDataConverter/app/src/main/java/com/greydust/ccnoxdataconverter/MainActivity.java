@@ -56,6 +56,7 @@ import DataIn.weaponcomposeInManager;
 import DataIn.weaponcomposeeventInManager;
 import DataIn.weaponlistInManager;
 import DataIn.worldinfoInManager;
+import DataIn.uzuinfo;
 import DataOut.JsonForFirebase;
 import DataOut.battle_bgOutManager;
 import DataOut.booklistOutManager;
@@ -551,6 +552,18 @@ public class MainActivity extends AppCompatActivity {
                         worldinfoInManager data = mapper.readValue(new File("/mnt/shared/Other/" + prefix + "worldinfo.data5.raw"), worldinfoInManager.class);
                         firebase.worldinfo = data;
                         mapper.writerWithDefaultPrettyPrinter().writeValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "worldinfo.data5.converted"), data);
+                    }
+                    catch (Exception e)
+                    {
+                        debugMessage += e.getMessage() + "\n" + e.getStackTrace() + "\n";
+                    }
+                }
+                {
+                    try
+                    {
+                        uzuinfo data = mapper.readValue(new File("/mnt/shared/Other/" + prefix + "uzuinfo.data5.raw"), uzuinfo.class);
+                        firebase.uzuinfo = data;
+                        mapper.writerWithDefaultPrettyPrinter().writeValue(new File("/mnt/shared/Other/ConvertedData/" + prefix + "uzuinfo.data5.converted"), data);
                     }
                     catch (Exception e)
                     {
