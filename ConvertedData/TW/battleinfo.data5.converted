@@ -156,10 +156,34 @@
       "flag" : 1064960,
       "change_flag" : 0
     },
+    "125" : {
+      "bg_name" : "異空間",
+      "id" : "125",
+      "flag" : 8388608,
+      "change_flag" : 0
+    },
     "121" : {
       "bg_name" : "荒涼地",
       "id" : "121",
       "flag" : 0,
+      "change_flag" : 0
+    },
+    "122" : {
+      "bg_name" : "森林",
+      "id" : "122",
+      "flag" : 4,
+      "change_flag" : 0
+    },
+    "123" : {
+      "bg_name" : "城中",
+      "id" : "123",
+      "flag" : 262144,
+      "change_flag" : 0
+    },
+    "124" : {
+      "bg_name" : "船上",
+      "id" : "124",
+      "flag" : 1114112,
       "change_flag" : 0
     },
     "3" : {
@@ -216,6 +240,12 @@
       "flag" : 524288,
       "change_flag" : 0
     },
+    "406" : {
+      "bg_name" : "平原",
+      "id" : "406",
+      "flag" : 0,
+      "change_flag" : 0
+    },
     "4" : {
       "bg_name" : "沙漠",
       "id" : "4",
@@ -265,7 +295,7 @@
       "change_flag" : 0
     }
   },
-  "sv" : "1462761348",
+  "sv" : "1472724210",
   "res" : 0,
-  "deceive" : 1467349745
+  "deceive" : 1474561957
 }

@@ -40,7 +40,7 @@
     },
     "4" : {
       "rank" : 3,
-      "name" : "勇氣之劍",
+      "name" : "勇敢之劍",
       "model" : "weapon004_body",
       "id" : 4,
       "guardMax" : 18,
@@ -260,7 +260,7 @@
     "20" : {
       "skill" : 8115,
       "rank" : 3,
-      "name" : "神刀天羽斬",
+      "name" : "神刀天羽羽斬",
       "model" : "weapon020_body",
       "id" : 20,
       "guardMax" : 6,
@@ -596,7 +596,7 @@
     "45" : {
       "skill" : 2078,
       "rank" : 3,
-      "name" : "金砕棒",
+      "name" : "金碎棒",
       "model" : "weapon045_body",
       "id" : 45,
       "guardMax" : 7,
@@ -1672,7 +1672,7 @@
     "102" : {
       "skill" : 2419,
       "rank" : 3,
-      "name" : "夕凪之杖",
+      "name" : "夕風之杖",
       "model" : "weapon102_body",
       "id" : 102,
       "guardMax" : 10,
@@ -1765,7 +1765,7 @@
     "111" : {
       "skill" : 2017,
       "rank" : 3,
-      "name" : "聖劍・終曲",
+      "name" : "聖劍．終曲",
       "model" : "weapon111_body",
       "id" : 111,
       "guardMax" : 8,
@@ -1807,7 +1807,7 @@
     "106" : {
       "skill" : 816,
       "rank" : 3,
-      "name" : "錫杖・七星戀慕",
+      "name" : "錫杖．七星戀慕",
       "model" : "weapon106_body",
       "id" : 106,
       "guardMax" : 15,
@@ -2222,7 +2222,7 @@
     },
     "128" : {
       "rank" : 2,
-      "name" : "靈刀・雪姫",
+      "name" : "靈刀．雪姬",
       "model" : "weapon128_body",
       "id" : 128,
       "guardMax" : 5,
@@ -2311,9 +2311,36 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26169" : {
+      "rank" : 3,
+      "name" : "愛心長槍．速擊",
+      "model" : "weapon85159_body",
+      "id" : 26169,
+      "guardMax" : 8,
+      "criticalMax" : 12,
+      "attackMax" : 14,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 5,
+      "type_grd" : 12
+    },
+    "26168" : {
+      "skill" : 885,
+      "rank" : 3,
+      "name" : "超級愛心長槍",
+      "model" : "weapon85159_body",
+      "id" : 26168,
+      "guardMax" : 8,
+      "criticalMax" : 12,
+      "attackMax" : 14,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 5,
+      "type_grd" : 3
+    },
     "153" : {
       "rank" : 2,
-      "name" : "破邪劍・松竹梅",
+      "name" : "破邪劍．松竹梅",
       "model" : "weapon153_body",
       "id" : 153,
       "guardMax" : 5,
@@ -2324,9 +2351,23 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26171" : {
+      "skill" : 886,
+      "rank" : 3,
+      "name" : "超級愛心麥格農手槍",
+      "model" : "weapon85160_body",
+      "id" : 26171,
+      "guardMax" : 11,
+      "criticalMax" : 8,
+      "attackMax" : 15,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "154" : {
       "rank" : 2,
-      "name" : "剛槍・角松",
+      "name" : "剛槍．角松",
       "model" : "weapon154_body",
       "id" : 154,
       "guardMax" : 8,
@@ -2335,6 +2376,19 @@
       "type" : 2,
       "type_atk" : 1,
       "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "26170" : {
+      "rank" : 3,
+      "name" : "愛心長槍．體",
+      "model" : "weapon85159_body",
+      "id" : 26170,
+      "guardMax" : 8,
+      "criticalMax" : 12,
+      "attackMax" : 14,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 9,
       "type_grd" : 3
     },
     "155" : {
@@ -2350,6 +2404,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26173" : {
+      "rank" : 3,
+      "name" : "麥格農手槍．速",
+      "model" : "weapon85160_body",
+      "id" : 26173,
+      "guardMax" : 11,
+      "criticalMax" : 8,
+      "attackMax" : 15,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 12,
+      "type_grd" : 3
+    },
     "156" : {
       "rank" : 2,
       "name" : "名刀秋葉原",
@@ -2362,6 +2429,19 @@
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
+    },
+    "26172" : {
+      "rank" : 3,
+      "name" : "麥格農手槍．早",
+      "model" : "weapon85160_body",
+      "id" : 26172,
+      "guardMax" : 11,
+      "criticalMax" : 8,
+      "attackMax" : 15,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 10
     },
     "157" : {
       "skill" : 1032,
@@ -2377,6 +2457,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26175" : {
+      "rank" : 3,
+      "name" : "來福槍．早",
+      "model" : "weapon85161_body",
+      "id" : 26175,
+      "guardMax" : 13,
+      "criticalMax" : 7,
+      "attackMax" : 14,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 10
+    },
     "158" : {
       "skill" : 30003,
       "rank" : 2,
@@ -2387,6 +2480,20 @@
       "criticalMax" : 5,
       "attackMax" : 10,
       "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "26174" : {
+      "skill" : 887,
+      "rank" : 3,
+      "name" : "超級愛心來福槍",
+      "model" : "weapon85161_body",
+      "id" : 26174,
+      "guardMax" : 13,
+      "criticalMax" : 7,
+      "attackMax" : 14,
+      "type" : 10,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -2484,7 +2591,7 @@
     },
     "26122" : {
       "rank" : 3,
-      "name" : "修雷弗流斯・早",
+      "name" : "修雷弗流斯．早",
       "model" : "weapon85111_body",
       "id" : 26122,
       "guardMax" : 15,
@@ -2524,7 +2631,7 @@
     },
     "26123" : {
       "rank" : 3,
-      "name" : "修雷弗流斯・速",
+      "name" : "修雷弗流斯．速",
       "model" : "weapon85111_body",
       "id" : 26123,
       "guardMax" : 15,
@@ -2564,7 +2671,7 @@
     },
     "26120" : {
       "rank" : 3,
-      "name" : "幻滅廢墟・攻",
+      "name" : "幻滅廢墟．攻",
       "model" : "weapon503_body",
       "id" : 26120,
       "guardMax" : 7,
@@ -2591,7 +2698,7 @@
     },
     "26121" : {
       "rank" : 3,
-      "name" : "幻滅廢墟・擊",
+      "name" : "幻滅廢墟．擊",
       "model" : "weapon503_body",
       "id" : 26121,
       "guardMax" : 7,
@@ -2618,7 +2725,7 @@
     },
     "26126" : {
       "rank" : 3,
-      "name" : "修雷弗流斯・攻",
+      "name" : "修雷弗流斯．攻",
       "model" : "weapon85111_body",
       "id" : 26126,
       "guardMax" : 15,
@@ -2644,7 +2751,7 @@
     },
     "26127" : {
       "rank" : 3,
-      "name" : "修雷弗流斯・擊",
+      "name" : "修雷弗流斯．擊",
       "model" : "weapon85111_body",
       "id" : 26127,
       "guardMax" : 15,
@@ -2671,7 +2778,7 @@
     },
     "26124" : {
       "rank" : 3,
-      "name" : "修雷弗流斯・瞬",
+      "name" : "修雷弗流斯．瞬",
       "model" : "weapon85111_body",
       "id" : 26124,
       "guardMax" : 15,
@@ -2696,7 +2803,7 @@
     },
     "26125" : {
       "rank" : 3,
-      "name" : "修雷弗流斯・疾",
+      "name" : "修雷弗流斯．疾",
       "model" : "weapon85111_body",
       "id" : 26125,
       "guardMax" : 15,
@@ -2722,7 +2829,7 @@
     },
     "26114" : {
       "rank" : 3,
-      "name" : "道肯・利可艾・攻",
+      "name" : "道肯．利可艾．攻",
       "model" : "weapon85110_body",
       "id" : 26114,
       "guardMax" : 16,
@@ -2749,7 +2856,7 @@
     },
     "26115" : {
       "rank" : 3,
-      "name" : "道肯・利可艾・擊",
+      "name" : "道肯．利可艾．擊",
       "model" : "weapon85110_body",
       "id" : 26115,
       "guardMax" : 16,
@@ -2776,7 +2883,7 @@
     },
     "26112" : {
       "rank" : 3,
-      "name" : "道肯・利可艾・瞬",
+      "name" : "道肯．利可艾．瞬",
       "model" : "weapon85110_body",
       "id" : 26112,
       "guardMax" : 16,
@@ -2803,7 +2910,7 @@
     },
     "26113" : {
       "rank" : 3,
-      "name" : "道肯・利可艾・疾",
+      "name" : "道肯．利可艾．疾",
       "model" : "weapon85110_body",
       "id" : 26113,
       "guardMax" : 16,
@@ -2829,7 +2936,7 @@
     },
     "26118" : {
       "rank" : 3,
-      "name" : "幻滅廢墟・瞬",
+      "name" : "幻滅廢墟．瞬",
       "model" : "weapon503_body",
       "id" : 26118,
       "guardMax" : 7,
@@ -2856,7 +2963,7 @@
     },
     "26119" : {
       "rank" : 3,
-      "name" : "幻滅廢墟・疾",
+      "name" : "幻滅廢墟．疾",
       "model" : "weapon503_body",
       "id" : 26119,
       "guardMax" : 7,
@@ -2883,7 +2990,7 @@
     },
     "26116" : {
       "rank" : 3,
-      "name" : "幻滅廢墟・早",
+      "name" : "幻滅廢墟．早",
       "model" : "weapon503_body",
       "id" : 26116,
       "guardMax" : 7,
@@ -2910,7 +3017,7 @@
     },
     "26117" : {
       "rank" : 3,
-      "name" : "幻滅廢墟・速",
+      "name" : "幻滅廢墟．速",
       "model" : "weapon503_body",
       "id" : 26117,
       "guardMax" : 7,
@@ -3363,7 +3470,7 @@
     },
     "192" : {
       "rank" : 3,
-      "name" : "岩通刀",
+      "name" : "巖通刀",
       "model" : "weapon192_body",
       "id" : 192,
       "guardMax" : 14,
@@ -3814,6 +3921,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26176" : {
+      "rank" : 3,
+      "name" : "來福槍．速",
+      "model" : "weapon85161_body",
+      "id" : 26176,
+      "guardMax" : 13,
+      "criticalMax" : 7,
+      "attackMax" : 14,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 12,
+      "type_grd" : 3
+    },
     "225" : {
       "skill" : 40006,
       "rank" : 2,
@@ -4018,7 +4138,7 @@
     },
     "240" : {
       "rank" : 3,
-      "name" : "風切・改",
+      "name" : "風切．改",
       "model" : "weapon240_body",
       "id" : 240,
       "guardMax" : 6,
@@ -4281,7 +4401,7 @@
     },
     "259" : {
       "rank" : 3,
-      "name" : "彩杖‧利貝爾",
+      "name" : "綵杖‧利貝爾",
       "model" : "weapon259_body",
       "id" : 259,
       "guardMax" : 11,
@@ -4705,7 +4825,7 @@
     },
     "292" : {
       "rank" : 3,
-      "name" : "艾諾斯バカ‧蓋奧斯",
+      "name" : "艾諾斯‧蓋奧斯",
       "model" : "weapon292_body",
       "id" : 292,
       "guardMax" : 6,
@@ -4931,7 +5051,7 @@
     },
     "405" : {
       "rank" : 3,
-      "name" : "克里斯提娜",
+      "name" : "克裡斯提娜",
       "model" : "weapon405_body",
       "id" : 405,
       "guardMax" : 8,
@@ -4995,7 +5115,7 @@
     },
     "85065" : {
       "rank" : 3,
-      "name" : "龍鳴劍・汎德爾號角",
+      "name" : "龍鳴劍．汎德爾號角",
       "model" : "weapon85028_body",
       "id" : 85065,
       "guardMax" : 11,
@@ -5008,7 +5128,7 @@
     },
     "85064" : {
       "rank" : 3,
-      "name" : "龍眼砲・巴爾風琴",
+      "name" : "龍眼砲．巴爾風琴",
       "model" : "weapon85024_body",
       "id" : 85064,
       "guardMax" : 4,
@@ -5021,7 +5141,7 @@
     },
     "85067" : {
       "rank" : 3,
-      "name" : "龍尾棍・托蘭長號",
+      "name" : "龍尾棍．托蘭長號",
       "model" : "weapon85031_body",
       "id" : 85067,
       "guardMax" : 13,
@@ -5034,7 +5154,7 @@
     },
     "85066" : {
       "rank" : 3,
-      "name" : "聖盾劍尼可亞・伊基斯",
+      "name" : "聖盾劍尼可亞．伊基斯",
       "model" : "weapon85029_body",
       "id" : 85066,
       "guardMax" : 13,
@@ -5130,7 +5250,7 @@
     "85059" : {
       "skill" : 3081,
       "rank" : 3,
-      "name" : "蘋果糖大鎚・改",
+      "name" : "蘋果糖大鎚．改",
       "model" : "weapon223_body",
       "id" : 85059,
       "guardMax" : 10,
@@ -5144,7 +5264,7 @@
     "85058" : {
       "skill" : 9612,
       "rank" : 3,
-      "name" : "爽涼之太刀・改",
+      "name" : "爽涼之太刀．改",
       "model" : "weapon222_body",
       "id" : 85058,
       "guardMax" : 8,
@@ -5157,7 +5277,7 @@
     },
     "85061" : {
       "rank" : 3,
-      "name" : "龍翼弓・琴乃神樂",
+      "name" : "龍翼弓．琴乃神樂",
       "model" : "weapon85030_body",
       "id" : 85061,
       "guardMax" : 5,
@@ -5183,7 +5303,7 @@
     },
     "85063" : {
       "rank" : 3,
-      "name" : "龍吼魔笛・古拉畢黑管",
+      "name" : "龍吼魔笛．古拉畢黑管",
       "model" : "weapon85021_body",
       "id" : 85063,
       "guardMax" : 12,
@@ -5407,7 +5527,7 @@
     "85098" : {
       "skill" : 632,
       "rank" : 3,
-      "name" : "艾爾・艾斯皮里突",
+      "name" : "艾爾．艾斯皮裡突",
       "model" : "weapon85098_body",
       "id" : 85098,
       "guardMax" : 9,
@@ -5502,13 +5622,27 @@
     "85091" : {
       "skill" : 1053,
       "rank" : 3,
-      "name" : "大戰車",
+      "name" : "北斗七星",
       "model" : "weapon85091_body",
       "id" : 85091,
       "guardMax" : 6,
       "criticalMax" : 12,
       "attackMax" : 17,
       "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85090" : {
+      "skill" : 1054,
+      "rank" : 3,
+      "name" : "星光之劍",
+      "model" : "weapon85090_body",
+      "id" : 85090,
+      "guardMax" : 5,
+      "criticalMax" : 15,
+      "attackMax" : 15,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -5541,7 +5675,7 @@
     },
     "85095" : {
       "rank" : 2,
-      "name" : "拉斯・加列斯（左）",
+      "name" : "拉斯．加列斯（左）",
       "model" : "weapon85095_body",
       "id" : 85095,
       "guardMax" : 5,
@@ -5555,7 +5689,7 @@
     "85094" : {
       "skill" : 40024,
       "rank" : 2,
-      "name" : "拉斯・加列斯",
+      "name" : "拉斯．加列斯",
       "model" : "weapon85094_body",
       "id" : 85094,
       "guardMax" : 5,
@@ -5593,6 +5727,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85114" : {
+      "skill" : 149,
+      "rank" : 3,
+      "name" : "斯奈斯迪",
+      "model" : "weapon85114_body",
+      "id" : 85114,
+      "guardMax" : 11,
+      "criticalMax" : 10,
+      "attackMax" : 14,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "85115" : {
       "rank" : 3,
       "name" : "查古利斯",
@@ -5602,6 +5750,34 @@
       "criticalMax" : 14,
       "attackMax" : 12,
       "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85112" : {
+      "skill" : 8120,
+      "rank" : 3,
+      "name" : "真紅之眼",
+      "model" : "weapon85112_body",
+      "id" : 85112,
+      "guardMax" : 10,
+      "criticalMax" : 10,
+      "attackMax" : 15,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85113" : {
+      "skill" : 17536,
+      "rank" : 3,
+      "name" : "智慧之劍",
+      "model" : "weapon85113_body",
+      "id" : 85113,
+      "guardMax" : 12,
+      "criticalMax" : 11,
+      "attackMax" : 12,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -5700,7 +5876,7 @@
     },
     "85110" : {
       "rank" : 3,
-      "name" : "道肯・利可艾",
+      "name" : "道肯．利可艾",
       "model" : "weapon85110_body",
       "id" : 85110,
       "guardMax" : 8,
@@ -5833,6 +6009,18 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "620" : {
+      "name" : "卡洛拉卡專用盾",
+      "model" : "weapon620_body",
+      "id" : 620,
+      "guardMax" : 0,
+      "criticalMax" : 0,
+      "attackMax" : 0,
+      "type" : 11,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70005" : {
       "skill" : 30018,
       "rank" : 2,
@@ -5864,7 +6052,7 @@
     "85021" : {
       "skill" : 30034,
       "rank" : 3,
-      "name" : "龍吼魔笛・古拉畢黑管",
+      "name" : "龍吼魔笛．古拉畢黑管",
       "model" : "weapon85021_body",
       "id" : 85021,
       "guardMax" : 12,
@@ -5906,7 +6094,7 @@
     "85022" : {
       "skill" : 30033,
       "rank" : 3,
-      "name" : "神刀・素盞雄",
+      "name" : "神刀．素盞雄",
       "model" : "weapon85022_body",
       "id" : 85022,
       "guardMax" : 6,
@@ -5948,7 +6136,7 @@
     "85023" : {
       "skill" : 30033,
       "rank" : 3,
-      "name" : "雙魔銃劍・雙頭蛇",
+      "name" : "雙魔銃劍．雙頭蛇",
       "model" : "weapon85023_body",
       "id" : 85023,
       "guardMax" : 5,
@@ -6481,7 +6669,7 @@
       "type_grd" : 3
     },
     "85036" : {
-      "name" : "尼可亞・伊基斯用盾",
+      "name" : "尼可亞．伊基斯用盾",
       "model" : "weapon85036_body",
       "id" : 85036,
       "guardMax" : 1,
@@ -6506,7 +6694,7 @@
     },
     "85034" : {
       "rank" : 3,
-      "name" : "龍鱗爪劍・天培提琴",
+      "name" : "龍鱗爪劍．天培提琴",
       "model" : "weapon85034_body",
       "id" : 85034,
       "guardMax" : 12,
@@ -6520,7 +6708,7 @@
     "85033" : {
       "skill" : 30036,
       "rank" : 3,
-      "name" : "龍牙槍・芬格長笛",
+      "name" : "龍牙槍．芬格長笛",
       "model" : "weapon85033_body",
       "id" : 85033,
       "guardMax" : 14,
@@ -6534,7 +6722,7 @@
     "85032" : {
       "skill" : 30035,
       "rank" : 3,
-      "name" : "龍炎杖・伊格吉他",
+      "name" : "龍炎杖．伊格吉他",
       "model" : "weapon85032_body",
       "id" : 85032,
       "guardMax" : 8,
@@ -6548,7 +6736,7 @@
     "85031" : {
       "skill" : 30035,
       "rank" : 3,
-      "name" : "龍尾棍・托蘭長號",
+      "name" : "龍尾棍．托蘭長號",
       "model" : "weapon85031_body",
       "id" : 85031,
       "guardMax" : 13,
@@ -6562,7 +6750,7 @@
     "85030" : {
       "skill" : 30033,
       "rank" : 3,
-      "name" : "龍翼弓・琴乃神樂",
+      "name" : "龍翼弓．琴乃神樂",
       "model" : "weapon85030_body",
       "id" : 85030,
       "guardMax" : 5,
@@ -6576,7 +6764,7 @@
     "85029" : {
       "skill" : 30034,
       "rank" : 3,
-      "name" : "聖盾劍尼可亞・伊基斯",
+      "name" : "聖盾劍尼可亞．伊基斯",
       "model" : "weapon85029_body",
       "id" : 85029,
       "guardMax" : 13,
@@ -6590,7 +6778,7 @@
     "85028" : {
       "skill" : 30033,
       "rank" : 3,
-      "name" : "龍鳴劍・汎德爾號角",
+      "name" : "龍鳴劍．汎德爾號角",
       "model" : "weapon85028_body",
       "id" : 85028,
       "guardMax" : 11,
@@ -6618,7 +6806,7 @@
     "85026" : {
       "skill" : 30035,
       "rank" : 3,
-      "name" : "斷末魔刃・獨眼怪",
+      "name" : "斷末魔刃．獨眼怪",
       "model" : "weapon85026_body",
       "id" : 85026,
       "guardMax" : 10,
@@ -6632,7 +6820,7 @@
     "85025" : {
       "skill" : 30036,
       "rank" : 3,
-      "name" : "霸劍・亞斯卡隆",
+      "name" : "霸劍．亞斯卡隆",
       "model" : "weapon85025_body",
       "id" : 85025,
       "guardMax" : 14,
@@ -6646,7 +6834,7 @@
     "85024" : {
       "skill" : 30035,
       "rank" : 3,
-      "name" : "龍眼砲・巴爾風琴",
+      "name" : "龍眼砲．巴爾風琴",
       "model" : "weapon85024_body",
       "id" : 85024,
       "guardMax" : 4,
@@ -6701,7 +6889,7 @@
     "85053" : {
       "skill" : 2357,
       "rank" : 3,
-      "name" : "高能燃料の半自動步槍",
+      "name" : "高能燃料半自動步槍",
       "model" : "weapon85053_body",
       "id" : 85053,
       "guardMax" : 6,
@@ -6901,6 +7089,18 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85184" : {
+      "name" : "鋼鐵鏟子",
+      "model" : "weapon85184_body",
+      "id" : 85184,
+      "guardMax" : 2,
+      "criticalMax" : 3,
+      "attackMax" : 2,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70057" : {
       "skill" : 30029,
       "rank" : 2,
@@ -6929,6 +7129,18 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85185" : {
+      "name" : "火焰之棒",
+      "model" : "weapon85185_body",
+      "id" : 85185,
+      "guardMax" : 2,
+      "criticalMax" : 2,
+      "attackMax" : 3,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70056" : {
       "skill" : 40016,
       "rank" : 2,
@@ -6938,6 +7150,18 @@
       "guardMax" : 9,
       "criticalMax" : 6,
       "attackMax" : 9,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85186" : {
+      "name" : "骨之杖",
+      "model" : "weapon85186_body",
+      "id" : 85186,
+      "guardMax" : 2,
+      "criticalMax" : 1,
+      "attackMax" : 4,
       "type" : 4,
       "type_atk" : 1,
       "type_cri" : 2,
@@ -6967,6 +7191,18 @@
       "criticalMax" : 6,
       "attackMax" : 4,
       "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85187" : {
+      "name" : "夏歐茲",
+      "model" : "weapon85187_body",
+      "id" : 85187,
+      "guardMax" : 3,
+      "criticalMax" : 2,
+      "attackMax" : 2,
+      "type" : 1,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7027,6 +7263,18 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85189" : {
+      "name" : "水晶棒",
+      "model" : "weapon85189_body",
+      "id" : 85189,
+      "guardMax" : 2,
+      "criticalMax" : 2,
+      "attackMax" : 3,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70060" : {
       "skill" : 30030,
       "rank" : 2,
@@ -7051,6 +7299,18 @@
       "criticalMax" : 6,
       "attackMax" : 4,
       "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85190" : {
+      "name" : "暴食叉子",
+      "model" : "weapon85190_body",
+      "id" : 85190,
+      "guardMax" : 0,
+      "criticalMax" : 0,
+      "attackMax" : 0,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7083,6 +7343,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85191" : {
+      "rank" : 3,
+      "name" : "四條花紋",
+      "model" : "weapon85191_body",
+      "id" : 85191,
+      "guardMax" : 11,
+      "criticalMax" : 10,
+      "attackMax" : 15,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70062" : {
       "skill" : 8105,
       "rank" : 3,
@@ -7111,6 +7384,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85192" : {
+      "rank" : 3,
+      "name" : "四條花紋．防",
+      "model" : "weapon85191_body",
+      "id" : 85192,
+      "guardMax" : 11,
+      "criticalMax" : 10,
+      "attackMax" : 15,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 6
+    },
     "70049" : {
       "skill" : 40012,
       "rank" : 2,
@@ -7135,6 +7421,19 @@
       "criticalMax" : 6,
       "attackMax" : 4,
       "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85193" : {
+      "rank" : 3,
+      "name" : "解鎖手槍",
+      "model" : "weapon85193_body",
+      "id" : 85193,
+      "guardMax" : 12,
+      "criticalMax" : 9,
+      "attackMax" : 15,
+      "type" : 9,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7166,6 +7465,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85194" : {
+      "rank" : 3,
+      "name" : "解鎖手槍．防",
+      "model" : "weapon85193_body",
+      "id" : 85194,
+      "guardMax" : 12,
+      "criticalMax" : 9,
+      "attackMax" : 15,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 6
+    },
     "70051" : {
       "rank" : 2,
       "name" : "強慾之拳",
@@ -7193,6 +7505,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85195" : {
+      "skill" : 28037,
+      "rank" : 3,
+      "name" : "撒哈拉沙漠",
+      "model" : "weapon85195_body",
+      "id" : 85195,
+      "guardMax" : 18,
+      "criticalMax" : 5,
+      "attackMax" : 13,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70050" : {
       "rank" : 2,
       "name" : "里昂妮絲之杖",
@@ -7215,6 +7541,20 @@
       "guardMax" : 8,
       "criticalMax" : 6,
       "attackMax" : 4,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85196" : {
+      "skill" : 16539,
+      "rank" : 3,
+      "name" : "龍魂槍索爾多蘭",
+      "model" : "weapon141_body",
+      "id" : 85196,
+      "guardMax" : 15,
+      "criticalMax" : 6,
+      "attackMax" : 15,
       "type" : 2,
       "type_atk" : 1,
       "type_cri" : 2,
@@ -7248,6 +7588,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85197" : {
+      "rank" : 3,
+      "name" : "宿命之弓",
+      "model" : "weapon85197_body",
+      "id" : 85197,
+      "guardMax" : 8,
+      "criticalMax" : 15,
+      "attackMax" : 13,
+      "type" : 3,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70052" : {
       "rank" : 2,
       "name" : "雷帝之劍",
@@ -7271,6 +7624,19 @@
       "criticalMax" : 6,
       "attackMax" : 4,
       "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85198" : {
+      "rank" : 3,
+      "name" : "恰斯迪達斯",
+      "model" : "weapon85198_body",
+      "id" : 85198,
+      "guardMax" : 11,
+      "criticalMax" : 8,
+      "attackMax" : 11,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7303,6 +7669,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85199" : {
+      "rank" : 3,
+      "name" : "小鴉丸",
+      "model" : "weapon85199_body",
+      "id" : 85199,
+      "guardMax" : 12,
+      "criticalMax" : 10,
+      "attackMax" : 8,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70054" : {
       "skill" : 40015,
       "rank" : 2,
@@ -7331,6 +7710,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85201" : {
+      "rank" : 2,
+      "name" : "明鏡止水",
+      "model" : "weapon219_body",
+      "id" : 85201,
+      "guardMax" : 6,
+      "criticalMax" : 8,
+      "attackMax" : 8,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70072" : {
       "skill" : 30037,
       "rank" : 3,
@@ -7345,6 +7737,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85200" : {
+      "skill" : 3278,
+      "rank" : 3,
+      "name" : "天晴乃眩弓",
+      "model" : "weapon85200_body",
+      "id" : 85200,
+      "guardMax" : 10,
+      "criticalMax" : 15,
+      "attackMax" : 15,
+      "type" : 3,
+      "type_atk" : 4,
+      "type_cri" : 5,
+      "type_grd" : 19
+    },
     "70073" : {
       "skill" : 30038,
       "rank" : 3,
@@ -7355,6 +7761,19 @@
       "criticalMax" : 11,
       "attackMax" : 13,
       "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85203" : {
+      "rank" : 2,
+      "name" : "費羅斯",
+      "model" : "weapon252_body",
+      "id" : 85203,
+      "guardMax" : 6,
+      "criticalMax" : 7,
+      "attackMax" : 7,
+      "type" : 1,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7373,6 +7792,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85202" : {
+      "rank" : 2,
+      "name" : "大鐵鍋！",
+      "model" : "weapon190_body",
+      "id" : 85202,
+      "guardMax" : 5,
+      "criticalMax" : 6,
+      "attackMax" : 11,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70075" : {
       "skill" : 30038,
       "rank" : 3,
@@ -7383,6 +7815,32 @@
       "criticalMax" : 5,
       "attackMax" : 14,
       "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85205" : {
+      "rank" : 2,
+      "name" : "探求之杖",
+      "model" : "weapon211_body",
+      "id" : 85205,
+      "guardMax" : 6,
+      "criticalMax" : 7,
+      "attackMax" : 9,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85204" : {
+      "rank" : 2,
+      "name" : "節制之杖",
+      "model" : "weapon158_body",
+      "id" : 85204,
+      "guardMax" : 7,
+      "criticalMax" : 5,
+      "attackMax" : 10,
+      "type" : 4,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7400,6 +7858,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85207" : {
+      "rank" : 3,
+      "name" : "手摘白花束",
+      "model" : "weapon85207_body",
+      "id" : 85207,
+      "guardMax" : 11,
+      "criticalMax" : 9,
+      "attackMax" : 10,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70078" : {
       "rank" : 3,
       "name" : "焰龍殲滅刀",
@@ -7409,6 +7880,19 @@
       "criticalMax" : 17,
       "attackMax" : 12,
       "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85206" : {
+      "rank" : 3,
+      "name" : "貓貓虎爪",
+      "model" : "weapon85092_body",
+      "id" : 85206,
+      "guardMax" : 8,
+      "criticalMax" : 10,
+      "attackMax" : 12,
+      "type" : 8,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7454,6 +7938,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85211" : {
+      "skill" : 21509,
+      "rank" : 3,
+      "name" : "天空之杖",
+      "model" : "weapon85211_body",
+      "id" : 85211,
+      "guardMax" : 10,
+      "criticalMax" : 12,
+      "attackMax" : 12,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70066" : {
       "skill" : 40020,
       "rank" : 2,
@@ -7464,6 +7962,19 @@
       "criticalMax" : 4,
       "attackMax" : 8,
       "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85210" : {
+      "rank" : 2,
+      "name" : "刺療鍼",
+      "model" : "weapon85210_body",
+      "id" : 85210,
+      "guardMax" : 5,
+      "criticalMax" : 12,
+      "attackMax" : 7,
+      "type" : 8,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7482,6 +7993,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85213" : {
+      "rank" : 3,
+      "name" : "宿命之弓．早",
+      "model" : "weapon85197_body",
+      "id" : 85213,
+      "guardMax" : 8,
+      "criticalMax" : 15,
+      "attackMax" : 13,
+      "type" : 3,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 10
+    },
     "70068" : {
       "skill" : 40022,
       "rank" : 3,
@@ -7492,6 +8016,19 @@
       "criticalMax" : 8,
       "attackMax" : 10,
       "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85212" : {
+      "rank" : 3,
+      "name" : "魔杖卡羅帖洛德",
+      "model" : "weapon85212_body",
+      "id" : 85212,
+      "guardMax" : 9,
+      "criticalMax" : 8,
+      "attackMax" : 9,
+      "type" : 4,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7510,6 +8047,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85215" : {
+      "rank" : 3,
+      "name" : "宿命之弓．擊",
+      "model" : "weapon85197_body",
+      "id" : 85215,
+      "guardMax" : 8,
+      "criticalMax" : 15,
+      "attackMax" : 13,
+      "type" : 3,
+      "type_atk" : 1,
+      "type_cri" : 5,
+      "type_grd" : 3
+    },
     "70070" : {
       "skill" : 30037,
       "rank" : 3,
@@ -7524,6 +8074,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85214" : {
+      "rank" : 3,
+      "name" : "宿命之弓．速",
+      "model" : "weapon85197_body",
+      "id" : 85214,
+      "guardMax" : 8,
+      "criticalMax" : 15,
+      "attackMax" : 13,
+      "type" : 3,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 12
+    },
     "70071" : {
       "skill" : 30037,
       "rank" : 3,
@@ -7534,6 +8097,20 @@
       "criticalMax" : 10,
       "attackMax" : 13,
       "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85218" : {
+      "skill" : 5522,
+      "rank" : 3,
+      "name" : "狙擊之弓",
+      "model" : "weapon85218_body",
+      "id" : 85218,
+      "guardMax" : 8,
+      "criticalMax" : 15,
+      "attackMax" : 12,
+      "type" : 3,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7564,6 +8141,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85216" : {
+      "skill" : 3308,
+      "rank" : 3,
+      "name" : "千年之棒",
+      "model" : "weapon85216_body",
+      "id" : 85216,
+      "guardMax" : 12,
+      "criticalMax" : 12,
+      "attackMax" : 12,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "70025" : {
       "rank" : 2,
       "name" : "16-BIT魔杖",
@@ -7573,6 +8164,20 @@
       "criticalMax" : 4,
       "attackMax" : 6,
       "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85217" : {
+      "skill" : 18013,
+      "rank" : 3,
+      "name" : "出道騎士",
+      "model" : "weapon85217_body",
+      "id" : 85217,
+      "guardMax" : 15,
+      "criticalMax" : 8,
+      "attackMax" : 12,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -7832,7 +8437,7 @@
     },
     "70044" : {
       "rank" : 2,
-      "name" : "神器 靈槍・加斯提弗爾",
+      "name" : "神器 靈槍．加斯提弗爾",
       "model" : "weapon70044_body",
       "id" : 70044,
       "guardMax" : 5,
@@ -7873,7 +8478,7 @@
     "70032" : {
       "skill" : 40008,
       "rank" : 2,
-      "name" : "加里瑪",
+      "name" : "加裡瑪",
       "model" : "weapon70032_body",
       "id" : 70032,
       "guardMax" : 6,
@@ -7887,7 +8492,7 @@
     "70033" : {
       "skill" : 30021,
       "rank" : 2,
-      "name" : "鐵扇・艷椿",
+      "name" : "鐵扇．艷椿",
       "model" : "weapon70033_body",
       "id" : 70033,
       "guardMax" : 5,
@@ -7968,7 +8573,7 @@
     },
     "85125" : {
       "rank" : 3,
-      "name" : "播種者・速",
+      "name" : "播種者．速",
       "model" : "weapon85124_body",
       "id" : 85125,
       "guardMax" : 10,
@@ -7981,7 +8586,7 @@
     },
     "85126" : {
       "rank" : 3,
-      "name" : "播種者・早",
+      "name" : "播種者．早",
       "model" : "weapon85124_body",
       "id" : 85126,
       "guardMax" : 10,
@@ -8124,7 +8729,7 @@
     },
     "85130" : {
       "rank" : 3,
-      "name" : "噬岩者",
+      "name" : "噬巖者",
       "model" : "weapon85130_body",
       "id" : 85130,
       "guardMax" : 6,
@@ -8144,6 +8749,58 @@
       "criticalMax" : 11,
       "attackMax" : 10,
       "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85141" : {
+      "rank" : 3,
+      "name" : "咖利安A-7",
+      "model" : "weapon85141_body",
+      "id" : 85141,
+      "guardMax" : 9,
+      "criticalMax" : 11,
+      "attackMax" : 13,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85140" : {
+      "rank" : 3,
+      "name" : "塞爾貝利亞之槍",
+      "model" : "weapon85140_body",
+      "id" : 85140,
+      "guardMax" : 15,
+      "criticalMax" : 8,
+      "attackMax" : 12,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85143" : {
+      "rank" : 2,
+      "name" : "熔岩A-FF-F",
+      "model" : "weapon85143_body",
+      "id" : 85143,
+      "guardMax" : 5,
+      "criticalMax" : 8,
+      "attackMax" : 12,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85142" : {
+      "rank" : 3,
+      "name" : "華爾",
+      "model" : "weapon85142_body",
+      "id" : 85142,
+      "guardMax" : 6,
+      "criticalMax" : 13,
+      "attackMax" : 14,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -8177,7 +8834,7 @@
     "85138" : {
       "skill" : 26003,
       "rank" : 3,
-      "name" : "黃金的魔劍《噬岩者》",
+      "name" : "黃金的魔劍《噬巖者》",
       "model" : "weapon85130_body",
       "id" : 85138,
       "guardMax" : 7,
@@ -8240,6 +8897,32 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85145" : {
+      "rank" : 2,
+      "name" : "熔岩M30R",
+      "model" : "weapon85145_body",
+      "id" : 85145,
+      "guardMax" : 5,
+      "criticalMax" : 12,
+      "attackMax" : 8,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85144" : {
+      "rank" : 3,
+      "name" : "咖利安-S20R",
+      "model" : "weapon85144_body",
+      "id" : 85144,
+      "guardMax" : 7,
+      "criticalMax" : 14,
+      "attackMax" : 12,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "85147" : {
       "rank" : 3,
       "name" : "女王之光",
@@ -8249,6 +8932,407 @@
       "criticalMax" : 7,
       "attackMax" : 10,
       "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85146" : {
+      "rank" : 2,
+      "name" : "咖利安-S1R",
+      "model" : "weapon85146_body",
+      "id" : 85146,
+      "guardMax" : 7,
+      "criticalMax" : 8,
+      "attackMax" : 10,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85158" : {
+      "name" : "塞爾貝利亞之盾",
+      "model" : "weapon85158_body",
+      "id" : 85158,
+      "guardMax" : 0,
+      "criticalMax" : 0,
+      "attackMax" : 0,
+      "type" : 11,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85159" : {
+      "rank" : 3,
+      "name" : "愛心長槍",
+      "model" : "weapon85159_body",
+      "id" : 85159,
+      "guardMax" : 8,
+      "criticalMax" : 12,
+      "attackMax" : 14,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85156" : {
+      "rank" : 3,
+      "name" : "雅莉希亞之槍",
+      "model" : "weapon85156_body",
+      "id" : 85156,
+      "guardMax" : 12,
+      "criticalMax" : 11,
+      "attackMax" : 12,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85154" : {
+      "name" : "尤莉安娜(連動)專用盾",
+      "model" : "weapon85154_body",
+      "id" : 85154,
+      "guardMax" : 0,
+      "criticalMax" : 0,
+      "attackMax" : 0,
+      "type" : 11,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85155" : {
+      "rank" : 3,
+      "name" : "裡艾菈之槍",
+      "model" : "weapon85155_body",
+      "id" : 85155,
+      "guardMax" : 7,
+      "criticalMax" : 15,
+      "attackMax" : 13,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85153" : {
+      "rank" : 2,
+      "name" : "艾貝爾大劍",
+      "model" : "weapon85153_body",
+      "id" : 85153,
+      "guardMax" : 11,
+      "criticalMax" : 5,
+      "attackMax" : 9,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85166" : {
+      "skill" : 31003,
+      "rank" : 2,
+      "name" : "烈擊銃",
+      "model" : "weapon85166_body",
+      "id" : 85166,
+      "guardMax" : 6,
+      "criticalMax" : 5,
+      "attackMax" : 11,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85167" : {
+      "rank" : 2,
+      "name" : "多節棍",
+      "model" : "weapon85167_body",
+      "id" : 85167,
+      "guardMax" : 5,
+      "criticalMax" : 7,
+      "attackMax" : 10,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85164" : {
+      "rank" : 2,
+      "name" : "肯茲塞普",
+      "model" : "weapon85164_body",
+      "id" : 85164,
+      "guardMax" : 10,
+      "criticalMax" : 6,
+      "attackMax" : 8,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85165" : {
+      "skill" : 31003,
+      "rank" : 2,
+      "name" : "烈旋棍",
+      "model" : "weapon85165_body",
+      "id" : 85165,
+      "guardMax" : 4,
+      "criticalMax" : 9,
+      "attackMax" : 9,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85162" : {
+      "skill" : 420,
+      "rank" : 3,
+      "name" : "法羅阿雷奴",
+      "model" : "weapon85162_body",
+      "id" : 85162,
+      "guardMax" : 6,
+      "criticalMax" : 18,
+      "attackMax" : 12,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85163" : {
+      "skill" : 418,
+      "rank" : 3,
+      "name" : "瓦伊曼",
+      "model" : "weapon85163_body",
+      "id" : 85163,
+      "guardMax" : 6,
+      "criticalMax" : 12,
+      "attackMax" : 18,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85160" : {
+      "rank" : 3,
+      "name" : "愛心麥格農手槍",
+      "model" : "weapon85160_body",
+      "id" : 85160,
+      "guardMax" : 11,
+      "criticalMax" : 8,
+      "attackMax" : 15,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85161" : {
+      "rank" : 3,
+      "name" : "愛心來福槍",
+      "model" : "weapon85161_body",
+      "id" : 85161,
+      "guardMax" : 13,
+      "criticalMax" : 7,
+      "attackMax" : 14,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85175" : {
+      "rank" : 3,
+      "name" : "貓音之杖",
+      "model" : "weapon85175_body",
+      "id" : 85175,
+      "guardMax" : 10,
+      "criticalMax" : 8,
+      "attackMax" : 12,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85174" : {
+      "rank" : 2,
+      "name" : "露露緹耶的筆",
+      "model" : "weapon85174_body",
+      "id" : 85174,
+      "guardMax" : 9,
+      "criticalMax" : 6,
+      "attackMax" : 10,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85173" : {
+      "rank" : 3,
+      "name" : "久遠之拳",
+      "model" : "weapon85173_body",
+      "id" : 85173,
+      "guardMax" : 10,
+      "criticalMax" : 10,
+      "attackMax" : 10,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85172" : {
+      "rank" : 3,
+      "name" : "白的鐵扇",
+      "model" : "weapon85172_body",
+      "id" : 85172,
+      "guardMax" : 10,
+      "criticalMax" : 13,
+      "attackMax" : 12,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85171" : {
+      "rank" : 3,
+      "name" : "芭蕉醉扇．體",
+      "model" : "weapon85169_body",
+      "id" : 85171,
+      "guardMax" : 13,
+      "criticalMax" : 10,
+      "attackMax" : 11,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 9,
+      "type_grd" : 3
+    },
+    "85170" : {
+      "rank" : 3,
+      "name" : "芭蕉醉扇．速",
+      "model" : "weapon85169_body",
+      "id" : 85170,
+      "guardMax" : 13,
+      "criticalMax" : 10,
+      "attackMax" : 11,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 12
+    },
+    "85169" : {
+      "rank" : 3,
+      "name" : "芭蕉醉扇",
+      "model" : "weapon85169_body",
+      "id" : 85169,
+      "guardMax" : 13,
+      "criticalMax" : 10,
+      "attackMax" : 11,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85168" : {
+      "rank" : 3,
+      "name" : "多節烈棍．攻",
+      "model" : "weapon85167_body",
+      "id" : 85168,
+      "guardMax" : 11,
+      "criticalMax" : 11,
+      "attackMax" : 13,
+      "type" : 1,
+      "type_atk" : 4,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85183" : {
+      "name" : "偉大魔術師",
+      "model" : "weapon85183_body",
+      "id" : 85183,
+      "guardMax" : 1,
+      "criticalMax" : 2,
+      "attackMax" : 4,
+      "type" : 9,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85182" : {
+      "name" : "暴食短刀",
+      "model" : "weapon85182_body",
+      "id" : 85182,
+      "guardMax" : 2,
+      "criticalMax" : 2,
+      "attackMax" : 3,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85181" : {
+      "name" : "太鼓大槌",
+      "model" : "weapon85181_body",
+      "id" : 85181,
+      "guardMax" : 2,
+      "criticalMax" : 3,
+      "attackMax" : 2,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85180" : {
+      "name" : "狙擊來福槍",
+      "model" : "weapon85180_body",
+      "id" : 85180,
+      "guardMax" : 1,
+      "criticalMax" : 4,
+      "attackMax" : 2,
+      "type" : 10,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85179" : {
+      "rank" : 2,
+      "name" : "奇羽琉之弓",
+      "model" : "weapon85179_body",
+      "id" : 85179,
+      "guardMax" : 6,
+      "criticalMax" : 8,
+      "attackMax" : 11,
+      "type" : 3,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85178" : {
+      "rank" : 2,
+      "name" : "鵟之弓",
+      "model" : "weapon85178_body",
+      "id" : 85178,
+      "guardMax" : 8,
+      "criticalMax" : 10,
+      "attackMax" : 7,
+      "type" : 3,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85177" : {
+      "rank" : 2,
+      "name" : "扇的雙刀",
+      "model" : "weapon85177_body",
+      "id" : 85177,
+      "guardMax" : 7,
+      "criticalMax" : 10,
+      "attackMax" : 8,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85176" : {
+      "rank" : 3,
+      "name" : "阿托伊之槍",
+      "model" : "weapon85176_body",
+      "id" : 85176,
+      "guardMax" : 5,
+      "criticalMax" : 10,
+      "attackMax" : 15,
+      "type" : 2,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -8333,7 +9417,7 @@
     },
     "26012" : {
       "rank" : 3,
-      "name" : "暗殺者利刃・速",
+      "name" : "刺客之刃．速",
       "model" : "weapon016_body",
       "id" : 26012,
       "guardMax" : 7,
@@ -8346,7 +9430,7 @@
     },
     "26013" : {
       "rank" : 3,
-      "name" : "暗殺者利刃・體",
+      "name" : "刺客之刃．體",
       "model" : "weapon016_body",
       "id" : 26013,
       "guardMax" : 7,
@@ -8359,7 +9443,7 @@
     },
     "26014" : {
       "rank" : 3,
-      "name" : "暗殺者利刃・疾",
+      "name" : "刺客之刃．疾",
       "model" : "weapon016_body",
       "id" : 26014,
       "guardMax" : 7,
@@ -8372,7 +9456,7 @@
     },
     "26015" : {
       "rank" : 3,
-      "name" : "暗殺者利刃・命",
+      "name" : "刺客之刃．命",
       "model" : "weapon016_body",
       "id" : 26015,
       "guardMax" : 7,
@@ -8438,7 +9522,7 @@
     },
     "26038" : {
       "rank" : 3,
-      "name" : "晨星刺錘・擊",
+      "name" : "流星錘．擊",
       "model" : "weapon96048_body",
       "id" : 26038,
       "guardMax" : 15,
@@ -8451,7 +9535,7 @@
     },
     "26039" : {
       "rank" : 3,
-      "name" : "晨星刺錘・防",
+      "name" : "流星錘．防",
       "model" : "weapon96048_body",
       "id" : 26039,
       "guardMax" : 15,
@@ -8464,7 +9548,7 @@
     },
     "26036" : {
       "rank" : 3,
-      "name" : "晨星刺錘・命",
+      "name" : "流星錘．命",
       "model" : "weapon96048_body",
       "id" : 26036,
       "guardMax" : 15,
@@ -8477,7 +9561,7 @@
     },
     "26037" : {
       "rank" : 3,
-      "name" : "晨星刺錘・攻",
+      "name" : "流星錘．攻",
       "model" : "weapon96048_body",
       "id" : 26037,
       "guardMax" : 15,
@@ -8490,7 +9574,7 @@
     },
     "26034" : {
       "rank" : 3,
-      "name" : "晨星刺錘・體",
+      "name" : "流星錘．體",
       "model" : "weapon96048_body",
       "id" : 26034,
       "guardMax" : 15,
@@ -8503,7 +9587,7 @@
     },
     "26035" : {
       "rank" : 3,
-      "name" : "晨星刺錘・疾",
+      "name" : "流星錘．疾",
       "model" : "weapon96048_body",
       "id" : 26035,
       "guardMax" : 15,
@@ -8516,7 +9600,7 @@
     },
     "26032" : {
       "rank" : 3,
-      "name" : "野豬牙鎚・防",
+      "name" : "野豬牙鎚．防",
       "model" : "weapon040_body",
       "id" : 26032,
       "guardMax" : 10,
@@ -8529,7 +9613,7 @@
     },
     "26033" : {
       "rank" : 3,
-      "name" : "晨星刺錘・速",
+      "name" : "流星錘．速",
       "model" : "weapon96048_body",
       "id" : 26033,
       "guardMax" : 15,
@@ -8542,7 +9626,7 @@
     },
     "26046" : {
       "rank" : 3,
-      "name" : "黃金刺劍・防",
+      "name" : "黃金西洋劍．防",
       "model" : "weapon007_body",
       "id" : 26046,
       "guardMax" : 12,
@@ -8555,7 +9639,7 @@
     },
     "26047" : {
       "rank" : 3,
-      "name" : "斬鐵槍・速",
+      "name" : "斬鐵槍．速",
       "model" : "weapon053_body",
       "id" : 26047,
       "guardMax" : 10,
@@ -8568,7 +9652,7 @@
     },
     "26044" : {
       "rank" : 3,
-      "name" : "黃金刺劍・攻",
+      "name" : "黃金西洋劍．攻",
       "model" : "weapon007_body",
       "id" : 26044,
       "guardMax" : 12,
@@ -8581,7 +9665,7 @@
     },
     "26045" : {
       "rank" : 3,
-      "name" : "黃金刺劍・擊",
+      "name" : "黃金西洋劍．擊",
       "model" : "weapon007_body",
       "id" : 26045,
       "guardMax" : 12,
@@ -8594,7 +9678,7 @@
     },
     "26042" : {
       "rank" : 3,
-      "name" : "黃金刺劍・疾",
+      "name" : "黃金西洋劍．疾",
       "model" : "weapon007_body",
       "id" : 26042,
       "guardMax" : 12,
@@ -8607,7 +9691,7 @@
     },
     "26043" : {
       "rank" : 3,
-      "name" : "黃金刺劍・命",
+      "name" : "黃金西洋劍．命",
       "model" : "weapon007_body",
       "id" : 26043,
       "guardMax" : 12,
@@ -8620,7 +9704,7 @@
     },
     "26040" : {
       "rank" : 3,
-      "name" : "黃金刺劍・速",
+      "name" : "黃金西洋劍．速",
       "model" : "weapon007_body",
       "id" : 26040,
       "guardMax" : 12,
@@ -8633,7 +9717,7 @@
     },
     "26041" : {
       "rank" : 3,
-      "name" : "黃金刺劍・體",
+      "name" : "黃金西洋劍．體",
       "model" : "weapon007_body",
       "id" : 26041,
       "guardMax" : 12,
@@ -8646,7 +9730,7 @@
     },
     "26023" : {
       "rank" : 3,
-      "name" : "勇氣之劍・攻",
+      "name" : "勇敢之劍．攻",
       "model" : "weapon004_body",
       "id" : 26023,
       "guardMax" : 16,
@@ -8659,7 +9743,7 @@
     },
     "26022" : {
       "rank" : 3,
-      "name" : "勇氣之劍・命",
+      "name" : "勇敢之劍．命",
       "model" : "weapon004_body",
       "id" : 26022,
       "guardMax" : 16,
@@ -8672,7 +9756,7 @@
     },
     "26021" : {
       "rank" : 3,
-      "name" : "勇氣之劍・疾",
+      "name" : "勇敢之劍．疾",
       "model" : "weapon004_body",
       "id" : 26021,
       "guardMax" : 16,
@@ -8685,7 +9769,7 @@
     },
     "26020" : {
       "rank" : 3,
-      "name" : "勇氣之劍・體",
+      "name" : "勇敢之劍．體",
       "model" : "weapon004_body",
       "id" : 26020,
       "guardMax" : 16,
@@ -8698,7 +9782,7 @@
     },
     "26019" : {
       "rank" : 3,
-      "name" : "勇氣之劍・速",
+      "name" : "勇敢之劍．速",
       "model" : "weapon004_body",
       "id" : 26019,
       "guardMax" : 16,
@@ -8711,7 +9795,7 @@
     },
     "26018" : {
       "rank" : 3,
-      "name" : "暗殺者利刃・防",
+      "name" : "刺客之刃．防",
       "model" : "weapon016_body",
       "id" : 26018,
       "guardMax" : 7,
@@ -8724,7 +9808,7 @@
     },
     "26017" : {
       "rank" : 3,
-      "name" : "暗殺者利刃・擊",
+      "name" : "刺客之刃．擊",
       "model" : "weapon016_body",
       "id" : 26017,
       "guardMax" : 7,
@@ -8737,7 +9821,7 @@
     },
     "26016" : {
       "rank" : 3,
-      "name" : "暗殺者利刃・攻",
+      "name" : "刺客之刃．攻",
       "model" : "weapon016_body",
       "id" : 26016,
       "guardMax" : 7,
@@ -8750,7 +9834,7 @@
     },
     "26031" : {
       "rank" : 3,
-      "name" : "野豬牙鎚・擊",
+      "name" : "野豬牙鎚．擊",
       "model" : "weapon040_body",
       "id" : 26031,
       "guardMax" : 10,
@@ -8763,7 +9847,7 @@
     },
     "26030" : {
       "rank" : 3,
-      "name" : "野豬牙鎚・攻",
+      "name" : "野豬牙鎚．攻",
       "model" : "weapon040_body",
       "id" : 26030,
       "guardMax" : 10,
@@ -8776,7 +9860,7 @@
     },
     "26029" : {
       "rank" : 3,
-      "name" : "野豬牙鎚・命",
+      "name" : "野豬牙鎚．命",
       "model" : "weapon040_body",
       "id" : 26029,
       "guardMax" : 10,
@@ -8789,7 +9873,7 @@
     },
     "26028" : {
       "rank" : 3,
-      "name" : "野豬牙鎚・疾",
+      "name" : "野豬牙鎚．疾",
       "model" : "weapon040_body",
       "id" : 26028,
       "guardMax" : 10,
@@ -8802,7 +9886,7 @@
     },
     "26027" : {
       "rank" : 3,
-      "name" : "野豬牙鎚・體",
+      "name" : "野豬牙鎚．體",
       "model" : "weapon040_body",
       "id" : 26027,
       "guardMax" : 10,
@@ -8815,7 +9899,7 @@
     },
     "26026" : {
       "rank" : 3,
-      "name" : "野豬牙鎚・速",
+      "name" : "野豬牙鎚．速",
       "model" : "weapon040_body",
       "id" : 26026,
       "guardMax" : 10,
@@ -8828,7 +9912,7 @@
     },
     "26025" : {
       "rank" : 3,
-      "name" : "勇氣之劍・防",
+      "name" : "勇敢之劍．防",
       "model" : "weapon004_body",
       "id" : 26025,
       "guardMax" : 16,
@@ -8841,7 +9925,7 @@
     },
     "26024" : {
       "rank" : 3,
-      "name" : "勇氣之劍・擊",
+      "name" : "勇敢之劍．擊",
       "model" : "weapon004_body",
       "id" : 26024,
       "guardMax" : 16,
@@ -8854,7 +9938,7 @@
     },
     "26064" : {
       "rank" : 3,
-      "name" : "鋼弓・攻",
+      "name" : "鋼弓．攻",
       "model" : "weapon062_body",
       "id" : 26064,
       "guardMax" : 13,
@@ -8867,7 +9951,7 @@
     },
     "26065" : {
       "rank" : 3,
-      "name" : "鋼弓・擊",
+      "name" : "鋼弓．擊",
       "model" : "weapon062_body",
       "id" : 26065,
       "guardMax" : 13,
@@ -8880,7 +9964,7 @@
     },
     "26066" : {
       "rank" : 3,
-      "name" : "連續之杖・早",
+      "name" : "連續之杖．早",
       "model" : "weapon85116_body",
       "id" : 26066,
       "guardMax" : 15,
@@ -8893,7 +9977,7 @@
     },
     "26067" : {
       "rank" : 3,
-      "name" : "連續之杖・速",
+      "name" : "連續之杖．速",
       "model" : "weapon85116_body",
       "id" : 26067,
       "guardMax" : 15,
@@ -8906,7 +9990,7 @@
     },
     "26068" : {
       "rank" : 3,
-      "name" : "連續之杖・瞬",
+      "name" : "連續之杖．瞬",
       "model" : "weapon85116_body",
       "id" : 26068,
       "guardMax" : 15,
@@ -8919,7 +10003,7 @@
     },
     "26069" : {
       "rank" : 3,
-      "name" : "連續之杖・疾",
+      "name" : "連續之杖．疾",
       "model" : "weapon85116_body",
       "id" : 26069,
       "guardMax" : 15,
@@ -8932,7 +10016,7 @@
     },
     "26070" : {
       "rank" : 3,
-      "name" : "連續之杖・攻",
+      "name" : "連續之杖．攻",
       "model" : "weapon85116_body",
       "id" : 26070,
       "guardMax" : 15,
@@ -8945,7 +10029,7 @@
     },
     "26071" : {
       "rank" : 3,
-      "name" : "連續之杖・擊",
+      "name" : "連續之杖．擊",
       "model" : "weapon85116_body",
       "id" : 26071,
       "guardMax" : 15,
@@ -8958,7 +10042,7 @@
     },
     "26072" : {
       "rank" : 3,
-      "name" : "骷髏灰燼・早",
+      "name" : "骷髏灰燼．早",
       "model" : "weapon075_body",
       "id" : 26072,
       "guardMax" : 11,
@@ -8971,7 +10055,7 @@
     },
     "26073" : {
       "rank" : 3,
-      "name" : "骷髏灰燼・速",
+      "name" : "骷髏灰燼．速",
       "model" : "weapon075_body",
       "id" : 26073,
       "guardMax" : 11,
@@ -8984,7 +10068,7 @@
     },
     "26074" : {
       "rank" : 3,
-      "name" : "骷髏灰燼・瞬",
+      "name" : "骷髏灰燼．瞬",
       "model" : "weapon075_body",
       "id" : 26074,
       "guardMax" : 11,
@@ -8997,7 +10081,7 @@
     },
     "26075" : {
       "rank" : 3,
-      "name" : "骷髏灰燼・疾",
+      "name" : "骷髏灰燼．疾",
       "model" : "weapon075_body",
       "id" : 26075,
       "guardMax" : 11,
@@ -9010,7 +10094,7 @@
     },
     "26076" : {
       "rank" : 3,
-      "name" : "骷髏灰燼・攻",
+      "name" : "骷髏灰燼．攻",
       "model" : "weapon075_body",
       "id" : 26076,
       "guardMax" : 11,
@@ -9023,7 +10107,7 @@
     },
     "26077" : {
       "rank" : 3,
-      "name" : "骷髏灰燼・擊",
+      "name" : "骷髏灰燼．擊",
       "model" : "weapon075_body",
       "id" : 26077,
       "guardMax" : 11,
@@ -9036,7 +10120,7 @@
     },
     "26078" : {
       "rank" : 3,
-      "name" : "生命之杖・速",
+      "name" : "生命之杖．速",
       "model" : "weapon089_body",
       "id" : 26078,
       "guardMax" : 10,
@@ -9049,7 +10133,7 @@
     },
     "26079" : {
       "rank" : 3,
-      "name" : "生命之杖・體",
+      "name" : "生命之杖．體",
       "model" : "weapon089_body",
       "id" : 26079,
       "guardMax" : 10,
@@ -9062,7 +10146,7 @@
     },
     "26049" : {
       "rank" : 3,
-      "name" : "斬鐵槍・疾",
+      "name" : "斬鐵槍．疾",
       "model" : "weapon053_body",
       "id" : 26049,
       "guardMax" : 10,
@@ -9075,7 +10159,7 @@
     },
     "26048" : {
       "rank" : 3,
-      "name" : "斬鐵槍・體",
+      "name" : "斬鐵槍．體",
       "model" : "weapon053_body",
       "id" : 26048,
       "guardMax" : 10,
@@ -9088,7 +10172,7 @@
     },
     "26051" : {
       "rank" : 3,
-      "name" : "斬鐵槍・攻",
+      "name" : "斬鐵槍．攻",
       "model" : "weapon053_body",
       "id" : 26051,
       "guardMax" : 10,
@@ -9101,7 +10185,7 @@
     },
     "26050" : {
       "rank" : 3,
-      "name" : "斬鐵槍・命",
+      "name" : "斬鐵槍．命",
       "model" : "weapon053_body",
       "id" : 26050,
       "guardMax" : 10,
@@ -9114,7 +10198,7 @@
     },
     "26053" : {
       "rank" : 3,
-      "name" : "斬鐵槍・防",
+      "name" : "斬鐵槍．防",
       "model" : "weapon053_body",
       "id" : 26053,
       "guardMax" : 10,
@@ -9127,7 +10211,7 @@
     },
     "26052" : {
       "rank" : 3,
-      "name" : "斬鐵槍・擊",
+      "name" : "斬鐵槍．擊",
       "model" : "weapon053_body",
       "id" : 26052,
       "guardMax" : 10,
@@ -9140,7 +10224,7 @@
     },
     "26055" : {
       "rank" : 3,
-      "name" : "狙擊弓・速",
+      "name" : "狙擊弓．速",
       "model" : "weapon063_body",
       "id" : 26055,
       "guardMax" : 8,
@@ -9153,7 +10237,7 @@
     },
     "26054" : {
       "rank" : 3,
-      "name" : "狙擊弓・早",
+      "name" : "狙擊弓．早",
       "model" : "weapon063_body",
       "id" : 26054,
       "guardMax" : 8,
@@ -9166,7 +10250,7 @@
     },
     "26057" : {
       "rank" : 3,
-      "name" : "狙擊弓・疾",
+      "name" : "狙擊弓．疾",
       "model" : "weapon063_body",
       "id" : 26057,
       "guardMax" : 8,
@@ -9179,7 +10263,7 @@
     },
     "26056" : {
       "rank" : 3,
-      "name" : "狙擊弓・瞬",
+      "name" : "狙擊弓．瞬",
       "model" : "weapon063_body",
       "id" : 26056,
       "guardMax" : 8,
@@ -9192,7 +10276,7 @@
     },
     "26059" : {
       "rank" : 3,
-      "name" : "狙擊弓・擊",
+      "name" : "狙擊弓．擊",
       "model" : "weapon063_body",
       "id" : 26059,
       "guardMax" : 8,
@@ -9205,7 +10289,7 @@
     },
     "26058" : {
       "rank" : 3,
-      "name" : "狙擊弓・攻",
+      "name" : "狙擊弓．攻",
       "model" : "weapon063_body",
       "id" : 26058,
       "guardMax" : 8,
@@ -9218,7 +10302,7 @@
     },
     "26061" : {
       "rank" : 3,
-      "name" : "鋼弓・速",
+      "name" : "鋼弓．速",
       "model" : "weapon062_body",
       "id" : 26061,
       "guardMax" : 13,
@@ -9231,7 +10315,7 @@
     },
     "26060" : {
       "rank" : 3,
-      "name" : "鋼弓・早",
+      "name" : "鋼弓．早",
       "model" : "weapon062_body",
       "id" : 26060,
       "guardMax" : 13,
@@ -9244,7 +10328,7 @@
     },
     "26063" : {
       "rank" : 3,
-      "name" : "鋼弓・疾",
+      "name" : "鋼弓．疾",
       "model" : "weapon062_body",
       "id" : 26063,
       "guardMax" : 13,
@@ -9257,7 +10341,7 @@
     },
     "26062" : {
       "rank" : 3,
-      "name" : "鋼弓・瞬",
+      "name" : "鋼弓．瞬",
       "model" : "weapon062_body",
       "id" : 26062,
       "guardMax" : 13,
@@ -9270,7 +10354,7 @@
     },
     "26098" : {
       "rank" : 3,
-      "name" : "翡翠手環・體",
+      "name" : "翡翠手環．體",
       "model" : "weapon85108_body",
       "id" : 26098,
       "guardMax" : 8,
@@ -9283,7 +10367,7 @@
     },
     "26099" : {
       "rank" : 3,
-      "name" : "翡翠手環・疾",
+      "name" : "翡翠手環．疾",
       "model" : "weapon85108_body",
       "id" : 26099,
       "guardMax" : 8,
@@ -9296,7 +10380,7 @@
     },
     "26096" : {
       "rank" : 3,
-      "name" : "琥珀之礙・防",
+      "name" : "琥珀拳套．防",
       "model" : "weapon306_body",
       "id" : 26096,
       "guardMax" : 14,
@@ -9309,7 +10393,7 @@
     },
     "26097" : {
       "rank" : 3,
-      "name" : "翡翠手環・速",
+      "name" : "翡翠手環．速",
       "model" : "weapon85108_body",
       "id" : 26097,
       "guardMax" : 8,
@@ -9322,7 +10406,7 @@
     },
     "26102" : {
       "rank" : 3,
-      "name" : "翡翠手環・擊",
+      "name" : "翡翠手環．擊",
       "model" : "weapon85108_body",
       "id" : 26102,
       "guardMax" : 8,
@@ -9335,7 +10419,7 @@
     },
     "26103" : {
       "rank" : 3,
-      "name" : "翡翠手環・防",
+      "name" : "翡翠手環．防",
       "model" : "weapon85108_body",
       "id" : 26103,
       "guardMax" : 8,
@@ -9348,7 +10432,7 @@
     },
     "26100" : {
       "rank" : 3,
-      "name" : "翡翠手環・命",
+      "name" : "翡翠手環．命",
       "model" : "weapon85108_body",
       "id" : 26100,
       "guardMax" : 8,
@@ -9361,7 +10445,7 @@
     },
     "26101" : {
       "rank" : 3,
-      "name" : "翡翠手環・攻",
+      "name" : "翡翠手環．攻",
       "model" : "weapon85108_body",
       "id" : 26101,
       "guardMax" : 8,
@@ -9374,7 +10458,7 @@
     },
     "26106" : {
       "rank" : 3,
-      "name" : "死亡呢喃・瞬",
+      "name" : "死亡耳語．瞬",
       "model" : "weapon403_body",
       "id" : 26106,
       "guardMax" : 9,
@@ -9387,7 +10471,7 @@
     },
     "26107" : {
       "rank" : 3,
-      "name" : "死亡呢喃・疾",
+      "name" : "死亡耳語．疾",
       "model" : "weapon403_body",
       "id" : 26107,
       "guardMax" : 9,
@@ -9400,7 +10484,7 @@
     },
     "26104" : {
       "rank" : 3,
-      "name" : "死亡呢喃・早",
+      "name" : "死亡耳語．早",
       "model" : "weapon403_body",
       "id" : 26104,
       "guardMax" : 9,
@@ -9413,7 +10497,7 @@
     },
     "26105" : {
       "rank" : 3,
-      "name" : "死亡呢喃・速",
+      "name" : "死亡耳語．速",
       "model" : "weapon403_body",
       "id" : 26105,
       "guardMax" : 9,
@@ -9426,7 +10510,7 @@
     },
     "26110" : {
       "rank" : 3,
-      "name" : "道肯・利可艾・早",
+      "name" : "道肯．利可艾．早",
       "model" : "weapon85110_body",
       "id" : 26110,
       "guardMax" : 16,
@@ -9439,7 +10523,7 @@
     },
     "26111" : {
       "rank" : 3,
-      "name" : "道肯・利可艾・速",
+      "name" : "道肯．利可艾．速",
       "model" : "weapon85110_body",
       "id" : 26111,
       "guardMax" : 16,
@@ -9452,7 +10536,7 @@
     },
     "26108" : {
       "rank" : 3,
-      "name" : "死亡呢喃・攻",
+      "name" : "死亡耳語．攻",
       "model" : "weapon403_body",
       "id" : 26108,
       "guardMax" : 9,
@@ -9465,7 +10549,7 @@
     },
     "26109" : {
       "rank" : 3,
-      "name" : "死亡呢喃・擊",
+      "name" : "死亡耳語．擊",
       "model" : "weapon403_body",
       "id" : 26109,
       "guardMax" : 9,
@@ -9478,7 +10562,7 @@
     },
     "26083" : {
       "rank" : 3,
-      "name" : "生命之杖・防",
+      "name" : "生命之杖．防",
       "model" : "weapon089_body",
       "id" : 26083,
       "guardMax" : 10,
@@ -9491,7 +10575,7 @@
     },
     "26082" : {
       "rank" : 3,
-      "name" : "生命之杖・攻",
+      "name" : "生命之杖．攻",
       "model" : "weapon089_body",
       "id" : 26082,
       "guardMax" : 10,
@@ -9504,7 +10588,7 @@
     },
     "26081" : {
       "rank" : 3,
-      "name" : "生命之杖・命",
+      "name" : "生命之杖．命",
       "model" : "weapon089_body",
       "id" : 26081,
       "guardMax" : 10,
@@ -9517,7 +10601,7 @@
     },
     "26080" : {
       "rank" : 3,
-      "name" : "生命之杖・疾",
+      "name" : "生命之杖．疾",
       "model" : "weapon089_body",
       "id" : 26080,
       "guardMax" : 10,
@@ -9530,7 +10614,7 @@
     },
     "26087" : {
       "rank" : 3,
-      "name" : "理想之杖・命",
+      "name" : "理想之杖．命",
       "model" : "weapon084_body",
       "id" : 26087,
       "guardMax" : 14,
@@ -9543,7 +10627,7 @@
     },
     "26086" : {
       "rank" : 3,
-      "name" : "理想之杖・疾",
+      "name" : "理想之杖．疾",
       "model" : "weapon084_body",
       "id" : 26086,
       "guardMax" : 14,
@@ -9556,7 +10640,7 @@
     },
     "26085" : {
       "rank" : 3,
-      "name" : "理想之杖・體",
+      "name" : "理想之杖．體",
       "model" : "weapon084_body",
       "id" : 26085,
       "guardMax" : 14,
@@ -9569,7 +10653,7 @@
     },
     "26084" : {
       "rank" : 3,
-      "name" : "理想之杖・速",
+      "name" : "理想之杖．速",
       "model" : "weapon084_body",
       "id" : 26084,
       "guardMax" : 14,
@@ -9582,7 +10666,7 @@
     },
     "26091" : {
       "rank" : 3,
-      "name" : "琥珀之礙・體",
+      "name" : "琥珀拳套．體",
       "model" : "weapon306_body",
       "id" : 26091,
       "guardMax" : 14,
@@ -9595,7 +10679,7 @@
     },
     "26090" : {
       "rank" : 3,
-      "name" : "琥珀之礙・速",
+      "name" : "琥珀拳套．速",
       "model" : "weapon306_body",
       "id" : 26090,
       "guardMax" : 14,
@@ -9608,7 +10692,7 @@
     },
     "26089" : {
       "rank" : 3,
-      "name" : "理想之杖・防",
+      "name" : "理想之杖．防",
       "model" : "weapon084_body",
       "id" : 26089,
       "guardMax" : 14,
@@ -9621,7 +10705,7 @@
     },
     "26088" : {
       "rank" : 3,
-      "name" : "理想之杖・攻",
+      "name" : "理想之杖．攻",
       "model" : "weapon084_body",
       "id" : 26088,
       "guardMax" : 14,
@@ -9634,7 +10718,7 @@
     },
     "26095" : {
       "rank" : 3,
-      "name" : "琥珀之礙・擊",
+      "name" : "琥珀拳套．擊",
       "model" : "weapon306_body",
       "id" : 26095,
       "guardMax" : 14,
@@ -9647,7 +10731,7 @@
     },
     "26094" : {
       "rank" : 3,
-      "name" : "琥珀之礙・攻",
+      "name" : "琥珀拳套．攻",
       "model" : "weapon306_body",
       "id" : 26094,
       "guardMax" : 14,
@@ -9660,7 +10744,7 @@
     },
     "26093" : {
       "rank" : 3,
-      "name" : "琥珀之礙・命",
+      "name" : "琥珀拳套．命",
       "model" : "weapon306_body",
       "id" : 26093,
       "guardMax" : 14,
@@ -9673,7 +10757,7 @@
     },
     "26092" : {
       "rank" : 3,
-      "name" : "琥珀之礙・疾",
+      "name" : "琥珀拳套．疾",
       "model" : "weapon306_body",
       "id" : 26092,
       "guardMax" : 14,
@@ -9924,7 +11008,7 @@
     "95755" : {
       "skill" : 30014,
       "rank" : 2,
-      "name" : "學姊的遺物・改",
+      "name" : "學姊的遺物．改",
       "model" : "weapon95755_body",
       "id" : 95755,
       "guardMax" : 2,
@@ -10900,7 +11984,7 @@
     "95779" : {
       "skill" : 88686,
       "rank" : 2,
-      "name" : "杰倫特之劍",
+      "name" : "傑倫特之劍",
       "model" : "weapon95779_body",
       "id" : 95779,
       "guardMax" : 8,
@@ -11003,7 +12087,7 @@
       "type_grd" : 3
     },
     "1018" : {
-      "name" : "金砕棒",
+      "name" : "金碎棒",
       "model" : "weapon1018_body",
       "id" : 1018,
       "guardMax" : 0,
@@ -11014,8 +12098,22 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "95836" : {
+      "skill" : 308002,
+      "rank" : 3,
+      "name" : "伊諾德烏斯之爪",
+      "model" : "weapon95836_body",
+      "id" : 95836,
+      "guardMax" : 9,
+      "criticalMax" : 11,
+      "attackMax" : 16,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "1019" : {
-      "name" : "八手扇子・緑",
+      "name" : "八手扇子．綠",
       "model" : "weapon1019_body",
       "id" : 1019,
       "guardMax" : 0,
@@ -11026,8 +12124,22 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "95835" : {
+      "skill" : 308001,
+      "rank" : 3,
+      "name" : "精靈之爪",
+      "model" : "weapon95835_body",
+      "id" : 95835,
+      "guardMax" : 8,
+      "criticalMax" : 10,
+      "attackMax" : 14,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "1020" : {
-      "name" : "八手扇子・赤",
+      "name" : "八手扇子．赤",
       "model" : "weapon1020_body",
       "id" : 1020,
       "guardMax" : 0,
@@ -12371,7 +13483,7 @@
       "type_grd" : 3
     }
   },
-  "sv" : "1470728808",
+  "sv" : "1474364576",
   "res" : 0,
-  "deceive" : 1470906083
+  "deceive" : 1474561700
 }

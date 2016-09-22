@@ -9,6 +9,7 @@ public class charalb
     public String name;
     public String profile;
     public int rarity;
+    public Integer home;
     public int ring;
     public int cid1;
     public int cid2;
