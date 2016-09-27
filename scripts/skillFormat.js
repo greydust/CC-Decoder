@@ -895,7 +895,8 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         case 0x3f7: {
             return PassiveDatas[passiveID].detailDescription.format(PowerUpFlag[passiveParams[0]], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
         }
-        case 0x13: {
+        case 0x13: 
+        case 1027: {
             var healRangeString = "";
             if (passiveParams[3] == 0) {
                 if (passiveParams[0] > 3.5) {
@@ -917,7 +918,11 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 var depth = (parseInt(passiveParams[4]/100) % 100) / 10;
                 healRangeString = "，並使治療範圍成為前方{0:3f}單位，寬{1:3f}、高{2:3f}單位的矩形".format(front, width, depth);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], healRangeString);
+            var healFlagString = PassiveHealDebuffString(passiveFlag[0]);
+            if (healFlagString != "") {
+                healFlagString = "、" + healFlagString;
+            }
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], healFlagString, passiveFlag[1], iParams[0], healRangeString);
         }
         case 0x48: {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]-3.5, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
@@ -1332,6 +1337,13 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 bgString = ("，當處於" + bgString + "時，使轉珠時兩珠機率增加{0:2p}%、三珠機率增加{1:2p}%（只取最高者）").format(passiveParams[2], passiveParams[3]);
             }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], bgString);
+        }
+        case 106: {
+            var uzuString = "";
+            if (passiveParams[0] > 0) {
+                uzuString = "編號" + passiveParams[0];
+            }
+            return PassiveDatas[passiveID].detailDescription.format(uzuString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
         }
         default: {
             if (typeof(PassiveDatas[passiveID]) == "undefined" || PassiveDatas[passiveID] == null) {
