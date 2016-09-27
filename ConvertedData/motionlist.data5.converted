@@ -1,5 +1,5 @@
 {
-  "sv" : "1473149777",
+  "sv" : "1474452637",
   "motionlist" : {
     "11000" : {
       "_appear" : "damage02",
@@ -1809,23 +1809,23 @@
     },
     "1751" : {
       "_appear" : "damage01",
-      "_atk" : "fighter_attack01",
-      "_atk2" : "fighter_attack02",
+      "_atk" : "fighter_attack05",
+      "_atk2" : "fighter_attack06",
       "_boneType" : "human",
       "_charaType" : "さくら用 サクラ勝利ボイス 戦士・女向け",
       "_collision" : "collision01",
       "_death" : "dead01",
       "_dmg_l" : "damage01",
       "_dmg_s" : "wizard_damage01",
-      "_guard" : "guard01",
+      "_guard" : "fighter_guard03",
       "_win" : "sakura_win_turn01",
-      "_shot" : "wizard_attack01",
-      "_shot2" : "wizard_attack02",
+      "_shot" : "fighter_attack05",
+      "_shot2" : "fighter_attack06",
       "_stun" : "stun01",
-      "_wait" : "neutral01",
+      "_wait" : "fighter_neutral03",
       "_waitWarn" : "neutral_tired01",
-      "_walk" : "fighter_walk01",
-      "_walkWarn" : "fighter_walk_tired01",
+      "_walk" : "fighter_walk03",
+      "_walkWarn" : "fighter_walk_tired03",
       "_motionID" : 1751
     },
     "1752" : {
@@ -2091,7 +2091,7 @@
       "_dmg_l" : "koubu_damage02",
       "_dmg_s" : "koubu_damage01",
       "_guard" : "koubu_guard01",
-      "_win" : "sakura_koubu_win_aoo01",
+      "_win" : "kouran_koubu_win_aoo01",
       "_shot" : "koubu_gun_shoot05",
       "_shot2" : "koubu_gun_shoot06",
       "_stun" : "koubu_stun01",
@@ -2112,7 +2112,7 @@
       "_dmg_l" : "koubu_damage02",
       "_dmg_s" : "koubu_damage01",
       "_guard" : "koubu_guard01",
-      "_win" : "maria_koubu_win_aoo01",
+      "_win" : "kanna_koubu_win_aoo01",
       "_shot" : "koubu_gun_shoot01",
       "_shot2" : "koubu_gun_shoot02",
       "_stun" : "koubu_stun01",
@@ -2133,7 +2133,7 @@
       "_dmg_l" : "koubu_damage02",
       "_dmg_s" : "koubu_damage01",
       "_guard" : "koubu_guard01",
-      "_win" : "orihime_koubu_win_aoo01",
+      "_win" : "airisu_koubu_win_aoo01",
       "_shot" : "koubu_wizard_healing01",
       "_shot2" : "koubu_wizard_healing01",
       "_stun" : "koubu_stun01",
@@ -2154,7 +2154,7 @@
       "_dmg_l" : "koubu_damage02",
       "_dmg_s" : "koubu_damage01",
       "_guard" : "koubu_guard01",
-      "_win" : "reni_koubu_win_aoo01",
+      "_win" : "sumire_koubu_win_aoo01",
       "_shot" : "koubu_gun_shoot01",
       "_shot2" : "koubu_gun_shoot02",
       "_stun" : "koubu_stun01",
@@ -4707,5 +4707,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1473915260
+  "deceive" : 1474955993
 }

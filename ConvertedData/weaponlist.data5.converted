@@ -9340,6 +9340,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85336" : {
+      "skill" : 13579,
+      "rank" : 3,
+      "name" : "プレキエーラ",
+      "model" : "weapon85336_body",
+      "id" : 85336,
+      "guardMax" : 13,
+      "criticalMax" : 7,
+      "attackMax" : 15,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "85337" : {
       "skill" : 2646,
       "rank" : 3,
@@ -9547,6 +9561,20 @@
       "criticalMax" : 1,
       "attackMax" : 1,
       "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85335" : {
+      "skill" : 2099,
+      "rank" : 3,
+      "name" : "呪刀サモンジ",
+      "model" : "weapon024_body",
+      "id" : 85335,
+      "guardMax" : 6,
+      "criticalMax" : 15,
+      "attackMax" : 14,
+      "type" : 0,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -9869,6 +9897,19 @@
       "type_cri" : 2,
       "type_grd" : 6
     },
+    "85361" : {
+      "rank" : 3,
+      "name" : "ゼファルの槍",
+      "model" : "weapon85361_body",
+      "id" : 85361,
+      "guardMax" : 10,
+      "criticalMax" : 10,
+      "attackMax" : 10,
+      "type" : 2,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "26047" : {
       "rank" : 3,
       "name" : "パルチザン・速",
@@ -9882,6 +9923,19 @@
       "type_cri" : 2,
       "type_grd" : 12
     },
+    "85362" : {
+      "rank" : 3,
+      "name" : "バグリスの右盾",
+      "model" : "weapon85362_body",
+      "id" : 85362,
+      "guardMax" : 10,
+      "criticalMax" : 10,
+      "attackMax" : 10,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "26044" : {
       "rank" : 3,
       "name" : "ゴールドレイピア・攻",
@@ -9892,6 +9946,19 @@
       "attackMax" : 12,
       "type" : 2,
       "type_atk" : 4,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85363" : {
+      "rank" : 3,
+      "name" : "バグリスの左盾",
+      "model" : "weapon85363_body",
+      "id" : 85363,
+      "guardMax" : 0,
+      "criticalMax" : 0,
+      "attackMax" : 0,
+      "type" : 8,
+      "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
     },
@@ -11365,6 +11432,19 @@
       "type" : 5,
       "type_atk" : 1,
       "type_cri" : 18,
+      "type_grd" : 3
+    },
+    "85294" : {
+      "rank" : 2,
+      "name" : "バラクアスィファ",
+      "model" : "weapon85294_body",
+      "id" : 85294,
+      "guardMax" : 9,
+      "criticalMax" : 7,
+      "attackMax" : 8,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
       "type_grd" : 3
     },
     "26080" : {
@@ -13144,7 +13224,7 @@
       "type_grd" : 3
     }
   },
-  "sv" : "1473647839",
+  "sv" : "1474874057",
   "res" : 0,
-  "deceive" : 1473915263
+  "deceive" : 1474955995
 }

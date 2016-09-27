@@ -1,5 +1,5 @@
 {
-  "sv" : "1473233645",
+  "sv" : "1474276594",
   "explorer_location" : {
     "102" : {
       "end" : 1470722399,
@@ -69,7 +69,7 @@
         }
       },
       "img_id" : "search_area_icon_006",
-      "timestamp" : "1473233644503",
+      "timestamp" : "1474276593432",
       "name" : "神殿",
       "text" : "１部２章クリアで\\n開放されます",
       "start" : 1470031200,
@@ -104,12 +104,6 @@
         "category_id" : 11,
         "val" : 1
       }, {
-        "type" : "weapon_ev",
-        "id" : 96057,
-        "priority" : 23,
-        "category_id" : 21,
-        "val" : 1
-      }, {
         "type" : "chara_rf",
         "id" : 90024,
         "priority" : 25,
@@ -120,6 +114,12 @@
         "id" : 83,
         "priority" : 9,
         "category_id" : 12,
+        "val" : 1
+      }, {
+        "type" : "weapon_ev",
+        "id" : 96057,
+        "priority" : 23,
+        "category_id" : 31,
         "val" : 1
       } ],
       "gold" : {
@@ -133,7 +133,7 @@
         }
       },
       "img_id" : "search_area_icon_004",
-      "timestamp" : "1473233644466",
+      "timestamp" : "1474276593382",
       "name" : "城砦",
       "text" : "１部２章クリアで\\n開放されます",
       "quest_type" : 2,
@@ -199,7 +199,7 @@
         }
       },
       "img_id" : "search_area_icon_000",
-      "timestamp" : "1473233644508",
+      "timestamp" : "1474276593438",
       "name" : "ダンジョン",
       "text" : "１部２章クリアで\\n開放されます",
       "start" : 1466488800,
@@ -234,12 +234,6 @@
         "category_id" : 11,
         "val" : 1
       }, {
-        "type" : "weapon_ev",
-        "id" : 96078,
-        "priority" : 23,
-        "category_id" : 21,
-        "val" : 1
-      }, {
         "type" : "chara_rf",
         "id" : 90022,
         "priority" : 25,
@@ -250,6 +244,12 @@
         "id" : 83,
         "priority" : 9,
         "category_id" : 12,
+        "val" : 1
+      }, {
+        "type" : "weapon_ev",
+        "id" : 96078,
+        "priority" : 23,
+        "category_id" : 31,
         "val" : 1
       } ],
       "gold" : {
@@ -263,7 +263,7 @@
         }
       },
       "img_id" : "search_area_icon_001",
-      "timestamp" : "1473233644474",
+      "timestamp" : "1474276593389",
       "name" : "迷宮山脈",
       "text" : "１部２章クリアで\\n開放されます",
       "quest_type" : 2,
@@ -333,7 +333,7 @@
         }
       },
       "img_id" : "search_area_icon_e01",
-      "timestamp" : "1473233644493",
+      "timestamp" : "1474276593414",
       "name" : "ケ者の大陸",
       "text" : "１部２章クリアで\\n開放されます",
       "start" : 1473141600,
@@ -362,12 +362,6 @@
         "category_id" : 11,
         "val" : 1
       }, {
-        "type" : "weapon_ev",
-        "id" : 96016,
-        "priority" : 22,
-        "category_id" : 21,
-        "val" : 1
-      }, {
         "type" : "chara_rf",
         "id" : 90020,
         "priority" : 24,
@@ -378,6 +372,12 @@
         "id" : 83,
         "priority" : 9,
         "category_id" : 12,
+        "val" : 1
+      }, {
+        "type" : "weapon_ev",
+        "id" : 96016,
+        "priority" : 22,
+        "category_id" : 31,
         "val" : 1
       } ],
       "gold" : {
@@ -391,7 +391,7 @@
         }
       },
       "img_id" : "search_area_icon_002",
-      "timestamp" : "1473233644479",
+      "timestamp" : "1474276593395",
       "name" : "古代遺跡",
       "text" : "１部３章クリアで\\n開放されます",
       "quest_type" : 2,
@@ -514,7 +514,7 @@
         }
       },
       "img_id" : "search_area_icon_e02",
-      "timestamp" : "1473233644498",
+      "timestamp" : "1474276593420",
       "name" : "コラボ",
       "text" : "１部２章クリアで\\n開放されます",
       "start" : 1454392800,
@@ -543,12 +543,6 @@
         "category_id" : 11,
         "val" : 1
       }, {
-        "type" : "weapon_ev",
-        "id" : 96238,
-        "priority" : 22,
-        "category_id" : 21,
-        "val" : 1
-      }, {
         "type" : "chara_rf",
         "id" : 90021,
         "priority" : 24,
@@ -566,6 +560,12 @@
         "priority" : 9,
         "category_id" : 12,
         "val" : 1
+      }, {
+        "type" : "weapon_ev",
+        "id" : 96238,
+        "priority" : 22,
+        "category_id" : 31,
+        "val" : 1
       } ],
       "gold" : {
         "1" : {
@@ -578,7 +578,7 @@
         }
       },
       "img_id" : "search_area_icon_003",
-      "timestamp" : "1473233644484",
+      "timestamp" : "1474276593403",
       "name" : "世界樹",
       "text" : "１部４章クリアで\\n開放されます",
       "quest_type" : 2,
@@ -642,7 +642,7 @@
         }
       },
       "img_id" : "search_area_icon_005",
-      "timestamp" : "1473233644488",
+      "timestamp" : "1474276593409",
       "name" : "湖都",
       "text" : "１部３章クリアで\\n開放されます",
       "start" : 1460440800,
@@ -713,7 +713,7 @@
         }
       },
       "img_id" : "search_area_icon_007",
-      "timestamp" : "1473233644513",
+      "timestamp" : "1474276593443",
       "name" : "銀座",
       "text" : "１部２章クリアで\\n開放されます",
       "start" : 1472623200,
@@ -724,5 +724,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1473915263
+  "deceive" : 1474955995
 }
