@@ -3694,6 +3694,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "26195" : {
+      "skill" : 3337,
+      "rank" : 3,
+      "name" : "恩恵のブレイブソード2",
+      "model" : "weapon004_body",
+      "id" : 26195,
+      "guardMax" : 18,
+      "criticalMax" : 11,
+      "attackMax" : 9,
+      "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "242" : {
       "rank" : 3,
       "name" : "ブレイバー改",
@@ -9082,6 +9096,19 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "70080" : {
+      "rank" : 3,
+      "name" : "どんアタック",
+      "model" : "weapon70080_body",
+      "id" : 70080,
+      "guardMax" : 10,
+      "criticalMax" : 10,
+      "attackMax" : 10,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "85175" : {
       "rank" : 3,
       "name" : "ネコネの杖",
@@ -9368,6 +9395,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85342" : {
+      "skill" : 630,
+      "rank" : 3,
+      "name" : "どんちゃんハンマー2",
+      "model" : "weapon85017_body",
+      "id" : 85342,
+      "guardMax" : 11,
+      "criticalMax" : 11,
+      "attackMax" : 11,
+      "type" : 1,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "26000" : {
       "rank" : 3,
       "name" : "さびた剣",
@@ -9377,6 +9418,20 @@
       "criticalMax" : 1,
       "attackMax" : 1,
       "type" : 0,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
+    "85343" : {
+      "skill" : 631,
+      "rank" : 3,
+      "name" : "かっちゃんハンマー2",
+      "model" : "weapon85018_body",
+      "id" : 85343,
+      "guardMax" : 11,
+      "criticalMax" : 11,
+      "attackMax" : 11,
+      "type" : 1,
       "type_atk" : 1,
       "type_cri" : 2,
       "type_grd" : 3
@@ -9899,7 +9954,7 @@
     },
     "85361" : {
       "rank" : 3,
-      "name" : "ゼファルの槍",
+      "name" : "アルシオーン",
       "model" : "weapon85361_body",
       "id" : 85361,
       "guardMax" : 10,
@@ -9925,7 +9980,7 @@
     },
     "85362" : {
       "rank" : 3,
-      "name" : "バグリスの右盾",
+      "name" : "カエルム・フムス",
       "model" : "weapon85362_body",
       "id" : 85362,
       "guardMax" : 10,
@@ -9951,7 +10006,7 @@
     },
     "85363" : {
       "rank" : 3,
-      "name" : "バグリスの左盾",
+      "name" : "カエルム・フムス(左）",
       "model" : "weapon85363_body",
       "id" : 85363,
       "guardMax" : 0,
@@ -10131,6 +10186,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85345" : {
+      "skill" : 13582,
+      "rank" : 3,
+      "name" : "コットンワンド",
+      "model" : "weapon70069_body",
+      "id" : 85345,
+      "guardMax" : 9,
+      "criticalMax" : 10,
+      "attackMax" : 12,
+      "type" : 4,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "26031" : {
       "rank" : 3,
       "name" : "ワイルドボア・撃",
@@ -10142,6 +10211,20 @@
       "type" : 1,
       "type_atk" : 1,
       "type_cri" : 5,
+      "type_grd" : 3
+    },
+    "85344" : {
+      "skill" : 145,
+      "rank" : 3,
+      "name" : "カトリーヌロッド",
+      "model" : "weapon70068_body",
+      "id" : 85344,
+      "guardMax" : 13,
+      "criticalMax" : 8,
+      "attackMax" : 10,
+      "type" : 5,
+      "type_atk" : 1,
+      "type_cri" : 2,
       "type_grd" : 3
     },
     "26030" : {
@@ -10157,6 +10240,20 @@
       "type_cri" : 2,
       "type_grd" : 3
     },
+    "85347" : {
+      "skill" : 15526,
+      "rank" : 3,
+      "name" : "プレミアムビアナックル",
+      "model" : "weapon218_body",
+      "id" : 85347,
+      "guardMax" : 7,
+      "criticalMax" : 11,
+      "attackMax" : 14,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
+      "type_grd" : 3
+    },
     "26029" : {
       "rank" : 3,
       "name" : "ワイルドボア・命",
@@ -10168,6 +10265,19 @@
       "type" : 1,
       "type_atk" : 1,
       "type_cri" : 18,
+      "type_grd" : 3
+    },
+    "85346" : {
+      "rank" : 2,
+      "name" : "ビアナックル",
+      "model" : "weapon218_body",
+      "id" : 85346,
+      "guardMax" : 3,
+      "criticalMax" : 7,
+      "attackMax" : 10,
+      "type" : 8,
+      "type_atk" : 1,
+      "type_cri" : 2,
       "type_grd" : 3
     },
     "26028" : {
@@ -13224,7 +13334,7 @@
       "type_grd" : 3
     }
   },
-  "sv" : "1474874057",
+  "sv" : "1475128461",
   "res" : 0,
-  "deceive" : 1474955995
+  "deceive" : 1475218808
 }

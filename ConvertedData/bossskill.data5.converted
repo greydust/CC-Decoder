@@ -7608,9 +7608,9 @@
     },
     "10441" : {
       "spmotname" : "sp_slash16",
-      "skillparam2" : 1.4,
+      "skillparam2" : 1.5,
       "skillflag0_0" : 1,
-      "skillparam1" : 8.0,
+      "skillparam1" : 10.0,
       "skillid" : 10441,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
@@ -8336,9 +8336,9 @@
     },
     "10412" : {
       "spmotname" : "sp_magic12",
-      "skillparam2" : 454500.0,
+      "skillparam2" : 505000.0,
       "skillparam3" : 2.0,
-      "skillparam4" : 20.0,
+      "skillparam4" : 25.0,
       "skillparam5" : 0.3,
       "skillparam6" : -0.3,
       "skillflag0_0" : 0,
@@ -8602,6 +8602,30 @@
       "skillflag0_1" : 0,
       "skillid0" : 49
     },
+    "50971" : {
+      "spmotname" : "sp_dash_thrust05",
+      "skillparam2" : 4.0,
+      "skillflag0_0" : 64,
+      "skillparam1" : 5.0,
+      "skillid" : 50971,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 2
+    },
+    "50970" : {
+      "skillparam0" : 5.0,
+      "spmotname" : "sp_powerup01",
+      "skillparam4" : 102.0,
+      "skillparam5" : 120.0,
+      "skillflag0_0" : 0,
+      "skillparam1" : 1.0,
+      "skillid" : 50970,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 66
+    },
     "711" : {
       "skillflag" : 1024,
       "spmotname" : "sp_magic01",
@@ -8613,6 +8637,17 @@
       "skillflag1_0" : 0,
       "skillflag0_1" : 0,
       "skillid0" : 4
+    },
+    "50972" : {
+      "spmotname" : "sp_dash_thrust05",
+      "skillparam2" : -4.0,
+      "skillflag0_0" : 64,
+      "skillparam1" : 5.0,
+      "skillid" : 50972,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 2
     },
     "710" : {
       "spmotname" : "sp_magic03",
@@ -10363,7 +10398,7 @@
     },
     "82090" : {
       "skillflag" : 5120,
-      "str0" : "BE_Utaware_Kurarin_a",
+      "str0" : "BE_Madomagi_Mami_Bebe_a",
       "skillparam0" : 10.0,
       "spmotname" : "gun_sp_powerup02",
       "skillparam2" : 1.0,
@@ -11793,7 +11828,7 @@
       "skillid0" : 31
     }
   },
-  "sv" : "1474875715",
+  "sv" : "1475059733",
   "res" : 0,
-  "deceive" : 1474955991
+  "deceive" : 1475218804
 }

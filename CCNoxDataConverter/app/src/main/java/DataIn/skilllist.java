@@ -26,4 +26,5 @@ public class skilllist
     public Double param7;
     public Double param9;
     public Double param8;
+    public String str0;
 }

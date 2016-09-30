@@ -1,5 +1,5 @@
 {
-  "sv" : "1474874057",
+  "sv" : "1475128461",
   "evolve" : {
     "26169" : {
       "name" : "スピアハート・速撃",
@@ -444,6 +444,17 @@
       "id" : 26177,
       "evol_dst" : 26177,
       "usable0" : 9999,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "26195" : {
+      "name" : "恩恵のブレイブソード2",
+      "profile" : "2：パラ＋武器",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 26195,
+      "evol_dst" : 26195,
+      "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
     },
@@ -5141,6 +5152,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85342" : {
+      "name" : "どんちゃんハンマー2",
+      "profile" : "太鼓の達人",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 85342,
+      "evol_dst" : 85342,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26000" : {
       "name" : "さびた剣",
       "profile" : "ver2.6錬金",
@@ -5148,6 +5170,17 @@
       "rarity" : 5,
       "id" : 26000,
       "evol_dst" : 26000,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85343" : {
+      "name" : "かっちゃんハンマー2",
+      "profile" : "太鼓の達人",
+      "rank_limit" : 2,
+      "rarity" : 5,
+      "id" : 85343,
+      "evol_dst" : 85343,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -5706,6 +5739,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85345" : {
+      "name" : "コットンワンド",
+      "profile" : "お祭り武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85345,
+      "evol_dst" : 85345,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26031" : {
       "name" : "ワイルドボア・撃",
       "profile" : "ver2.6錬金",
@@ -5713,6 +5757,17 @@
       "rarity" : 5,
       "id" : 26031,
       "evol_dst" : 26031,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85344" : {
+      "name" : "カトリーヌロッド",
+      "profile" : "お祭り武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85344,
+      "evol_dst" : 85344,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -5728,6 +5783,17 @@
       "usable1" : -1,
       "usable2" : -1
     },
+    "85347" : {
+      "name" : "プレミアムビアナックル",
+      "profile" : "お祭り武器",
+      "rank_limit" : 2,
+      "rarity" : 4,
+      "id" : 85347,
+      "evol_dst" : 85347,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
     "26029" : {
       "name" : "ワイルドボア・命",
       "profile" : "ver2.6錬金",
@@ -5735,6 +5801,17 @@
       "rarity" : 5,
       "id" : 26029,
       "evol_dst" : 26029,
+      "usable0" : -1,
+      "usable1" : -1,
+      "usable2" : -1
+    },
+    "85346" : {
+      "name" : "ビアナックル",
+      "profile" : "お祭り武器",
+      "rank_limit" : 0,
+      "rarity" : 3,
+      "id" : 85346,
+      "evol_dst" : 85346,
       "usable0" : -1,
       "usable1" : -1,
       "usable2" : -1
@@ -6944,5 +7021,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1474955995
+  "deceive" : 1475218808
 }

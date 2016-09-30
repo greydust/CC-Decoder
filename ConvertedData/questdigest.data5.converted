@@ -1,5 +1,5 @@
 {
-  "sv" : "1474886701",
+  "sv" : "1475139845",
   "questdigest" : {
     "0" : {
       "append_skill" : { },
@@ -42266,6 +42266,16 @@
       } ],
       "field_type" : [ 0 ],
       "flag" : { },
+      "helpers" : [ [ {
+        "skillflag" : [ true, true, true, false ],
+        "helper_comment" : "砂漠が俺の生きる場所",
+        "enable_act" : false,
+        "cid" : 5095,
+        "hp" : 9700,
+        "lv" : 80,
+        "atk" : 9100
+      } ] ],
+      "icon" : "280010",
       "is_casino" : false,
       "kind_prm" : 1,
       "name" : "お試しクエスト",
@@ -122577,6 +122587,45 @@
       "chapter_cnt" : 1,
       "area_id" : 1
     },
+    "246104" : {
+      "append_skill" : { },
+      "bg_list" : [ 400 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 10,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 3000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 5000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 10000
+      }, {
+        "type" : "item",
+        "id" : 10,
+        "val" : 15000
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "icon" : "Event001",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "ふつう",
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 10,
+        "box" : 2
+      },
+      "quest_id" : 246104,
+      "difficulty" : 5,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "239609" : {
       "append_skill" : { },
       "bg_list" : [ 8, 8 ],
@@ -122596,6 +122645,45 @@
       "quest_id" : 239609,
       "difficulty" : 4,
       "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "246105" : {
+      "append_skill" : { },
+      "bg_list" : [ 400 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 15,
+      "eneset_treasure" : [ {
+        "type" : "item",
+        "id" : 10,
+        "val" : 3000
+      }, {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "icon" : "Event001",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "むずかしい",
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90904,
+        "box" : 3
+      },
+      "quest_id" : 246105,
+      "difficulty" : 18,
+      "chapter_cnt" : 1,
       "area_id" : 1
     },
     "239608" : {
@@ -122619,6 +122707,45 @@
       "chapter_cnt" : 2,
       "area_id" : 1
     },
+    "246106" : {
+      "append_skill" : { },
+      "bg_list" : [ 400 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 20,
+      "eneset_treasure" : [ {
+        "type" : "weapon_rf",
+        "id" : 93001,
+        "val" : 1
+      }, {
+        "type" : "weapon_ev",
+        "id" : 85017,
+        "val" : 1
+      }, {
+        "type" : "weapon_ev",
+        "id" : 85018,
+        "val" : 1
+      }, {
+        "type" : "weapon_rf",
+        "id" : 93007,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "icon" : "Event001",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "おに",
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90904,
+        "box" : 3
+      },
+      "quest_id" : 246106,
+      "difficulty" : 40,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "239611" : {
       "append_skill" : { },
       "bg_list" : [ 8, 8 ],
@@ -122638,6 +122765,45 @@
       "quest_id" : 239611,
       "difficulty" : 4,
       "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "246107" : {
+      "append_skill" : { },
+      "bg_list" : [ 400 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 30,
+      "eneset_treasure" : [ {
+        "type" : "chara_rf",
+        "id" : 90902,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90903,
+        "val" : 1
+      }, {
+        "type" : "chara_rf",
+        "id" : 90904,
+        "val" : 1
+      } ],
+      "field_type" : [ 0 ],
+      "flag" : { },
+      "icon" : "Event001",
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "おに 裏譜面",
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 90904,
+        "box" : 3
+      },
+      "quest_id" : 246107,
+      "difficulty" : 54,
+      "chapter_cnt" : 1,
       "area_id" : 1
     },
     "239610" : {
@@ -122661,6 +122827,28 @@
       "chapter_cnt" : 2,
       "area_id" : 1
     },
+    "246108" : {
+      "append_skill" : { },
+      "bg_list" : [ 400 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 1,
+      "eneset_treasure" : [ ],
+      "field_type" : [ 1 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "太鼓総力戦 上級テスト",
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 1,
+        "box" : 2
+      },
+      "quest_id" : 246108,
+      "difficulty" : 1,
+      "chapter_cnt" : 1,
+      "area_id" : 1
+    },
     "239613" : {
       "append_skill" : { },
       "bg_list" : [ 8, 8 ],
@@ -122680,6 +122868,28 @@
       "quest_id" : 239613,
       "difficulty" : 4,
       "chapter_cnt" : 2,
+      "area_id" : 1
+    },
+    "246109" : {
+      "append_skill" : { },
+      "bg_list" : [ 400 ],
+      "chapter_list" : [ 0 ],
+      "stamina" : 1,
+      "eneset_treasure" : [ ],
+      "field_type" : [ 1 ],
+      "flag" : { },
+      "is_casino" : false,
+      "kind_prm" : 1,
+      "name" : "太鼓総力戦 初・中級テスト",
+      "reward_box" : 2,
+      "reward_data" : {
+        "type" : "item",
+        "id" : 1,
+        "box" : 2
+      },
+      "quest_id" : 246109,
+      "difficulty" : 1,
+      "chapter_cnt" : 1,
       "area_id" : 1
     },
     "239612" : {
@@ -123002,6 +123212,27 @@
       "quest_id" : 239605,
       "difficulty" : 19,
       "chapter_cnt" : 1,
+      "area_id" : 1
+    },
+    "246101" : {
+      "append_skill" : { },
+      "bg_list" : [ 400, 400, 400 ],
+      "chapter_list" : [ 1, 2, 3 ],
+      "stamina" : 5,
+      "field_type" : [ 0, 0, 0 ],
+      "flag" : { },
+      "icon" : "Event001",
+      "is_casino" : false,
+      "name" : "前回のお話だドン！",
+      "reward_box" : 3,
+      "reward_data" : {
+        "type" : "card",
+        "id" : 85016,
+        "box" : 3
+      },
+      "quest_id" : 246101,
+      "difficulty" : 1,
+      "chapter_cnt" : 3,
       "area_id" : 1
     },
     "239604" : {
@@ -131154,5 +131385,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1474956004
+  "deceive" : 1475218815
 }
