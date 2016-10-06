@@ -7434,15 +7434,16 @@
       "charge" : 6.0,
       "chargemotion" : "monk_sp_powerup03_loop",
       "spmotname" : "sp_tenma02",
-      "skillparam2" : 1.0,
-      "skillparam3" : 20.0,
+      "skillparam2" : 12.0,
+      "skillparam3" : 15.0,
+      "skillparam4" : 0.3,
       "skillflag0_0" : 0,
       "skillparam1" : 0.0,
       "skillid" : 558,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
       "skillflag0_1" : 0,
-      "skillid0" : 36
+      "skillid0" : 96
     },
     "559" : {
       "charge" : 6.0,
@@ -7476,7 +7477,7 @@
       "charge" : 6.0,
       "chargemotion" : "monk_sp_powerup03_loop",
       "spmotname" : "sp_shield01",
-      "skillparam2" : 10.0,
+      "skillparam2" : 15.0,
       "skillflag0_0" : 0,
       "skillparam1" : 10.0,
       "skillid" : 557,
@@ -7622,7 +7623,6 @@
       "chargemotion" : "monk_sp_powerup03_loop",
       "spmotname" : "sp_magic02",
       "skillparam3" : 1.5,
-      "skillparam7" : 1.0,
       "skillflag0_0" : 16,
       "skillparam1" : 1.5,
       "skillid" : 561,
@@ -7646,13 +7646,14 @@
     "560" : {
       "charge" : 6.0,
       "chargemotion" : "monk_sp_powerup03_loop",
-      "skillparam0" : 0.1,
+      "str1" : "BE_Aura_Dark_b",
+      "skillparam0" : 0.3,
       "spmotname" : "sp_tenma01",
       "skillparam2" : 354000.0,
-      "skillparam4" : 32.0,
+      "skillparam4" : 50.0,
       "skillparam7" : 1.0,
       "skillflag0_0" : 16,
-      "skillparam1" : 10.0,
+      "skillparam1" : 8.0,
       "skillid" : 560,
       "skillflag1_1" : 0,
       "skillflag1_0" : 0,
@@ -8603,9 +8604,10 @@
       "skillid0" : 49
     },
     "50971" : {
-      "spmotname" : "sp_dash_thrust05",
-      "skillparam2" : 4.0,
-      "skillflag0_0" : 64,
+      "spmotname" : "sp_dash_thrust08",
+      "skillparam2" : 9.0,
+      "skillparam3" : 4.5,
+      "skillflag0_0" : 65,
       "skillparam1" : 5.0,
       "skillid" : 50971,
       "skillflag1_1" : 0,
@@ -8626,6 +8628,18 @@
       "skillflag0_1" : 0,
       "skillid0" : 66
     },
+    "50973" : {
+      "spmotname" : "sp_slash01",
+      "skillparam2" : 100500.0,
+      "skillparam3" : 200000.0,
+      "skillflag0_0" : 0,
+      "skillparam1" : 121000.0,
+      "skillid" : 50973,
+      "skillflag1_1" : 0,
+      "skillflag1_0" : 0,
+      "skillflag0_1" : 0,
+      "skillid0" : 52
+    },
     "711" : {
       "skillflag" : 1024,
       "spmotname" : "sp_magic01",
@@ -8639,9 +8653,10 @@
       "skillid0" : 4
     },
     "50972" : {
-      "spmotname" : "sp_dash_thrust05",
-      "skillparam2" : -4.0,
-      "skillflag0_0" : 64,
+      "spmotname" : "sp_dash_thrust09",
+      "skillparam2" : -4.5,
+      "skillparam3" : 0.001,
+      "skillflag0_0" : 1,
       "skillparam1" : 5.0,
       "skillid" : 50972,
       "skillflag1_1" : 0,
@@ -10324,7 +10339,7 @@
     "82061" : {
       "skillflag" : 1,
       "spmotname" : "attack_tackle01",
-      "skillparam2" : 3.0,
+      "skillparam2" : 4.5,
       "skillflag0_0" : 1,
       "skillparam1" : 6.0,
       "skillid" : 82061,
@@ -11828,7 +11843,7 @@
       "skillid0" : 31
     }
   },
-  "sv" : "1475059733",
+  "sv" : "1475646307",
   "res" : 0,
-  "deceive" : 1475218804
+  "deceive" : 1475737204
 }

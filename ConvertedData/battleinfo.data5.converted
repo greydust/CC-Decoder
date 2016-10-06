@@ -281,11 +281,11 @@
       "change_flag" : 0
     },
     "400" : {
-      "bg_name" : "街中夜",
+      "bg_name" : "祭り夜",
       "id" : "400",
       "effect_l" : "",
       "effect_s" : "",
-      "flag" : 8704,
+      "flag" : 8192,
       "change_flag" : 0
     },
     "9" : {
@@ -440,6 +440,14 @@
       "flag" : 1179648,
       "change_flag" : 0
     },
+    "130" : {
+      "bg_name" : "深淵",
+      "id" : "130",
+      "effect_l" : "",
+      "effect_s" : "",
+      "flag" : 0,
+      "change_flag" : 0
+    },
     "101" : {
       "bg_name" : "船上",
       "id" : "101",
@@ -465,7 +473,7 @@
       "change_flag" : 0
     }
   },
-  "sv" : "1472033265",
+  "sv" : "1473419366",
   "res" : 0,
-  "deceive" : 1473915255
+  "deceive" : 1475737202
 }

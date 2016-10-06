@@ -1,5 +1,5 @@
 {
-  "sv" : "1474452637",
+  "sv" : "1475543640",
   "motionlist" : {
     "11000" : {
       "_appear" : "damage02",
@@ -1659,6 +1659,27 @@
       "_walk" : "walk01",
       "_walkWarn" : "walk01",
       "_motionID" : 8000
+    },
+    "8007" : {
+      "_appear" : "damage02",
+      "_atk" : "attack_head01",
+      "_atk2" : "attack_head02",
+      "_boneType" : "animal",
+      "_charaType" : "四足歩行動物・どんちゃん_勝利ポーズ異なる",
+      "_collision" : "damage01",
+      "_death" : "dead01",
+      "_dmg_l" : "damage02",
+      "_dmg_s" : "damage01",
+      "_guard" : "damage01",
+      "_win" : "win_dog01",
+      "_shot" : "attack_head01",
+      "_shot2" : "attack_head02",
+      "_stun" : "stun01",
+      "_wait" : "neutral01",
+      "_waitWarn" : "neutral01",
+      "_walk" : "walk01",
+      "_walkWarn" : "walk01",
+      "_motionID" : 8007
     },
     "8006" : {
       "_appear" : "damage02",
@@ -3928,6 +3949,27 @@
       "_walkWarn" : "ghost_walk01",
       "_motionID" : 2013
     },
+    "14001" : {
+      "_appear" : "neutral01",
+      "_atk" : "neutral01",
+      "_atk2" : "neutral01",
+      "_boneType" : "kurumi",
+      "_charaType" : "くるみ割りの魔女",
+      "_collision" : "neutral01",
+      "_death" : "neutral01",
+      "_dmg_l" : "neutral01",
+      "_dmg_s" : "neutral01",
+      "_guard" : "neutral01",
+      "_win" : "neutral01",
+      "_shot" : "neutral01",
+      "_shot2" : "neutral01",
+      "_stun" : "neutral01",
+      "_wait" : "neutral01",
+      "_waitWarn" : "neutral01",
+      "_walk" : "neutral01",
+      "_walkWarn" : "neutral01",
+      "_motionID" : 14001
+    },
     "1505" : {
       "_appear" : "damage01",
       "_atk" : "rifle_attack_blade01",
@@ -3948,6 +3990,27 @@
       "_walk" : "rifle_walk01",
       "_walkWarn" : "rifle_walk_tired01",
       "_motionID" : 1505
+    },
+    "14000" : {
+      "_appear" : "damage01",
+      "_atk" : "attack01",
+      "_atk2" : "attack01",
+      "_boneType" : "soldier",
+      "_charaType" : "くるみ割りの魔女の手下",
+      "_collision" : "damage01",
+      "_death" : "dead01",
+      "_dmg_l" : "damage02",
+      "_dmg_s" : "damage01",
+      "_guard" : "attack01",
+      "_win" : "dead01",
+      "_shot" : "attack01",
+      "_shot2" : "attack01",
+      "_stun" : "stun01",
+      "_wait" : "neutral01",
+      "_waitWarn" : "neutral01",
+      "_walk" : "walk01",
+      "_walkWarn" : "walk01",
+      "_motionID" : 14000
     },
     "1504" : {
       "_appear" : "damage01",
@@ -4707,5 +4770,5 @@
     }
   },
   "res" : 0,
-  "deceive" : 1474955993
+  "deceive" : 1475737203
 }

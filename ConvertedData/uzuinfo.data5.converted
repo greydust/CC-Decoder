@@ -1,15 +1,643 @@
 {
-  "uzu" : [ ],
+  "uzu" : [ {
+    "uzu_id" : 1,
+    "name" : "万物呑天ノ渦",
+    "boss_id" : 7610,
+    "boss_border" : [ 10, 20, 20, 20, 20, 30, 30, 30, 30 ],
+    "reward_map" : [ {
+      "reward_list" : [ {
+        "type" : "chara_rf",
+        "id" : 90905,
+        "val" : 1,
+        "border" : 3880
+      }, {
+        "type" : "stone",
+        "id" : 0,
+        "val" : 1,
+        "border" : 7760
+      }, {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1,
+        "border" : 11640
+      } ]
+    } ],
+    "schedule" : [ {
+      "start" : 1475744400,
+      "end" : 1476953999,
+      "schedule_id" : 1,
+      "data" : {
+        "uzu_id" : 1,
+        "stage_id" : 1,
+        "home" : 15,
+        "web_text" : "状態異常になると強くなる「二重人格殺人鬼 アリシア」などの特殊なキャラクターが多いので、各キャラクターのスキルやアビリティをよく読んで、効果的な組み合わせを探そう！",
+        "web_banner" : "sakaba10.jpg?v=2",
+        "debuff" : {
+          "atk" : 0.2,
+          "def" : 1.8,
+          "speed" : 0.7,
+          "hp" : 1
+        },
+        "pos" : [ {
+          "area" : 12,
+          "posx" : -251,
+          "posy" : -271
+        } ]
+      }
+    }, {
+      "start" : 1476954000,
+      "end" : 1478163599,
+      "schedule_id" : 2,
+      "data" : {
+        "uzu_id" : 1,
+        "stage_id" : 1,
+        "home" : 8,
+        "web_text" : "騎士・弓使いの組み合わせを意識しよう！ リングガチャキャラクターの「駱駝の使い キャメロウ」「水呼びの舞人 ユーフィス」がいると＜湖都＞パーティが組みやすく！ 「砂漠の鷹 ジャファール」には監獄カジノで入手できる専用武器を装備させよう！",
+        "web_banner" : "sakaba05.jpg?v=2",
+        "debuff" : {
+          "atk" : 0.2,
+          "def" : 1.8,
+          "speed" : 0.7,
+          "hp" : 1
+        },
+        "pos" : [ {
+          "area" : 3,
+          "posx" : -300,
+          "posy" : -320
+        } ]
+      }
+    }, {
+      "start" : 1478163600,
+      "end" : 1479373199,
+      "schedule_id" : 3,
+      "data" : {
+        "uzu_id" : 1,
+        "stage_id" : 1,
+        "home" : 3,
+        "web_text" : "サブパーティ時に効果を発揮するアビリティをもった＜旅人＞キャラクターを見逃さないようにしよう！",
+        "web_banner" : "",
+        "debuff" : {
+          "atk" : 0.2,
+          "def" : 1.8,
+          "speed" : 0.7,
+          "hp" : 1
+        },
+        "pos" : [ {
+          "area" : 1,
+          "posx" : -440,
+          "posy" : -110
+        } ]
+      }
+    } ]
+  }, {
+    "uzu_id" : 2,
+    "name" : "運命流転ノ渦",
+    "boss_id" : 7564,
+    "boss_border" : [ 10, 20, 20, 20, 20, 30, 30, 30, 30 ],
+    "reward_map" : [ {
+      "reward_list" : [ {
+        "type" : "chara_rf",
+        "id" : 90905,
+        "val" : 1,
+        "border" : 3880
+      }, {
+        "type" : "stone",
+        "id" : 0,
+        "val" : 1,
+        "border" : 7760
+      }, {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1,
+        "border" : 11640
+      } ]
+    } ],
+    "schedule" : [ {
+      "start" : 1475744400,
+      "end" : 1476953999,
+      "schedule_id" : 1,
+      "data" : {
+        "uzu_id" : 2,
+        "stage_id" : 2,
+        "home" : 14,
+        "web_text" : "＜ケ者の大陸＞の仲間を強化する限定キャラクター「ケ者の総代 ガジジナ」をベースに、戦士パーティを組もう！ 「黒毛の双剣士 ガルルア」や「愛の白兎 シャロララ」もオススメだ！",
+        "web_banner" : "sakaba09.jpg?v=2",
+        "debuff" : {
+          "atk" : 0.2,
+          "def" : 1.8,
+          "speed" : 0.7,
+          "hp" : 1
+        },
+        "pos" : [ {
+          "area" : 11,
+          "posx" : -210,
+          "posy" : -150
+        } ]
+      }
+    }, {
+      "start" : 1476954000,
+      "end" : 1478163599,
+      "schedule_id" : 2,
+      "data" : {
+        "uzu_id" : 2,
+        "stage_id" : 2,
+        "home" : 17,
+        "web_text" : "スクラップは、ゴミではなく資産だ！ スクラップをマナに変換できる「明日を穿つ左腕 ケーテ」や「諜報員 グリゼルディス」をベースに、＜鉄煙の大陸＞の騎士・弓使いパーティを組もう！",
+        "web_banner" : "sakaba12.jpg?v=2",
+        "debuff" : {
+          "atk" : 0.2,
+          "def" : 1.8,
+          "speed" : 0.7,
+          "hp" : 1
+        },
+        "pos" : [ {
+          "area" : 14,
+          "posx" : 300,
+          "posy" : -480
+        } ]
+      }
+    }, {
+      "start" : 1478163600,
+      "end" : 1479373199,
+      "schedule_id" : 3,
+      "data" : {
+        "uzu_id" : 2,
+        "stage_id" : 2,
+        "home" : 9,
+        "web_text" : "限定キャラクター「千河の司令官 ビエンタ」がいると、＜精霊島＞所属の仲間を強化できるぞ！ 『海風の港』酒場から登場する＜精霊島＞所属キャラクターもうまくパーティに組み込もう！",
+        "web_banner" : "sakaba06.jpg?v=2",
+        "debuff" : {
+          "atk" : 0.2,
+          "def" : 1.8,
+          "speed" : 0.7,
+          "hp" : 1
+        },
+        "pos" : [ {
+          "area" : 4,
+          "posx" : 20,
+          "posy" : 350
+        } ]
+      }
+    } ]
+  } ],
   "info" : {
-    "uzu_key_init" : 12,
+    "uzu_key_init" : 11,
     "uzu_key_max" : 30,
     "uzu_key_recover_1day" : 1,
     "uzu_key_recover_item" : 1,
     "uzu_key_recover_use" : 1,
-    "uzu_key_update_time" : 39600
+    "uzu_key_update_time" : 64800
   },
   "sv" : "0",
-  "stage" : [ ],
+  "stage" : [ {
+    "stage_id" : 1,
+    "use_key" : 1,
+    "stage_list" : [ {
+      "stage" : 11,
+      "cleared_lv" : 9,
+      "lv" : 10,
+      "title" : "万物呑天ノ渦　超上級",
+      "battle_point" : 100,
+      "home_rate" : 540,
+      "strength" : 22,
+      "bg" : 130,
+      "bgm" : 12,
+      "difficulty" : 90,
+      "df_icon" : 2,
+      "bt_mana" : 2,
+      "boss_flag" : 1,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 5
+      },
+      "eneset" : [ 7101011 ]
+    }, {
+      "stage" : 10,
+      "cleared_lv" : 9,
+      "lv" : 10,
+      "title" : "万物呑天ノ渦　上級",
+      "battle_point" : 100,
+      "home_rate" : 540,
+      "strength" : 17,
+      "bg" : 130,
+      "bgm" : 12,
+      "difficulty" : 80,
+      "df_icon" : 1,
+      "bt_mana" : 2,
+      "boss_flag" : 1,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 5
+      },
+      "eneset" : [ 7101010 ]
+    }, {
+      "stage" : 9,
+      "cleared_lv" : 8,
+      "lv" : 9,
+      "title" : "万物呑天ノ渦９",
+      "battle_point" : 100,
+      "home_rate" : 540,
+      "strength" : 9.5,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 75,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101009, 7101013, 7101014, 7101015 ]
+    }, {
+      "stage" : 8,
+      "cleared_lv" : 7,
+      "lv" : 8,
+      "title" : "万物呑天ノ渦８",
+      "battle_point" : 100,
+      "home_rate" : 510,
+      "strength" : 10,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 70,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101008 ]
+    }, {
+      "stage" : 7,
+      "cleared_lv" : 6,
+      "lv" : 7,
+      "title" : "万物呑天ノ渦７",
+      "battle_point" : 100,
+      "home_rate" : 480,
+      "strength" : 9,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 65,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101007 ]
+    }, {
+      "stage" : 6,
+      "cleared_lv" : 5,
+      "lv" : 6,
+      "title" : "万物呑天ノ渦６",
+      "battle_point" : 100,
+      "home_rate" : 450,
+      "strength" : 8,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 60,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101006 ]
+    }, {
+      "stage" : 5,
+      "cleared_lv" : 4,
+      "lv" : 5,
+      "title" : "万物呑天ノ渦５",
+      "battle_point" : 100,
+      "home_rate" : 420,
+      "strength" : 9,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 55,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101005 ]
+    }, {
+      "stage" : 4,
+      "cleared_lv" : 3,
+      "lv" : 4,
+      "title" : "万物呑天ノ渦４",
+      "battle_point" : 100,
+      "home_rate" : 390,
+      "strength" : 8,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 50,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101004 ]
+    }, {
+      "stage" : 3,
+      "cleared_lv" : 2,
+      "lv" : 3,
+      "title" : "万物呑天ノ渦３",
+      "battle_point" : 100,
+      "home_rate" : 360,
+      "strength" : 6,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 40,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101003 ]
+    }, {
+      "stage" : 2,
+      "cleared_lv" : 1,
+      "lv" : 2,
+      "title" : "万物呑天ノ渦２",
+      "battle_point" : 100,
+      "home_rate" : 330,
+      "strength" : 5,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 30,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101002 ]
+    }, {
+      "stage" : 1,
+      "cleared_lv" : 0,
+      "lv" : 1,
+      "title" : "万物呑天ノ渦１",
+      "battle_point" : 100,
+      "home_rate" : 300,
+      "strength" : 3,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 20,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101001 ]
+    } ]
+  }, {
+    "stage_id" : 2,
+    "use_key" : 1,
+    "stage_list" : [ {
+      "stage" : 11,
+      "cleared_lv" : 9,
+      "lv" : 10,
+      "title" : "運命流転ノ渦　超上級",
+      "battle_point" : 100,
+      "home_rate" : 540,
+      "strength" : 22,
+      "bg" : 130,
+      "bgm" : 12,
+      "difficulty" : 90,
+      "df_icon" : 2,
+      "bt_mana" : 2,
+      "boss_flag" : 1,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 5
+      },
+      "eneset" : [ 7101102 ]
+    }, {
+      "stage" : 10,
+      "cleared_lv" : 9,
+      "lv" : 10,
+      "title" : "運命流転ノ渦　上級",
+      "battle_point" : 100,
+      "home_rate" : 540,
+      "strength" : 17,
+      "bg" : 130,
+      "bgm" : 12,
+      "difficulty" : 80,
+      "df_icon" : 1,
+      "bt_mana" : 2,
+      "boss_flag" : 1,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 5
+      },
+      "eneset" : [ 7101101 ]
+    }, {
+      "stage" : 9,
+      "cleared_lv" : 8,
+      "lv" : 9,
+      "title" : "運命流転ノ渦９",
+      "battle_point" : 100,
+      "home_rate" : 540,
+      "strength" : 9.5,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 75,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101009, 7101013, 7101014, 7101015 ]
+    }, {
+      "stage" : 8,
+      "cleared_lv" : 7,
+      "lv" : 8,
+      "title" : "運命流転ノ渦８",
+      "battle_point" : 100,
+      "home_rate" : 510,
+      "strength" : 10,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 70,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101008 ]
+    }, {
+      "stage" : 7,
+      "cleared_lv" : 6,
+      "lv" : 7,
+      "title" : "運命流転ノ渦７",
+      "battle_point" : 100,
+      "home_rate" : 480,
+      "strength" : 9,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 65,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101007 ]
+    }, {
+      "stage" : 6,
+      "cleared_lv" : 5,
+      "lv" : 6,
+      "title" : "運命流転ノ渦６",
+      "battle_point" : 100,
+      "home_rate" : 450,
+      "strength" : 8,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 60,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101006 ]
+    }, {
+      "stage" : 5,
+      "cleared_lv" : 4,
+      "lv" : 5,
+      "title" : "運命流転ノ渦５",
+      "battle_point" : 100,
+      "home_rate" : 420,
+      "strength" : 9,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 55,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101005 ]
+    }, {
+      "stage" : 4,
+      "cleared_lv" : 3,
+      "lv" : 4,
+      "title" : "運命流転ノ渦４",
+      "battle_point" : 100,
+      "home_rate" : 390,
+      "strength" : 8,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 50,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101004 ]
+    }, {
+      "stage" : 3,
+      "cleared_lv" : 2,
+      "lv" : 3,
+      "title" : "運命流転ノ渦３",
+      "battle_point" : 100,
+      "home_rate" : 360,
+      "strength" : 6,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 40,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101003 ]
+    }, {
+      "stage" : 2,
+      "cleared_lv" : 1,
+      "lv" : 2,
+      "title" : "運命流転ノ渦２",
+      "battle_point" : 100,
+      "home_rate" : 330,
+      "strength" : 5,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 30,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101002 ]
+    }, {
+      "stage" : 1,
+      "cleared_lv" : 0,
+      "lv" : 1,
+      "title" : "運命流転ノ渦１",
+      "battle_point" : 100,
+      "home_rate" : 300,
+      "strength" : 3,
+      "bg" : 130,
+      "bgm" : 11,
+      "difficulty" : 20,
+      "df_icon" : 0,
+      "bt_mana" : 2,
+      "boss_flag" : 0,
+      "reward" : {
+        "type" : "item",
+        "id" : 34,
+        "val" : 1
+      },
+      "eneset" : [ 7101001 ]
+    } ]
+  } ],
   "res" : 0,
-  "deceive" : 1475218803
+  "deceive" : 1475737203
 }

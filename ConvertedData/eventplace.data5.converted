@@ -1,14 +1,6 @@
 {
-  "sv" : "1474877769",
-  "place_event_bg" : [ {
-    "area_id" : 1,
-    "place_id" : 0,
-    "bg" : 245,
-    "start" : 1474956000,
-    "end" : 1475733599,
-    "name" : "サクラ大戦後編",
-    "bgm" : [ "BGM_SAKURA_002" ]
-  } ],
+  "sv" : "1",
+  "place_event_bg" : [ ],
   "res" : 0,
-  "deceive" : 1474955991
+  "deceive" : 1475737202
 }
