@@ -80,9 +80,14 @@ function SkillDetailText(cellToWrite, skillType, skillParams, skillFlag, iParams
     
     cellToWrite.addEventListener("mouseover", function(e) {
         popup.style.display = "block";
+
+        var paramDescriptions;
+        if (typeof(SkillDatas[skillType]) == undefined || SkillDatas[skillType] == null) {
+            skillType = 0xaaaa;
+        }
         
         popup.getElementsByTagName("p")[0].innerHTML = "類別: " + SkillDatas[skillType].typeName;
-        var paramDescriptions = SkillDatas[skillType].parameterDescription;
+        paramDescriptions = SkillDatas[skillType].parameterDescription;
         for (var i=0 ; i<5; i++) {
             for (var j=0 ; j<2 ; j++) {
                 popup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + skillParams[i*2+j];
@@ -353,8 +358,13 @@ function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag,
     cellToWrite.addEventListener("mouseover", function(e) {
         popup.style.display = "block";
         
+        if (typeof(PassiveDatas[passiveType]) == undefined || PassiveDatas[passiveType] == null) {
+            passiveType = 0xaaaa;
+        }
+
         popup.getElementsByTagName("p")[0].innerHTML = "類別: " + PassiveDatas[passiveType].typeName;
-        var paramDescriptions = PassiveDatas[passiveType].parameterDescription;
+        paramDescriptions = PassiveDatas[passiveType].parameterDescription;
+
         for (var i=0 ; i<5; i++) {
             for (var j=0 ; j<2 ; j++) {
                 popup.getElementsByTagName("table")[0].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = paramDescriptions[i*2+j] + ": " + passiveParams[i*2+j];
@@ -368,7 +378,7 @@ function PassiveDetailText(cellToWrite, passiveType, passiveParams, passiveFlag,
         }
         var iParamDescriptions = PassiveDatas[passiveType].iParameterDescription;
         for (var i=0 ; i<1; i++) {
-            for (var j=0 ; j<1 ; j++) {
+            for (var j=0 ; j<2 ; j++) {
                 popup.getElementsByTagName("table")[2].getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML = iParamDescriptions[i*2+j] + ": " + iParams[i*2+j];
             }
         }
@@ -430,7 +440,7 @@ function PassiveText(passiveSkillID, cellToWrite, isFirstLayer, readPassiveList,
             PassiveDetailText(passiveCell, passiveData.ability,
                 [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                 [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                [NullableNumber(passiveData.iParam0)], 
+                [NullableNumber(passiveData.iParam0), NullableNumber(passiveData.iParam1)], 
                 popup
             );
             for(var subIDKey in passiveData.sub) {
@@ -478,7 +488,7 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite,
                         PassiveDetailText(passiveCell, passiveData.ability,
                             [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                             [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                            [NullableNumber(passiveData.iParam0)], 
+                            [NullableNumber(passiveData.iParam0), NullableNumber(passiveData.iParam1)], 
                             popup
                         );
                     } catch(e) {
@@ -497,7 +507,7 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite,
                         PassiveDetailText(passiveCell, passiveData.ability,
                             [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                             [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                            [NullableNumber(passiveData.iParam0)], 
+                            [NullableNumber(passiveData.iParam0), NullableNumber(passiveData.iParam1)], 
                             popup
                         );
                     } catch(e) {
@@ -516,7 +526,7 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite,
                         PassiveDetailText(passiveCell, passiveData.ability,
                             [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                             [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                            [NullableNumber(passiveData.iParam0)],
+                            [NullableNumber(passiveData.iParam0), NullableNumber(passiveData.iParam1)],
                             popup
                         );
                     } catch(e) {
@@ -535,7 +545,7 @@ function SupportText(supportCost, supportSkillID, supportSkillType, cellToWrite,
                         PassiveDetailText(passiveCell, passiveData.ability,
                             [NullableNumber(passiveData.param0), NullableNumber(passiveData.param1), NullableNumber(passiveData.param2), NullableNumber(passiveData.param3), NullableNumber(passiveData.param4), NullableNumber(passiveData.param5), NullableNumber(passiveData.param6), NullableNumber(passiveData.param7), NullableNumber(passiveData.param8), NullableNumber(passiveData.param9)],
                             [MergeSkillFlag(passiveData.flag0_0, passiveData.flag0_1), MergeSkillFlag(passiveData.flag1_0, passiveData.flag1_1)],
-                            [NullableNumber(passiveData.iParam0)],
+                            [NullableNumber(passiveData.iParam0), NullableNumber(passiveData.iParam1)],
                             popup
                         );
                     } catch(e) {

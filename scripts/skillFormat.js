@@ -467,7 +467,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 jobString = JobFlagString(iParams[0], "且");
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString, jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], attackTypeString, jobString);
         }
         case 0x58: {
             var debuffString = PassiveHealDebuffString(passiveFlag[0]);
@@ -480,24 +480,24 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 jobString = JobFlagString(iParams[0], "且");
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString, jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], debuffString, jobString);
         }
         case 10:
         case 11:
         case 0x26: {
             var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], attackTypeString);
         }
         case 0x2d: {
             var debuffString = PassiveHealDebuffString(passiveFlag[0]);
             if (passiveParams[1] > 0) {
                 debuffString = "{0}，如果解除狀態則免疫該狀態{1}秒".format(debuffString, passiveParams[1]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], PushPowerAddString(passiveParams[1]), passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], debuffString);
         }
         case 0x44: {
             var jobString = JobFlagString(iParams[0], "或");
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString);
         }
         case 0x30: {
             var magicDamageString = "";
@@ -508,14 +508,14 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (passiveParams[3] != passiveParams[1]) {
                 magicSpeedString = "受到魔法攻擊時則為" + passiveParams[3] + "單位";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], magicDamageString, magicSpeedString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], magicDamageString, magicSpeedString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x3f: {
             attackTypeString = AttackTypeFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(1 - passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);
+            return PassiveDatas[passiveID].detailDescription.format(1 - passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], attackTypeString);
         }
         case 0x19: {
-            return PassiveDatas[passiveID].detailDescription.format(0.4 - passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(0.4 - passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x17: {
             var criticalString = "";
@@ -524,7 +524,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             }
             var debuffString = AttackDebuffString(passiveFlag[0]);
             var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], 1 - passiveParams[2], criticalString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString, attackTypeString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], 1 - passiveParams[2], criticalString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], debuffString, attackTypeString);
         }
         case 0x47: {
             var conditionString = "";
@@ -539,7 +539,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 conditionString = "不存在的";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], conditionString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], conditionString);
         }
         case 0x1c: {
             var battleGroundString = "";
@@ -547,20 +547,20 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 var flag = (passiveParams[6] <= 0 ? 0 : 1 << passiveParams[6]) | (passiveParams[7] <= 0 ? 0 : 1 << passiveParams[7]) | (passiveParams[8] <= 0 ? 0 : 1 << passiveParams[8]);
                 battleGroundString = "，" + BattlegroundFlagString(flag) + "再額外增加{0:2p}%、{1:2p}%、{2:2p}%".format(passiveParams[3], passiveParams[4], passiveParams[5])
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], battleGroundString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], battleGroundString);
         }
         case 0x1d: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0] - 1, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0] - 1, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x34: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]-1, passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]-1, passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 0x33: {
             attackTypeString = AttackTypeFlagString(passiveFlag[0]);
             if (attackTypeString != "") {
                 attackTypeString = "，並使攻擊附帶" + attackTypeString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], attackTypeString);            
         }
         case 0x3f2: {
             var bgString = "";
@@ -591,14 +591,14 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (jobString == "") {
                 jobString = "隨機";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], bgString, jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], bgString, jobString);
         }
         case 0x3f3: {
             var jobString = JobFlagString(iParams[0], "");
             if (jobString == "") {
                 jobString = "隨機";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString);            
         }
         case 0x3f5: {
             var moveRequirementString = "";
@@ -609,10 +609,10 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (attackTypeString != "") {
                 attackTypeString = "，疊滿時附帶" + attackTypeString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], -passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], moveRequirementString, passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], -passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], moveRequirementString, passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], attackTypeString);
         }
         case 0x3f8: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], -passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], -passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 0x4f: {
             var targetString = "";
@@ -626,7 +626,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 targetString = "沒有人";
             }
             var debuffString = DebuffFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]==0 ? 0 : passiveParams[1]-1, passiveParams[2]==0 ? 0 : passiveParams[2]-1, passiveParams[3]==0 ? 0 : passiveParams[3]-1, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], targetString, debuffString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]==0 ? 0 : passiveParams[1]-1, passiveParams[2]==0 ? 0 : passiveParams[2]-1, passiveParams[3]==0 ? 0 : passiveParams[3]-1, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], targetString, debuffString);
         }
         case 0x53: {
             var targetString = "";
@@ -640,11 +640,11 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 targetString = "沒有人";
             }
             var debuffString = DebuffFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], -passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], targetString, debuffString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], -passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], targetString, debuffString);
         }
         case 0x20: {
             var debuffString = DebuffFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], debuffString);
         }
         case 0x22: {
             var debuffString = DebuffFlagString(passiveFlag[0]);
@@ -652,10 +652,10 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (passiveParams[4] > 0) {
                 healString = "，同時每{0}秒治療最大血量的{1:2p}%".format(passiveParams[5], passiveParams[4]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], debuffString, healString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], debuffString, healString);
         }
         case 6: {
-            return PassiveDatas[passiveID].detailDescription.format(RaceText[parseInt(passiveParams[0])], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(RaceText[parseInt(passiveParams[0])], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 7: {
             var bgString = "";
@@ -682,7 +682,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 
                 bgString = "當處於" + bgString + "時，";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], bgString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], bgString);
         }
         case 0x43: {
             var buffString = "";
@@ -710,7 +710,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                     buffString += "且為" +jobString + "職";
                 }
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], buffString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], buffString);
         }
         case 80: {
             var jobString = "";
@@ -719,7 +719,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 jobString = JobFlagString(iParams[0], "及");                
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString);
         }
         case 0x60: {
             var jobString = "";
@@ -728,16 +728,16 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 jobString = JobManaFlagString(iParams[0], "");
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString);
         }
         case 20: {
             var jobString = JobFlagString(iParams[0], "、") + "職";
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString);
         }
         case 0x4b: {
             var weaponFlagString = WeaponFlagString(passiveFlag[0]);
             var selfString = passiveParams[0] == 0 ? "自己除外的" : "";
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], weaponFlagString, selfString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], weaponFlagString, selfString);
         }
         case 0x4c: {
             var buffString = "";
@@ -780,7 +780,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 addAttackTypeString += "使目標上" + attackTypeString;
             }
             
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], buffString, addAttackTypeString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], buffString, addAttackTypeString);
         }
         case 0x3f0: {
             var bgString = "";
@@ -807,7 +807,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 
                 bgString = "當處於" + bgString + "時，";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], bgString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], bgString);
         }
         case 0x3f1: {
             var targetString = "";
@@ -818,12 +818,12 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 targetString = "全體";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6]*2, passiveParams[7]*3, passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], targetString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6]*2, passiveParams[7]*3, passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], targetString);
         }
         case 0x3f9: {
             var jobString = JobFlagString(iParams[0], "、") + "職";
             var selfString = passiveParams[0] == 0 ? "自己除外的" : "";
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString, selfString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString, selfString);
         }
         case 0x54:
         case 0x69: {
@@ -837,7 +837,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                     targetString = "所有持" + WeaponFlagString(passiveFlag[0]) + "武";
                 }
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], targetString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], targetString);
         }
         case 0x12: {
             var buffString = "";
@@ -868,11 +868,11 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (buffString == "") {
                 buffString = "角色";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], buffString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], buffString);
         }
         case 0x2f: {
             var jobString = JobFlagString(iParams[0], "、");
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], jobString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString);
         }
         case 0x3ed:
         case 0x3eb: {
@@ -880,20 +880,20 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (attackTypeString != "") {
                 attackTypeString = "，並帶" + attackTypeString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], attackTypeString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], attackTypeString);
         }
         case 0x3a: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x3e8: {
             var healString = HealFlagString(passiveFlag[0]);
             if (healString != "") {
                 healString = ("當持有的法力珠≧{0:d}顆時普通治療可以" + healString + "，").format(passiveParams[0]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], healString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], healString);
         }
         case 0x3f7: {
-            return PassiveDatas[passiveID].detailDescription.format(PowerUpFlag[passiveParams[0]], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(PowerUpFlag[passiveParams[0]], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 0x13: 
         case 1027: {
@@ -922,13 +922,13 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (healFlagString != "") {
                 healFlagString = "、" + healFlagString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], healFlagString, passiveFlag[1], iParams[0], healRangeString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], healFlagString, passiveFlag[1], iParams[0], iParams[1], healRangeString);
         }
         case 0x48: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]-3.5, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]-3.5, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 0x63: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], -passiveParams[6], -passiveParams[7], -passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], -passiveParams[6], -passiveParams[7], -passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x3ee: {
             var target1 = parseInt(passiveParams[0]/100);
@@ -949,7 +949,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else if (target3 == 3) {
                 target2String = "其他隊友";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], target1String, target2String);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], target1String, target2String);
         }
         case 0x3ef: {
             var targetString = "";
@@ -960,7 +960,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else if (passiveParams[0] == 3) {
                 targetString = "其他隊友";
             }
-            return PassiveDatas[passiveID].detailDescription.format(targetString, passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(targetString, passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x5b: {
             var targetString = passiveParams[5] == 1 ? "自身" : "隊伍";
@@ -971,39 +971,39 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             }
             var triggerString = passiveParams[6] >= 0 ? "，最多觸發{0:d}次".format(passiveParams[6]) : "";
             var timeString = passiveParams[7] > 0 ? "，持續{0:3f}秒".format(passiveParams[7]) : "";
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], targetString, triggerString, timeString, passiveParams[8], passiveParams[9], healString, passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], targetString, triggerString, timeString, passiveParams[8], passiveParams[9], healString, passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x2a: {
             var attackString = passiveParams[6] == 1 ? "，攻擊時現形" : "";
-            return PassiveDatas[passiveID].detailDescription.format(TargetTypeNumber[passiveParams[0]].format(1), passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], attackString, passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(TargetTypeNumber[passiveParams[0]].format(1), passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], attackString, passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x3f6: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], TargetTypeNumber[passiveParams[2]].format(1), passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], TargetTypeNumber[passiveParams[2]].format(1), passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 0x25: {
             var attackSpeedString = passiveParams[2] > 0 ? "，基礎攻擊速度成為{0:3f}秒一次".format(passiveParams[2]) : "";
             var attackString = passiveParams[0] > 0 ? "，基礎攻擊倍率成為{0:3f}倍（原為0.5倍）".format(passiveParams[0]) : "";
             var debuffString = DebuffFlagString(passiveFlag[0]);
             var attackFlagString = (passiveParams[3] > 0 && debuffString != "") ? "，並有{0:2p}%的機率使目標{1}".format(passiveParams[3], debuffString) : "";
-            return PassiveDatas[passiveID].detailDescription.format(attackString, passiveParams[1], attackSpeedString, attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(attackString, passiveParams[1], attackSpeedString, attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 90: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 12: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], DebuffFlagString(passiveFlag[0]), passiveFlag[1], iParams[0]);            
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], DebuffFlagString(passiveFlag[0]), passiveFlag[1], iParams[0], iParams[1]);            
         }
         case 9: {
             var attackTypeString = DebuffFlagString(passiveFlag[0]);
             var attackFlagString = (passiveParams[3] > 0 && attackTypeString != "") ? "，並有{0:2p}%的機率帶{1}".format(passiveParams[3], attackTypeString) : "";
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x21: {
             var debuffString = PassiveDebuffString(passiveFlag[0]);
             if (debuffString != "") {
                 debuffString = "，暴擊時" + debuffString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]-1.5, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0]-1.5, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x18: {
             var debuffString = DebuffFlagString(passiveFlag[0]);
@@ -1014,7 +1014,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (passiveParams[4] > 0 || passiveParams[5] > 0 || passiveParams[6] > 0) {
                 teammateString = "，同時治療隊友最大血量{2:2p}%的血量，並增加隊友{1:2p}%攻擊、{3:2p}%防禦{10}，持續{0}秒".format(passiveParams[0], passiveParams[4], passiveParams[5], passiveParams[6]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], iParams[0], teammateString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], iParams[0], iParams[1], teammateString);
         }
         case 0x40: {
             var buffString = "";
@@ -1040,7 +1040,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 healDebuffString = "，並" + healDebuffString;
             }
             var number = passiveParams[6] > 0 ? passiveParams[6] : 1;
-            return PassiveDatas[passiveID].detailDescription.format(timeString, passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], healDebuffString, passiveFlag[1], iParams[0], buffString, TargetTypeNumber[passiveParams[5]].format(number));
+            return PassiveDatas[passiveID].detailDescription.format(timeString, passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], healDebuffString, passiveFlag[1], iParams[0], iParams[1], buffString, TargetTypeNumber[passiveParams[5]].format(number));
         }
         case 0x41: {
             var jobString = JobFlagString(iParams[0], "、");
@@ -1060,7 +1060,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (passiveParams[5] > 0) {
                 triggerString = "若血量≧{0:2p}且≦{1:2p}，".format(passiveParams[4], passiveParams[5]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], triggerString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], triggerString);
         }
         case 0x62: {
             var debuffString = DebuffFlagString(passiveFlag[0]);
@@ -1076,7 +1076,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         }
         case 0x27: {
             var debuffString = DebuffFlagString(passiveFlag[0]);
-            return PassiveDatas[passiveID].detailDescription.format(1-passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(1-passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x51: {
             var healString = "";
@@ -1166,7 +1166,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (debuffString != "") {
                 debuffString = "，並使攻擊帶" + debuffString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], enemyCountString, passiveParams[2], passiveParams[3], passiveParams[4], -passiveParams[5], passiveParams[6], passiveParams[7], -passiveParams[8], -passiveParams[9], debuffString, passiveFlag[1], iParams[0], casterString, targetString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], enemyCountString, passiveParams[2], passiveParams[3], passiveParams[4], -passiveParams[5], passiveParams[6], passiveParams[7], -passiveParams[8], -passiveParams[9], debuffString, passiveFlag[1], iParams[0], iParams[1], casterString, targetString);
         }
         case 0x52: {
             var buffString = "";
@@ -1194,7 +1194,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                     buffString += "且持" +weaponString + "武";
                 }
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], buffString, TargetTypeNumber[passiveParams[3]].format(passiveParams[1]));
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], buffString, TargetTypeNumber[passiveParams[3]].format(passiveParams[1]));
         }
         case 0x61: {
             var convertString = "";
@@ -1202,7 +1202,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 var convertManaString = iParams[0] == 0 ? "隨機" : JobManaFlagString(iParams[0]) + "職";
                 convertString = "，並將其轉為對應數量的{0}法力珠".format(convertManaString);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], convertString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], convertString);
         }
         case 0x1a: {
             var jobManaString = "";
@@ -1232,7 +1232,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 }
                 battlegroundManaString = "，若處於" + battlegroundString + "，額外獲得{0}顆對應職業法力珠".format(passiveParams[2]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], battlegroundManaString, jobManaString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], battlegroundManaString, jobManaString);
         }
         case 0x56: {
             var jobManaString = JobManaFlagString(iParams[0], "");
@@ -1249,14 +1249,14 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (passiveParams[4] > 0) {
                 healString = "，同時每{0}秒治療最大血量的{1:2p}%".format(passiveParams[5], passiveParams[4]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], positionString, healString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], positionString, healString);
         }
         case 0x39: {
             attackTypeString = AttackTypeFlagString(passiveFlag[0]);
             if (attackTypeString != "") {
                 attackTypeString = "，並使攻擊附帶" + attackTypeString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], attackTypeString, passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], attackTypeString, passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x3b: {
             var attackMethodString = "";
@@ -1267,10 +1267,10 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 attackMethodString = "攻擊";
             }
-            return PassiveDatas[passiveID].detailDescription.format(attackMethodString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(attackMethodString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x11: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1] > 0 ? passiveParams[1] : 3, passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1] > 0 ? passiveParams[1] : 3, passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x45: {
             var countFrontString = "";
@@ -1310,10 +1310,10 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else if (passiveParams[0] == 2) {
                 targetTypeString = "角色";
             }
-            return PassiveDatas[passiveID].detailDescription.format(targetTypeString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], DebuffFlagString(passiveFlag[0]), passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(targetTypeString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], DebuffFlagString(passiveFlag[0]), passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x5c: {
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1] > 0 ? "持續{0:3f}秒".format(passiveParams[1]) : "", passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1] > 0 ? "持續{0:3f}秒".format(passiveParams[1]) : "", passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 0x1b: {
             var bgString = "";
@@ -1336,20 +1336,20 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 
                 bgString = ("，當處於" + bgString + "時，使轉珠時兩珠機率增加{0:2p}%、三珠機率增加{1:2p}%（只取最高者）").format(passiveParams[2], passiveParams[3]);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], bgString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], bgString);
         }
         case 106: {
             var uzuString = "";
             if (passiveParams[0] > 0) {
                 uzuString = "編號" + passiveParams[0];
             }
-            return PassiveDatas[passiveID].detailDescription.format(uzuString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+            return PassiveDatas[passiveID].detailDescription.format(uzuString, passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         default: {
             if (typeof(PassiveDatas[passiveID]) == "undefined" || PassiveDatas[passiveID] == null) {
-                return PassiveDatas[0xaaaa].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], passiveID);
+                return PassiveDatas[0xaaaa].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], passiveID);
             } else {
-                return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0]);
+                return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
             }
         }
     }
