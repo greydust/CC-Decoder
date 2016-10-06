@@ -37,7 +37,8 @@
  黑暗: 60秒<br>
  毒: 15次, 4.2秒一次, 每次5%<br>
  衰弱: 15次, 4.2秒一次, 每次5%<br>
- 封技: 30秒<br>
+ 封技: 30秒<br><br>
+任何會增加攻擊次數/每次攻擊比重的技能/覺醒皆只會增加普攻時的, 不影響爆擊
         </div>
         <div class="body" id="searchTab">
             <input type="text" id="searchName"/>
@@ -52,13 +53,11 @@
                 <thead>
                     <tr>
                         <th class="name">角色名</th>
-                        <th>星數</th>
-                        <th>Cost</th>
+                        <th>星數<br>Cost</th>
                         <th>職業</th>
-                        <th>初始生命</th>
-                        <th>初始攻擊</th>
-                        <th>經驗型</th>
-                        <th>所屬</th>
+                        <th>初始生命<br>初始攻擊</th>
+                        <th class="home">所屬<br>經驗型</th>
+                        <th>攻擊速度<br>爆擊率<br>攻擊模式<br>爆擊攻擊模式</th>
                         <th class="skill">必殺</th>
                         <th class="passiveSkill">覺醒1</th>
                         <th class="passiveSkill">覺醒2</th>
@@ -200,6 +199,10 @@
         </div>
         <div class="body initialHide" id="versionTab">
              <table class="versionTable">
+                <tr>
+                    <td class="versionTime">10/7/2016 00:10</td>
+                    <td class="versionDescription">新增攻速、爆擊等資訊</td>
+                </tr>
                 <tr>
                     <td class="versionTime">10/6/2016 11:49</td>
                     <td class="versionDescription">完成天魔對應更新, 程式碼修正</td>

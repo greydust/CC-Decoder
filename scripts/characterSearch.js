@@ -573,13 +573,17 @@ function DoSearch() {
                 nameCell.class = "name";
                 nameCell.innerHTML = NullableString(charactersData[characterData].title) + "<br>" + charactersData[characterData].name;
                 
-                row.insertCell(-1).innerHTML = charactersData[characterData].rarity;
-                row.insertCell(-1).innerHTML = charactersData[characterData].cost;
+                row.insertCell(-1).innerHTML = charactersData[characterData].rarity + "<br>" + charactersData[characterData].cost;
                 row.insertCell(-1).innerHTML = JobTypeText[NullableNumber(charactersData[characterData].jobtype)];
-                row.insertCell(-1).innerHTML = charactersData[characterData].inihp;
-                row.insertCell(-1).innerHTML = charactersData[characterData].iniap;
-                row.insertCell(-1).innerHTML = ExpType[charactersData[characterData].exp_type];
-                row.insertCell(-1).innerHTML = HomeIDText[charactersData[characterData].home];
+                row.insertCell(-1).innerHTML = charactersData[characterData].inihp + "<br>" + charactersData[characterData].iniap;
+                row.insertCell(-1).innerHTML = HomeIDText[charactersData[characterData].home] + "<br>" + ExpType[charactersData[characterData].exp_type];
+                var criticalRate = 0;
+                if (typeof(charactersData[characterData].critical) == "undefined" || charactersData[characterData].critical == null) {
+                    criticalRate = 0;
+                } else {
+                    criticalRate = charactersData[characterData].critical;
+                }
+                row.insertCell(-1).innerHTML = charactersData[characterData].atkspeed + "<br>" + (criticalRate*100).round(3) + "%" + "<br>" + charactersData[characterData].atknumber + " * " + (charactersData[characterData].revision*100).round(3) + "%"+ "<br>" + charactersData[characterData].CRInumber + " * " + (charactersData[characterData].CRIrevision*100).round(3) + "%";
                 SkillText(charactersData[characterData], row.insertCell(-1), skillPopup);
                 PassiveText(charactersData[characterData].skillid[1], row.insertCell(-1), true, {}, passivePopup);
                 PassiveText(charactersData[characterData].skillid[2], row.insertCell(-1), true, {}, passivePopup);

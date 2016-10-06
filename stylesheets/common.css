@@ -30,6 +30,10 @@ table.tablesorter tr th {
 }
 
 table.tablesorter tr th.name {
+    min-width: 150px;
+}
+
+table.tablesorter tr th.home {
     min-width: 100px;
 }
 
