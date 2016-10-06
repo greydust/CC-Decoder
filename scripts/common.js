@@ -194,4 +194,6 @@ function addCSSRule(ruleName) {                           // Create a new css ru
    return getCSSRule(ruleName);                           // return rule we just created.
 } 
 
-
+function IsNull(obj) {
+    return typeof(obj) == "undefined" || obj == null;
+}

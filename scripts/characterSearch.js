@@ -577,13 +577,12 @@ function DoSearch() {
                 row.insertCell(-1).innerHTML = JobTypeText[NullableNumber(charactersData[characterData].jobtype)];
                 row.insertCell(-1).innerHTML = charactersData[characterData].inihp + "<br>" + charactersData[characterData].iniap;
                 row.insertCell(-1).innerHTML = HomeIDText[charactersData[characterData].home] + "<br>" + ExpType[charactersData[characterData].exp_type];
-                var criticalRate = 0;
-                if (typeof(charactersData[characterData].critical) == "undefined" || charactersData[characterData].critical == null) {
-                    criticalRate = 0;
-                } else {
-                    criticalRate = charactersData[characterData].critical;
-                }
-                row.insertCell(-1).innerHTML = charactersData[characterData].atkspeed + "<br>" + (criticalRate*100).round(3) + "%" + "<br>" + charactersData[characterData].atknumber + " * " + (charactersData[characterData].revision*100).round(3) + "%"+ "<br>" + charactersData[characterData].CRInumber + " * " + (charactersData[characterData].CRIrevision*100).round(3) + "%";
+                var criticalRate = IsNull(charactersData[characterData].critical) ? 0 : charactersData[characterData].critical;
+                var revision = IsNull(charactersData[characterData].revision) ? 1 : charactersData[characterData].revision;
+                var atkNumber = IsNull(charactersData[characterData].atknumber) ? 1 : charactersData[characterData].atknumber;
+                var criRevision = IsNull(charactersData[characterData].CRIrevision) ? 1 : charactersData[characterData].CRIrevision;
+                var criAtkNumber = IsNull(charactersData[characterData].CRInumber) ? 1 : charactersData[characterData].CRInumber;
+                row.insertCell(-1).innerHTML = charactersData[characterData].atkspeed + "<br>" + (criticalRate*100).round(3) + "%" + "<br>" + atkNumber + " * " + (revision*100).round(3) + "%"+ "<br>" + criAtkNumber + " * " + (criRevision*100).round(3) + "%";
                 SkillText(charactersData[characterData], row.insertCell(-1), skillPopup);
                 PassiveText(charactersData[characterData].skillid[1], row.insertCell(-1), true, {}, passivePopup);
                 PassiveText(charactersData[characterData].skillid[2], row.insertCell(-1), true, {}, passivePopup);
