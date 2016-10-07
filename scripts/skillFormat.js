@@ -618,12 +618,15 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         }
         case 26: {
             var manaString = "";
-            if (passiveParams[0] > 0) {
-                var jobManaString = "";
-                if (iParams[0] > 0) {
-                    jobManaString = ("，若有" + JobFlagString(iParams[0], "、") + "職在場時，額外獲得{0}顆該職業的法力珠").format(passiveParams[1]);
+            if (passiveParams[0] > 0 || passiveParams[1] > 0 || passiveParams[2] >0) {
+                if (passiveParams[0] > 0) {
+                    manaString = "，得到{0}顆對應職業的法力珠".format(passiveParams[0]);
                 }
-                var battlegroundManaString = "";
+                
+                if (passiveParams[1] > 0) {
+                    manaString += ("，若有" + JobFlagString(iParams[0], "、") + "職在場時，額外獲得{0}顆該職業的法力珠").format(passiveParams[1]);
+                }
+                
                 if (passiveParams[2] >0) {
                     var bg1 = parseInt(passiveParams[3]) % 100;
                     var bg2 = parseInt(passiveParams[3] / 100) % 100;
@@ -644,10 +647,8 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                         }
                         battlegroundString += BattlegroundFlagText[bg3];
                     }
-                    battlegroundManaString = "，若處於" + battlegroundString + "，額外獲得{0}顆對應職業法力珠".format(passiveParams[2]);
+                    manaString += "，若處於" + battlegroundString + "，額外獲得{0}顆對應職業法力珠".format(passiveParams[2]);
                 }
-                manaString = "得到{0}顆對應職業的法力珠{1}{2}".format(passiveParams[0], jobManaString,battlegroundManaString);
-
             }
             var bonusManaString = "";
             if (iParams[1] != 0 && passiveParams[4] > 0) {
