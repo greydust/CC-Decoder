@@ -102,12 +102,23 @@
         }
         case 28:
         case 31: 
-        case 32:
         case 46: {
             var healString = "";
             var healFlagString = HealFlagString(skillFlag[0]);
             if (healFlagString != "") {
                 healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[5]);
+            }
+            var jobString = JobFlagString(iParams[0], "、");
+            if (jobString != "") {
+                jobString = jobString + "職";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], healString, skillFlag[1], jobString, iParams[1]);            
+        }
+        case 32: {
+            var healString = "";
+            var healFlagString = HealFlagString(skillFlag[0]);
+            if (healFlagString != "") {
+                healString = "，並{0}，如果解除狀態則免疫該狀態{1}秒".format(healFlagString, skillParams[4]);
             }
             var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
