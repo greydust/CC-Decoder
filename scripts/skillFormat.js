@@ -1653,162 +1653,162 @@ FindType = [
 
 TargetType = [
     "隨機",	// RANDOM
-    "HP_LOW",	// HP_LOW
-    "血量由高至低",	// HP_HIGHT
-    "HPMAX_LOW",	// HPMAX_LOW
-    "HPMAX_HIGHT",	// HPMAX_HIGHT
-    "ATK_LOW",	// ATK_LOW
-    "ATK_HIGHT",	// ATK_HIGHT
-    "LEVEL_LOW",	// LEVEL_LOW
-    "LEVEL_HIGHT",	// LEVEL_HIGHT
-    "DISTANCE_LOW",	// DISTANCE_LOW
+    "當前血量由低至高",	// HP_LOW
+    "當前血量由高至低",	// HP_HIGHT
+    "最大血量由低至高",	// HPMAX_LOW
+    "最大血量由高至低",	// HPMAX_HIGHT
+    "攻擊力由低至高",	// ATK_LOW
+    "攻擊力由高至低",	// ATK_HIGHT
+    "等級由低至高",	// LEVEL_LOW
+    "等級由高至低",	// LEVEL_HIGHT
+    "依近到遠",	// DISTANCE_LOW
     "依遠到近",	// DISTANCE_HIGHT
-    "APPANAGE_NEAR",	// APPANAGE_NEAR
-    "APPANAGE_FAR",	// APPANAGE_FAR
+    "依右至左",	// APPANAGE_NEAR
+    "依左至右",	// APPANAGE_FAR
     "由後到前",	// APPANAGE_NEAR2
     "由前到後",	// APPANAGE_FAR2
     "所有",	// GROUP_ALL
-    "pRANDOM",	// pRANDOM
-    "pHP_LOW",	// pHP_LOW
-    "血量由高至低",	// pHP_HIGHT
-    "pHPMAX_LOW",	// pHPMAX_LOW
-    "pHPMAX_HIGHT",	// pHPMAX_HIGHT
-    "pATK_LOW",	// pATK_LOW
-    "pATK_HIGHT",	// pATK_HIGHT
-    "pLEVEL_LOW",	// pLEVEL_LOW
-    "pLEVEL_HIGHT",	// pLEVEL_HIGHT
+    "隨機",	// pRANDOM
+    "當前血量由低至高",	// pHP_LOW
+    "當前血量由高至低",	// pHP_HIGHT
+    "最大血量由低至高",	// pHPMAX_LOW
+    "最大血量由高至低",	// pHPMAX_HIGHT
+    "攻擊力由低至高",	// pATK_LOW
+    "攻擊力由高至低",	// pATK_HIGHT
+    "等級由低至高",	// pLEVEL_LOW
+    "等級由高至低",	// pLEVEL_HIGHT
     "依近到遠",	// pDISTANCE_LOW
     "依遠到近",	// pDISTANCE_HIGHT
-    "pAPPANAGE_NEAR",	// pAPPANAGE_NEAR
-    "pAPPANAGE_FAR",	// pAPPANAGE_FAR
+    "依右至左",	// pAPPANAGE_NEAR
+    "依左至右",	// pAPPANAGE_FAR
     "由後到前",	// pAPPANAGE_NEAR2
     "由前到後",	// pAPPANAGE_FAR2
     "所有",	// pGROUP_ALL
     "隨機",	// oRANDOM
-    "oHP_LOW",	// oHP_LOW
-    "血量由高至低",	// oHP_HIGHT
-    "oHPMAX_LOW",	// oHPMAX_LOW
-    "oHPMAX_HIGHT",	// oHPMAX_HIGHT
-    "oATK_LOW",	// oATK_LOW
-    "oATK_HIGHT",	// oATK_HIGHT
-    "oLEVEL_LOW",	// oLEVEL_LOW
-    "oLEVEL_HIGHT",	// oLEVEL_HIGHT
-    "oDISTANCE_LOW",	// oDISTANCE_LOW
+    "當前血量由低至高",	// oHP_LOW
+    "當前血量由高至低",	// oHP_HIGHT
+    "最大血量由低至高",	// oHPMAX_LOW
+    "最大血量由高至低",	// oHPMAX_HIGHT
+    "攻擊力由低至高",	// oATK_LOW
+    "攻擊力由高至低",	// oATK_HIGHT
+    "等級由低至高",	// oLEVEL_LOW
+    "等級由高至低",	// oLEVEL_HIGHT
+    "依近到遠",	// oDISTANCE_LOW
     "依遠到近",	// oDISTANCE_HIGHT
-    "oAPPANAGE_NEAR",	// oAPPANAGE_NEAR
-    "oAPPANAGE_FAR",	// oAPPANAGE_FAR
+    "依右至左",	// oAPPANAGE_NEAR
+    "依左至右",	// oAPPANAGE_FAR
     "由後到前",	// oAPPANAGE_NEAR2
     "由前到後",	// oAPPANAGE_FAR2
     "所有",	// oGROUP_ALL
-    "aRANDOM",	// aRANDOM
-    "aHP_LOW",	// aHP_LOW
-    "血量由高至低",	// aHP_HIGHT
-    "aHPMAX_LOW",	// aHPMAX_LOW
-    "aHPMAX_HIGHT",	// aHPMAX_HIGHT
-    "aATK_LOW",	// aATK_LOW
-    "aATK_HIGHT",	// aATK_HIGHT
-    "aLEVEL_LOW",	// aLEVEL_LOW
-    "aLEVEL_HIGHT",	// aLEVEL_HIGHT
-    "aDISTANCE_LOW",	// aDISTANCE_LOW
+    "隨機",	// aRANDOM
+    "當前血量由低至高",	// aHP_LOW
+    "當前血量由高至低",	// aHP_HIGHT
+    "最大血量由低至高",	// aHPMAX_LOW
+    "最大血量由高至低",	// aHPMAX_HIGHT
+    "攻擊力由低至高",	// aATK_LOW
+    "攻擊力由高至低",	// aATK_HIGHT
+    "等級由低至高",	// aLEVEL_LOW
+    "等級由高至低",	// aLEVEL_HIGHT
+    "依近到遠",	// aDISTANCE_LOW
     "依遠到近",	// aDISTANCE_HIGHT
-    "aAPPANAGE_NEAR",	// aAPPANAGE_NEAR
-    "aAPPANAGE_FAR",	// aAPPANAGE_FAR
+    "依右至左",	// aAPPANAGE_NEAR
+    "依左至右",	// aAPPANAGE_FAR
     "由後到前",	// aAPPANAGE_NEAR2
     "由前到後",	// aAPPANAGE_FAR2
     "所有",	// aGROUP_ALL
     "自身",	// MYSELF
-    "GROUP_ALL_NOMYSELF",	// GROUP_ALL_NOMYSELF
-    "pGROUP_ALL_NOMYSELF",	// pGROUP_ALL_NOMYSELF
-    "oGROUP_ALL_NOMYSELF",	// oGROUP_ALL_NOMYSELF
-    "aGROUP_ALL_NOMYSELF",	// aGROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// GROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// pGROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// oGROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// aGROUP_ALL_NOMYSELF
     "血量比例由低至高",	// HP_LOWRATE
     "血量比例由低至高",	// pHP_LOWRATE
     "血量比例由低至高",	// oHP_LOWRATE
     "血量比例由低至高",	// aHP_LOWRATE
-    "HP_HIGHTRATE",	// HP_HIGHTRATE
-    "pHP_HIGHTRATE",	// pHP_HIGHTRATE
-    "oHP_HIGHTRATE",	// oHP_HIGHTRATE
-    "aHP_HIGHTRATE",    // aHP_HIGHTRATE
+    "血量比例由高至低",	// HP_HIGHTRATE
+    "血量比例由高至低",	// pHP_HIGHTRATE
+    "血量比例由高至低",	// oHP_HIGHTRATE
+    "血量比例由高至低",    // aHP_HIGHTRATE
 ]
 
 TargetTypeNumber = [
     "隨機{0}名",	// RANDOM
-    "HP_LOW",	// HP_LOW
-    "血量由高至低{0}名",	// HP_HIGHT
-    "HPMAX_LOW",	// HPMAX_LOW
-    "HPMAX_HIGHT",	// HPMAX_HIGHT
-    "ATK_LOW",	// ATK_LOW
-    "ATK_HIGHT",	// ATK_HIGHT
-    "LEVEL_LOW",	// LEVEL_LOW
-    "LEVEL_HIGHT",	// LEVEL_HIGHT
-    "DISTANCE_LOW",	// DISTANCE_LOW
+    "當前血量由低至高{0}名",	// HP_LOW
+    "當前血量由高至低{0}名",	// HP_HIGHT
+    "最大血量由低至高{0}名",	// HPMAX_LOW
+    "最大血量由高至低{0}名",	// HPMAX_HIGHT
+    "攻擊力由低至高{0}名",	// ATK_LOW
+    "攻擊力由高至低{0}名",	// ATK_HIGHT
+    "等級由低至高{0}名",	// LEVEL_LOW
+    "等級由高至低{0}名",	// LEVEL_HIGHT
+    "依近到遠{0}名",	// DISTANCE_LOW
     "依遠到近{0}名",	// DISTANCE_HIGHT
-    "APPANAGE_NEAR",	// APPANAGE_NEAR
-    "APPANAGE_FAR",	// APPANAGE_FAR
+    "依右至左{0}名",	// APPANAGE_NEAR
+    "依左至右{0}名",	// APPANAGE_FAR
     "由後到前{0}名",	// APPANAGE_NEAR2
     "由前到後{0}名",	// APPANAGE_FAR2
     "所有",	// GROUP_ALL
-    "pRANDOM",	// pRANDOM
-    "pHP_LOW",	// pHP_LOW
-    "血量由高至低{0}名",	// pHP_HIGHT
-    "pHPMAX_LOW",	// pHPMAX_LOW
-    "pHPMAX_HIGHT",	// pHPMAX_HIGHT
-    "pATK_LOW",	// pATK_LOW
-    "pATK_HIGHT",	// pATK_HIGHT
-    "pLEVEL_LOW",	// pLEVEL_LOW
-    "pLEVEL_HIGHT",	// pLEVEL_HIGHT
+    "隨機{0}名",	// pRANDOM
+    "當前血量由低至高{0}名",	// pHP_LOW
+    "當前血量由高至低{0}名",	// pHP_HIGHT
+    "最大血量由低至高{0}名",	// pHPMAX_LOW
+    "最大血量由高至低{0}名",	// pHPMAX_HIGHT
+    "攻擊力由低至高{0}名",	// pATK_LOW
+    "攻擊力由高至低{0}名",	// pATK_HIGHT
+    "等級由低至高{0}名",	// pLEVEL_LOW
+    "等級由高至低{0}名",	// pLEVEL_HIGHT
     "依近到遠{0}名",	// pDISTANCE_LOW
     "依遠到近{0}名",	// pDISTANCE_HIGHT
-    "pAPPANAGE_NEAR",	// pAPPANAGE_NEAR
-    "pAPPANAGE_FAR",	// pAPPANAGE_FAR
+    "依右至左{0}名",	// pAPPANAGE_NEAR
+    "依左至右{0}名",	// pAPPANAGE_FAR
     "由後到前{0}名",	// pAPPANAGE_NEAR2
     "由前到後{0}名",	// pAPPANAGE_FAR2
     "所有",	// pGROUP_ALL
     "隨機{0}名",	// oRANDOM
-    "oHP_LOW",	// oHP_LOW
-    "血量由高至低{0}名",	// oHP_HIGHT
-    "oHPMAX_LOW",	// oHPMAX_LOW
-    "oHPMAX_HIGHT",	// oHPMAX_HIGHT
-    "oATK_LOW",	// oATK_LOW
-    "oATK_HIGHT",	// oATK_HIGHT
-    "oLEVEL_LOW",	// oLEVEL_LOW
-    "oLEVEL_HIGHT",	// oLEVEL_HIGHT
-    "oDISTANCE_LOW",	// oDISTANCE_LOW
+    "當前血量由低至高{0}名",	// oHP_LOW
+    "當前血量由高至低{0}名",	// oHP_HIGHT
+    "最大血量由低至高{0}名",	// oHPMAX_LOW
+    "最大血量由高至低{0}名",	// oHPMAX_HIGHT
+    "攻擊力由低至高{0}名",	// oATK_LOW
+    "攻擊力由高至低{0}名",	// oATK_HIGHT
+    "等級由低至高{0}名",	// oLEVEL_LOW
+    "等級由高至低{0}名",	// oLEVEL_HIGHT
+    "依近到遠{0}名",	// oDISTANCE_LOW
     "依遠到近{0}名",	// oDISTANCE_HIGHT
-    "oAPPANAGE_NEAR",	// oAPPANAGE_NEAR
-    "oAPPANAGE_FAR",	// oAPPANAGE_FAR
+    "依右至左{0}名",	// oAPPANAGE_NEAR
+    "依左至右{0}名",	// oAPPANAGE_FAR
     "由後到前{0}名",	// oAPPANAGE_NEAR2
     "由前到後{0}名",	// oAPPANAGE_FAR2
     "所有",	// oGROUP_ALL
-    "aRANDOM",	// aRANDOM
-    "aHP_LOW",	// aHP_LOW
-    "血量由高至低{0}名",	// aHP_HIGHT
-    "aHPMAX_LOW",	// aHPMAX_LOW
-    "aHPMAX_HIGHT",	// aHPMAX_HIGHT
-    "aATK_LOW",	// aATK_LOW
-    "aATK_HIGHT",	// aATK_HIGHT
-    "aLEVEL_LOW",	// aLEVEL_LOW
-    "aLEVEL_HIGHT",	// aLEVEL_HIGHT
-    "aDISTANCE_LOW",	// aDISTANCE_LOW
+    "隨機{0}名",	// aRANDOM
+    "當前血量由低至高{0}名",	// aHP_LOW
+    "當前血量由高至低{0}名",	// aHP_HIGHT
+    "最大血量由低至高{0}名",	// aHPMAX_LOW
+    "最大血量由高至低{0}名",	// aHPMAX_HIGHT
+    "攻擊力由低至高{0}名",	// aATK_LOW
+    "攻擊力由高至低{0}名",	// aATK_HIGHT
+    "等級由低至高{0}名",	// aLEVEL_LOW
+    "等級由高至低{0}名",	// aLEVEL_HIGHT
+    "依近到遠{0}名",	// aDISTANCE_LOW
     "依遠到近{0}名",	// aDISTANCE_HIGHT
-    "aAPPANAGE_NEAR",	// aAPPANAGE_NEAR
-    "aAPPANAGE_FAR",	// aAPPANAGE_FAR
+    "依右至左{0}名",	// aAPPANAGE_NEAR
+    "依左至右{0}名",	// aAPPANAGE_FAR
     "由後到前{0}名",	// aAPPANAGE_NEAR2
     "由前到後{0}名",	// aAPPANAGE_FAR2
     "所有",	// aGROUP_ALL
     "自身",	// MYSELF
-    "GROUP_ALL_NOMYSELF",	// GROUP_ALL_NOMYSELF
-    "pGROUP_ALL_NOMYSELF",	// pGROUP_ALL_NOMYSELF
-    "oGROUP_ALL_NOMYSELF",	// oGROUP_ALL_NOMYSELF
-    "aGROUP_ALL_NOMYSELF",	// aGROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// GROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// pGROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// oGROUP_ALL_NOMYSELF
+    "除自身以外所有隊員",	// aGROUP_ALL_NOMYSELF
     "血量比例由低至高{0}名",	// HP_LOWRATE
     "血量比例由低至高{0}名",	// pHP_LOWRATE
     "血量比例由低至高{0}名",	// oHP_LOWRATE
     "血量比例由低至高{0}名",	// aHP_LOWRATE
-    "HP_HIGHTRATE",	// HP_HIGHTRATE
-    "pHP_HIGHTRATE",	// pHP_HIGHTRATE
-    "oHP_HIGHTRATE",	// oHP_HIGHTRATE
-    "aHP_HIGHTRATE",    // aHP_HIGHTRATE
+    "血量比例由高至低{0}名",	// HP_HIGHTRATE
+    "血量比例由高至低{0}名",	// pHP_HIGHTRATE
+    "血量比例由高至低{0}名",	// oHP_HIGHTRATE
+    "血量比例由高至低{0}名",    // aHP_HIGHTRATE
 ]
 
 BattlegroundIDText = {
@@ -1998,17 +1998,17 @@ AttackTypeNoElementFlag = [
     
     "擊殺貫通",
     "破盾",
-    "WEAPON_SWORD",
-    "WEAPON_AXE",
-    "WEAPON_MACE",
+    "斬",
+    "打",
+    "突",
     
-    "WEAPON_BOW",
-    "WEAPON_EVIL",
-    "WEAPON_HOLY",
-    "WEAPON_FIST",
-    "WEAPON_GUN",
+    "弓",
+    "魔",
+    "聖",
+    "拳",
+    "銃",
     
-    "WEAPON_RIFLE",
+    "狙",
     "GUARDABLE",
     "HEAL_REVERSE",
     "HEAL_CUT",
