@@ -1212,7 +1212,8 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             if (jobString != "") {
                    jobString = jobString + "職";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], numberString, TargetType[passiveParams[4]], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], jobString);
+            var targetString = TargetTypeNumber[passiveParams[4]].format(passiveParams[3]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], debuffString, passiveFlag[1], jobString, iParams[1], targetString);
         }
         case 99: {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], -passiveParams[6], -passiveParams[7], -passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
@@ -1676,7 +1677,7 @@ TargetType = [
     "pATK_HIGHT",	// pATK_HIGHT
     "pLEVEL_LOW",	// pLEVEL_LOW
     "pLEVEL_HIGHT",	// pLEVEL_HIGHT
-    "pDISTANCE_LOW",	// pDISTANCE_LOW
+    "依近到遠",	// pDISTANCE_LOW
     "依遠到近",	// pDISTANCE_HIGHT
     "pAPPANAGE_NEAR",	// pAPPANAGE_NEAR
     "pAPPANAGE_FAR",	// pAPPANAGE_FAR
@@ -1926,17 +1927,17 @@ AttackTypeFlag = [
     
     "擊殺貫通",
     "破盾",
-    "WEAPON_SWORD",
-    "WEAPON_AXE",
-    "WEAPON_MACE",
+    "斬",
+    "打",
+    "突",
     
-    "WEAPON_BOW",
-    "WEAPON_EVIL",
-    "WEAPON_HOLY",
-    "WEAPON_FIST",
-    "WEAPON_GUN",
+    "弓",
+    "魔",
+    "聖",
+    "拳",
+    "銃",
     
-    "WEAPON_RIFLE",
+    "狙",
     "GUARDABLE",
     "HEAL_REVERSE",
     "HEAL_CUT",
