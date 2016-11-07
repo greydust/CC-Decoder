@@ -786,9 +786,19 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
         case 57: {
             attackTypeString = AttackTypeFlagString(passiveFlag[0]);
             if (attackTypeString != "") {
-                attackTypeString = "，並使攻擊附帶" + attackTypeString;
+                var addTypeString = "";
+                if (passiveParams[6] == 0) {
+                    addTypeString = "攻擊";
+                } else if (passiveParams[6] == 1) {
+                    addTypeString = "必殺";
+                } else if (passiveParams[6] == 2) {
+                    addTypeString = "攻擊與必殺";
+                } else if (passiveParams[6] == 3) {
+                    addTypeString = "";
+                }
+                attackTypeString = ("，並使{0}附帶" + attackTypeString).format(addTypeString);
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], attackTypeString, passiveFlag[1], iParams[0], iParams[1]);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], attackTypeString);
         }
         case 58: {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
@@ -1049,7 +1059,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 healString = "，同時每{0}秒治療最大血量的{1:2p}%".format(passiveParams[5], passiveParams[4]);
             }
             var jobManaString = JobManaFlagString(iParams[0], "、");
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], -passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], jobManaString, healString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], -passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], jobManaString, healString);
         }
         case 82: {
             var buffString = "";
