@@ -59,11 +59,15 @@
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], PushPowerBuffString(skillParams[5]), skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], jobString, iParams[1]);
         }
         case 16: {
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            if (attackTypeString != "") {
+                attackTypeString = "並免疫" + attackTypeString;
+            }
             var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
             }
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], jobString, iParams[1]);            
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], attackTypeString, skillFlag[1], jobString, iParams[1]);            
         }
         case 22: {
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
@@ -524,9 +528,10 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], bgString);
         }
         case 9: {
-            var attackTypeString = DebuffFlagString(passiveFlag[0]);
+            var attackTypeString = AttackTypeFlagString(passiveFlag[0]);
             var attackFlagString = (passiveParams[3] > 0 && attackTypeString != "") ? "，並有{0:2p}%的機率帶{1}".format(passiveParams[3], attackTypeString) : "";
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
+            var attackMultiplier = passiveParams[2] > 0 ? "，攻擊乘{0:3f}倍".format(passiveParams[2]) : "";
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], attackMultiplier, attackFlagString, passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
         }
         case 10:
         case 11:
