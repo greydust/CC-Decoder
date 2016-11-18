@@ -260,6 +260,14 @@
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], TargetType[skillParams[3]], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], flagHealString, jobString, iParams[1]);
         }
+        case 65: {
+            var targetTypeString = TargetType[skillParams[6]];
+            var debuffString = DebuffFlagString(skillFlag[0]);
+            if (debuffString != "") {
+                debuffString = "，並中" + debuffString + "狀態";
+            }
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], -skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], targetTypeString, skillParams[7], skillParams[8], skillParams[9], debuffString, skillFlag[1], iParams[0], iParams[1]);
+        }
         case 66: {
             var overwriteString = "";
             var deathReturnString = "";
@@ -1246,6 +1254,9 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], targetString);
         }
+        case 104: {
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1]-1, passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1]);
+        }
         case 106: {
             var uzuString = "";
             if (passiveParams[0] > 0) {
@@ -1284,7 +1295,7 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 target2String = "自身";
             } else if (target2 == 2) {
                 target2String = "全體";
-            } else if (target3 == 3) {
+            } else if (target2 == 3) {
                 target2String = "其他隊友";
             }
             return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], target1String, target2String);
