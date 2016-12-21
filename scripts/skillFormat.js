@@ -161,6 +161,10 @@
             }
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], teamMateString, skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], skillFlag[0], skillFlag[1], iParams[0], iParams[1]);       
         }
+        case 37: {
+            var attackTypeString = AttackTypeFlagString(skillFlag[0]);
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], attackTypeString, skillFlag[1], iParams[0], iParams[1]);
+        }
         case 39: {
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
             return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2]*1.5, skillParams[3], skillParams[4], skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], attackTypeString, skillFlag[1], iParams[0], iParams[1]);
@@ -607,11 +611,12 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
                 var depth = (parseInt(passiveParams[4]/100) % 100) / 10;
                 healRangeString = "，並使治療範圍成為前方{0:3f}單位，寬{1:3f}、高{2:3f}單位的矩形".format(front, width, depth);
             }
+            var attackTypeHealer = passiveParams[5] == 0 ? "" : "，且變為攻擊型"
             var healFlagString = PassiveHealDebuffString(passiveFlag[0]);
             if (healFlagString != "") {
                 healFlagString = "、" + healFlagString;
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], healFlagString, passiveFlag[1], iParams[0], iParams[1], healRangeString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], attackTypeHealer, passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], healFlagString, passiveFlag[1], iParams[0], iParams[1], healRangeString);
         }
         case 20: {
             var jobString = JobFlagString(iParams[0], "、") + "職";
