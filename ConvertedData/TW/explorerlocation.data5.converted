@@ -1,425 +1,183 @@
 {
-  "sv" : "1472724210",
-  "explorer_location" : {
-    "0" : {
-      "get_item" : [ {
-        "type" : "weapon_ev",
-        "id" : 96057,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "chara_rf",
-        "id" : 90024,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_rf",
-        "id" : 93008,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1001,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1002,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 7,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      } ],
-      "gold" : {
-        "1" : {
-          "interval_id" : 1,
-          "val" : 1000
+  "deceive": 1483077862,
+  "explorer_location": {
+    "0": {
+      "location": 0,
+      "name": "城砦",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 1,
+      "text": "完成第一部第2章\\n即開放",
+      "img_id": "search_area_icon_004",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
         },
-        "2" : {
-          "interval_id" : 2,
-          "val" : 3000
+        "2": {
+          "interval_id": 2,
+          "val": 3000
         }
       },
-      "img_id" : "search_area_icon_004",
-      "timestamp" : "1472724209112",
-      "name" : "城砦",
-      "text" : "完成第一部第2章\\n即開放",
-      "quest_type" : 2,
-      "tab" : 1,
-      "quest_id" : 210206,
-      "location" : 0
+      "get_item": [{"type":"weapon_ev","id":96057,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90024,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93008,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
-    "1" : {
-      "get_item" : [ {
-        "type" : "weapon_ev",
-        "id" : 96078,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "chara_rf",
-        "id" : 90022,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_rf",
-        "id" : 93007,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_rf",
-        "id" : 93010,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1003,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1004,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 7,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      } ],
-      "gold" : {
-        "1" : {
-          "interval_id" : 1,
-          "val" : 1000
+    "1": {
+      "location": 1,
+      "name": "迷宮山脈",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 1,
+      "text": "完成第一部第2章\\n即開放",
+      "img_id": "search_area_icon_001",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
         },
-        "2" : {
-          "interval_id" : 2,
-          "val" : 3000
+        "2": {
+          "interval_id": 2,
+          "val": 3000
         }
       },
-      "img_id" : "search_area_icon_001",
-      "timestamp" : "1472724209112",
-      "name" : "迷宮山脈",
-      "text" : "完成第一部第2章\\n即開放",
-      "quest_type" : 2,
-      "tab" : 1,
-      "quest_id" : 210206,
-      "location" : 1
+      "get_item": [{"type":"weapon_ev","id":96078,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90022,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93007,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93010,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1003,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1004,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
-    "2" : {
-      "get_item" : [ {
-        "type" : "weapon_ev",
-        "id" : 96016,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "chara_rf",
-        "id" : 90020,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_rf",
-        "id" : 93006,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1005,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 7,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      } ],
-      "gold" : {
-        "1" : {
-          "interval_id" : 1,
-          "val" : 1000
+    "2": {
+      "location": 2,
+      "name": "古代遺跡",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210310,
+      "tab": 1,
+      "text": "完成第一部第3章\\n即開放",
+      "img_id": "search_area_icon_002",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
         },
-        "2" : {
-          "interval_id" : 2,
-          "val" : 3000
+        "2": {
+          "interval_id": 2,
+          "val": 3000
         }
       },
-      "img_id" : "search_area_icon_002",
-      "timestamp" : "1472724209112",
-      "name" : "古代遺跡",
-      "text" : "完成第一部第3章\\n即開放",
-      "quest_type" : 2,
-      "tab" : 1,
-      "quest_id" : 210310,
-      "location" : 2
+      "get_item": [{"type":"weapon_ev","id":96016,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90020,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93006,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1005,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
-    "101" : {
-      "end" : 1455515999,
-      "get_item" : [ {
-        "type" : "weapon_ev",
-        "id" : 26009,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 26010,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 96403,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1001,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1002,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 7,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85140,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85155,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85156,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85143,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85145,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85146,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85153,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85141,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85142,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_ev",
-        "id" : 85144,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      } ],
-      "gold" : {
-        "1" : {
-          "interval_id" : 1,
-          "val" : 1000
+    "3": {
+      "location": 3,
+      "name": "世界樹",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210407,
+      "tab": 1,
+      "text": "完成第一部第4章\\n即開放",
+      "img_id": "search_area_icon_003",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
         },
-        "2" : {
-          "interval_id" : 2,
-          "val" : 3000
+        "2": {
+          "interval_id": 2,
+          "val": 3000
         }
       },
-      "img_id" : "search_area_icon_e02",
-      "timestamp" : "1472724209112",
-      "name" : "連動",
-      "text" : "１部２章通關後\\n即可開放",
-      "start" : 1454392800,
-      "quest_type" : 2,
-      "tab" : 4,
-      "quest_id" : 210206,
-      "location" : 101
+      "get_item": [{"type":"weapon_ev","id":96238,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90021,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90023,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93009,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93011,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1006,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
-    "3" : {
-      "get_item" : [ {
-        "type" : "weapon_ev",
-        "id" : 96238,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "chara_rf",
-        "id" : 90021,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "chara_rf",
-        "id" : 90023,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_rf",
-        "id" : 93009,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_rf",
-        "id" : 93011,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1006,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 7,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      } ],
-      "gold" : {
-        "1" : {
-          "interval_id" : 1,
-          "val" : 1000
+    "4": {
+      "location": 4,
+      "name": "湖都",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210310,
+      "tab": 1,
+      "text": "１部３章通關後\\n即可開放",
+      "img_id": "search_area_icon_005",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
         },
-        "2" : {
-          "interval_id" : 2,
-          "val" : 3000
+        "2": {
+          "interval_id": 2,
+          "val": 3000
         }
       },
-      "img_id" : "search_area_icon_003",
-      "timestamp" : "1472724209112",
-      "name" : "世界樹",
-      "text" : "完成第一部第4章\\n即開放",
-      "quest_type" : 2,
-      "tab" : 1,
-      "quest_id" : 210407,
-      "location" : 3
+      "get_item": [{"type":"weapon_ev","id":96016,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90020,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93006,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1005,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":4049,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":4050,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "start": 1460440800,
+      "end": 1461200399
     },
-    "4" : {
-      "end" : 1461200399,
-      "get_item" : [ {
-        "type" : "weapon_ev",
-        "id" : 96016,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "chara_rf",
-        "id" : 90020,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "weapon_rf",
-        "id" : 93006,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 1005,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "item",
-        "id" : 7,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "card",
-        "id" : 4049,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      }, {
-        "type" : "card",
-        "id" : 4050,
-        "priority" : 0,
-        "category_id" : 0,
-        "val" : 1
-      } ],
-      "gold" : {
-        "1" : {
-          "interval_id" : 1,
-          "val" : 1000
+    "101": {
+      "location": 101,
+      "name": "連動",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 4,
+      "text": "１部２章通關後\\n即可開放",
+      "img_id": "search_area_icon_e02",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
         },
-        "2" : {
-          "interval_id" : 2,
-          "val" : 3000
+        "2": {
+          "interval_id": 2,
+          "val": 3000
         }
       },
-      "img_id" : "search_area_icon_005",
-      "timestamp" : "1472724209112",
-      "name" : "湖都",
-      "text" : "１部３章通關後\\n即可開放",
-      "start" : 1460440800,
-      "quest_type" : 2,
-      "tab" : 1,
-      "quest_id" : 210310,
-      "location" : 4
+      "get_item": [{"type":"weapon_ev","id":26009,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26010,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":96403,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85140,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85155,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85156,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85143,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85145,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85146,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85153,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85141,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85142,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85144,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "start": 1454392800,
+      "end": 1455515999
+    },
+    "102": {
+      "location": 102,
+      "name": "神殿",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 4,
+      "text": "１部２章クリアで\\n開放されます",
+      "img_id": "search_area_icon_006",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
+        },
+        "2": {
+          "interval_id": 2,
+          "val": 3000
+        }
+      },
+      "get_item": [{"type":"card","id":58011,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58012,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58008,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85247,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85248,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85244,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58005,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58009,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58013,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85241,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85245,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85249,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85252,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85253,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85254,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "start": 1470031200,
+      "end": 1470722399
+    },
+    "103": {
+      "location": 103,
+      "name": "ダンジョン",
+      "timestamp": "1482908400754",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 4,
+      "text": "１部２章クリアで\\n開放されます",
+      "img_id": "search_area_icon_000",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
+        },
+        "2": {
+          "interval_id": 2,
+          "val": 3000
+        }
+      },
+      "get_item": [{"type":"weapon_ev","id":85266,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85267,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90905,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93902,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26177,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26178,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26179,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "start": 1466488800,
+      "end": 1467698399
     }
   },
-  "res" : 0,
-  "deceive" : 1474561961
+  "res": 0,
+  "sv": "1482908401"
 }

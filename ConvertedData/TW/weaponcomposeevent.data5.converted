@@ -1,6 +1,14 @@
 {
-  "weapon_compose_event" : { },
-  "sv" : "1",
-  "res" : 0,
-  "deceive" : 1474561956
+  "deceive": 1483072702,
+  "weapon_compose_event": {
+    "1": {
+      "event_id": 1,
+      "start": 1450332000,
+      "end": 1483596000,
+      "event_type": 8,
+      "text": "鍊金費用半價！"
+    }
+  },
+  "res": 0,
+  "sv": "1482975733"
 }

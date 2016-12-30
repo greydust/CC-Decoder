@@ -7,11 +7,18 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using JsonConverter.DataOut;
+using Ionic.Zlib;
 
 namespace JsonConverter
 {
     class Program
     {
+        enum DecryptType
+        {
+            JP = 0,
+            TW = 1,
+        };
+
         private static string errorMessage = "";
         public static void JsonErrorHandler(object sender, Newtonsoft.Json.Serialization.ErrorEventArgs args)
         {
@@ -19,7 +26,24 @@ namespace JsonConverter
             errorMessage += args.ErrorContext.Error.Message + '\n';
         }
 
-        private static void ConvertJsonData(string prefix)
+        private static string ReadFomFile(string path, DecryptType type)
+        {
+            if (type == DecryptType.JP)
+            {
+                // not done yet
+                return "";
+            }
+            else if (type == DecryptType.TW)
+            {
+                byte[] file = File.ReadAllBytes(path);
+                string ret = GZipStream.UncompressString(file);
+                return ret;
+            }
+
+            return "";
+        }
+
+        private static void ConvertJsonData(string prefix, DecryptType type)
         {
             Directory.CreateDirectory("ConvertedData/" + prefix);
 
@@ -40,7 +64,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawString = File.ReadAllText("RawData/" + prefix + "battleinfo.data5.raw");
+                    string rawString = ReadFomFile("RawData/" + prefix + "battleinfo.data5", type);
                     battleinfoInManager data = JsonConvert.DeserializeObject<battleinfoInManager>(rawString, deserializeSetting);
 
                     {
@@ -58,7 +82,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "booklist.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "booklist.data5", type);
                     booklistInManager data = JsonConvert.DeserializeObject<booklistInManager>(rawData);
 
                     {
@@ -77,7 +101,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "bossinfo.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "bossinfo.data5", type);
                     bossinfoInManager data = JsonConvert.DeserializeObject<bossinfoInManager>(rawData);
 
                     {
@@ -101,7 +125,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "casinoinfo.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "casinoinfo.data5", type);
                     casinoinfoInManager data = JsonConvert.DeserializeObject<casinoinfoInManager>(rawData);
 
                     {
@@ -125,7 +149,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "charainfo.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "charainfo.data5", type);
                     charainfoInManager data = JsonConvert.DeserializeObject<charainfoInManager>(rawData);
 
                     {
@@ -161,7 +185,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "const.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "const.data5", type);
                     constIn data = JsonConvert.DeserializeObject<constIn>(rawData);
                     firebase.consts = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -175,7 +199,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "create_weap.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "create_weap.data5", type);
                     create_weapInManager data = JsonConvert.DeserializeObject<create_weapInManager>(rawData);
                     firebase.create_weap = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -189,7 +213,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "episodeinfo.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "episodeinfo.data5", type);
                     episodeinfoInManager data = JsonConvert.DeserializeObject<episodeinfoInManager>(rawData);
 
                     {
@@ -207,7 +231,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "eventbadge.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "eventbadge.data5", type);
                     eventbadgeInManager data = JsonConvert.DeserializeObject<eventbadgeInManager>(rawData);
                     firebase.eventbadge = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -221,7 +245,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "eventplace.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "eventplace.data5", type);
                     eventplaceIn data = JsonConvert.DeserializeObject<eventplaceIn>(rawData);
                     firebase.eventplace = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -235,7 +259,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "explorerinfo.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "explorerinfo.data5", type);
                     explorerinfoInManager data = JsonConvert.DeserializeObject<explorerinfoInManager>(rawData);
 
                     {
@@ -253,7 +277,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "explorerlocation.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "explorerlocation.data5", type);
                     explorerlocationInManager data = JsonConvert.DeserializeObject<explorerlocationInManager>(rawData);
 
                     {
@@ -271,7 +295,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "homelist.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "homelist.data5", type);
                     homelistInManager data = JsonConvert.DeserializeObject<homelistInManager>(rawData);
 
                     {
@@ -289,7 +313,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "itemlist.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "itemlist.data5", type);
                     itemlistInManager data = JsonConvert.DeserializeObject<itemlistInManager>(rawData);
 
                     {
@@ -307,7 +331,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "motionlist.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "motionlist.data5", type);
                     motionlistInManager data = JsonConvert.DeserializeObject<motionlistInManager>(rawData);
 
                     {
@@ -325,7 +349,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "questdigest.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "questdigest.data5", type);
                     questdigestInManager data = JsonConvert.DeserializeObject<questdigestInManager>(rawData);
 
                     {
@@ -343,7 +367,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "repeatmissionlist.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "repeatmissionlist.data5", type);
                     repeatmissionlistInManager data = JsonConvert.DeserializeObject<repeatmissionlistInManager>(rawData);
                     firebase.repeatmissionlist = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -357,7 +381,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "skilllist.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "skilllist.data5", type);
                     skilllistInManager data = JsonConvert.DeserializeObject<skilllistInManager>(rawData);
 
                     {
@@ -375,7 +399,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "subjugationexpeditioninfo.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "subjugationexpeditioninfo.data5", type);
                     subjugationexpeditioninfoIn data = JsonConvert.DeserializeObject<subjugationexpeditioninfoIn>(rawData);
                     firebase.subjugationexpeditioninfo = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -389,7 +413,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "supporterskill.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "supporterskill.data5", type);
                     supporterskillInManager data = JsonConvert.DeserializeObject<supporterskillInManager>(rawData);
 
                     {
@@ -407,7 +431,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "teacherdisciple.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "teacherdisciple.data5", type);
                     teacherdiscipleInManager data = JsonConvert.DeserializeObject<teacherdiscipleInManager>(rawData);
                     firebase.teacherdisciple = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -421,7 +445,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "various.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "various.data5", type);
                     variousIn data = JsonConvert.DeserializeObject<variousIn>(rawData);
                     firebase.various = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -435,7 +459,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "weaponcompose.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "weaponcompose.data5", type);
                     weaponcomposeInManager data = JsonConvert.DeserializeObject<weaponcomposeInManager>(rawData);
                     firebase.weaponcompose = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -449,7 +473,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "weaponcomposeevent.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "weaponcomposeevent.data5", type);
                     weaponcomposeeventInManager data = JsonConvert.DeserializeObject<weaponcomposeeventInManager>(rawData);
 
                     {
@@ -467,7 +491,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "weaponlist.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "weaponlist.data5", type);
                     weaponlistInManager data = JsonConvert.DeserializeObject<weaponlistInManager>(rawData);
 
                     {
@@ -497,7 +521,7 @@ namespace JsonConverter
             {
                 try
                 {
-                    string rawData = File.ReadAllText("RawData/" + prefix + "worldinfo.data5.raw");
+                    string rawData = ReadFomFile("RawData/" + prefix + "worldinfo.data5", type);
                     worldinfoInManager data = JsonConvert.DeserializeObject<worldinfoInManager>(rawData);
                     firebase.worldinfo = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -517,8 +541,8 @@ namespace JsonConverter
 
         static void Main(string[] args)
         {
-            ConvertJsonData("");
-            ConvertJsonData("TW/");
+            //ConvertJsonData("", DecryptType.JP);
+            ConvertJsonData("TW/", DecryptType.TW);
         }
     }
 
