@@ -465,7 +465,7 @@
         }
         case 91: {
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
-            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1]*10, skillParams[2], skillParams[3], PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], attackTypeString, skillFlag[1], iParams[0], iParams[1]);            
+            return SkillDatas[skillID].detailDescription.format(skillParams[0], skillParams[1], skillParams[2], skillParams[3], PushPowerString(skillParams[4]), skillParams[5], skillParams[6], skillParams[7], skillParams[8], skillParams[9], attackTypeString, skillFlag[1], iParams[0], iParams[1]);            
         }
         case 92: {
             var attackTypeString = AttackTypeFlagString(skillFlag[0]);
