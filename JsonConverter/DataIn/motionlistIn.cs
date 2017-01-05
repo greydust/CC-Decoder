@@ -49,7 +49,13 @@ namespace JsonConverter.DataIn
 
             foreach (motionlist item in this.motionlist)
             {
-                ret.motionlist.Add(item._motionID, item);
+                if (!ret.motionlist.ContainsKey(item._motionID))
+                {
+                    ret.motionlist.Add(item._motionID, item);
+                } else
+                {
+                    // should be error here, but TW version messes it up.
+                }
             }
 
             return ret;

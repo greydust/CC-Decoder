@@ -1,5 +1,5 @@
 {
-  "deceive": 1483077871,
+  "deceive": 1483609930,
   "questdigest": {
     "20": {
       "append_skill": {},
@@ -3180,7 +3180,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "阿修利登場",
+      "name": "亞修莉登場",
       "quest_id": 860,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -3277,7 +3277,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "米雷依由登場",
+      "name": "米蕾伊尤登場",
       "quest_id": 1040,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -13913,6 +13913,46 @@
       "is_casino": false,
       "field_type": [0]
     },
+    "50691": {
+      "append_skill": {
+        "cid": 5069,
+        "idx": "1"
+      },
+      "area_id": 4,
+      "chapter_list": [1,2,3],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":5069,"lv":1}]
+      },
+      "name": "大樹的歸族女孩",
+      "quest_id": 50691,
+      "bg_list": [2,114,114],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 5,
+      "stamina": 5,
+      "field_type": [0,0,0]
+    },
+    "50692": {
+      "append_skill": {
+        "cid": 5069,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2],
+      "difficulty": 31,
+      "flag": {
+        "chara": [{"cid":5069,"lv":30}]
+      },
+      "name": "身為聖騎士之子",
+      "quest_id": 50692,
+      "bg_list": [1,9],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 5,
+      "stamina": 15,
+      "field_type": [0,0]
+    },
     "50700": {
       "append_skill": {},
       "area_id": 1,
@@ -13924,6 +13964,44 @@
       "bg_list": [-1],
       "chapter_cnt": 1,
       "is_casino": false
+    },
+    "50701": {
+      "append_skill": {
+        "cid": 5070,
+        "idx": "1"
+      },
+      "area_id": 4,
+      "chapter_list": [1,2],
+      "difficulty": 25,
+      "flag": {
+        "chara": [{"cid":5070,"lv":1}]
+      },
+      "name": "猶如山貓",
+      "quest_id": 50701,
+      "bg_list": [2,2],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 3,
+      "stamina": 10
+    },
+    "50702": {
+      "append_skill": {
+        "cid": 5070,
+        "idx": "2"
+      },
+      "area_id": 4,
+      "chapter_list": [1,2,3],
+      "difficulty": 46,
+      "flag": {
+        "chara": [{"cid":5070,"lv":60}]
+      },
+      "name": "哪一個好吃？",
+      "quest_id": 50702,
+      "bg_list": [2,2,2],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 2,
+      "stamina": 14
     },
     "50740": {
       "append_skill": {},
@@ -13937,6 +14015,46 @@
       "chapter_cnt": 1,
       "is_casino": false,
       "field_type": [0]
+    },
+    "50741": {
+      "append_skill": {
+        "cid": 5074,
+        "idx": "1"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 20,
+      "flag": {
+        "chara": [{"cid":5074,"lv":1},{"cid":5074,"lv":13}]
+      },
+      "name": "恐怖！？鬼火妖怪",
+      "quest_id": 50741,
+      "bg_list": [114,114,114],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 6,
+      "stamina": 6,
+      "field_type": [0,0,0]
+    },
+    "50742": {
+      "append_skill": {
+        "cid": 5074,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 29,
+      "flag": {
+        "chara": [{"cid":5074,"lv":25}]
+      },
+      "name": "幸福的紅色護身符",
+      "quest_id": 50742,
+      "bg_list": [78,114,114],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 4,
+      "stamina": 8,
+      "field_type": [0,0,0]
     },
     "50750": {
       "append_skill": {},
@@ -14005,6 +14123,68 @@
       "chapter_cnt": 1,
       "is_casino": false,
       "field_type": [0]
+    },
+    "50761": {
+      "append_skill": {
+        "cid": 5076,
+        "idx": "1"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":5076,"lv":1}]
+      },
+      "name": "白頭鷹戰士",
+      "quest_id": 50761,
+      "bg_list": [1,13,13],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 5,
+      "field_type": [0,0,0]
+    },
+    "50762": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 21,
+      "flag": {
+        "chara": [{"cid":5076,"lv":15}]
+      },
+      "name": "煩惱永無止盡",
+      "quest_id": 50762,
+      "bg_list": [9,13,13],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 2,
+      "stamina": 7,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
+    },
+    "50763": {
+      "append_skill": {
+        "cid": 5076,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2],
+      "difficulty": 31,
+      "flag": {
+        "chara": [{"cid":5076,"lv":30}]
+      },
+      "name": "天空之風",
+      "quest_id": 50763,
+      "bg_list": [1,1],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 5,
+      "stamina": 18,
+      "field_type": [0,0]
     },
     "50841": {
       "append_skill": {
@@ -22977,6 +23157,46 @@
       "chapter_cnt": 1,
       "is_casino": false,
       "field_type": [0]
+    },
+    "80771": {
+      "append_skill": {
+        "cid": 8077,
+        "idx": "1"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":8077,"lv":1}]
+      },
+      "name": "鍊金術公會長",
+      "quest_id": 80771,
+      "bg_list": [1,1,6],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 9,
+      "stamina": 5,
+      "field_type": [0,0,0]
+    },
+    "80772": {
+      "append_skill": {
+        "cid": 8077,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 39,
+      "flag": {
+        "chara": [{"cid":8077,"lv":45}]
+      },
+      "name": "對等的契約",
+      "quest_id": 80772,
+      "bg_list": [1,8,6,6],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 6,
+      "stamina": 8,
+      "field_type": [0,0,0,0]
     },
     "80780": {
       "append_skill": {},
@@ -42384,8 +42604,7 @@
       "reward_data": {
         "type": "card",
         "box": 2
-      },
-      "field_type": [0,0,0,0]
+      }
     },
     "211308": {
       "append_skill": {},
@@ -42464,8 +42683,7 @@
       "reward_data": {
         "type": "card",
         "box": 2
-      },
-      "field_type": [0,0,0]
+      }
     },
     "211312": {
       "append_skill": {},
@@ -62322,7 +62540,6 @@
         "type": "box",
         "box": 2
       },
-      "sort": 5,
       "field_type": [0,0,0]
     },
     "243902": {
@@ -62342,7 +62559,6 @@
         "type": "card",
         "box": 3
       },
-      "sort": 4,
       "field_type": [0]
     },
     "243903": {
@@ -62351,7 +62567,7 @@
       "chapter_list": [1],
       "difficulty": 10,
       "flag": {},
-      "name": "小巷的魔術師",
+      "name": "巷子裡的奇術師",
       "quest_id": 243903,
       "bg_list": [1],
       "chapter_cnt": 1,
@@ -62362,7 +62578,6 @@
         "type": "card",
         "box": 3
       },
-      "sort": 2,
       "field_type": [0]
     },
     "243904": {
@@ -62382,7 +62597,6 @@
         "type": "card",
         "box": 3
       },
-      "sort": 3,
       "field_type": [0]
     },
     "243905": {
@@ -62433,7 +62647,7 @@
       "chapter_list": [0],
       "difficulty": 38,
       "flag": {},
-      "name": "測試阿修利",
+      "name": "小試身手．亞修莉",
       "quest_id": 243907,
       "bg_list": [1],
       "chapter_cnt": 1,
@@ -62446,10 +62660,9 @@
         "box": 2
       },
       "field_type": [0],
-      "icon": "243907",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":2000},{"type":"item","id":10,"val":2000},{"type":"item","id":10,"val":3000},{"type":"item","id":10,"val":5000}],
-      "fixed_help": [{"cid":86,"lv":80,"hp":6300,"atk":9300,"helper_comment":"この矢で変えてみせる","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":86,"lv":80,"hp":6300,"atk":9300,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "243908": {
       "append_skill": {},
@@ -62457,7 +62670,7 @@
       "chapter_list": [0],
       "difficulty": 38,
       "flag": {},
-      "name": "測試瓊達",
+      "name": "小試身手．瓊達",
       "quest_id": 243908,
       "bg_list": [1],
       "chapter_cnt": 1,
@@ -62470,10 +62683,9 @@
         "box": 2
       },
       "field_type": [0],
-      "icon": "243908",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":2000},{"type":"item","id":10,"val":2000},{"type":"item","id":10,"val":3000},{"type":"item","id":10,"val":5000}],
-      "fixed_help": [{"cid":105,"lv":80,"hp":9050,"atk":9600,"helper_comment":"はっ、我を楽しませろ","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":105,"lv":80,"hp":9050,"atk":9600,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "243909": {
       "append_skill": {},
@@ -64314,9 +64526,10 @@
         "box": 3
       },
       "field_type": [0],
+      "icon": "taiken_ring201604",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90005,"val":1},{"type":"weapon_rf","id":93018,"val":1},{"type":"weapon_rf","id":93018,"val":1},{"type":"chara_rf","id":90010,"val":1}],
-      "fixed_help": [{"cid":6072,"lv":80,"hp":9150,"atk":9450,"helper_comment":null,"skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":6072,"lv":80,"hp":9150,"atk":9450,"helper_comment":"一點都不痛吧？","skillflag":[true,true,true,false]}]
     },
     "280005": {
       "append_skill": {},
@@ -88010,27 +88223,6 @@
         "box": 3
       }
     },
-    "400701": {
-      "append_skill": {},
-      "area_id": 5,
-      "chapter_list": [1,2,3],
-      "difficulty": 36,
-      "flag": {
-        "quest": [{"type":2,"qid":211015}]
-      },
-      "name": "動亂始動",
-      "quest_id": 400701,
-      "bg_list": [12,12,12],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 3,
-      "stamina": 14,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      }
-    },
     "400702": {
       "append_skill": {},
       "area_id": 5,
@@ -88280,5 +88472,5 @@
     }
   },
   "res": 0,
-  "sv": "1483067548"
+  "sv": "1483605358"
 }

@@ -1,5 +1,5 @@
 {
-  "deceive": 1483072699,
+  "deceive": 1483609898,
   "episodeinfo": {
     "(0, 2)": {
       "type": 2,
@@ -2545,6 +2545,12 @@
       "episode": [{"name":"羈絆物語","quest":[60351,60352],"develop_only":0}],
       "collabo": false
     },
+    "(5070, 0)": {
+      "type": 0,
+      "id": 5070,
+      "episode": [{"name":"命運物語","quest":[50701],"develop_only":0},{"name":"羈絆物語","quest":[50702],"develop_only":0}],
+      "collabo": false
+    },
     "(1051, 0)": {
       "type": 0,
       "id": 1051,
@@ -3811,6 +3817,12 @@
       "episode": [{"name":"命運物語","quest":[80861],"develop_only":0},{"name":"羈絆物語","quest":[80862],"develop_only":0}],
       "collabo": false
     },
+    "(8077, 0)": {
+      "type": 0,
+      "id": 8077,
+      "episode": [{"name":"命運物語","quest":[80771],"develop_only":0},{"name":"羈絆物語","quest":[80772],"develop_only":0}],
+      "collabo": false
+    },
     "(11007, 0)": {
       "type": 0,
       "id": 11007,
@@ -3833,6 +3845,18 @@
       "type": 0,
       "id": 8092,
       "episode": [{"name":"邂逅物語","quest":[80921],"develop_only":0},{"name":"羈絆物語","quest":[80922],"develop_only":0}],
+      "collabo": false
+    },
+    "(5074, 0)": {
+      "type": 0,
+      "id": 5074,
+      "episode": [{"name":"羈絆物語","quest":[50741,50742],"develop_only":0}],
+      "collabo": false
+    },
+    "(5076, 0)": {
+      "type": 0,
+      "id": 5076,
+      "episode": [{"name":"命運物語","quest":[50761],"develop_only":0},{"name":"羈絆物語","quest":[50762,50763],"develop_only":0}],
       "collabo": false
     },
     "(5048, 0)": {
@@ -4013,6 +4037,12 @@
       "type": 0,
       "id": 1065,
       "episode": [{"name":"命運物語","quest":[10651],"develop_only":0},{"name":"羈絆物語","quest":[10652],"develop_only":0}],
+      "collabo": false
+    },
+    "(5069, 0)": {
+      "type": 0,
+      "id": 5069,
+      "episode": [{"name":"命運物語","quest":[50691],"develop_only":0},{"name":"羈絆物語","quest":[50692],"develop_only":0}],
       "collabo": false
     },
     "(5084, 0)": {
@@ -5421,5 +5451,5 @@
     }
   },
   "res": 0,
-  "sv": "1482984099"
+  "sv": "1483372808"
 }

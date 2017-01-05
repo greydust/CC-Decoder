@@ -162,7 +162,14 @@ namespace JsonConverter.DataIn
             {
                 foreach (questdigest item in itemList)
                 {
-                    ret.questdigest.Add(item.quest_id, item);
+                    if (!ret.questdigest.ContainsKey(item.quest_id))
+                    {
+                        ret.questdigest.Add(item.quest_id, item);
+                    }
+                    else
+                    {
+                        // should be error here, but TW version messes it up.
+                    }
                 }
             }
 

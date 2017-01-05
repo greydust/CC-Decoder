@@ -1,5 +1,5 @@
 {
-  "deceive": 1483077840,
+  "deceive": 1483609898,
   "bosspattern": {
     "1": {
       "che": 0,
@@ -11649,13 +11649,13 @@
       "scost": 0,
       "sinfo": "",
       "skillid0": 110020,
-      "skillid1": 110021,
-      "skillid2": 110022,
-      "skillid3": 110021,
+      "skillid1": 110020,
+      "skillid2": 0,
+      "skillid3": 0,
       "sname": "",
       "stext": "",
       "voice": 0,
-      "skillid4": 110023
+      "limit": 3
     },
     "110180": {
       "che": 0,
@@ -12006,7 +12006,7 @@
       "patternid": 130090,
       "pose": 0.0,
       "posp": 0.0,
-      "priority": 100,
+      "priority": 0,
       "scost": 1,
       "sinfo": "【地形變化】在一定時間內，將地形變更為戰場。",
       "skillid0": 130090,
@@ -12020,22 +12020,23 @@
     "130091": {
       "che": 0,
       "chs": 0,
-      "flag": 4,
+      "flag": 8,
       "hpend": 100.0,
       "hpstart": 0.0,
       "patternid": 130091,
       "pose": 0.0,
       "posp": 0.0,
       "priority": 100,
-      "scost": 2,
+      "scost": 1,
       "sinfo": "當地形是戰場時，則會給予衝刺範圍上所有敵人小傷害。",
-      "skillid0": 130092,
-      "skillid1": 130091,
+      "skillid0": 130093,
+      "skillid1": 0,
       "skillid2": 0,
       "skillid3": 0,
       "sname": "開拓霸王之道",
       "stext": "子民啊！獻上你們的力量吧！",
-      "voice": 0
+      "voice": 0,
+      "bgf": 524288
     },
     "130092": {
       "che": 0,
@@ -12619,5 +12620,5 @@
     }
   },
   "res": 0,
-  "sv": "1482810824"
+  "sv": "1483580565"
 }
