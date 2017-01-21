@@ -967,8 +967,10 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             var jobString = JobFlagString(iParams[0], "、");
             if (jobString != "") {
                 jobString = jobString + "職";
+            } else {
+                jobString = "隊友";
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], -passiveParams[4], passiveParams[5], passiveParams[6], useManaString, passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], jobString, casterString, targetString);
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], -passiveParams[4], passiveParams[5], passiveParams[6], useManaString, passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], jobString, iParams[1], casterString, targetString);
         }
         case 71: {
             var conditionString = "";
