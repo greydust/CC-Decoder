@@ -1071,7 +1071,11 @@ function PassiveFormat(passiveID, passiveParams, passiveFlag, iParams) {
             } else {
                 jobString = JobFlagString(iParams[0], "及");                
             }
-            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString);
+            var healString = "";
+            if (passiveParams[4] > 0) {
+                healString = "，同時每{0}秒治療最大血量的{1:2p}%".format(passiveParams[5], passiveParams[4]);
+            }
+            return PassiveDatas[passiveID].detailDescription.format(passiveParams[0], passiveParams[1], passiveParams[2], passiveParams[3], passiveParams[4], passiveParams[5], passiveParams[6], passiveParams[7], passiveParams[8], passiveParams[9], passiveFlag[0], passiveFlag[1], iParams[0], iParams[1], jobString, healString);
         }
         case 81: {
             var healString = "";
