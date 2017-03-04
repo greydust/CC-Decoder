@@ -70,7 +70,7 @@ namespace JsonConverter.DataIn
 
             foreach (weaponlist item in this.weaponlist)
             {
-                ret.weaponlist.Add(item.id, item);
+                ret.weaponlist[item.id] = item;
             }
 
             return ret;

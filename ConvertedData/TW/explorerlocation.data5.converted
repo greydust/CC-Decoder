@@ -1,10 +1,10 @@
 {
-  "deceive": 1483077862,
+  "deceive": 1488537784,
   "explorer_location": {
     "0": {
       "location": 0,
       "name": "城砦",
-      "timestamp": "1482908400754",
+      "timestamp": "1487829090754",
       "quest_type": 2,
       "quest_id": 210206,
       "tab": 1,
@@ -110,8 +110,8 @@
     },
     "101": {
       "location": 101,
-      "name": "連動",
-      "timestamp": "1482908400754",
+      "name": "合作限定",
+      "timestamp": "1484150400754",
       "quest_type": 2,
       "quest_id": 210206,
       "tab": 4,
@@ -128,8 +128,8 @@
         }
       },
       "get_item": [{"type":"weapon_ev","id":26009,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26010,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":96403,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85140,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85155,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85156,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85143,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85145,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85146,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85153,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85141,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85142,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85144,"val":1,"category_id":0,"priority":0,"limit":null}],
-      "start": 1454392800,
-      "end": 1455515999
+      "start": 1484150400,
+      "end": 1484805600
     },
     "102": {
       "location": 102,
@@ -179,5 +179,5 @@
     }
   },
   "res": 0,
-  "sv": "1482908401"
+  "sv": "1487829091"
 }

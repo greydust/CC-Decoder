@@ -1,5 +1,5 @@
 {
-  "deceive": 1483077841,
+  "deceive": 1488537259,
   "motionlist": {
     "1": {
       "_appear": "damage02",
@@ -4242,8 +4242,29 @@
       "_walk": "two_sword_walk02",
       "_walkWarn": "two_sword_walk_tired02",
       "_win": "two-sword_win01"
+    },
+    "11001": {
+      "_appear": "damage02",
+      "_atk": "attack01",
+      "_atk2": "attack02",
+      "_boneType": "cc_tank",
+      "_charaType": "戦車・倒速",
+      "_collision": "damage01",
+      "_death": "dead02",
+      "_dmg_l": "damage02",
+      "_dmg_s": "damage01",
+      "_guard": "damage01",
+      "_motionID": 11001,
+      "_shot": "attack_shoot01",
+      "_shot2": "attack_shoot02",
+      "_stun": "stun01",
+      "_wait": "neutral01",
+      "_waitWarn": "neutral01",
+      "_walk": "walk01",
+      "_walkWarn": "walk01",
+      "_win": "neutral01"
     }
   },
   "res": 0,
-  "sv": "1466661459"
+  "sv": "1488420743"
 }

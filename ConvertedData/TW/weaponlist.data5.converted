@@ -1,5 +1,5 @@
 {
-  "deceive": 1483609904,
+  "deceive": 1488537784,
   "weaponlist": {
     "1": {
       "id": 1,
@@ -7014,7 +7014,7 @@
     },
     "26169": {
       "id": 26169,
-      "name": "愛心長槍．速擊",
+      "name": "愛心長槍．速",
       "type_atk": 1,
       "attackMax": 14,
       "type_cri": 5,
@@ -7040,7 +7040,7 @@
     },
     "26171": {
       "id": 26171,
-      "name": "超級愛心麥格農手槍",
+      "name": "超級愛心麥格農",
       "type_atk": 1,
       "attackMax": 15,
       "type_cri": 2,
@@ -7054,7 +7054,7 @@
     },
     "26172": {
       "id": 26172,
-      "name": "麥格農手槍．早",
+      "name": "愛心麥格農．早",
       "type_atk": 1,
       "attackMax": 15,
       "type_cri": 2,
@@ -7067,7 +7067,7 @@
     },
     "26173": {
       "id": 26173,
-      "name": "麥格農手槍．速",
+      "name": "愛心麥格農．速",
       "type_atk": 1,
       "attackMax": 15,
       "type_cri": 12,
@@ -7094,7 +7094,7 @@
     },
     "26175": {
       "id": 26175,
-      "name": "來福槍．早",
+      "name": "愛心來福槍．早",
       "type_atk": 1,
       "attackMax": 14,
       "type_cri": 2,
@@ -7107,7 +7107,7 @@
     },
     "26176": {
       "id": 26176,
-      "name": "來福槍．速",
+      "name": "愛心來福槍．速",
       "type_atk": 1,
       "attackMax": 14,
       "type_cri": 12,
@@ -10992,7 +10992,7 @@
     },
     "85160": {
       "id": 85160,
-      "name": "愛心麥格農手槍",
+      "name": "愛心麥格農",
       "type_atk": 1,
       "attackMax": 15,
       "type_cri": 2,
@@ -11152,7 +11152,7 @@
     },
     "85172": {
       "id": 85172,
-      "name": "白的鐵扇",
+      "name": "哈克的鐵扇",
       "type_atk": 1,
       "attackMax": 12,
       "type_cri": 2,
@@ -11204,7 +11204,7 @@
     },
     "85176": {
       "id": 85176,
-      "name": "阿托伊之槍",
+      "name": "阿圖依之槍",
       "type_atk": 1,
       "attackMax": 15,
       "type_cri": 2,
@@ -11749,7 +11749,7 @@
     },
     "85219": {
       "id": 85219,
-      "name": "功の戒杖",
+      "name": "功之戒杖",
       "type_atk": 1,
       "attackMax": 7,
       "type_cri": 2,
@@ -11846,7 +11846,7 @@
     },
     "85226": {
       "id": 85226,
-      "name": "ディアマイヒン",
+      "name": "迪爾麥因",
       "type_atk": 1,
       "attackMax": 10,
       "type_cri": 2,
@@ -11860,7 +11860,7 @@
     },
     "85227": {
       "id": 85227,
-      "name": "パゴ・クリスタロス",
+      "name": "帕可．水晶",
       "type_atk": 1,
       "attackMax": 11,
       "type_cri": 2,
@@ -11911,7 +11911,7 @@
     },
     "85231": {
       "id": 85231,
-      "name": "ディザイア",
+      "name": "慾望",
       "type_atk": 1,
       "attackMax": 14,
       "type_cri": 2,
@@ -11937,7 +11937,7 @@
     },
     "85233": {
       "id": 85233,
-      "name": "ディザイア・攻",
+      "name": "慾望．攻",
       "type_atk": 4,
       "attackMax": 14,
       "type_cri": 2,
@@ -11950,7 +11950,7 @@
     },
     "85234": {
       "id": 85234,
-      "name": "ディザイア・速",
+      "name": "慾望．速",
       "type_atk": 1,
       "attackMax": 14,
       "type_cri": 2,
@@ -11963,7 +11963,7 @@
     },
     "85235": {
       "id": 85235,
-      "name": "ディザイア・体",
+      "name": "慾望．體",
       "type_atk": 1,
       "attackMax": 14,
       "type_cri": 2,
@@ -11976,7 +11976,7 @@
     },
     "85236": {
       "id": 85236,
-      "name": "クォーツヴァイン",
+      "name": "石英之藤",
       "type_atk": 1,
       "attackMax": 10,
       "type_cri": 2,
@@ -11989,7 +11989,7 @@
     },
     "85237": {
       "id": 85237,
-      "name": "ローズクリーパー",
+      "name": "薔薇之蔓",
       "type_atk": 1,
       "attackMax": 13,
       "type_cri": 2,
@@ -12355,7 +12355,7 @@
     },
     "85296": {
       "id": 85296,
-      "name": "無銘の刀",
+      "name": "無銘之刀",
       "type_atk": 1,
       "attackMax": 8,
       "type_cri": 2,
@@ -14689,8 +14689,75 @@
       "type_grd": 3,
       "guardMax": 1,
       "type": 6
+    },
+    "95840": {
+      "id": 95840,
+      "name": "龍頭大鍘刀．改",
+      "type_atk": 1,
+      "attackMax": 12,
+      "type_cri": 2,
+      "criticalMax": 5,
+      "type_grd": 3,
+      "guardMax": 7,
+      "type": 0,
+      "model": "weapon95840_body",
+      "rank": 2
+    },
+    "95841": {
+      "id": 95841,
+      "name": "百獸爪斷",
+      "type_atk": 1,
+      "attackMax": 8,
+      "type_cri": 2,
+      "criticalMax": 8,
+      "type_grd": 3,
+      "guardMax": 8,
+      "type": 1,
+      "model": "weapon95841_body",
+      "rank": 2
+    },
+    "95844": {
+      "id": 95844,
+      "name": "招財進寶",
+      "type_atk": 1,
+      "attackMax": 12,
+      "type_cri": 2,
+      "criticalMax": 8,
+      "type_grd": 3,
+      "guardMax": 10,
+      "type": 1,
+      "model": "weapon95844_body",
+      "rank": 3
+    },
+    "95845": {
+      "id": 95845,
+      "name": "心誠則靈",
+      "type_atk": 1,
+      "attackMax": 12,
+      "type_cri": 2,
+      "criticalMax": 12,
+      "type_grd": 3,
+      "guardMax": 12,
+      "type": 0,
+      "model": "weapon95845_body",
+      "rank": 3,
+      "skill": 88967
+    },
+    "412": {
+      "id": 412,
+      "name": "維達殊坦特之銃",
+      "type_atk": 1,
+      "attackMax": 15,
+      "type_cri": 2,
+      "criticalMax": 15,
+      "type_grd": 3,
+      "guardMax": 5,
+      "type": 9,
+      "model": "weapon412_body",
+      "rank": 3,
+      "skill": 26015
     }
   },
   "res": 0,
-  "sv": "1483529726"
+  "sv": "1487908558"
 }

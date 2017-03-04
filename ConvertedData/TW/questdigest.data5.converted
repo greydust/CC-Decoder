@@ -1,5 +1,5 @@
 {
-  "deceive": 1483609930,
+  "deceive": 1488537280,
   "questdigest": {
     "20": {
       "append_skill": {},
@@ -5735,7 +5735,7 @@
       "flag": {
         "chara": [{"cid":1069,"lv":15}]
       },
-      "name": "尋找愛的真諦愛",
+      "name": "尋找愛的真諦",
       "quest_id": 10691,
       "bg_list": [1,1,1],
       "chapter_cnt": 3,
@@ -9241,7 +9241,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "莫爾芭登場",
+      "name": "摩爾帕登場",
       "quest_id": 30260,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -11073,6 +11073,48 @@
       "is_casino": false,
       "place_id": 2,
       "stamina": 8,
+      "field_type": [0,0,0]
+    },
+    "40511": {
+      "append_skill": {},
+      "area_id": 3,
+      "chapter_list": [1,2,3],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":4051,"lv":1}]
+      },
+      "name": "星見之塔的公主殿下",
+      "quest_id": 40511,
+      "bg_list": [6,7,8],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
+    },
+    "40512": {
+      "append_skill": {
+        "cid": 4051,
+        "idx": "2"
+      },
+      "area_id": 3,
+      "chapter_list": [1,2,3],
+      "difficulty": 31,
+      "flag": {
+        "chara": [{"cid":4051,"lv":30}]
+      },
+      "name": "星之路",
+      "quest_id": 40512,
+      "bg_list": [9,9,13],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 10,
       "field_type": [0,0,0]
     },
     "50010": {
@@ -19905,6 +19947,19 @@
       "place_id": 9,
       "stamina": 13
     },
+    "75200": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "莉貝菈登場",
+      "quest_id": 75200,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
+    },
     "75201": {
       "append_skill": {},
       "area_id": 10,
@@ -25909,7 +25964,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "塞爾貝利亞登場",
+      "name": "塞貝莉雅登場",
       "quest_id": 81490,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -25927,7 +25982,7 @@
       "flag": {
         "chara": [{"cid":8149,"lv":30}]
       },
-      "name": "義勇軍的塞爾貝利亞",
+      "name": "義勇軍的塞貝莉雅",
       "quest_id": 81491,
       "bg_list": [12,12,12],
       "chapter_cnt": 3,
@@ -25942,7 +25997,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "登場裡艾菈",
+      "name": "登場里艾菈",
       "quest_id": 81500,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -26008,7 +26063,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "庫爾托登場",
+      "name": "克爾特登場",
       "quest_id": 81520,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -26041,7 +26096,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "艾莉西雅登場",
+      "name": "亞莉希雅登場",
       "quest_id": 81530,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -26059,7 +26114,7 @@
       "flag": {
         "chara": [{"cid":8153,"lv":30}]
       },
-      "name": "艾莉西雅的麵包教室",
+      "name": "亞莉希雅的麵包教室",
       "quest_id": 81531,
       "bg_list": [1,1,13],
       "chapter_cnt": 3,
@@ -26092,7 +26147,7 @@
       "flag": {
         "chara": [{"cid":8154,"lv":13}]
       },
-      "name": "第七小隊的偶像",
+      "name": "第7小隊的偶像",
       "quest_id": 81541,
       "bg_list": [2,11],
       "chapter_cnt": 2,
@@ -26173,7 +26228,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "白登場",
+      "name": "哈克登場",
       "quest_id": 81570,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -26305,7 +26360,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "阿托伊登場",
+      "name": "阿圖依登場",
       "quest_id": 81610,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -29939,6 +29994,120 @@
       "place_id": 1,
       "stamina": 10,
       "field_type": [0,0,0]
+    },
+    "88921": {
+      "append_skill": {},
+      "area_id": 2,
+      "chapter_list": [1,2],
+      "difficulty": 24,
+      "flag": {
+        "chara": [{"cid":8892,"lv":1}]
+      },
+      "name": "有龍自東方來",
+      "quest_id": 88921,
+      "bg_list": [13,6],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0]
+    },
+    "88922": {
+      "append_skill": {
+        "cid": 8892,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2,3],
+      "difficulty": 54,
+      "flag": {
+        "chara": [{"cid":8892,"lv":60}]
+      },
+      "name": "龍飛於天麟舞於地",
+      "quest_id": 88922,
+      "bg_list": [13,13,13],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 9,
+      "stamina": 10,
+      "field_type": [0,0,0]
+    },
+    "88931": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1,2],
+      "difficulty": 14,
+      "flag": {
+        "chara": [{"cid":8893,"lv":1}]
+      },
+      "name": "不入虎穴焉得虎子",
+      "quest_id": 88931,
+      "bg_list": [8,8],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0]
+    },
+    "88932": {
+      "append_skill": {
+        "cid": 8893,
+        "idx": "2"
+      },
+      "area_id": 12,
+      "chapter_list": [1,2],
+      "difficulty": 54,
+      "flag": {
+        "chara": [{"cid":8893,"lv":60}]
+      },
+      "name": "虎落監獄被犬欺？",
+      "quest_id": 88932,
+      "bg_list": [110,110],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 3,
+      "stamina": 10,
+      "field_type": [0,0]
+    },
+    "88960": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "財神登場",
+      "quest_id": 88960,
+      "bg_list": [-1],
+      "chapter_cnt": 1
+    },
+    "88961": {
+      "append_skill": {
+        "cid": 8896,
+        "idx": "2"
+      },
+      "area_id": 1,
+      "chapter_list": [1,2],
+      "difficulty": 54,
+      "flag": {
+        "chara": [{"cid":8896,"lv":60}]
+      },
+      "name": "財神賜福",
+      "quest_id": 88961,
+      "bg_list": [9,1],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 8,
+      "field_type": [0,0]
     },
     "90020": {
       "append_skill": {},
@@ -34607,7 +34776,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "艾莉登場",
+      "name": "埃里希登場",
       "quest_id": 120160,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -35113,7 +35282,7 @@
       "chapter_list": [1],
       "difficulty": 0,
       "flag": {},
-      "name": "庫爾托登場",
+      "name": "克爾特登場",
       "quest_id": 120340,
       "bg_list": [-1],
       "chapter_cnt": 1,
@@ -35128,7 +35297,7 @@
       "flag": {
         "chara": [{"cid":12034,"lv":1}]
       },
-      "name": "庫爾托之夢",
+      "name": "克爾特之夢",
       "quest_id": 120341,
       "bg_list": [7,7,7],
       "chapter_cnt": 3,
@@ -35288,6 +35457,220 @@
       "is_casino": false,
       "stamina": 11,
       "field_type": [0,0,0]
+    },
+    "120400": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "吉塞拉登場",
+      "quest_id": 120400,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
+    },
+    "120401": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3],
+      "difficulty": 36,
+      "flag": {
+        "chara": [{"cid":12040,"lv":1}]
+      },
+      "name": "反抗者們",
+      "quest_id": 120401,
+      "bg_list": [115,115,8],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 8,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
+    },
+    "120402": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2],
+      "difficulty": 32,
+      "flag": {
+        "chara": [{"cid":12040,"lv":25}]
+      },
+      "name": "煙霧另一端的未來",
+      "quest_id": 120402,
+      "bg_list": [117,117],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "place_id": 6,
+      "stamina": 17,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0]
+    },
+    "120421": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3],
+      "difficulty": 38,
+      "flag": {
+        "chara": [{"cid":12042,"lv":1}]
+      },
+      "name": "赤色惡魔",
+      "quest_id": 120421,
+      "bg_list": [115,115,115],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "stamina": 11,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0]
+    },
+    "120422": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 47,
+      "flag": {
+        "chara": [{"cid":12042,"lv":30}]
+      },
+      "name": "如果還有恨",
+      "quest_id": 120422,
+      "bg_list": [116,115,115,115],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 4,
+      "stamina": 9,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0,0]
+    },
+    "120470": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "席爾維斯特登場",
+      "quest_id": 120470,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
+    },
+    "120471": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 38,
+      "flag": {
+        "chara": [{"cid":12047,"lv":1}]
+      },
+      "name": "偉大的力量",
+      "quest_id": 120471,
+      "bg_list": [115,115,115,115],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 9,
+      "stamina": 8,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0,0]
+    },
+    "120472": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 47,
+      "flag": {
+        "chara": [{"cid":12047,"lv":30}]
+      },
+      "name": "光是如此就足夠了",
+      "quest_id": 120472,
+      "bg_list": [115,115,116,116],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 9,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0,0]
+    },
+    "120480": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 0,
+      "flag": {},
+      "name": "葛莉潔狄絲登場",
+      "quest_id": 120480,
+      "bg_list": [-1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "field_type": [0]
+    },
+    "120481": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 38,
+      "flag": {
+        "chara": [{"cid":12048,"lv":1}]
+      },
+      "name": "潛入者",
+      "quest_id": 120481,
+      "bg_list": [115,116,116,116],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 9,
+      "stamina": 8,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0,0]
+    },
+    "120482": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 47,
+      "flag": {
+        "chara": [{"cid":12048,"lv":30}]
+      },
+      "name": "真心相隨，共創未來",
+      "quest_id": 120482,
+      "bg_list": [118,118,118,118],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 5,
+      "stamina": 9,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0,0,0,0]
     },
     "130020": {
       "append_skill": {},
@@ -40492,6 +40875,182 @@
       "relation": ["姊弟","雙胞胎","姊弟"],
       "relation_id": [10040,10018,10014]
     },
+    "202201": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3],
+      "difficulty": 39,
+      "flag": {
+        "chara": [{"cid":12048,"lv":1}]
+      },
+      "name": "靜止的時間",
+      "quest_id": 202201,
+      "bg_list": [115,115,115],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 9,
+      "stamina": 12,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0,0],
+      "relation": ["協助","協助","協力"],
+      "relation_id": [12048,12010,12004]
+    },
+    "202202": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 40,
+      "flag": {},
+      "name": "夢想宿於內心",
+      "quest_id": 202202,
+      "bg_list": [115,116,116,115],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 12,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0,0,0],
+      "relation": ["青梅竹馬","同伴","仲間"],
+      "relation_id": [12048,12004,12008]
+    },
+    "202203": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 40,
+      "flag": {},
+      "name": "失控的齒輪",
+      "quest_id": 202203,
+      "bg_list": [115,115,115,115],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 8,
+      "stamina": 12,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0,0,0],
+      "relation": ["同伴","同伴","仲間"],
+      "relation_id": [12048,12010,12004]
+    },
+    "202204": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 41,
+      "flag": {},
+      "name": "紅色鬥志",
+      "quest_id": 202204,
+      "bg_list": [115,115,115,115],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "stamina": 13,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0,0,0],
+      "relation": ["同伴","同伴","仲間"],
+      "relation_id": [12048,12010,12008]
+    },
+    "202205": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3],
+      "difficulty": 42,
+      "flag": {},
+      "name": "凝聚力",
+      "quest_id": 202205,
+      "bg_list": [115,115,115],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "stamina": 14,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0,0],
+      "relation": ["同伴","同伴","仲間"],
+      "relation_id": [12048,12010,12004]
+    },
+    "202206": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 42,
+      "flag": {},
+      "name": "唯有一點，貫徹到底",
+      "quest_id": 202206,
+      "bg_list": [115,115,115,116],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 1,
+      "stamina": 14,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0,0,0],
+      "relation": ["同伴","同伴","仲間"],
+      "relation_id": [12048,12010,12004]
+    },
+    "202207": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 43,
+      "flag": {},
+      "name": "好想飛",
+      "quest_id": 202207,
+      "bg_list": [116,116,116,116],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 2,
+      "stamina": 15,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0,0,0],
+      "relation": ["","",""],
+      "relation_id": [12008,12004]
+    },
+    "202208": {
+      "append_skill": {},
+      "area_id": 14,
+      "chapter_list": [1,2,3,4],
+      "difficulty": 43,
+      "flag": {},
+      "name": "齒輪沉了，然後",
+      "quest_id": 202208,
+      "bg_list": [116,118,118,118],
+      "chapter_cnt": 4,
+      "is_casino": false,
+      "place_id": 6,
+      "stamina": 15,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0,0,0,0],
+      "relation": ["","",""],
+      "relation_id": [12048,12010]
+    },
     "0": {
       "append_skill": {},
       "area_id": 9999,
@@ -43307,7 +43866,7 @@
       "chapter_list": [1,2,3],
       "difficulty": 51,
       "flag": {},
-      "name": "別哭！庫爾托",
+      "name": "別哭！克爾特",
       "quest_id": 211602,
       "bg_list": [115,115,115],
       "chapter_cnt": 3,
@@ -43506,7 +44065,7 @@
       "chapter_list": [1,2],
       "difficulty": 64,
       "flag": {},
-      "name": "機械族主義者",
+      "name": "機族主義者",
       "quest_id": 211612,
       "bg_list": [118,118],
       "chapter_cnt": 2,
@@ -59467,9 +60026,7 @@
         "type": "box",
         "box": 3
       },
-      "sort": 3,
-      "field_type": [0],
-      "icon": "242001"
+      "field_type": [0]
     },
     "242002": {
       "append_skill": {},
@@ -59488,7 +60045,6 @@
         "type": "card",
         "box": 3
       },
-      "sort": 2,
       "field_type": [0,0,0]
     },
     "242101": {
@@ -59828,7 +60384,7 @@
       },
       "field_type": [0,0,0],
       "icon": "Event007",
-      "fixed_help": [null,{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"守りたい、みんなを！","skillflag":[true,true,true,false]},{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"守りたい、みんなを！","skillflag":[true,true,true,false]}]
+      "fixed_help": [null,{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"我想用這個力量…守護大家！","skillflag":[true,true,true,false]},{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"我想用這個力量…守護大家！","skillflag":[true,true,true,false]}]
     },
     "242402": {
       "append_skill": {},
@@ -59849,7 +60405,7 @@
       },
       "field_type": [0,0],
       "icon": "Event007",
-      "fixed_help": [{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":"消えろ！","skillflag":[true,true,true,false]},{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":"消えろ！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":null,"skillflag":[true,true,true,false]},{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "242403": {
       "append_skill": {},
@@ -59870,7 +60426,7 @@
       },
       "field_type": [0,0],
       "icon": "Event007",
-      "fixed_help": [null,{"cid":8151,"lv":80,"hp":9550,"atk":9550,"helper_comment":"生かしてはおかない！","skillflag":[true,true,true,false]}]
+      "fixed_help": [null,{"cid":8151,"lv":80,"hp":9550,"atk":9550,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "242404": {
       "append_skill": {},
@@ -60062,7 +60618,7 @@
       "icon": "Event008",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":500},{"type":"item","id":10,"val":500},{"type":"weapon_rf","id":93002,"val":1},{"type":"chara_rf","id":90009,"val":1}],
-      "fixed_help": [{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":"消えろ！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":"消失吧！","skillflag":[true,true,true,false]}]
     },
     "242413": {
       "append_skill": {},
@@ -60086,7 +60642,7 @@
       "icon": "Event009",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":500},{"type":"item","id":10,"val":500},{"type":"weapon_rf","id":93020,"val":1},{"type":"chara_rf","id":90006,"val":1}],
-      "fixed_help": [{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"守りたい、みんなを！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"我想用這個力量…守護大家！","skillflag":[true,true,true,false]}]
     },
     "242414": {
       "append_skill": {},
@@ -60110,7 +60666,7 @@
       "icon": "Event010",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":500},{"type":"item","id":10,"val":500},{"type":"weapon_rf","id":93020,"val":1},{"type":"chara_rf","id":90006,"val":1}],
-      "fixed_help": [{"cid":8150,"lv":80,"hp":7000,"atk":9700,"helper_comment":"つらぬけ！蒼い炎よ！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8150,"lv":80,"hp":7000,"atk":9700,"helper_comment":"貫穿吧！蒼之炎！","skillflag":[true,true,true,false]}]
     },
     "242415": {
       "append_skill": {},
@@ -60134,7 +60690,7 @@
       "icon": "Event011",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":500},{"type":"item","id":10,"val":500},{"type":"weapon_rf","id":93000,"val":1},{"type":"chara_rf","id":90005,"val":1}],
-      "fixed_help": [{"cid":8151,"lv":80,"hp":9550,"atk":9550,"helper_comment":"生かしてはおかない！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8151,"lv":80,"hp":9550,"atk":9550,"helper_comment":"絕對不可以放過！","skillflag":[true,true,true,false]}]
     },
     "242416": {
       "append_skill": {},
@@ -60157,7 +60713,7 @@
       "icon": "Event008",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"weapon_rf","id":93002,"val":1},{"type":"weapon_rf","id":93002,"val":1},{"type":"chara_rf","id":90014,"val":1}],
-      "fixed_help": [{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":"消えろ！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8149,"lv":80,"hp":10100,"atk":9250,"helper_comment":"消失吧！","skillflag":[true,true,true,false]}]
     },
     "242417": {
       "append_skill": {},
@@ -60180,7 +60736,7 @@
       "icon": "Event009",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"weapon_rf","id":93020,"val":1},{"type":"weapon_rf","id":93020,"val":1},{"type":"chara_rf","id":90011,"val":1}],
-      "fixed_help": [{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"守りたい、みんなを！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8153,"lv":80,"hp":5700,"atk":9750,"helper_comment":"我想用這個力量…守護大家！","skillflag":[true,true,true,false]}]
     },
     "242418": {
       "append_skill": {},
@@ -60203,7 +60759,7 @@
       "icon": "Event010",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"weapon_rf","id":93020,"val":1},{"type":"weapon_rf","id":93020,"val":1},{"type":"chara_rf","id":90011,"val":1}],
-      "fixed_help": [{"cid":8150,"lv":80,"hp":7000,"atk":9700,"helper_comment":"つらぬけ！蒼い炎よ！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8150,"lv":80,"hp":7000,"atk":9700,"helper_comment":"貫穿吧！蒼之炎！","skillflag":[true,true,true,false]}]
     },
     "242419": {
       "append_skill": {},
@@ -60226,7 +60782,7 @@
       "icon": "Event011",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"weapon_rf","id":93000,"val":1},{"type":"weapon_rf","id":93000,"val":1},{"type":"chara_rf","id":90010,"val":1}],
-      "fixed_help": [{"cid":8151,"lv":80,"hp":9550,"atk":9550,"helper_comment":"生かしてはおかない！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":8151,"lv":80,"hp":9550,"atk":9550,"helper_comment":"絕對不可以放過！","skillflag":[true,true,true,false]}]
     },
     "242501": {
       "append_skill": {},
@@ -60564,7 +61120,7 @@
       "chapter_list": [1,2,3],
       "difficulty": 4,
       "flag": {},
-      "name": "不可饒恕的點心！",
+      "name": "不可饒恕的甜點！",
       "quest_id": 242701,
       "bg_list": [9,9,8],
       "chapter_cnt": 3,
@@ -61554,7 +62110,7 @@
       "chapter_list": [0],
       "difficulty": 14,
       "flag": {},
-      "name": "嘗試白",
+      "name": "嘗試哈克",
       "quest_id": 243111,
       "bg_list": [13],
       "chapter_cnt": 1,
@@ -61600,7 +62156,7 @@
       "chapter_list": [0],
       "difficulty": 14,
       "flag": {},
-      "name": "嘗試阿托伊",
+      "name": "嘗試阿圖依",
       "quest_id": 243113,
       "bg_list": [4],
       "chapter_cnt": 1,
@@ -61623,7 +62179,7 @@
       "chapter_list": [0],
       "difficulty": 50,
       "flag": {},
-      "name": "嘗試白・難",
+      "name": "嘗試哈克・難",
       "quest_id": 243114,
       "bg_list": [113],
       "chapter_cnt": 1,
@@ -61669,7 +62225,7 @@
       "chapter_list": [0],
       "difficulty": 50,
       "flag": {},
-      "name": "嘗試阿托伊・難",
+      "name": "嘗試阿圖依・難",
       "quest_id": 243116,
       "bg_list": [4],
       "chapter_cnt": 1,
@@ -62704,7 +63260,6 @@
         "type": "stone",
         "box": 2
       },
-      "sort": 101,
       "field_type": [0,0,0,0]
     },
     "244001": {
@@ -62724,7 +63279,6 @@
         "type": "box",
         "box": 2
       },
-      "sort": 100,
       "field_type": [0]
     },
     "244002": {
@@ -62744,7 +63298,6 @@
         "type": "stone",
         "box": 2
       },
-      "sort": 90,
       "field_type": [0]
     },
     "244003": {
@@ -62764,7 +63317,6 @@
         "type": "stone",
         "box": 2
       },
-      "sort": 80,
       "field_type": [0]
     },
     "244004": {
@@ -62773,7 +63325,7 @@
       "chapter_list": [1],
       "difficulty": 4,
       "flag": {},
-      "name": "渡雪之盾・4",
+      "name": "渡雪之盾．4",
       "quest_id": 244004,
       "bg_list": [3],
       "chapter_cnt": 1,
@@ -62784,9 +63336,8 @@
         "type": "stone",
         "box": 2
       },
-      "sort": 70,
       "field_type": [0],
-      "fixed_help": [{"cid":3026,"lv":80,"hp":9850,"atk":9300,"helper_comment":"こういう戦い方もある","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":3026,"lv":80,"hp":9850,"atk":9300,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "244005": {
       "append_skill": {},
@@ -62794,7 +63345,7 @@
       "chapter_list": [1],
       "difficulty": 30,
       "flag": {},
-      "name": "測試莫爾芭",
+      "name": "測試摩爾帕",
       "quest_id": 244005,
       "bg_list": [3],
       "chapter_cnt": 1,
@@ -62808,7 +63359,7 @@
       "field_type": [0],
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":500},{"type":"chara_rf","id":90009,"val":1},{"type":"weapon_rf","id":93002,"val":1},{"type":"chara_rf","id":90014,"val":1}],
-      "fixed_help": [{"cid":3026,"lv":80,"hp":9850,"atk":9300,"helper_comment":"こういう戦い方もある","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":3026,"lv":80,"hp":9850,"atk":9300,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "244006": {
       "append_skill": {},
@@ -62827,7 +63378,6 @@
         "type": "box",
         "box": 3
       },
-      "sort": 30,
       "field_type": [0],
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90005,"val":1},{"type":"chara_rf","id":90005,"val":1},{"type":"chara_rf","id":90010,"val":1},{"type":"chara_rf","id":90010,"val":1}]
@@ -62849,7 +63399,6 @@
         "type": "box",
         "box": 3
       },
-      "sort": 40,
       "field_type": [0],
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90009,"val":1},{"type":"chara_rf","id":90008,"val":1},{"type":"chara_rf","id":90014,"val":1},{"type":"chara_rf","id":90013,"val":1}]
@@ -62871,7 +63420,6 @@
         "type": "box",
         "box": 3
       },
-      "sort": 50,
       "field_type": [0],
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90007,"val":1},{"type":"chara_rf","id":90007,"val":1},{"type":"chara_rf","id":90012,"val":1},{"type":"chara_rf","id":90012,"val":1}]
@@ -62893,7 +63441,6 @@
         "type": "card",
         "box": 3
       },
-      "sort": 60,
       "field_type": [0],
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":5000},{"type":"weapon_rf","id":93902,"val":1},{"type":"chara_rf","id":90904,"val":1},{"type":"chara_rf","id":90904,"val":1}]
@@ -62957,7 +63504,6 @@
         "type": "stone",
         "box": 2
       },
-      "sort": 1,
       "field_type": [0,0,0]
     },
     "244102": {
@@ -63008,7 +63554,7 @@
       "chapter_list": [0],
       "difficulty": 45,
       "flag": {},
-      "name": "艱難的武器收集",
+      "name": "拼命收集武器",
       "quest_id": 244104,
       "bg_list": [3],
       "chapter_cnt": 1,
@@ -63029,7 +63575,7 @@
       "chapter_list": [0],
       "difficulty": 75,
       "flag": {},
-      "name": "艱困的煉金材料收集",
+      "name": "拼命收集鍊金素材",
       "quest_id": 244105,
       "bg_list": [3],
       "chapter_cnt": 1,
@@ -63168,7 +63714,7 @@
       "icon": "244206",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90008,"val":1},{"type":"weapon_rf","id":93005,"val":1},{"type":"weapon_rf","id":93005,"val":1},{"type":"chara_rf","id":90013,"val":1}],
-      "fixed_help": [{"cid":7574,"lv":80,"hp":6950,"atk":9600,"helper_comment":"本能に負けないで！","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":7574,"lv":80,"hp":6950,"atk":9600,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "244207": {
       "append_skill": {},
@@ -63191,7 +63737,7 @@
       "icon": "244207",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90007,"val":1},{"type":"weapon_rf","id":93004,"val":1},{"type":"weapon_rf","id":93004,"val":1},{"type":"chara_rf","id":90012,"val":1}],
-      "fixed_help": [{"cid":7575,"lv":80,"hp":6450,"atk":9500,"helper_comment":"力量の差を知りなさい","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":7575,"lv":80,"hp":6450,"atk":9500,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "244208": {
       "append_skill": {},
@@ -63240,6 +63786,82 @@
       "casino_coin": 0,
       "casino_reward_up_rate": 2
     },
+    "244401": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "開始旋轉的齒輪．1",
+      "quest_id": 244401,
+      "bg_list": [115],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0]
+    },
+    "244402": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "開始旋轉的齒輪．2",
+      "quest_id": 244402,
+      "bg_list": [117],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0]
+    },
+    "244403": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "開始旋轉的齒輪．3",
+      "quest_id": 244403,
+      "bg_list": [116],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0]
+    },
+    "244404": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 4,
+      "flag": {},
+      "name": "開始旋轉的齒輪．4",
+      "quest_id": 244404,
+      "bg_list": [116],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0]
+    },
     "244405": {
       "append_skill": {},
       "area_id": 1,
@@ -63260,7 +63882,7 @@
       "field_type": [0],
       "icon": "Emergency01",
       "kind_prm": 1,
-      "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90903,"val":0.5}]
+      "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90903,"val":1}]
     },
     "244406": {
       "append_skill": {},
@@ -63268,7 +63890,7 @@
       "chapter_list": [0],
       "difficulty": 9,
       "flag": {},
-      "name": "鐵煙之弓製作",
+      "name": "鐵煙之弓培育",
       "quest_id": 244406,
       "bg_list": [115],
       "chapter_cnt": 1,
@@ -63303,6 +63925,72 @@
       "field_type": [0],
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90009,"val":1},{"type":"chara_rf","id":90014,"val":1},{"type":"chara_rf","id":90014,"val":1}]
+    },
+    "244408": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 38,
+      "flag": {},
+      "name": "體驗葛莉潔狄絲",
+      "quest_id": 244408,
+      "bg_list": [116],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"chara_rf","id":90006,"val":1},{"type":"weapon_rf","id":93019,"val":1},{"type":"weapon_rf","id":93019,"val":1},{"type":"chara_rf","id":90006,"val":1}],
+      "fixed_help": [{"cid":12048,"lv":80,"hp":5900,"atk":9720,"helper_comment":"我要把你們全部溶掉……","skillflag":[true,true,true,false]}]
+    },
+    "244409": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 38,
+      "flag": {},
+      "name": "體驗瓦莎",
+      "quest_id": 244409,
+      "bg_list": [115],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"chara_rf","id":90009,"val":1},{"type":"weapon_rf","id":93000,"val":1},{"type":"weapon_rf","id":93000,"val":1},{"type":"chara_rf","id":90009,"val":1}],
+      "fixed_help": [{"cid":12042,"lv":80,"hp":9850,"atk":9250,"helper_comment":"唔……我是機族啊！","skillflag":[true,true,true,false]}]
+    },
+    "244410": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 38,
+      "flag": {},
+      "name": "體驗席爾維斯特",
+      "quest_id": 244410,
+      "bg_list": [115],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"chara_rf","id":90009,"val":1},{"type":"weapon_rf","id":93018,"val":1},{"type":"weapon_rf","id":93018,"val":1},{"type":"chara_rf","id":90009,"val":1}],
+      "fixed_help": [{"cid":12047,"lv":80,"hp":10100,"atk":9150,"helper_comment":"唔喔喔喔喔喔喔喔～！！！","skillflag":[true,true,true,false]}]
     },
     "244503": {
       "append_skill": {},
@@ -63672,6 +64360,51 @@
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"item","id":10,"val":1000},{"type":"chara_rf","id":90011,"val":1}],
       "fixed_help": [{"cid":7009,"lv":70,"hp":4870,"atk":6940,"helper_comment":"遠くから……殺す！","skillflag":[true,true,true,false]}]
+    },
+    "244808": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 35,
+      "flag": {},
+      "name": "莉貝菈 體驗任務",
+      "quest_id": 244808,
+      "bg_list": [119],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"chara_rf","id":90902,"val":1},{"type":"weapon_rf","id":93901,"val":1},{"type":"weapon_rf","id":93901,"val":1},{"type":"chara_rf","id":90902,"val":1}],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":null,"skillflag":[true,true,true,false]}]
+    },
+    "244809": {
+      "append_skill": {},
+      "area_id": 10,
+      "chapter_list": [0],
+      "difficulty": 75,
+      "flag": {},
+      "name": "莉貝菈 體驗任務監獄篇",
+      "quest_id": 244809,
+      "bg_list": [110],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      },
+      "field_type": [0],
+      "icon": "244808",
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":100},{"type":"item","id":10,"val":100},{"type":"item","id":10,"val":100},{"type":"item","id":10,"val":100}],
+      "fixed_help": [{"cid":7520,"lv":80,"hp":9500,"atk":9500,"helper_comment":null,"skillflag":[true,true,true,false]}]
     },
     "244905": {
       "append_skill": {},
@@ -64549,10 +65282,32 @@
         "box": 3
       },
       "field_type": [0],
-      "icon": "taiken_ring201605",
       "kind_prm": 1,
       "eneset_treasure": [{"type":"chara_rf","id":90008,"val":1},{"type":"weapon_rf","id":93005,"val":1},{"type":"weapon_rf","id":93005,"val":1},{"type":"chara_rf","id":90013,"val":1}],
-      "fixed_help": [{"cid":3004,"lv":80,"hp":6500,"atk":9550,"helper_comment":"年の功じゃ","skillflag":[true,true,true,false]}]
+      "fixed_help": [{"cid":3004,"lv":80,"hp":6500,"atk":9550,"helper_comment":null,"skillflag":[true,true,true,false]}]
+    },
+    "280006": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 26,
+      "flag": {},
+      "name": "嘗試任務",
+      "quest_id": 280006,
+      "bg_list": [4],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0],
+      "icon": "taiken_ring201606",
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"chara_rf","id":90007,"val":1},{"type":"weapon_rf","id":93004,"val":1},{"type":"weapon_rf","id":93004,"val":1},{"type":"chara_rf","id":90012,"val":1}],
+      "fixed_help": [{"cid":4051,"lv":80,"hp":5550,"atk":9550,"helper_comment":"星光啊……","skillflag":[true,true,true,false]}]
     },
     "280008": {
       "append_skill": {},
@@ -69144,6 +69899,88 @@
       "kind_prm": 1,
       "eneset_treasure": [{"type":"item","id":10,"val":2000},{"type":"item","id":10,"val":3000},{"type":"item","id":10,"val":5000},{"type":"item","id":10,"val":10000}]
     },
+    "1000142": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1,2],
+      "difficulty": 10,
+      "flag": {},
+      "name": "迎財神",
+      "quest_id": 1000142,
+      "bg_list": [1,1],
+      "chapter_cnt": 2,
+      "is_casino": false,
+      "stamina": 5,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0,0]
+    },
+    "1000143": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [0],
+      "difficulty": 1,
+      "flag": {},
+      "name": "財神到",
+      "quest_id": 1000143,
+      "bg_list": [1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 4,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "box",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"item","id":10,"val":168},{"type":"item","id":10,"val":168},{"type":"item","id":10,"val":168},{"type":"item","id":10,"val":168}]
+    },
+    "1000144": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 12,
+      "flag": {},
+      "name": "發福啦",
+      "quest_id": 1000144,
+      "bg_list": [1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 20,
+      "reward_box": 3,
+      "reward_data": {
+        "type": "card",
+        "box": 3
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90902,"val":1},{"type":"chara_rf","id":90903,"val":1},{"type":"chara_rf","id":90903,"val":1}]
+    },
+    "1000145": {
+      "append_skill": {},
+      "area_id": 1,
+      "chapter_list": [1],
+      "difficulty": 12,
+      "flag": {},
+      "name": "花錢啦",
+      "quest_id": 1000145,
+      "bg_list": [1],
+      "chapter_cnt": 1,
+      "is_casino": false,
+      "stamina": 10,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "card",
+        "box": 2
+      },
+      "field_type": [0],
+      "kind_prm": 1,
+      "eneset_treasure": [{"type":"weapon_rf","id":93901,"val":1},{"type":"weapon_rf","id":93901,"val":1},{"type":"weapon_rf","id":93901,"val":1},{"type":"weapon_rf","id":93902,"val":1}]
+    },
     "2394151": {
       "append_skill": {},
       "area_id": 1,
@@ -73123,635 +73960,6 @@
       "kind_prm": 1,
       "eneset_treasure": [{"type":"weapon_rf","id":93004,"val":1},{"type":"item","id":11,"val":700},{"type":"chara_rf","id":90007,"val":1},{"type":"weapon_rf","id":93004,"val":1}]
     },
-    "221501": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "大海的戒律",
-      "quest_id": 221501,
-      "bg_list": [9,101,101],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 5,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221502": {
-      "append_skill": {},
-      "area_id": 11,
-      "chapter_list": [1,2,3],
-      "difficulty": 42,
-      "flag": {},
-      "name": "公正商人繁盛紀",
-      "quest_id": 221502,
-      "bg_list": [2,2,2],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 3,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221503": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "海底散步",
-      "quest_id": 221503,
-      "bg_list": [102,102,102],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 3,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221504": {
-      "append_skill": {},
-      "area_id": 12,
-      "chapter_list": [1,2,3],
-      "difficulty": 43,
-      "flag": {},
-      "name": "夢幻逸品",
-      "quest_id": 221504,
-      "bg_list": [101,107,107],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221505": {
-      "append_skill": {},
-      "area_id": 11,
-      "chapter_list": [1,2,3],
-      "difficulty": 42,
-      "flag": {},
-      "name": "義勇軍的音樂隊",
-      "quest_id": 221505,
-      "bg_list": [13,13,13],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 8,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221506": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "義勇軍漂流紀1",
-      "quest_id": 221506,
-      "bg_list": [100,100,100],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 10,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221507": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "義勇軍漂流紀2",
-      "quest_id": 221507,
-      "bg_list": [100,100,100],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 10,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221508": {
-      "append_skill": {},
-      "area_id": 13,
-      "chapter_list": [1,2,3],
-      "difficulty": 44,
-      "flag": {},
-      "name": "文化的萌芽",
-      "quest_id": 221508,
-      "bg_list": [101,113,113],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221509": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "復活的勇者！",
-      "quest_id": 221509,
-      "bg_list": [101,101,101],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 7,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221510": {
-      "append_skill": {},
-      "area_id": 4,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "舉行！海風GP！",
-      "quest_id": 221510,
-      "bg_list": [100,6,100],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 9,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221511": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "千金小姐們的午後時光",
-      "quest_id": 221511,
-      "bg_list": [9,9,9],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 4,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221512": {
-      "append_skill": {},
-      "area_id": 14,
-      "chapter_list": [1,2,3],
-      "difficulty": 45,
-      "flag": {},
-      "name": "機關車ＶＳ肌肉",
-      "quest_id": 221512,
-      "bg_list": [117,117,117],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 3,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221513": {
-      "append_skill": {},
-      "area_id": 12,
-      "chapter_list": [1,2,3],
-      "difficulty": 43,
-      "flag": {},
-      "name": "義勇軍殺人事件",
-      "quest_id": 221513,
-      "bg_list": [8,8,107],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221514": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "表演賽盛大舉行！",
-      "quest_id": 221514,
-      "bg_list": [101,101,101],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 3,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221515": {
-      "append_skill": {},
-      "area_id": 11,
-      "chapter_list": [1,2,3],
-      "difficulty": 42,
-      "flag": {},
-      "name": "貓與虎",
-      "quest_id": 221515,
-      "bg_list": [1,6,2],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221516": {
-      "append_skill": {},
-      "area_id": 14,
-      "chapter_list": [1,2,3],
-      "difficulty": 45,
-      "flag": {},
-      "name": "鐵煙旅行記",
-      "quest_id": 221516,
-      "bg_list": [117,115,116],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221517": {
-      "append_skill": {},
-      "area_id": 12,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "送便當",
-      "quest_id": 221517,
-      "bg_list": [101,2,12],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221518": {
-      "append_skill": {},
-      "area_id": 14,
-      "chapter_list": [1,2,3],
-      "difficulty": 45,
-      "flag": {},
-      "name": "追求羅曼",
-      "quest_id": 221518,
-      "bg_list": [116,7,7],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 5,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221519": {
-      "append_skill": {},
-      "area_id": 12,
-      "chapter_list": [1,2,3],
-      "difficulty": 43,
-      "flag": {},
-      "name": "雷歐當上所長1",
-      "quest_id": 221519,
-      "bg_list": [110,110,110],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 7,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221520": {
-      "append_skill": {},
-      "area_id": 12,
-      "chapter_list": [1,2,3],
-      "difficulty": 43,
-      "flag": {},
-      "name": "雷歐當上所長2",
-      "quest_id": 221520,
-      "bg_list": [108,110,110],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 7,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221521": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "平息大海的歌舞",
-      "quest_id": 221521,
-      "bg_list": [104,78,104],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 5,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221522": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "大海第一酒豪",
-      "quest_id": 221522,
-      "bg_list": [103,103,103],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221523": {
-      "append_skill": {},
-      "area_id": 11,
-      "chapter_list": [1,2,3],
-      "difficulty": 42,
-      "flag": {},
-      "name": "獼猴桃恐慌事件",
-      "quest_id": 221523,
-      "bg_list": [2,1,6],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221524": {
-      "append_skill": {},
-      "area_id": 14,
-      "chapter_list": [1,2,3],
-      "difficulty": 45,
-      "flag": {},
-      "name": "鬍子男",
-      "quest_id": 221524,
-      "bg_list": [116,116,116],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 5,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221525": {
-      "append_skill": {},
-      "area_id": 13,
-      "chapter_list": [1,2,3],
-      "difficulty": 44,
-      "flag": {},
-      "name": "掃把星來了",
-      "quest_id": 221525,
-      "bg_list": [113,114,13],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221526": {
-      "append_skill": {},
-      "area_id": 11,
-      "chapter_list": [1,2,3],
-      "difficulty": 42,
-      "flag": {},
-      "name": "大家感情好",
-      "quest_id": 221526,
-      "bg_list": [6,6,6],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 8,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221527": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "多明尼克的寶物",
-      "quest_id": 221527,
-      "bg_list": [101,101,101],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 7,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221528": {
-      "append_skill": {},
-      "area_id": 12,
-      "chapter_list": [1,2,3],
-      "difficulty": 43,
-      "flag": {},
-      "name": "監獄牧場",
-      "quest_id": 221528,
-      "bg_list": [107,107,12],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 1,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221529": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "老人與生銹",
-      "quest_id": 221529,
-      "bg_list": [101,101,101],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 7,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
-    "221530": {
-      "append_skill": {},
-      "area_id": 10,
-      "chapter_list": [1,2,3],
-      "difficulty": 41,
-      "flag": {},
-      "name": "支持者們",
-      "quest_id": 221530,
-      "bg_list": [9,9,9],
-      "chapter_cnt": 3,
-      "is_casino": false,
-      "place_id": 4,
-      "stamina": 10,
-      "reward_box": 2,
-      "reward_data": {
-        "type": "stone",
-        "box": 2
-      },
-      "field_type": [0,0,0],
-      "icon": "ShortStory01"
-    },
     "233106": {
       "append_skill": {},
       "area_id": 1,
@@ -76630,7 +76838,7 @@
       "flag": {
         "quest": [{"type":2,"qid":211606}]
       },
-      "name": "北高層站→機械族之街",
+      "name": "北高層站→機族之街",
       "quest_id": 215105,
       "bg_list": [116],
       "chapter_cnt": 1,
@@ -76651,7 +76859,7 @@
       "flag": {
         "quest": [{"type":2,"qid":211608}]
       },
-      "name": "機械族之街→社交場",
+      "name": "機族之街→社交場",
       "quest_id": 215106,
       "bg_list": [116],
       "chapter_cnt": 1,
@@ -76672,7 +76880,7 @@
       "flag": {
         "quest": [{"type":2,"qid":211608}]
       },
-      "name": "機械族之街→機械城",
+      "name": "機族之街→機械城",
       "quest_id": 215107,
       "bg_list": [116],
       "chapter_cnt": 1,
@@ -85163,7 +85371,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301218}]
       },
-      "name": "貫徹意思的人們1",
+      "name": "貫徹意志的人們1",
       "quest_id": 301219,
       "bg_list": [1,1,1],
       "chapter_cnt": 3,
@@ -85185,7 +85393,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301219}]
       },
-      "name": "貫徹意思的人們2",
+      "name": "貫徹意志的人們2",
       "quest_id": 301220,
       "bg_list": [1,1,1],
       "chapter_cnt": 3,
@@ -85207,7 +85415,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301220}]
       },
-      "name": "貫徹意思的人們3",
+      "name": "貫徹意志的人們3",
       "quest_id": 301221,
       "bg_list": [1,1,1],
       "chapter_cnt": 3,
@@ -85229,7 +85437,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301221}]
       },
-      "name": "貫徹意思的人們4",
+      "name": "貫徹意志的人們4",
       "quest_id": 301222,
       "bg_list": [1,1,1],
       "chapter_cnt": 3,
@@ -85433,7 +85641,7 @@
       "flag": {
         "quest": [{"type":6,"qid":301226}]
       },
-      "name": "據點靜定",
+      "name": "鎮壓據點",
       "quest_id": 301231,
       "bg_list": [13],
       "chapter_cnt": 1,
@@ -86809,7 +87017,7 @@
       "chapter_list": [1,2,3],
       "difficulty": 34,
       "flag": {},
-      "name": "魔神多爾瓦多絲",
+      "name": "魔神托爾瓦托斯",
       "quest_id": 400114,
       "bg_list": [13,13,13],
       "chapter_cnt": 3,
@@ -88223,6 +88431,27 @@
         "box": 3
       }
     },
+    "400701": {
+      "append_skill": {},
+      "area_id": 5,
+      "chapter_list": [1,2,3],
+      "difficulty": 36,
+      "flag": {
+        "quest": [{"type":2,"qid":211015}]
+      },
+      "name": "動亂始動",
+      "quest_id": 400701,
+      "bg_list": [12,12,12],
+      "chapter_cnt": 3,
+      "is_casino": false,
+      "place_id": 3,
+      "stamina": 14,
+      "reward_box": 2,
+      "reward_data": {
+        "type": "stone",
+        "box": 2
+      }
+    },
     "400702": {
       "append_skill": {},
       "area_id": 5,
@@ -88472,5 +88701,5 @@
     }
   },
   "res": 0,
-  "sv": "1483605358"
+  "sv": "1488449708"
 }

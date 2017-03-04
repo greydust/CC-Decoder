@@ -61,11 +61,12 @@ namespace JsonConverter
             serializeSetting.Converters.Add(new MyConverter());
 
             JsonForFirebase firebase = new JsonForFirebase();
+            string rawData = "";
             {
                 try
                 {
-                    string rawString = ReadFomFile("RawData/" + prefix + "battleinfo.data5", type);
-                    battleinfoInManager data = JsonConvert.DeserializeObject<battleinfoInManager>(rawString, deserializeSetting);
+                    rawData = ReadFomFile("RawData/" + prefix + "battleinfo.data5", type);
+                    battleinfoInManager data = JsonConvert.DeserializeObject<battleinfoInManager>(rawData, deserializeSetting);
 
                     {
                         battle_bgOutManager convertedData = data.Convert();
@@ -77,12 +78,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     System.Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "battleinfo.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "booklist.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "booklist.data5", type);
                     booklistInManager data = JsonConvert.DeserializeObject<booklistInManager>(rawData);
 
                     {
@@ -95,13 +97,14 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     System.Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "booklist.data5.converted", rawData);
                 }
             }
 
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "bossinfo.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "bossinfo.data5", type);
                     bossinfoInManager data = JsonConvert.DeserializeObject<bossinfoInManager>(rawData);
 
                     {
@@ -120,12 +123,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "bossinfo.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "casinoinfo.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "casinoinfo.data5", type);
                     casinoinfoInManager data = JsonConvert.DeserializeObject<casinoinfoInManager>(rawData);
 
                     {
@@ -144,12 +148,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "casinoinfo.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "charainfo.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "charainfo.data5", type);
                     charainfoInManager data = JsonConvert.DeserializeObject<charainfoInManager>(rawData);
 
                     {
@@ -180,12 +185,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "charainfo.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "const.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "const.data5", type);
                     constIn data = JsonConvert.DeserializeObject<constIn>(rawData);
                     firebase.consts = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -194,12 +200,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "const.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "create_weap.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "create_weap.data5", type);
                     create_weapInManager data = JsonConvert.DeserializeObject<create_weapInManager>(rawData);
                     firebase.create_weap = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -208,12 +215,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "create_weap.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "episodeinfo.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "episodeinfo.data5", type);
                     episodeinfoInManager data = JsonConvert.DeserializeObject<episodeinfoInManager>(rawData);
 
                     {
@@ -226,12 +234,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "episodeinfo.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "eventbadge.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "eventbadge.data5", type);
                     eventbadgeInManager data = JsonConvert.DeserializeObject<eventbadgeInManager>(rawData);
                     firebase.eventbadge = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -240,12 +249,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "eventbadge.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "eventplace.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "eventplace.data5", type);
                     eventplaceIn data = JsonConvert.DeserializeObject<eventplaceIn>(rawData);
                     firebase.eventplace = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -254,12 +264,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "eventplace.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "explorerinfo.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "explorerinfo.data5", type);
                     explorerinfoInManager data = JsonConvert.DeserializeObject<explorerinfoInManager>(rawData);
 
                     {
@@ -272,12 +283,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "explorerinfo.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "explorerlocation.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "explorerlocation.data5", type);
                     explorerlocationInManager data = JsonConvert.DeserializeObject<explorerlocationInManager>(rawData);
 
                     {
@@ -290,12 +302,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "explorerlocation.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "homelist.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "homelist.data5", type);
                     homelistInManager data = JsonConvert.DeserializeObject<homelistInManager>(rawData);
 
                     {
@@ -308,12 +321,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "homelist.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "itemlist.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "itemlist.data5", type);
                     itemlistInManager data = JsonConvert.DeserializeObject<itemlistInManager>(rawData);
 
                     {
@@ -326,12 +340,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "itemlist.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "motionlist.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "motionlist.data5", type);
                     motionlistInManager data = JsonConvert.DeserializeObject<motionlistInManager>(rawData);
 
                     {
@@ -344,12 +359,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "motionlist.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "questdigest.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "questdigest.data5", type);
                     questdigestInManager data = JsonConvert.DeserializeObject<questdigestInManager>(rawData);
 
                     {
@@ -362,12 +378,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "questdigest.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "repeatmissionlist.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "repeatmissionlist.data5", type);
                     repeatmissionlistInManager data = JsonConvert.DeserializeObject<repeatmissionlistInManager>(rawData);
                     firebase.repeatmissionlist = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -376,12 +393,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "repeatmissionlist.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "skilllist.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "skilllist.data5", type);
                     skilllistInManager data = JsonConvert.DeserializeObject<skilllistInManager>(rawData);
 
                     {
@@ -394,12 +412,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "skilllist.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "subjugationexpeditioninfo.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "subjugationexpeditioninfo.data5", type);
                     subjugationexpeditioninfoIn data = JsonConvert.DeserializeObject<subjugationexpeditioninfoIn>(rawData);
                     firebase.subjugationexpeditioninfo = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -408,12 +427,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "subjugationexpeditioninfo.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "supporterskill.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "supporterskill.data5", type);
                     supporterskillInManager data = JsonConvert.DeserializeObject<supporterskillInManager>(rawData);
 
                     {
@@ -426,12 +446,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "supporterskill.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "teacherdisciple.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "teacherdisciple.data5", type);
                     teacherdiscipleInManager data = JsonConvert.DeserializeObject<teacherdiscipleInManager>(rawData);
                     firebase.teacherdisciple = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -440,12 +461,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "teacherdisciple.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "various.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "various.data5", type);
                     variousIn data = JsonConvert.DeserializeObject<variousIn>(rawData);
                     firebase.various = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -454,12 +476,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "various.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "weaponcompose.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "weaponcompose.data5", type);
                     weaponcomposeInManager data = JsonConvert.DeserializeObject<weaponcomposeInManager>(rawData);
                     firebase.weaponcompose = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -468,12 +491,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "weaponcompose.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "weaponcomposeevent.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "weaponcomposeevent.data5", type);
                     weaponcomposeeventInManager data = JsonConvert.DeserializeObject<weaponcomposeeventInManager>(rawData);
 
                     {
@@ -486,12 +510,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "weaponcomposeevent.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "weaponlist.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "weaponlist.data5", type);
                     weaponlistInManager data = JsonConvert.DeserializeObject<weaponlistInManager>(rawData);
 
                     {
@@ -516,12 +541,13 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "weaponlist.data5.converted", rawData);
                 }
             }
             {
                 try
                 {
-                    string rawData = ReadFomFile("RawData/" + prefix + "worldinfo.data5", type);
+                    rawData = ReadFomFile("RawData/" + prefix + "worldinfo.data5", type);
                     worldinfoInManager data = JsonConvert.DeserializeObject<worldinfoInManager>(rawData);
                     firebase.worldinfo = data;
                     string convertedString = JsonConvert.SerializeObject(data, serializeSetting);
@@ -530,6 +556,7 @@ namespace JsonConverter
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message + "\n" + e.StackTrace);
+                    File.WriteAllText("ConvertedData/" + prefix + "worldinfo.data5.converted", rawData);
                 }
             }
 

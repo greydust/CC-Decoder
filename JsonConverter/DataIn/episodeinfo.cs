@@ -41,7 +41,7 @@ namespace JsonConverter.DataIn
 
             foreach (episodeinfo item in this.episodeinfo)
             {
-                ret.episodeinfo.Add(Tuple.Create<int, int>(item.id, item.type), item);
+                ret.episodeinfo[Tuple.Create<int, int>(item.id, item.type)] = item;
             }
 
             return ret;

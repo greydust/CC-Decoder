@@ -1,5 +1,5 @@
 {
-  "deceive": 1483609904,
+  "deceive": 1488537784,
   "evolve": {
     "26000": {
       "evol_dst": 26000,
@@ -1401,7 +1401,7 @@
     "26169": {
       "evol_dst": 26169,
       "id": 26169,
-      "name": "愛心長槍．速擊",
+      "name": "愛心長槍．速",
       "profile": "2016バレンタイン錬金中当たり・突",
       "rank_limit": 2,
       "rarity": 5,
@@ -1423,7 +1423,7 @@
     "26171": {
       "evol_dst": 26171,
       "id": 26171,
-      "name": "超級愛心麥格農手槍",
+      "name": "超級愛心麥格農",
       "profile": "2016バレンタイン錬金大当たり・銃",
       "rank_limit": 2,
       "rarity": 5,
@@ -1434,7 +1434,7 @@
     "26172": {
       "evol_dst": 26172,
       "id": 26172,
-      "name": "麥格農手槍．早",
+      "name": "愛心麥格農．早",
       "profile": "2016バレンタイン錬金中当たり・銃",
       "rank_limit": 2,
       "rarity": 5,
@@ -1445,7 +1445,7 @@
     "26173": {
       "evol_dst": 26173,
       "id": 26173,
-      "name": "麥格農手槍．速",
+      "name": "愛心麥格農．速",
       "profile": "2016バレンタイン錬金中当たり・銃",
       "rank_limit": 2,
       "rarity": 5,
@@ -1467,7 +1467,7 @@
     "26175": {
       "evol_dst": 26175,
       "id": 26175,
-      "name": "來福槍．早",
+      "name": "愛心來福槍．早",
       "profile": "2016バレンタイン錬金中当たり・狙",
       "rank_limit": 2,
       "rarity": 5,
@@ -1478,7 +1478,7 @@
     "26176": {
       "evol_dst": 26176,
       "id": 26176,
-      "name": "來福槍．速",
+      "name": "愛心來福槍．速",
       "profile": "2016バレンタイン錬金中当たり・狙",
       "rank_limit": 2,
       "rarity": 5,
@@ -2785,7 +2785,7 @@
     "85160": {
       "evol_dst": 85160,
       "id": 85160,
-      "name": "愛心麥格農手槍",
+      "name": "愛心麥格農",
       "profile": "2016バレンタインイベント",
       "rank_limit": 2,
       "rarity": 5,
@@ -2897,7 +2897,7 @@
     "85172": {
       "evol_dst": 85172,
       "id": 85172,
-      "name": "白的鐵扇",
+      "name": "哈克的鐵扇",
       "profile": "うたわれコラボ　初期&報酬武器",
       "rank_limit": 2,
       "rarity": 5,
@@ -2908,7 +2908,7 @@
     "85174": {
       "evol_dst": 85174,
       "id": 85174,
-      "name": "筆",
+      "name": "露露緹耶的筆",
       "profile": "うたわれコラボ　初期&報酬武器",
       "rank_limit": 0,
       "rarity": 3,
@@ -2930,7 +2930,7 @@
     "85176": {
       "evol_dst": 85176,
       "id": 85176,
-      "name": "阿托伊之槍",
+      "name": "阿圖依之槍",
       "profile": "うたわれコラボ　初期&報酬武器",
       "rank_limit": 2,
       "rarity": 4,
@@ -3334,7 +3334,7 @@
     "85226": {
       "evol_dst": 85226,
       "id": 85226,
-      "name": "ディアマイヒン",
+      "name": "迪爾麥因",
       "profile": "トルウァトスモチーフ武器",
       "rank_limit": 2,
       "rarity": 5,
@@ -3345,7 +3345,7 @@
     "85227": {
       "evol_dst": 85227,
       "id": 85227,
-      "name": "パゴ・クリスタロス",
+      "name": "帕可．水晶",
       "profile": "5/10イベント報酬",
       "rank_limit": 2,
       "rarity": 4,
@@ -6902,8 +6902,105 @@
       "usable1": -1,
       "usable2": -1,
       "usable": [8045]
+    },
+    "95844": {
+      "evol_dst": 95844,
+      "id": 95844,
+      "name": "招財進寶",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "95845": {
+      "evol_dst": 95845,
+      "id": 95845,
+      "name": "心誠則靈",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85231": {
+      "evol_dst": 85231,
+      "id": 85231,
+      "name": "慾望",
+      "profile": "魔神スクロロン武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85233": {
+      "evol_dst": 85233,
+      "id": 85233,
+      "name": "慾望．攻",
+      "profile": "魔神スクロロン武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85234": {
+      "evol_dst": 85234,
+      "id": 85234,
+      "name": "慾望．速",
+      "profile": "魔神スクロロン武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85235": {
+      "evol_dst": 85235,
+      "id": 85235,
+      "name": "慾望．體",
+      "profile": "魔神スクロロン武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85236": {
+      "evol_dst": 85236,
+      "id": 85236,
+      "name": "石英之藤",
+      "profile": "魔神スクロロン武器　特攻キャラ用",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "85237": {
+      "evol_dst": 85237,
+      "id": 85237,
+      "name": "薔薇之蔓",
+      "profile": "魔神スクロロン武器　特攻キャラ用",
+      "rank_limit": 2,
+      "rarity": 4,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
+    },
+    "96412": {
+      "evol_dst": 412,
+      "id": 96412,
+      "name": "維達殊坦特之銃",
+      "profile": "6月新武器",
+      "rank_limit": 2,
+      "rarity": 5,
+      "usable0": -1,
+      "usable1": -1,
+      "usable2": -1
     }
   },
   "res": 0,
-  "sv": "1483529726"
+  "sv": "1487908558"
 }

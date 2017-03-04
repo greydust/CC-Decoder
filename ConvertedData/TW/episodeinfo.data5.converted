@@ -1,6 +1,12 @@
 {
-  "deceive": 1483609898,
+  "deceive": 1488537777,
   "episodeinfo": {
+    "(20, 1)": {
+      "type": 1,
+      "id": 20,
+      "episode": [{"name":"20.樂園崩壞","quest":[202201,202202,202203,202204,202205,202206,202207,202208],"develop_only":0}],
+      "collabo": false
+    },
     "(0, 2)": {
       "type": 2,
       "id": 0,
@@ -109,16 +115,16 @@
       "episode": [{"name":"邂逅物語","quest":[151],"develop_only":0},{"name":"羈絆物語","quest":[152,153],"develop_only":0}],
       "collabo": false
     },
-    "(17, 0)": {
-      "type": 0,
-      "id": 17,
-      "episode": [{"name":"命運物語","quest":[171],"develop_only":0}],
-      "collabo": false
-    },
     "(23, 0)": {
       "type": 0,
       "id": 23,
       "episode": [{"name":"邂逅物語","quest":[231],"develop_only":0}],
+      "collabo": false
+    },
+    "(17, 0)": {
+      "type": 0,
+      "id": 17,
+      "episode": [{"name":"命運物語","quest":[171],"develop_only":0}],
       "collabo": false
     },
     "(18, 0)": {
@@ -5448,8 +5454,26 @@
       "id": 8891,
       "episode": [{"name":"命運物語","quest":[88911],"develop_only":0}],
       "collabo": false
+    },
+    "(8896, 0)": {
+      "type": 0,
+      "id": 8896,
+      "episode": [{"name":"羈絆物語","quest":[88961],"develop_only":0}],
+      "collabo": false
+    },
+    "(8892, 0)": {
+      "type": 0,
+      "id": 8892,
+      "episode": [{"name":"邂逅物語","quest":[88921],"develop_only":0},{"name":"羈絆物語","quest":[88922],"develop_only":0}],
+      "collabo": false
+    },
+    "(8893, 0)": {
+      "type": 0,
+      "id": 8893,
+      "episode": [{"name":"邂逅物語","quest":[88931],"develop_only":0},{"name":"羈絆物語","quest":[88932],"develop_only":0}],
+      "collabo": false
     }
   },
   "res": 0,
-  "sv": "1483372808"
+  "sv": "1487905282"
 }
