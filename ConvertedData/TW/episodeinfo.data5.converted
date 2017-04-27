@@ -1,16 +1,10 @@
 {
-  "deceive": 1488537777,
+  "deceive": 1493302376,
   "episodeinfo": {
-    "(20, 1)": {
-      "type": 1,
-      "id": 20,
-      "episode": [{"name":"20.樂園崩壞","quest":[202201,202202,202203,202204,202205,202206,202207,202208],"develop_only":0}],
-      "collabo": false
-    },
     "(0, 2)": {
       "type": 2,
       "id": 0,
-      "episode": [{"name":"第１部１章","quest":[210101,210102,210107,210103,210104,210105,210108,210106],"develop_only":0},{"name":"第１部２章","quest":[210207,210201,210202,210203,210204,210205,210206],"develop_only":0},{"name":"第１部３章","quest":[210301,210302,210303,210304,210306,210307,210308,210309,210310],"develop_only":0},{"name":"第１部４章","quest":[210401,210402,210403,210404,210405,210406,210407],"develop_only":0},{"name":"第１部５章","quest":[210501,210502,210503,210504],"develop_only":0},{"name":"第１部６章","quest":[210601,210602,210603,210604,210605,210606,210607],"develop_only":0},{"name":"第１部７章","quest":[210701,210702,210704,210705],"develop_only":0},{"name":"第１部８章","quest":[210801,210802,210803,210804,210805,210806],"develop_only":0},{"name":"第１部９章","quest":[210901,210902,210903,210904,210905,210906,210907,210908,210909,210910],"develop_only":0},{"name":"第１部１０章","quest":[211001,211002,211003,211004,211005,211006,211007,211008,211009,211010,211011,211012,211013,211014,211015],"develop_only":0},{"name":"第２部１章","quest":[211101,211102,211103,211104,211105,211106,211107,211108,211109,211110,211111,211112,211113,211114,211115],"develop_only":0},{"name":"第２部２章","quest":[211201,211202,211203,211204,211205,211206,211207,211208,211209],"develop_only":0},{"name":"第２部３章","quest":[211301,211302,211303,211304,211305,211306,211307,211308,211309,211310,211311,211312,211313],"develop_only":0},{"name":"第２部４章","quest":[211401,211402,211403,211404,211405,211406,211407,211408,211409,211410,211411,211412,211413,211414,211415],"develop_only":0},{"name":"第２部５章","quest":[211501,211502,211503,211504,211505,211506,211507,211508,211509,211510,211511,211512,211513],"develop_only":0},{"name":"第２部６章","quest":[211601,211602,211603,211604,211605,211606,211607,211608,211609,211610,211611,211612,211613,211614],"develop_only":0},{"name":"第２部７章","quest":[211701,211702,211703,211704,211705,211706,211707,211708,211709,211710,211711,211712,211713,211714,211715,211716,211717,211718,211719,211720,211721,211722,211723,211724,211725,211726,211727,211728,211729,211730,211731,211732,211733],"develop_only":0}],
+      "episode": [{"name":"第１部第１章","quest":[210101,210102,210107,210103,210104,210105,210108,210106],"develop_only":0},{"name":"第１部第２章","quest":[210207,210201,210202,210203,210204,210205,210206],"develop_only":0},{"name":"第１部第３章","quest":[210301,210302,210303,210304,210306,210307,210308,210309,210310],"develop_only":0},{"name":"第１部第４章","quest":[210401,210402,210403,210404,210405,210406,210407],"develop_only":0},{"name":"第１部第５章","quest":[210501,210502,210503,210504],"develop_only":0},{"name":"第１部第６章","quest":[210601,210602,210603,210604,210605,210606,210607],"develop_only":0},{"name":"第１部第７章","quest":[210701,210702,210704,210705],"develop_only":0},{"name":"第１部第８章","quest":[210801,210802,210803,210804,210805,210806],"develop_only":0},{"name":"第１部第９章","quest":[210901,210902,210903,210904,210905,210906,210907,210908,210909,210910],"develop_only":0},{"name":"第１部第１０章","quest":[211001,211002,211003,211004,211005,211006,211007,211008,211009,211010,211011,211012,211013,211014,211015],"develop_only":0},{"name":"第２部第１章","quest":[211101,211102,211103,211104,211105,211106,211107,211108,211109,211110,211111,211112,211113,211114,211115],"develop_only":0},{"name":"第２部第２章","quest":[211201,211202,211203,211204,211205,211206,211207,211208,211209],"develop_only":0},{"name":"第２部第３章","quest":[211301,211302,211303,211304,211305,211306,211307,211308,211309,211310,211311,211312,211313],"develop_only":0},{"name":"第２部第４章","quest":[211401,211402,211403,211404,211405,211406,211407,211408,211409,211410,211411,211412,211413,211414,211415],"develop_only":0},{"name":"第２部第５章","quest":[211501,211502,211503,211504,211505,211506,211507,211508,211509,211510,211511,211512,211513],"develop_only":0},{"name":"第２部第６章","quest":[211601,211602,211603,211604,211605,211606,211607,211608,211609,211610,211611,211612,211613,211614],"develop_only":0},{"name":"第２部第７章","quest":[211701,211702,211703,211704,211705,211706,211707,211708,211709,211710,211711,211712,211713,211714,211715,211716,211717,211718,211719,211720,211721,211722,211723,211724,211725,211726,211727,211728,211729,211730,211731,211732,211733],"develop_only":0}],
       "collabo": false
     },
     "(1, 0)": {
@@ -115,16 +109,16 @@
       "episode": [{"name":"邂逅物語","quest":[151],"develop_only":0},{"name":"羈絆物語","quest":[152,153],"develop_only":0}],
       "collabo": false
     },
-    "(23, 0)": {
-      "type": 0,
-      "id": 23,
-      "episode": [{"name":"邂逅物語","quest":[231],"develop_only":0}],
-      "collabo": false
-    },
     "(17, 0)": {
       "type": 0,
       "id": 17,
       "episode": [{"name":"命運物語","quest":[171],"develop_only":0}],
+      "collabo": false
+    },
+    "(23, 0)": {
+      "type": 0,
+      "id": 23,
+      "episode": [{"name":"邂逅物語","quest":[231],"develop_only":0}],
       "collabo": false
     },
     "(18, 0)": {
@@ -3823,12 +3817,6 @@
       "episode": [{"name":"命運物語","quest":[80861],"develop_only":0},{"name":"羈絆物語","quest":[80862],"develop_only":0}],
       "collabo": false
     },
-    "(8077, 0)": {
-      "type": 0,
-      "id": 8077,
-      "episode": [{"name":"命運物語","quest":[80771],"develop_only":0},{"name":"羈絆物語","quest":[80772],"develop_only":0}],
-      "collabo": false
-    },
     "(11007, 0)": {
       "type": 0,
       "id": 11007,
@@ -3851,18 +3839,6 @@
       "type": 0,
       "id": 8092,
       "episode": [{"name":"邂逅物語","quest":[80921],"develop_only":0},{"name":"羈絆物語","quest":[80922],"develop_only":0}],
-      "collabo": false
-    },
-    "(5074, 0)": {
-      "type": 0,
-      "id": 5074,
-      "episode": [{"name":"羈絆物語","quest":[50741,50742],"develop_only":0}],
-      "collabo": false
-    },
-    "(5076, 0)": {
-      "type": 0,
-      "id": 5076,
-      "episode": [{"name":"命運物語","quest":[50761],"develop_only":0},{"name":"羈絆物語","quest":[50762,50763],"develop_only":0}],
       "collabo": false
     },
     "(5048, 0)": {
@@ -4043,12 +4019,6 @@
       "type": 0,
       "id": 1065,
       "episode": [{"name":"命運物語","quest":[10651],"develop_only":0},{"name":"羈絆物語","quest":[10652],"develop_only":0}],
-      "collabo": false
-    },
-    "(5069, 0)": {
-      "type": 0,
-      "id": 5069,
-      "episode": [{"name":"命運物語","quest":[50691],"develop_only":0},{"name":"羈絆物語","quest":[50692],"develop_only":0}],
       "collabo": false
     },
     "(5084, 0)": {
@@ -4531,6 +4501,12 @@
       "episode": [{"name":"邂逅物語","quest":[110441],"develop_only":0},{"name":"羈絆物語","quest":[110442],"develop_only":0}],
       "collabo": false
     },
+    "(101, 7)": {
+      "type": 7,
+      "id": 101,
+      "episode": [{"name":"雷姆雷斯","quest":[410001,410002,410003,410004,410005,410006,410007,410008],"develop_only":0}],
+      "collabo": true
+    },
     "(8157, 0)": {
       "type": 0,
       "id": 8157,
@@ -4729,6 +4705,12 @@
       "episode": [{"name":"邂逅物語","quest":[40511],"develop_only":0},{"name":"羈絆物語","quest":[40512],"develop_only":0}],
       "collabo": false
     },
+    "(20, 1)": {
+      "type": 1,
+      "id": 20,
+      "episode": [{"name":"20.樂園崩壞","quest":[202201,202202,202203,202204,202205,202206,202207,202208],"develop_only":0}],
+      "collabo": false
+    },
     "(12040, 0)": {
       "type": 0,
       "id": 12040,
@@ -4919,6 +4901,264 @@
       "type": 0,
       "id": 8188,
       "episode": [{"name":"命運物語","quest":[81881],"develop_only":0}],
+      "collabo": false
+    },
+    "(1063, 0)": {
+      "type": 0,
+      "id": 1063,
+      "episode": [{"name":"命運物語","quest":[10631],"develop_only":0},{"name":"羈絆物語","quest":[10632],"develop_only":0}],
+      "collabo": false
+    },
+    "(1074, 0)": {
+      "type": 0,
+      "id": 1074,
+      "episode": [{"name":"命運物語","quest":[10741],"develop_only":0},{"name":"羈絆物語","quest":[10742],"develop_only":0}],
+      "collabo": false
+    },
+    "(8189, 0)": {
+      "type": 0,
+      "id": 8189,
+      "episode": [{"name":"命運物語","quest":[81891],"develop_only":0},{"name":"羈絆物語","quest":[81892],"develop_only":0}],
+      "collabo": false
+    },
+    "(8203, 0)": {
+      "type": 0,
+      "id": 8203,
+      "episode": [{"name":"羈絆物語","quest":[82031],"develop_only":0}],
+      "collabo": false
+    },
+    "(8202, 0)": {
+      "type": 0,
+      "id": 8202,
+      "episode": [{"name":"羈絆物語","quest":[82021],"develop_only":0}],
+      "collabo": false
+    },
+    "(8201, 0)": {
+      "type": 0,
+      "id": 8201,
+      "episode": [{"name":"羈絆物語","quest":[82011],"develop_only":0}],
+      "collabo": false
+    },
+    "(8199, 0)": {
+      "type": 0,
+      "id": 8199,
+      "episode": [{"name":"羈絆物語","quest":[81991],"develop_only":0}],
+      "collabo": false
+    },
+    "(8190, 0)": {
+      "type": 0,
+      "id": 8190,
+      "episode": [{"name":"命運物語","quest":[81901],"develop_only":0},{"name":"羈絆物語","quest":[81902],"develop_only":0}],
+      "collabo": false
+    },
+    "(8192, 0)": {
+      "type": 0,
+      "id": 8192,
+      "episode": [{"name":"命運物語","quest":[81921],"develop_only":0},{"name":"羈絆物語","quest":[81922],"develop_only":0}],
+      "collabo": false
+    },
+    "(8196, 0)": {
+      "type": 0,
+      "id": 8196,
+      "episode": [{"name":"命運物語","quest":[81961],"develop_only":0},{"name":"羈絆物語","quest":[81962],"develop_only":0}],
+      "collabo": false
+    },
+    "(8197, 0)": {
+      "type": 0,
+      "id": 8197,
+      "episode": [{"name":"命運物語","quest":[81971],"develop_only":0},{"name":"羈絆物語","quest":[81972],"develop_only":0}],
+      "collabo": false
+    },
+    "(7546, 0)": {
+      "type": 0,
+      "id": 7546,
+      "episode": [{"name":"命運物語","quest":[75461],"develop_only":0},{"name":"羈絆物語","quest":[75462],"develop_only":0}],
+      "collabo": false
+    },
+    "(4043, 0)": {
+      "type": 0,
+      "id": 4043,
+      "episode": [{"name":"邂逅物語","quest":[40431],"develop_only":0},{"name":"羈絆物語","quest":[40432],"develop_only":0}],
+      "collabo": false
+    },
+    "(9012, 0)": {
+      "type": 0,
+      "id": 9012,
+      "episode": [{"name":"命運物語","quest":[90121],"develop_only":0},{"name":"羈絆物語","quest":[90122],"develop_only":0}],
+      "collabo": false
+    },
+    "(9016, 0)": {
+      "type": 0,
+      "id": 9016,
+      "episode": [{"name":"命運物語","quest":[90161],"develop_only":0},{"name":"羈絆物語","quest":[90162],"develop_only":0}],
+      "collabo": false
+    },
+    "(7572, 0)": {
+      "type": 0,
+      "id": 7572,
+      "episode": [{"name":"命運物語","quest":[75721],"develop_only":0},{"name":"羈絆物語","quest":[75722],"develop_only":0}],
+      "collabo": false
+    },
+    "(83, 0)": {
+      "type": 0,
+      "id": 83,
+      "episode": [{"name":"羈絆物語","quest":[831,832],"develop_only":0}],
+      "collabo": false
+    },
+    "(11027, 0)": {
+      "type": 0,
+      "id": 11027,
+      "episode": [{"name":"命運物語","quest":[110271],"develop_only":0},{"name":"羈絆物語","quest":[110272],"develop_only":0}],
+      "collabo": false
+    },
+    "(11028, 0)": {
+      "type": 0,
+      "id": 11028,
+      "episode": [{"name":"命運物語","quest":[110281],"develop_only":0},{"name":"羈絆物語","quest":[110282],"develop_only":0}],
+      "collabo": false
+    },
+    "(8195, 0)": {
+      "type": 0,
+      "id": 8195,
+      "episode": [{"name":"命運物語","quest":[81951],"develop_only":0},{"name":"羈絆物語","quest":[81952],"develop_only":0}],
+      "collabo": false
+    },
+    "(8198, 0)": {
+      "type": 0,
+      "id": 8198,
+      "episode": [{"name":"羈絆物語","quest":[81981],"develop_only":0}],
+      "collabo": false
+    },
+    "(8200, 0)": {
+      "type": 0,
+      "id": 8200,
+      "episode": [{"name":"羈絆物語","quest":[82001],"develop_only":0}],
+      "collabo": false
+    },
+    "(8205, 0)": {
+      "type": 0,
+      "id": 8205,
+      "episode": [{"name":"羈絆物語","quest":[82051],"develop_only":0}],
+      "collabo": false
+    },
+    "(8191, 0)": {
+      "type": 0,
+      "id": 8191,
+      "episode": [{"name":"命運物語","quest":[81911],"develop_only":0},{"name":"羈絆物語","quest":[81912],"develop_only":0}],
+      "collabo": false
+    },
+    "(8193, 0)": {
+      "type": 0,
+      "id": 8193,
+      "episode": [{"name":"命運物語","quest":[81931],"develop_only":0},{"name":"羈絆物語","quest":[81932],"develop_only":0}],
+      "collabo": false
+    },
+    "(8194, 0)": {
+      "type": 0,
+      "id": 8194,
+      "episode": [{"name":"命運物語","quest":[81941],"develop_only":0},{"name":"羈絆物語","quest":[81942],"develop_only":0}],
+      "collabo": false
+    },
+    "(8204, 0)": {
+      "type": 0,
+      "id": 8204,
+      "episode": [{"name":"羈絆物語","quest":[82041],"develop_only":0}],
+      "collabo": false
+    },
+    "(5095, 0)": {
+      "type": 0,
+      "id": 5095,
+      "episode": [{"name":"邂逅物語","quest":[50951],"develop_only":0},{"name":"羈絆物語","quest":[50952],"develop_only":0}],
+      "collabo": false
+    },
+    "(8206, 0)": {
+      "type": 0,
+      "id": 8206,
+      "episode": [{"name":"羈絆物語","quest":[82061],"develop_only":0}],
+      "collabo": false
+    },
+    "(7564, 0)": {
+      "type": 0,
+      "id": 7564,
+      "episode": [{"name":"羈絆物語","quest":[75641,75642,75643],"develop_only":0}],
+      "collabo": false
+    },
+    "(7610, 0)": {
+      "type": 0,
+      "id": 7610,
+      "episode": [{"name":"羈絆物語","quest":[76101,76102,76103],"develop_only":0}],
+      "collabo": false
+    },
+    "(12033, 0)": {
+      "type": 0,
+      "id": 12033,
+      "episode": [{"name":"命運物語","quest":[120331],"develop_only":0},{"name":"羈絆物語","quest":[120332],"develop_only":0}],
+      "collabo": false
+    },
+    "(5097, 0)": {
+      "type": 0,
+      "id": 5097,
+      "episode": [{"name":"命運物語","quest":[50971],"develop_only":0},{"name":"羈絆物語","quest":[50972],"develop_only":0}],
+      "collabo": false
+    },
+    "(5098, 0)": {
+      "type": 0,
+      "id": 5098,
+      "episode": [{"name":"命運物語","quest":[50981],"develop_only":0},{"name":"羈絆物語","quest":[50982],"develop_only":0}],
+      "collabo": false
+    },
+    "(7542, 0)": {
+      "type": 0,
+      "id": 7542,
+      "episode": [{"name":"命運物語","quest":[75421],"develop_only":0},{"name":"羈絆物語","quest":[75422],"develop_only":0}],
+      "collabo": false
+    },
+    "(3049, 0)": {
+      "type": 0,
+      "id": 3049,
+      "episode": [{"name":"邂逅物語","quest":[30491],"develop_only":0},{"name":"羈絆物語","quest":[30492,30493],"develop_only":0}],
+      "collabo": false
+    },
+    "(8209, 0)": {
+      "type": 0,
+      "id": 8209,
+      "episode": [{"name":"命運物語","quest":[82091],"develop_only":0}],
+      "collabo": false
+    },
+    "(8210, 0)": {
+      "type": 0,
+      "id": 8210,
+      "episode": [{"name":"命運物語","quest":[82101],"develop_only":0}],
+      "collabo": false
+    },
+    "(8211, 0)": {
+      "type": 0,
+      "id": 8211,
+      "episode": [{"name":"命運物語","quest":[82111],"develop_only":0}],
+      "collabo": false
+    },
+    "(8207, 0)": {
+      "type": 0,
+      "id": 8207,
+      "episode": [{"name":"命運物語","quest":[82071],"develop_only":0}],
+      "collabo": false
+    },
+    "(8208, 0)": {
+      "type": 0,
+      "id": 8208,
+      "episode": [{"name":"命運物語","quest":[82081],"develop_only":0}],
+      "collabo": false
+    },
+    "(8212, 0)": {
+      "type": 0,
+      "id": 8212,
+      "episode": [{"name":"命運物語","quest":[82121],"develop_only":0}],
+      "collabo": false
+    },
+    "(8213, 0)": {
+      "type": 0,
+      "id": 8213,
+      "episode": [{"name":"命運物語","quest":[82131],"develop_only":0}],
       "collabo": false
     },
     "(8881, 0)": {
@@ -5475,5 +5715,5 @@
     }
   },
   "res": 0,
-  "sv": "1487905282"
+  "sv": "1493222408"
 }

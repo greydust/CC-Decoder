@@ -1,7 +1,7 @@
 {
-  "deceive": 1488537256,
+  "deceive": 1493302369,
   "res": 0,
-  "sv": "1482473793",
+  "sv": "1492742838",
   "battle_bg": {
     "1": {
       "id": "1",
@@ -127,6 +127,14 @@
       "id": "78",
       "flag": 8704,
       "bg_name": "街中夜",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "81": {
+      "id": "81",
+      "flag": 16777232,
+      "bg_name": "沙漠",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0
@@ -294,7 +302,7 @@
     "120": {
       "id": "120",
       "flag": 64,
-      "bg_name": "小廟",
+      "bg_name": "祠堂",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0
@@ -363,10 +371,26 @@
       "effect_l": "BG_Boss_a",
       "change_flag": 1
     },
+    "129": {
+      "id": "129",
+      "flag": 0,
+      "bg_name": "？？？",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 1
+    },
+    "130": {
+      "id": "130",
+      "flag": 0,
+      "bg_name": "深淵",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
     "400": {
       "id": "400",
-      "flag": 8704,
-      "bg_name": "街上夜晚",
+      "flag": 8192,
+      "bg_name": "夜晚的祭典",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0
@@ -374,7 +398,7 @@
     "401": {
       "id": "401",
       "flag": 8192,
-      "bg_name": "祭典之夜",
+      "bg_name": "夜晚的祭典",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0
@@ -382,7 +406,7 @@
     "402": {
       "id": "402",
       "flag": 8192,
-      "bg_name": "祭典之夜",
+      "bg_name": "夜晚的祭典",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0
@@ -390,7 +414,7 @@
     "403": {
       "id": "403",
       "flag": 0,
-      "bg_name": "祭典中午",
+      "bg_name": "白天的祭典",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0
@@ -415,6 +439,46 @@
       "id": "406",
       "flag": 0,
       "bg_name": "平原",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "407": {
+      "id": "407",
+      "flag": 64,
+      "bg_name": "洞窟",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "408": {
+      "id": "408",
+      "flag": 64,
+      "bg_name": "洞窟",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "409": {
+      "id": "409",
+      "flag": 512,
+      "bg_name": "街上",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "410": {
+      "id": "410",
+      "flag": 262144,
+      "bg_name": "城裡",
+      "effect_s": "",
+      "effect_l": "",
+      "change_flag": 0
+    },
+    "411": {
+      "id": "411",
+      "flag": 0,
+      "bg_name": "？？？",
       "effect_s": "",
       "effect_l": "",
       "change_flag": 0

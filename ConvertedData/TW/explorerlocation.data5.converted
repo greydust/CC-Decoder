@@ -1,10 +1,10 @@
 {
-  "deceive": 1488537784,
+  "deceive": 1493302388,
   "explorer_location": {
     "0": {
       "location": 0,
       "name": "城砦",
-      "timestamp": "1487829090754",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210206,
       "tab": 1,
@@ -20,12 +20,12 @@
           "val": 3000
         }
       },
-      "get_item": [{"type":"weapon_ev","id":96057,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90024,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93008,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
+      "get_item": [{"type":"weapon_ev","id":96057,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90024,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":83,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
     "1": {
       "location": 1,
       "name": "迷宮山脈",
-      "timestamp": "1482908400754",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210206,
       "tab": 1,
@@ -41,12 +41,12 @@
           "val": 3000
         }
       },
-      "get_item": [{"type":"weapon_ev","id":96078,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90022,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93007,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93010,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1003,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1004,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
+      "get_item": [{"type":"weapon_ev","id":96078,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26004,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90022,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1003,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1004,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":83,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
     "2": {
       "location": 2,
       "name": "古代遺跡",
-      "timestamp": "1482908400754",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210310,
       "tab": 1,
@@ -62,12 +62,12 @@
           "val": 3000
         }
       },
-      "get_item": [{"type":"weapon_ev","id":96016,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90020,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93006,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1005,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
+      "get_item": [{"type":"weapon_ev","id":96016,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26000,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90020,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1005,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":83,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
     "3": {
       "location": 3,
       "name": "世界樹",
-      "timestamp": "1482908400754",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210407,
       "tab": 1,
@@ -83,12 +83,12 @@
           "val": 3000
         }
       },
-      "get_item": [{"type":"weapon_ev","id":96238,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90021,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90023,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93009,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93011,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1006,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null}]
+      "get_item": [{"type":"weapon_ev","id":96238,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26003,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90021,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90023,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1006,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":82,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":83,"val":1,"category_id":0,"priority":0,"limit":null}]
     },
     "4": {
       "location": 4,
       "name": "湖都",
-      "timestamp": "1482908400754",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210310,
       "tab": 1,
@@ -111,7 +111,7 @@
     "101": {
       "location": 101,
       "name": "合作限定",
-      "timestamp": "1484150400754",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210206,
       "tab": 4,
@@ -128,17 +128,17 @@
         }
       },
       "get_item": [{"type":"weapon_ev","id":26009,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26010,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":96403,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85140,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85155,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85156,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85143,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85145,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85146,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85153,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85141,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85142,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85144,"val":1,"category_id":0,"priority":0,"limit":null}],
-      "start": 1484150400,
-      "end": 1484805600
+      "start": 1454392800,
+      "end": 1455515999
     },
     "102": {
       "location": 102,
       "name": "神殿",
-      "timestamp": "1482908400754",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210206,
       "tab": 4,
-      "text": "１部２章クリアで\\n開放されます",
+      "text": "第１部第２章通關\\n解鎖",
       "img_id": "search_area_icon_006",
       "gold": {
         "1": {
@@ -150,18 +150,18 @@
           "val": 3000
         }
       },
-      "get_item": [{"type":"card","id":58011,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58012,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58008,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85247,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85248,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85244,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58005,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58009,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58013,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85241,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85245,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85249,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85252,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85253,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85254,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "get_item": [{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58006,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":58002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85245,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85242,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85238,"val":1,"category_id":0,"priority":0,"limit":null}],
       "start": 1470031200,
       "end": 1470722399
     },
     "103": {
       "location": 103,
-      "name": "ダンジョン",
-      "timestamp": "1482908400754",
+      "name": "地下城",
+      "timestamp": "1492742837659",
       "quest_type": 2,
       "quest_id": 210206,
       "tab": 4,
-      "text": "１部２章クリアで\\n開放されます",
+      "text": "第１部第２章通關\\n解鎖",
       "img_id": "search_area_icon_000",
       "gold": {
         "1": {
@@ -176,8 +176,77 @@
       "get_item": [{"type":"weapon_ev","id":85266,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85267,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90905,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_rf","id":93902,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26177,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26178,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26179,"val":1,"category_id":0,"priority":0,"limit":null}],
       "start": 1466488800,
       "end": 1467698399
+    },
+    "104": {
+      "location": 104,
+      "name": "銀座",
+      "timestamp": "1492742837659",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 4,
+      "text": "第１部第２章通關\\n解鎖",
+      "img_id": "search_area_icon_007",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
+        },
+        "2": {
+          "interval_id": 2,
+          "val": 3000
+        }
+      },
+      "get_item": [{"type":"weapon_ev","id":96057,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1001,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1002,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85301,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85302,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85303,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85304,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "start": 1475215200,
+      "end": 1475733599
+    },
+    "105": {
+      "location": 105,
+      "name": "九領(祭典)",
+      "timestamp": "1492742837659",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 4,
+      "text": "第１部第２章通關\\n解鎖",
+      "img_id": "search_area_icon_e03",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
+        },
+        "2": {
+          "interval_id": 2,
+          "val": 3000
+        }
+      },
+      "get_item": [{"type":"chara_rf","id":90020,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":96192,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1007,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85017,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85018,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85346,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85347,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85345,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85344,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85059,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"card","id":8206,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "start": 1475733600,
+      "end": 1476770399
+    },
+    "106": {
+      "location": 106,
+      "name": "祠",
+      "timestamp": "1492742837659",
+      "quest_type": 2,
+      "quest_id": 210206,
+      "tab": 4,
+      "text": "第１部第２章通關\\n解鎖",
+      "img_id": "search_area_icon_006",
+      "gold": {
+        "1": {
+          "interval_id": 1,
+          "val": 1000
+        },
+        "2": {
+          "interval_id": 2,
+          "val": 3000
+        }
+      },
+      "get_item": [{"type":"weapon_ev","id":96078,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":26004,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"chara_rf","id":90022,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":1003,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"item","id":7,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85351,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85353,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85355,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85348,"val":1,"category_id":0,"priority":0,"limit":null},{"type":"weapon_ev","id":85350,"val":1,"category_id":0,"priority":0,"limit":null}],
+      "start": 1479103200,
+      "end": 1479949199
     }
   },
   "res": 0,
-  "sv": "1487829091"
+  "sv": "1492742838"
 }
